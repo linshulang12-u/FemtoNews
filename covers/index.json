@@ -1,0 +1,57 @@
+{
+  "indian journal of ophthalmology": {
+    "src": "covers/indian-journal-of-ophthalmology.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Indian Journal of Ophthalmology"
+  },
+  "laser and particle beams": {
+    "src": "covers/laser-and-particle-beams.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Laser and Particle Beams"
+  },
+  "nature photonics": {
+    "src": "covers/nature-photonics.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Nature Photonics"
+  },
+  "the international journal of advanced manufacturing technology": {
+    "src": "covers/the-international-journal-of-advanced-manufacturing-technolo.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · The International Journal of Advanced Manufacturing Technology"
+  },
+  "lasers in manufacturing and materials processing": {
+    "src": "covers/lasers-in-manufacturing-and-materials-processing.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Lasers in Manufacturing and Materials Processing"
+  },
+  "applied physics b": {
+    "src": "covers/applied-physics-b.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Applied Physics B"
+  },
+  "journal of applied fluid mechanics": {
+    "src": "covers/journal-of-applied-fluid-mechanics.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Journal of Applied Fluid Mechanics"
+  },
+  "optical memory and neural networks": {
+    "src": "covers/optical-memory-and-neural-networks.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Optical Memory and Neural Networks"
+  },
+  "advanced composites and hybrid materials": {
+    "src": "covers/advanced-composites-and-hybrid-materials.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Advanced Composites and Hybrid Materials"
+  },
+  "journal of materials science materials in electronics": {
+    "src": "covers/journal-of-materials-science-materials-in-electronics.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Journal of Materials Science Materials in Electronics"
+  },
+  "progress in additive manufacturing": {
+    "src": "covers/progress-in-additive-manufacturing.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Progress in Additive Manufacturing"
+  }
+}
