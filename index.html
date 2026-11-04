@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>FemtoNews</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Weekly digest of ultrafast laser fabrication research: hard and brittle materials, laser-written waveguides, two-photon polymerization, optical computing and storage.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Saira+Condensed:wght@600;700&display=swap" rel="stylesheet">
+<style>
+/* Layout: community paper portal (logo band, menu bar, one article column with process thumbnails, widget rail),
+   adapted from VibraNews. Identity: midnight-indigo band, a 515 → 800 → 1030 nm laser rule, a pulse-envelope banner. */
+:root{
+  --bg:#fbfbfe; --card:#ffffff; --ink:#161a2e; --body:#2c3048; --muted:#5b6078; --rule:#dfe1ee; --tint:#eff0f8;
+  --band:#191b3f; --band-ink:#e9eaf8; --band-sub:#a9add6; --band-hover:rgba(255,255,255,.1);
+  --title:#2440a0; --inst:#a3542a;
+  --dir:#c0264a; --meth:#6b3fb3; --mat:#0b7a70; --app:#8f5f00; --misc:#565b74;
+  --l515:#22b06c; --l800:#e2353f; --l1030:#8e1b3c; --beam1:#ff5a6e; --beam2:#ffb347;
+  --fig-bg:#f5f6fb; --fig-line:#d7daea; --grid:#e4e6f2;
+  --font-display:"Saira Condensed","Arial Narrow",Arial,sans-serif;
+  --font-body:"IBM Plex Sans","Helvetica Neue",Arial,sans-serif;
+  --font-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0e1020; --card:#13152a; --ink:#e7e8f3; --body:#c9cbe0; --muted:#9ca1bb; --rule:#2a2e4b; --tint:#181b31;
+  --band:#080917; --band-ink:#e9eaf8; --band-sub:#9a9ece; --band-hover:rgba(255,255,255,.08);
+  --title:#93a9ff; --inst:#e6a072;
+  --dir:#ff6b88; --meth:#b99bff; --mat:#4dd0bf; --app:#e8b54e; --misc:#a7abc4;
+  --fig-bg:#151831; --fig-line:#2b2f50; --grid:#23274a; color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#0e1020; --card:#13152a; --ink:#e7e8f3; --body:#c9cbe0; --muted:#9ca1bb; --rule:#2a2e4b; --tint:#181b31;
+  --band:#080917; --band-ink:#e9eaf8; --band-sub:#9a9ece; --band-hover:rgba(255,255,255,.08);
+  --title:#93a9ff; --inst:#e6a072;
+  --dir:#ff6b88; --meth:#b99bff; --mat:#4dd0bf; --app:#e8b54e; --misc:#a7abc4;
+  --fig-bg:#151831; --fig-line:#2b2f50; --grid:#23274a; color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:15px/1.6 var(--font-body)}
+a{color:inherit;text-decoration:none}
+a:hover{text-decoration:underline}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--dir);outline-offset:2px}
+.wrap{max-width:1160px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.mono{font-family:var(--font-mono)}
+
+/* Header */
+.head .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px 28px;padding-block:18px;flex-wrap:wrap}
+.logo{display:flex;align-items:center;gap:14px;color:inherit;min-width:0}
+.logo:hover{text-decoration:none}
+.logo svg{width:68px;height:68px;flex:none}
+.logo .name{display:block;font:700 54px/.9 var(--font-display);letter-spacing:.01em;color:var(--ink)}
+.logo .name b{font-weight:700;color:var(--dir)}
+.logo .sub{display:block;font:500 12.5px/1.2 var(--font-mono);color:var(--muted);margin-top:7px;letter-spacing:.12em;text-transform:uppercase}
+.banner{width:420px;max-width:100%;height:80px;border-radius:6px;background:var(--band);position:relative;overflow:hidden}
+.banner canvas{position:absolute;inset:0;width:100%;height:100%}
+.banner .bt{position:absolute;right:12px;top:9px;max-width:52%;text-align:right;line-height:1.3;font:500 13px var(--font-body);color:var(--band-ink)}
+.banner .bs{position:absolute;right:12px;bottom:8px;max-width:50%;text-align:right;font:400 10.5px/1.3 var(--font-mono);color:var(--band-sub)}
+@media (max-width:620px){.logo svg{width:50px;height:50px}.logo .name{font-size:40px}.logo .sub{font-size:10.5px}.banner{height:66px}.banner .bt{font-size:11.5px}}
+
+/* Menu */
+.menu{background:var(--band);border-bottom:3px solid transparent;border-image:linear-gradient(90deg,var(--l515),var(--l800) 55%,var(--l1030)) 1}
+.menu .wrap{display:flex;align-items:center;justify-content:center;min-height:46px}
+.menu ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;justify-content:center}
+.menu a{display:block;padding:12px 13px;font-weight:500;color:var(--band-ink)}
+.menu a:hover{background:var(--band-hover);text-decoration:none}
+.burger{display:none;background:var(--band-hover);border:0;border-radius:4px;width:40px;height:34px;cursor:pointer}
+.burger span{display:block;width:18px;height:2px;background:var(--band-ink);margin:3px auto}
+@media (max-width:780px){
+  .burger{display:block;margin:6px 0}
+  .menu .wrap{flex-direction:column}
+  .menu ul{display:none;flex-direction:column;width:100%;text-align:center;padding-bottom:6px}
+  .menu.open ul{display:flex}
+}
+
+/* Layout */
+.body{display:grid;grid-template-columns:minmax(0,1fr) 290px;gap:40px;padding-block:32px 48px}
+.body > *{min-width:0}
+@media (max-width:920px){.body{grid-template-columns:minmax(0,1fr)}}
+.sec-h{font:600 24px/1.2 var(--font-body);margin:0 0 14px;padding-bottom:7px;position:relative;text-wrap:balance}
+.sec-h::after{content:"";position:absolute;left:0;bottom:0;width:100%;height:3px;background:linear-gradient(90deg,var(--dir) 0,var(--dir) 70px,var(--rule) 70px)}
+.pager{font-size:14px;color:var(--muted);margin:-4px 0 16px}
+.pager a{color:var(--title)}
+
+/* Articles */
+.art{margin:0 0 30px}
+.art h3{font:500 19px/1.25 var(--font-body);margin:0 0 5px;color:var(--title);text-wrap:balance}
+.oa{display:inline-block;font:600 10.5px/1 var(--font-mono);letter-spacing:.04em;color:var(--bg);background:var(--mat);border-radius:3px;padding:3px 5px;margin-left:6px;vertical-align:3px}
+.meta{font-size:14px;line-height:1.5}
+.meta time{font-family:var(--font-mono);font-size:13px;color:var(--muted)}
+.c-dir{color:var(--dir)} .c-meth{color:var(--meth)} .c-mat{color:var(--mat)} .c-app{color:var(--app)} .c-misc{color:var(--misc)}
+.meta button{font:inherit;background:none;border:0;padding:0;cursor:pointer}
+.meta button:hover{text-decoration:underline}
+.inst{color:var(--inst)}
+.authors{font-size:14px;color:var(--muted);line-height:1.45}
+.abs{margin-top:10px;font-size:14.5px;line-height:1.62;color:var(--body)}
+.abs::after{content:"";display:block;clear:both}
+figure.fig{float:left;width:132px;margin:4px 16px 6px 0}
+figure.fig .frame{width:132px;height:92px;border:1px solid var(--fig-line);border-radius:4px;background:var(--fig-bg);overflow:hidden;display:flex;align-items:center;justify-content:center}
+figure.fig img{max-width:100%;max-height:100%;display:block}
+figure.fig canvas{width:132px;height:92px;display:block}
+figure.fig figcaption{font-size:11px;line-height:1.3;color:var(--muted);margin-top:3px}
+@media (max-width:420px){figure.fig{width:104px;margin-right:12px}figure.fig .frame,figure.fig canvas{width:104px;height:72px}}
+.src{font-size:13px;color:var(--muted);margin-top:5px}
+.src a{color:var(--title);font-family:var(--font-mono);font-size:12.5px;word-break:break-all}
+.why{font-size:14px;color:var(--body);margin-top:8px;background:var(--tint);border-left:3px solid var(--dir);padding:7px 11px}
+.empty{color:var(--muted);padding:10px 0 30px}
+.more{display:block;margin:6px auto 30px}
+.art.fotw{border-left:4px solid var(--l800);padding-left:13px}
+.fotw-tag{display:inline-block;font:600 11.5px var(--font-mono);letter-spacing:.06em;text-transform:uppercase;color:#fff;background:var(--l800);border-radius:3px;padding:2px 7px;margin-bottom:6px}
+
+/* Sidebar */
+aside{font-size:14px}
+.search{display:flex;margin-bottom:24px;border:1px solid var(--rule);border-radius:5px;overflow:hidden;background:var(--card)}
+.search input{flex:1;min-width:0;border:0;background:transparent;padding:8px 10px;font:inherit;color:var(--ink)}
+.search button{border:0;background:var(--band);color:var(--band-ink);font:500 14px var(--font-body);padding:0 14px;cursor:pointer}
+.w-h{font:600 16.5px/1.2 var(--font-body);margin:0 0 10px;padding-bottom:6px;border-bottom:2px solid var(--rule);display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.lang{font:500 12px var(--font-mono);background:none;border:1px solid var(--rule);border-radius:3px;color:var(--muted);padding:1px 7px;cursor:pointer}
+.lang:hover{color:var(--ink)}
+.cats p{margin:0 0 7px;line-height:1.6}
+.cats b{font-weight:600}
+.cats button{font:inherit;background:none;border:0;padding:0;cursor:pointer;text-align:left}
+.cats button:hover,.cats button[aria-pressed="true"]{text-decoration:underline}
+.cats button[aria-pressed="true"]{font-weight:600}
+.cats button.none{opacity:.55}
+.subscribe{margin:28px 0 26px;background:var(--tint);border-radius:6px;padding:12px 14px}
+.subscribe .row{display:grid;grid-template-columns:48px 1fr;gap:10px;align-items:center;padding:8px 0}
+.subscribe .row + .row{border-top:1px solid var(--rule)}
+.subscribe .row b{display:block;color:var(--ink);font-weight:600}
+.subscribe .row span{color:var(--muted);font-size:13px}
+.subscribe svg{color:var(--ink)}
+.ad{border:1px dashed var(--fig-line);border-radius:5px;color:var(--muted);font-size:12.5px;text-align:center;padding:16px 8px;margin:0 0 28px}
+ol.list{margin:0 0 28px;padding-left:22px}
+ol.list li{margin-bottom:5px;color:var(--muted)}
+ol.list a{color:var(--title)}
+ul.orgs{list-style:none;margin:0 0 28px;padding:0}
+ul.orgs li{margin-bottom:3px;color:var(--muted)}
+ul.orgs button{font:inherit;color:var(--inst);background:none;border:0;padding:0;cursor:pointer;text-align:left}
+ul.orgs button:hover{text-decoration:underline}
+.confs{list-style:none;margin:0 0 28px;padding:0}
+.confs li{margin-bottom:8px}
+.confs a{color:var(--title);font-weight:500}
+.confs span{color:var(--muted);font-size:13px}
+.confs a[aria-current]{font-weight:600}
+.box{background:var(--tint);border-radius:6px;padding:12px 14px;margin-bottom:28px}
+.box p{margin:0 0 8px}
+.btn{font:500 14px var(--font-body);background:var(--band);color:var(--band-ink);border:0;border-radius:4px;padding:7px 12px;cursor:pointer}
+.ok{font-size:12.5px;color:var(--mat);margin-left:6px}
+footer{border-top:1px solid var(--rule);color:var(--muted);font-size:13px}
+footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-block:14px 28px}
+@media (prefers-reduced-motion: reduce){*{scroll-behavior:auto!important}}
+html{scroll-behavior:smooth}
+</style>
+</head>
+<body>
+<header class="head">
+  <div class="wrap">
+    <a class="logo" href="#top" id="top" aria-label="FemtoNews home">
+      <svg viewBox="0 0 100 100" aria-hidden="true">
+        <defs>
+          <linearGradient id="lgb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a2d63"/><stop offset="1" stop-color="#121433"/></linearGradient>
+          <linearGradient id="lgc" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff5a6e" stop-opacity=".95"/><stop offset="1" stop-color="#ffb347" stop-opacity=".25"/></linearGradient>
+        </defs>
+        <rect x="3" y="3" width="94" height="94" rx="22" fill="url(#lgb)"/>
+        <path d="M30 12 L70 12 L52 56 L48 56 Z" fill="url(#lgc)"/>
+        <path d="M14 56 L86 56 L86 82 L14 82 Z" fill="#e9eaf8" fill-opacity=".14" stroke="#e9eaf8" stroke-opacity=".55" stroke-width="1.6"/>
+        <path d="M18 72 C34 72 40 64 50 64 C60 64 66 72 82 72" fill="none" stroke="#7fe0b4" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="50" cy="60" r="5.5" fill="#fff"/>
+        <circle cx="50" cy="60" r="10" fill="#ff5a6e" fill-opacity=".35"/>
+      </svg>
+      <span><span class="name">Femto<b>News</b></span><span class="sub">Ultrafast Laser Fabrication News</span></span>
+    </a>
+    <div class="banner" aria-hidden="true"><canvas id="pulse"></canvas><span class="bt">fs · ps · GHz-burst</span><span class="bs">glass · SiC · 2PP · storage</span></div>
+  </div>
+</header>
+
+<nav class="menu" id="menu" aria-label="Main">
+  <div class="wrap">
+    <button class="burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="menu-list"><span></span><span></span><span></span></button>
+    <ul id="menu-list">
+      <li><a href="#top" data-reset>Home</a></li>
+      <li><a href="#featured">Feature Articles</a></li>
+      <li><a href="#recent">Latest Papers</a></li>
+      <li><a href="#topics">Directions</a></li>
+      <li><a href="#conferences">Meetings</a></li>
+      <li><a href="#jobs">Positions</a></li>
+      <li><a href="#archive-h">Archive</a></li>
+      <li><a href="#submit">Submit a Paper</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main class="wrap body">
+  <div>
+    <section id="featured">
+      <h2 class="sec-h" id="featTitle">Feature Articles</h2>
+      <p class="pager" id="featNote">Process and application advances chosen by the editor this week.</p>
+      <div id="featList"></div>
+    </section>
+    <section id="recent">
+      <h2 class="sec-h" id="recTitle">Latest Papers</h2>
+      <div class="pager" id="pager"></div>
+      <div id="recList"></div>
+    </section>
+  </div>
+
+  <aside>
+    <form class="search" id="searchForm" role="search">
+      <label for="q" style="position:absolute;left:-9999px">Search papers</label>
+      <input id="q" type="search" placeholder="Title, author, material, journal">
+      <button type="submit">Search</button>
+    </form>
+
+    <h3 class="w-h" id="topics"><span>Directions &amp; Topics</span><button class="lang" id="langBtn" type="button" aria-label="Show topic names in Chinese">中文</button></h3>
+    <div class="cats" id="cats"></div>
+
+    <div class="subscribe">
+      <a class="row" href="#subscribe-note" id="subscribe-note">
+        <svg width="48" height="48" viewBox="0 0 52 52" aria-hidden="true"><rect x="4" y="12" width="44" height="30" rx="5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M6 15 L26 30 L46 15" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M10 38 h8 q4 -12 8 0 h16" fill="none" stroke="#e2353f" stroke-width="2"/></svg>
+        <span><b>Monday Digest</b><span>The week's papers by email. Sign-up opens at public launch.</span></span>
+      </a>
+      <a class="row" href="#submit">
+        <svg width="48" height="48" viewBox="0 0 52 52" aria-hidden="true"><rect x="10" y="6" width="28" height="36" rx="3" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M16 16 h16 M16 22 h16 M16 28 h10" stroke="currentColor" stroke-opacity=".45" stroke-width="2"/><circle cx="38" cy="38" r="10" fill="#c0264a"/><path d="M38 33 v10 M33 38 h10" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/></svg>
+        <span><b>Share Your Paper</b><span>Send new articles, theses and positions to the editor.</span></span>
+      </a>
+    </div>
+
+    <div class="ad">Sponsor space</div>
+
+    <h3 class="w-h"><span>This Week's Features</span></h3>
+    <ol class="list" id="weekList"></ol>
+
+    <h3 class="w-h"><span>Labs &amp; Institutions</span></h3>
+    <ul class="orgs" id="orgs"></ul>
+
+    <h3 class="w-h" id="conferences"><span>Meetings</span></h3>
+    <ul class="confs" id="confs"></ul>
+
+    <h3 class="w-h" id="jobs"><span>Positions</span></h3>
+    <div class="box"><p>No open listings this week. Postdoc, PhD and industry positions are posted free; use Submit a Paper below.</p></div>
+
+    <h3 class="w-h" id="archive-h"><span>Archive</span></h3>
+    <ul class="confs" id="archive"></ul>
+
+    <h3 class="w-h" id="submit"><span>Submit a Paper</span></h3>
+    <div class="box">
+      <p>Send journal articles (including in-press), preprints, theses, positions and Feature of the Week proposals. Please include Fig. 1 or a representative figure and its licence, plus the key laser parameters.</p>
+      <button class="btn" id="copyTpl" type="button">Copy submission template</button><span class="ok" id="copied" hidden>Copied</span>
+      <p style="margin:8px 0 0;color:var(--muted);font-size:12.5px">Editor address will be listed at launch.</p>
+    </div>
+  </aside>
+</main>
+
+<footer><div class="wrap"><span>FemtoNews · updated daily, new issue every Monday · thumbnails are each article's own preview image or the journal cover, with credit, otherwise a process sketch · titles link to the original articles · layout after <a href="https://forestbin-raman.github.io/VibraNews/" style="text-decoration:underline">VibraNews</a></span><a href="#top">Back to top</a></div></footer>
+
+<!--FEMTO_DATA-->
+<script>
+const GROUPS = [
+  {name:"Directions", zh:"研究方向", cls:"c-dir", cats:["Hard & Brittle Materials","Waveguides & Photonic Chips","Two-Photon Polymerization","Optical Computing","Optical Data Storage","Surface Structuring & LIPSS","Fiber Gratings & Devices","Selective Etching & Microfluidics","Ultrafast Welding & Joining","Bulk Modification & Nanocrystals","Micro-Optics & Metasurfaces","Laser-Induced Graphene & Carbon","Nanoparticles & Ablation in Liquids","Thin Films & 2D Materials","Quantum Photonics & Color Centers","Precision Micromachining & Trimming","Other Processing"]},
+  {name:"Methods", zh:"方法与光场", cls:"c-meth", cats:["Beam Shaping & SLM","Spatiotemporal & Burst Control","Ultrafast Sources & Systems","Diagnostics & Pump-Probe","Modeling & Simulation","AI & Process Optimization"]},
+  {name:"Materials", zh:"材料", cls:"c-mat", cats:["Glass & Silica","Sapphire & Crystals","SiC & Wide-Bandgap","Diamond","Silicon & Semiconductors","Metals & Alloys","Polymers & Resins","Perovskites & 2D","Ceramics & Coatings","Biological Tissue"]},
+  {name:"Applications", zh:"应用", cls:"c-app", cats:["Integrated Photonics & Telecom","Quantum Technologies","Semiconductor & Packaging","Energy & Batteries","Biomedical & Life Science","Ophthalmology & Dentistry","Sensing","Thermal Management","Aerospace & Nuclear","Imaging & Displays"]},
+  {name:"Miscellaneous", zh:"其他", cls:"c-misc", cats:["News & Highlights","Reviews","Jobs & Studentships","Student Theses"]}
+];
+const ZH = {"Hard & Brittle Materials":"硬脆材料加工","Waveguides & Photonic Chips":"光波导与光子芯片","Two-Photon Polymerization":"双光子聚合","Optical Computing":"光计算","Optical Data Storage":"光存储","Surface Structuring & LIPSS":"表面微纳结构 / LIPSS","Fiber Gratings & Devices":"光纤光栅与器件","Selective Etching & Microfluidics":"选择性刻蚀与微流控","Ultrafast Welding & Joining":"超快激光焊接","Bulk Modification & Nanocrystals":"体内改性与纳米晶","Micro-Optics & Metasurfaces":"微光学与超表面","Laser-Induced Graphene & Carbon":"激光诱导石墨烯","Nanoparticles & Ablation in Liquids":"液相烧蚀与纳米颗粒","Thin Films & 2D Materials":"薄膜与二维材料","Quantum Photonics & Color Centers":"量子光子与色心","Precision Micromachining & Trimming":"精密微加工与修调","Other Processing":"其他加工","Beam Shaping & SLM":"光束整形 / SLM","Spatiotemporal & Burst Control":"时空调控与脉冲串","Ultrafast Sources & Systems":"超快光源与系统","Diagnostics & Pump-Probe":"过程诊断与泵浦探测","Modeling & Simulation":"建模与仿真","AI & Process Optimization":"AI 与工艺优化","Glass & Silica":"玻璃与熔融石英","Sapphire & Crystals":"蓝宝石与晶体","SiC & Wide-Bandgap":"SiC 与宽禁带","Diamond":"金刚石","Silicon & Semiconductors":"硅与半导体","Metals & Alloys":"金属与合金","Polymers & Resins":"聚合物与光刻胶","Perovskites & 2D":"钙钛矿与二维材料","Ceramics & Coatings":"陶瓷与涂层","Biological Tissue":"生物组织","Integrated Photonics & Telecom":"集成光子与通信","Quantum Technologies":"量子技术","Semiconductor & Packaging":"半导体与封装","Energy & Batteries":"能源与电池","Biomedical & Life Science":"生物医学与生命科学","Ophthalmology & Dentistry":"眼科与口腔","Sensing":"传感","Thermal Management":"热管理","Aerospace & Nuclear":"航空航天与核能","Imaging & Displays":"成像与显示","News & Highlights":"新闻与亮点","Reviews":"综述","Jobs & Studentships":"招聘与招生","Student Theses":"学位论文"};
+const CLS = {}; GROUPS.forEach(g=>g.cats.forEach(c=>CLS[c]=g.cls));
+let LANG = "en";
+try{ if(localStorage.getItem("femtonews-lang")==="zh") LANG="zh"; }catch(e){}
+const L = c => LANG==="zh" ? (ZH[c]||c) : c;
+
+let ARTS = [], CONFS = [], ISSUES = [], ISSUE = null;
+
+function fromIssue(x, issue){
+  const {y,m,d} = P(issue.date);
+  const prefix = x.feature ? `Feature of the Week ${m}/${d}/${String(y).slice(2)}: ` : "";
+  return {id:x.id, d:x.date, t:prefix + x.title, cats:x.categories||[], inst:x.institutions||[], au:x.authors||"",
+    j:x.journal||"", doi:x.doi||"", link:x.url || (x.doi ? "https://doi.org/"+x.doi : "#"), oa:!!x.oa, license:x.license||"",
+    abs:x.summary||"", why:x.why||"", glyph:x.glyph||"pulse", featured:!!(x.feature||x.pick), feature:!!x.feature, notable:x.tier==="notable", fig:x.fig||null};
+}
+
+const PAGE=40;
+const MONTHS=["January","February","March","April","May","June","July","August","September","October","November","December"];
+const esc = s => String(s).replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const P = iso => { const [y,m,d]=iso.split("-").map(Number); return {y,m,d}; };
+const longDate = iso => { const {y,m,d}=P(iso); return `${MONTHS[m-1]} ${d}, ${y}`; };
+
+let filter=null, query="", shown=PAGE, showAll=false;
+const visible = a => (!filter || (filter.type==="cat" ? a.cats.includes(filter.value) : a.inst.includes(filter.value))) &&
+  (!query || (a.t+" "+a.au+" "+a.j+" "+a.abs+" "+a.inst.join(" ")+" "+a.cats.join(" ")+" "+a.cats.map(c=>ZH[c]||"").join(" ")).toLowerCase().includes(query));
+
+function figHTML(a){
+  if(a.fig && a.fig.src){
+    const cap = a.fig.kind==="cover" ? "Journal cover" : `Fig. · ${a.fig.credit||""}`;
+    const src = /^https?:/.test(a.fig.src) ? a.fig.src : (window.FEMTO_ASSET_BASE||"") + a.fig.src;
+    return `<figure class="fig"><a class="frame" href="${esc(a.link)}"><img src="${esc(src)}" alt="${esc(a.fig.kind==="cover"?("Cover of "+a.j):("Representative figure from "+a.t))}" loading="lazy"></a><figcaption>${esc(cap)}</figcaption></figure>`;
+  }
+  return `<figure class="fig"><div class="frame"><canvas class="thumb" data-glyph="${esc(a.glyph)}" aria-hidden="true"></canvas></div></figure>`;
+}
+function artHTML(a){
+  const tag = a.feature ? `<div class="fotw-tag">Feature of the Week</div>` : "";
+  return `<article class="art${a.feature?" fotw":""}" id="${esc(a.id)}">${tag}
+    <h3><a href="${esc(a.link)}" target="_blank" rel="noopener">${esc(a.t.replace(/^Feature of the Week [^:]+:\s*/,""))}</a>${a.oa?'<span class="oa" title="Open access">OA</span>':""}</h3>
+    <div class="meta"><time datetime="${a.d}">${longDate(a.d)}</time> | ${a.cats.map(c=>`<button type="button" class="${CLS[c]||"c-misc"}" data-cat="${esc(c)}" title="${esc(LANG==="zh"?c:(ZH[c]||""))}">${esc(L(c))}</button>`).join(", ")}${a.inst.length?" | "+a.inst.map(i=>`<button type="button" class="inst" data-inst="${esc(i)}">${esc(i)}</button>`).join(", "):""}</div>
+    ${a.au?`<div class="authors">${esc(a.au)}</div>`:""}
+    <div class="abs">${figHTML(a)}${esc(a.abs)}
+      ${a.why?`<div class="why"><b>Why it matters:</b> ${esc(a.why)}</div>`:""}
+      <div class="src">${esc(a.j)}${a.doi?` · <a href="${esc(a.link)}" target="_blank" rel="noopener">doi:${esc(a.doi)}</a>`:` · <a href="${esc(a.link)}" target="_blank" rel="noopener">journal page</a>`}</div>
+    </div>
+  </article>`;
+}
+
+function render(){
+  const feat = ARTS.filter(a=>a.featured && visible(a)).sort((x,y)=>(y.feature?1:0)-(x.feature?1:0)||y.d.localeCompare(x.d));
+  const filtering = filter || query;
+  const tiered = ARTS.some(a=>a.notable);
+  const selectedOnly = tiered && !showAll && !filtering;
+  const rec = ARTS.filter(a=>!a.featured && visible(a) && (!selectedOnly || a.notable)).sort((x,y)=>y.d.localeCompare(x.d));
+  document.getElementById("featured").hidden = !feat.length;
+  document.getElementById("featList").innerHTML = feat.map(artHTML).join("");
+  document.getElementById("recTitle").textContent = filter ? `${filter.type==="cat"?"Topic":"Institution"}: ${filter.type==="cat"?L(filter.value):filter.value}` : (query ? "Search Results" : (selectedOnly ? "Selected Papers" : "All Papers"));
+  const total = ARTS.filter(a=>!a.featured).length;
+  const toggle = tiered && !filtering ? (selectedOnly
+      ? ` // ${rec.length} selected by the editor · <a href="#recent" id="allT">show all ${total} papers</a>`
+      : ` // <a href="#recent" id="allT">show selected papers only</a>`) : "";
+  document.getElementById("pager").innerHTML = filtering
+    ? `${rec.length+feat.length} matching paper${rec.length+feat.length===1?"":"s"} // <a href="#top" id="clearF">Show all papers</a>`
+    : (ISSUE.updated
+        ? `Issue No. ${ISSUE.number} · week of ${longDate(ISSUE.date)} · updated daily, last ${longDate(ISSUE.updated)} · ${total+feat.length} papers`
+        : `Issue No. ${ISSUE.number} · ${longDate(ISSUE.date)} · ${total+feat.length} papers`) + toggle;
+  const at=document.getElementById("allT"); if(at) at.onclick=e=>{ e.preventDefault(); showAll=!showAll; shown=PAGE; render(); document.getElementById("recent").scrollIntoView(); };
+  const cf=document.getElementById("clearF"); if(cf) cf.onclick=e=>{ e.preventDefault(); filter=null; query=""; document.getElementById("q").value=""; render(); };
+  document.getElementById("recList").innerHTML = rec.length
+    ? rec.slice(0,shown).map(artHTML).join("") + (rec.length>shown ? `<button class="btn more" id="more" type="button">Show more papers (${rec.length-shown} more)</button>` : "")
+    : (feat.length?"":`<p class="empty">No papers match. Try another topic or search term.</p>`);
+  const mb=document.getElementById("more"); if(mb) mb.onclick=()=>{ shown+=PAGE; render(); };
+  renderCats(); drawThumbs();
+}
+
+function renderCats(){
+  const n = {}; ARTS.forEach(a=>a.cats.forEach(c=>n[c]=(n[c]||0)+1));
+  document.getElementById("cats").innerHTML = GROUPS.map(g=>`<p><b>${LANG==="zh"?g.zh:g.name}:</b> ${g.cats.map((c,k)=>
+    `<span style="white-space:nowrap"><button type="button" class="${g.cls}${n[c]?"":" none"}" data-cat="${esc(c)}" aria-pressed="${!!(filter&&filter.type==="cat"&&filter.value===c)}" title="${esc((LANG==="zh"?c:(ZH[c]||c)) + (n[c]?` · ${n[c]} this issue`:" · no papers this issue"))}">${esc(L(c))}</button>${k<g.cats.length-1?",":""}</span>`).join(" ")}</p>`).join("");
+  const lb=document.getElementById("langBtn"); lb.textContent = LANG==="zh" ? "EN" : "中文";
+  lb.setAttribute("aria-label", LANG==="zh" ? "Show topic names in English" : "Show topic names in Chinese");
+}
+
+function renderRail(){
+  const fl = ARTS.filter(a=>a.featured).sort((x,y)=>(y.feature?1:0)-(x.feature?1:0)||y.d.localeCompare(x.d));
+  document.getElementById("weekList").innerHTML = (fl.length?fl:[...ARTS].sort((x,y)=>y.d.localeCompare(x.d)).slice(0,15))
+    .map(a=>`<li><a href="#${esc(a.id)}">${esc(a.t.replace(/^Feature of the Week [^:]+:\s*/,""))}</a></li>`).join("");
+  const m={}; ARTS.forEach(a=>a.inst.forEach(i=>m[i]=(m[i]||0)+1));
+  document.getElementById("orgs").innerHTML = Object.entries(m).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).slice(0,25)
+    .map(([i,n])=>`<li><button type="button" data-inst="${esc(i)}">${esc(i)}</button> · ${n} paper${n>1?"s":""}</li>`).join("");
+  const today=new Date(); today.setHours(0,0,0,0);
+  document.getElementById("confs").innerHTML = CONFS.map(c=>{
+    const a=P(c.s), b=P(c.e); const M=x=>MONTHS[x-1].slice(0,3);
+    const range = a.m===b.m ? `${M(a.m)} ${a.d}–${b.d}, ${a.y}` : `${M(a.m)} ${a.d} – ${M(b.m)} ${b.d}, ${b.y}`;
+    const days=Math.round((new Date(a.y,a.m-1,a.d)-today)/86400000);
+    const soon = days>=0&&days<=14?` · in ${days} day${days===1?"":"s"}`:"";
+    return `<li><a href="${esc(c.u)}" target="_blank" rel="noopener">${esc(c.t)}</a><br><span>${range} · ${esc(c.w)}${soon}</span></li>`;
+  }).join("");
+}
+
+/* ---------- process sketches used when no licensed figure is available ---------- */
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const GLYPH = {
+  pulse:["Ultrafast","--dir"], dicing:["Dicing","--dir"], waveguide:["Waveguide","--title"], tpp:["2PP","--meth"],
+  computing:["Optical computing","--meth"], storage:["Data storage","--mat"], lipss:["LIPSS","--app"], fiber:["FBG","--title"],
+  etch:["Selective etch","--mat"], weld:["Welding","--dir"], bulk:["Bulk modification","--dir"], microoptics:["Micro-optics","--title"],
+  carbon:["LIG / carbon","--muted"], nano:["Nanoparticles","--app"], film:["Thin film","--mat"], quantum:["Color centers","--meth"],
+  drill:["Micromachining","--dir"], beam:["Beam shaping","--meth"], burst:["Burst mode","--dir"], source:["Laser source","--dir"],
+  probe:["Pump–probe","--mat"], model:["Simulation","--title"], ai:["AI / process","--meth"]
+};
+function drawGlyph(g, kind, W, H){
+  const [label, tok] = GLYPH[kind] || GLYPH.pulse;
+  const col = css(tok), soft = css("--fig-line"), grid = css("--grid"), bg = css("--fig-bg"), ink = css("--muted");
+  g.fillStyle=bg; g.fillRect(0,0,W,H);
+  g.lineCap="round"; g.lineJoin="round";
+  const line=(pts,c=col,w=1.6)=>{ g.beginPath(); pts.forEach(([x,y],i)=>i?g.lineTo(x,y):g.moveTo(x,y)); g.strokeStyle=c; g.lineWidth=w; g.stroke(); };
+  const slab=(x,y,w,h)=>{ g.fillStyle=grid; g.fillRect(x,y,w,h); g.strokeStyle=soft; g.lineWidth=1; g.strokeRect(x+.5,y+.5,w-1,h-1); };
+  const cone=(cx,y0,y1,half)=>{ g.beginPath(); g.moveTo(cx-half,y0); g.lineTo(cx+half,y0); g.lineTo(cx,y1); g.closePath(); g.fillStyle=col; g.globalAlpha=.22; g.fill(); g.globalAlpha=1; };
+  const dot=(x,y,r,c=col)=>{ g.beginPath(); g.arc(x,y,r,0,7); g.fillStyle=c; g.fill(); };
+  const X=f=>8+f*(W-16);
+  switch(kind){
+    case "dicing": slab(10,40,W-20,32); cone(66,16,46,14); g.setLineDash([3,3]); line([[66,40],[66,72]],col,1.6); g.setLineDash([]);
+      line([[66,72],[63,77],[69,81],[64,86]],col,1.2); for(let k=0;k<4;k++) dot(30+k*9,56,1.6,ink); break;
+    case "waveguide": slab(10,30,W-20,46); line([[14,46],[44,46],[60,51],[72,51],[88,46],[W-14,46]]); line([[14,62],[44,62],[60,57],[72,57],[88,62],[W-14,62]]); dot(W-14,46,3); break;
+    case "tpp": for(let r=0;r<3;r++){ const y=34+r*14; for(let k=0;k<4;k++){ g.fillStyle=r%2?col:grid; g.globalAlpha=r%2?.75:1; g.fillRect(22+k*24+(r%2?12:0),y,16,8); g.globalAlpha=1; g.strokeStyle=soft; g.strokeRect(22.5+k*24+(r%2?12:0),y+.5,15,7);} }
+      g.beginPath(); g.ellipse(104,24,4,9,0,0,7); g.strokeStyle=col; g.lineWidth=1.4; g.stroke(); break;
+    case "computing": for(let k=0;k<3;k++){ const x=46+k*22; slab(x,22,5,58); for(let t=0;t<8;t++){ g.fillStyle=col; g.globalAlpha=.35+((t*7+k*3)%5)/8; g.fillRect(x,24+t*7,5,3); g.globalAlpha=1; } }
+      for(let r=0;r<4;r++) line([[12,30+r*14],[46,36+r*10],[112,52]],col,1); dot(114,52,3.5); break;
+    case "storage": for(let r=0;r<4;r++) for(let c=0;c<6;c++){ const x=22+c*17, y=28+r*15, a=((r*6+c)*37%180)*Math.PI/180, l=4+((r+c*2)%3)*1.6;
+      line([[x-Math.cos(a)*l,y-Math.sin(a)*l],[x+Math.cos(a)*l,y+Math.sin(a)*l]],col,1.8); } break;
+    case "lipss": for(let k=0;k<7;k++){ const y0=26+k*9; line(Array.from({length:60},(_,i)=>{const x=10+i*(W-20)/59; return [x,y0+2.2*Math.sin(i*.9+k)];}),col,1.3); } break;
+    case "fiber": g.fillStyle=grid; g.fillRect(8,38,W-16,28); g.strokeStyle=soft; g.strokeRect(8.5,38.5,W-17,27);
+      g.fillStyle=css("--card"); g.fillRect(8,48,W-16,8); for(let k=0;k<14;k++){ g.fillStyle=col; g.fillRect(36+k*4.4,48,2,8); } break;
+    case "etch": slab(10,24,W-20,54); line([[22,40],[48,40],[48,62],[78,62],[78,40],[110,40]],col,4); break;
+    case "weld": slab(12,30,W-24,20); slab(12,50,W-24,20); cone(66,10,50,12); g.beginPath(); g.ellipse(66,52,9,5,0,0,7); g.fillStyle=col; g.globalAlpha=.75; g.fill(); g.globalAlpha=1; break;
+    case "bulk": slab(14,40,W-28,40); cone(66,10,60,16); g.globalAlpha=.3; dot(66,60,9); g.globalAlpha=1; g.beginPath(); g.ellipse(66,63,2.6,9,0,0,7); g.fillStyle=col; g.fill(); break;
+    case "microoptics": line([[10,66],[W-10,66]],soft,1); for(let k=0;k<5;k++){ g.beginPath(); g.arc(26+k*20,66,9,Math.PI,0); g.fillStyle=col; g.globalAlpha=.25; g.fill(); g.globalAlpha=1; g.strokeStyle=col; g.lineWidth=1.4; g.stroke(); line([[26+k*20,57],[26+k*20,30]],soft,1); } break;
+    case "carbon": for(let r=0;r<3;r++) for(let c=0;c<4;c++){ const cx=34+c*20+(r%2)*10, cy=34+r*17; g.beginPath(); for(let t=0;t<7;t++){ const a=Math.PI/6+t*Math.PI/3; g.lineTo(cx+9*Math.cos(a),cy+9*Math.sin(a)); } g.strokeStyle=col; g.lineWidth=1.3; g.stroke(); } break;
+    case "nano": line([[8,34],[W-8,34]],soft,1); [[30,52,5],[48,64,3],[62,48,7],[84,66,4],[98,50,3],[110,62,5],[40,76,2.5],[74,78,3]].forEach(([x,y,r])=>{ dot(x,y,r); }); break;
+    case "film": slab(10,58,W-20,18); g.fillStyle=col; g.globalAlpha=.55; [[10,30],[52,30],[94,28]].forEach(([x,w])=>g.fillRect(x,50,w,8)); g.globalAlpha=1; cone(46,18,50,7); cone(88,18,50,7); break;
+    case "quantum": for(let r=0;r<4;r++) for(let c=0;c<7;c++) dot(20+c*15+(r%2)*7,30+r*14,1.8,ink); dot(65,51,5); g.beginPath(); g.arc(65,51,10,0,7); g.strokeStyle=col; g.globalAlpha=.4; g.stroke(); g.globalAlpha=1; break;
+    case "drill": slab(10,40,W-20,24); g.fillStyle=bg; [30,56,82,108].forEach(x=>{ g.beginPath(); g.moveTo(x-5,40); g.lineTo(x+5,40); g.lineTo(x+2,64); g.lineTo(x-2,64); g.closePath(); g.fill(); }); cone(56,14,40,9); break;
+    case "beam": line([[12,52],[34,52]],col,3); slab(34,30,4,44); [24,40,64,80].forEach(y=>{ line([[38,52],[104,y]],col,1); dot(106,y,3); }); break;
+    case "burst": line([[8,72],[W-8,72]],soft,1); for(let b=0;b<3;b++) for(let k=0;k<4;k++){ const x=20+b*38+k*5; line([[x,72],[x,72-(46-k*9)]],col,2); } break;
+    case "source": g.beginPath(); g.arc(18,52,22,-.5,.5); g.strokeStyle=ink; g.lineWidth=2; g.stroke(); g.beginPath(); g.arc(98,52,22,Math.PI-.5,Math.PI+.5); g.stroke();
+      slab(48,44,20,16); line(Array.from({length:30},(_,i)=>{const x=98+i; const t=(i-15)/5; return [x,52-14*Math.exp(-t*t)];}),col,1.6); break;
+    case "probe": slab(14,56,W-28,16); line([[24,18],[62,54]],col,2.2); line([[106,18],[70,54]],css("--title"),2.2); dot(66,56,3.5);
+      g.font="500 10px "+css("--font-mono"); g.fillStyle=ink; g.textAlign="center"; g.fillText("Δt",66,32); break;
+    case "model": for(let k=0;k<6;k++){ line([[12,26+k*10],[W-12,26+k*10]],grid,1); }
+      line(Array.from({length:50},(_,i)=>{const x=14+i*2.1; return [x,80-48*Math.exp(-i/9)];}),col,1.8);
+      line(Array.from({length:50},(_,i)=>{const x=14+i*2.1; return [x,80-30*(1-Math.exp(-i/12))];}),css("--title"),1.8); break;
+    case "ai": { const L1=[30,52,74], L2=[24,42,60,78], L3=[40,64]; L1.forEach(a=>L2.forEach(b=>line([[30,a],[66,b]],soft,1))); L2.forEach(a=>L3.forEach(b=>line([[66,a],[102,b]],soft,1)));
+      L1.forEach(y=>dot(30,y,4,ink)); L2.forEach(y=>dot(66,y,4,col)); L3.forEach(y=>dot(102,y,4,ink)); break; }
+    default: line(Array.from({length:120},(_,i)=>{const f=i/119, t=(f-.5)/.16; return [X(f), 56-30*Math.exp(-t*t)*Math.cos(f*2*Math.PI*22)];}),col,1.2);
+      line(Array.from({length:120},(_,i)=>{const f=i/119, t=(f-.5)/.16; return [X(f), 56-30*Math.exp(-t*t)];}),soft,1);
+  }
+  g.font="600 10.5px "+css("--font-mono"); g.fillStyle=col; g.textAlign="left"; g.fillText(label,7,14);
+}
+function drawThumbs(){
+  document.querySelectorAll("canvas.thumb").forEach(cv=>{
+    const r=cv.getBoundingClientRect(), W=Math.round(r.width)||132, H=Math.round(r.height)||92, dpr=window.devicePixelRatio||1;
+    cv.width=W*dpr; cv.height=H*dpr;
+    const g=cv.getContext("2d"); g.setTransform(dpr*W/132,0,0,dpr*H/92,0,0);
+    drawGlyph(g, cv.dataset.glyph, 132, 92);
+  });
+}
+
+/* ---------- banner: one ultrashort pulse, field under its envelope; the arrow spans the envelope's FWHM ---------- */
+function drawBanner(){
+  const cv=document.getElementById("pulse"), r=cv.getBoundingClientRect(); if(!r.width) return;
+  const dpr=window.devicePixelRatio||1; cv.width=r.width*dpr; cv.height=r.height*dpr;
+  const g=cv.getContext("2d"); g.setTransform(dpr,0,0,dpr,0,0);
+  const W=r.width, H=r.height, frac = W<460 ? 0.42 : 0.5, x0=10, x1=W*frac, mid=H*0.44, A=H*0.3, sigma=0.15;
+  const env = f => Math.exp(-(((f-.5)/sigma)**2));
+  const gr=g.createLinearGradient(x0,0,x1,0); gr.addColorStop(0,css("--beam2")); gr.addColorStop(1,css("--beam1"));
+  g.beginPath(); for(let i=0;i<=600;i++){ const f=i/600, x=x0+f*(x1-x0), y=mid-A*env(f)*Math.cos(f*2*Math.PI*30); i?g.lineTo(x,y):g.moveTo(x,y);} g.strokeStyle=gr; g.lineWidth=1.1; g.globalAlpha=.9; g.stroke(); g.globalAlpha=1;
+  g.beginPath(); for(let i=0;i<=200;i++){ const f=i/200, x=x0+f*(x1-x0); i?g.lineTo(x,mid-A*env(f)):g.moveTo(x,mid-A*env(f)); } g.strokeStyle=css("--band-sub"); g.lineWidth=1; g.setLineDash([2,3]); g.stroke(); g.setLineDash([]);
+  const half = sigma*Math.sqrt(Math.log(2)), yA = mid - A*0.5, xa=x0+(.5-half)*(x1-x0), xb=x0+(.5+half)*(x1-x0);
+  g.strokeStyle=css("--band-ink"); g.lineWidth=1; g.beginPath(); g.moveTo(xa,yA); g.lineTo(xb,yA); g.stroke();
+  [[xa,1],[xb,-1]].forEach(([x,s])=>{ g.beginPath(); g.moveTo(x+4*s,yA-3); g.lineTo(x,yA); g.lineTo(x+4*s,yA+3); g.stroke(); });
+  g.font="500 10px "+css("--font-mono"); g.fillStyle=css("--band-sub"); g.textAlign="center"; g.fillText("FWHM 270 fs", (xa+xb)/2, H-6);
+}
+
+document.addEventListener("click", e=>{
+  const c=e.target.closest("[data-cat]"), i=e.target.closest("[data-inst]"), r=e.target.closest("[data-reset]");
+  if(c){ const v=c.dataset.cat; filter=(filter&&filter.type==="cat"&&filter.value===v)?null:{type:"cat",value:v}; shown=PAGE; render(); document.getElementById("recent").scrollIntoView(); }
+  else if(i){ const v=i.dataset.inst; filter=(filter&&filter.type==="inst"&&filter.value===v)?null:{type:"inst",value:v}; shown=PAGE; render(); document.getElementById("recent").scrollIntoView(); }
+  else if(r){ filter=null; query=""; shown=PAGE; document.getElementById("q").value=""; render(); }
+  if(e.target.closest(".menu ul a")) closeMenu();
+});
+document.getElementById("searchForm").addEventListener("submit", e=>{ e.preventDefault(); query=document.getElementById("q").value.trim().toLowerCase(); filter=null; shown=PAGE; render(); document.getElementById("recent").scrollIntoView(); });
+document.getElementById("q").addEventListener("input", e=>{ if(!e.target.value){ query=""; render(); } });
+document.getElementById("langBtn").addEventListener("click", ()=>{ LANG = LANG==="zh"?"en":"zh"; try{ localStorage.setItem("femtonews-lang", LANG); }catch(e){} render(); });
+const menu=document.getElementById("menu"), burger=document.getElementById("burger");
+function closeMenu(){ menu.classList.remove("open"); burger.setAttribute("aria-expanded","false"); }
+burger.addEventListener("click", ()=>{ const o=menu.classList.toggle("open"); burger.setAttribute("aria-expanded", String(o)); });
+document.getElementById("copyTpl").addEventListener("click", async ()=>{
+  const tpl="FemtoNews — Submit a Paper\nType (journal article / in-press / preprint / patent / thesis / job / Feature of the Week):\nTitle:\nAuthors:\nInstitutions:\nJournal & DOI:\nAbstract or summary:\nLaser parameters (wavelength, pulse duration, repetition rate, pulse energy, NA):\nFig. 1 / representative figure (attach) and its licence (e.g. CC BY 4.0):\nDirections (e.g. Waveguides & Photonic Chips, Hard & Brittle Materials):\nContact:\n";
+  const ok=document.getElementById("copied");
+  try{ await navigator.clipboard.writeText(tpl); ok.textContent="Copied"; }catch(err){ ok.textContent="Copy was blocked by the browser"; }
+  ok.hidden=false; setTimeout(()=>ok.hidden=true,2000);
+});
+
+function renderArchive(){
+  document.getElementById("archive").innerHTML = ISSUES.map(i=>
+    `<li><a href="#issue-${i.id}"${ISSUE&&i.id===ISSUE.id?' aria-current="page"':''}>No. ${i.number} · ${longDate(i.date)}</a> <span>· ${i.count} papers</span></li>`).join("");
+}
+async function loadIssue(id){
+  const meta = ISSUES.find(i=>i.id===id) || ISSUES[0];
+  if(!meta) throw new Error("no issues");
+  const EMB = window.FEMTO_DATA;
+  if(EMB && EMB.issues && EMB.issues[meta.id]) ISSUE = EMB.issues[meta.id];
+  else {
+    const r = await fetch(`data/issues/${meta.id}.json`, {cache:"no-cache"});
+    if(!r.ok) throw new Error(`issue ${meta.id}: HTTP ${r.status}`);
+    ISSUE = await r.json();
+  }
+  ARTS = ISSUE.articles.map(x=>fromIssue(x, ISSUE));
+  filter=null; query=""; document.getElementById("q").value="";
+  render(); renderRail(); renderArchive();
+}
+async function init(){
+  drawBanner();
+  try{
+    const EMB = window.FEMTO_DATA;   /* set in FemtoNews.html, the double-click version built by scraper/build_standalone.py */
+    let idx, meet;
+    if(EMB){ idx = EMB.index; meet = EMB.meetings; }
+    else {
+      const [ri, rm] = await Promise.all([fetch("data/issues/index.json",{cache:"no-cache"}), fetch("data/meetings.json",{cache:"no-cache"})]);
+      idx = await ri.json(); meet = rm.ok ? await rm.json() : {};
+    }
+    ISSUES = (idx && idx.issues) || [];
+    CONFS = ((meet && meet.meetings)||[]).map(m=>({s:m.start,e:m.end,t:m.title,w:m.where,u:m.url}));
+    const want = (location.hash.match(/^#issue-(\d{4}-\d{2}-\d{2})$/)||[])[1];
+    await loadIssue(want);
+  }catch(err){
+    document.getElementById("recList").innerHTML = `<p class="empty">Could not load the issue data (${esc(err.message)}). If you opened index.html directly, open FemtoNews.html instead, or serve the folder over HTTP, for example with <code>python -m http.server</code>.</p>`;
+  }
+}
+addEventListener("hashchange", ()=>{ const m=location.hash.match(/^#issue-(\d{4}-\d{2}-\d{2})$/); if(m && (!ISSUE || m[1]!==ISSUE.id)) loadIssue(m[1]); });
+init();
+addEventListener("resize", drawBanner);
+const redraw = ()=>{ drawBanner(); if(ARTS.length) drawThumbs(); };
+document.fonts && document.fonts.ready.then(redraw);
+try{ matchMedia("(prefers-color-scheme: dark)").addEventListener("change", redraw); }catch(e){}
+new MutationObserver(redraw).observe(document.documentElement, {attributes:true, attributeFilter:["data-theme"]});
+</script>
+</body>
+</html>

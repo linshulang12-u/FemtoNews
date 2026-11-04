@@ -1,0 +1,439 @@
+# FemtoNews — scraper configuration (ultrafast laser fabrication)
+# Adapted from VibraNews (ForestBin-Raman). Edit this file to change what the daily crawl looks for.
+
+site:
+  name: FemtoNews
+  url: https://linshulang12-u.github.io/FemtoNews/   # used in the bot User-Agent
+
+# Polite crawling
+http:
+  user_agent: "FemtoNewsBot/1.0 (+{site_url}; weekly literature digest)"
+  timeout_s: 20
+  delay_s: 1.0            # pause between requests to the same publisher site
+  api_delay_s: 0.2        # pause between requests to the open APIs (OpenAlex, Crossref, Europe PMC, arXiv)
+  respect_robots_txt: true
+
+# Search sources (all free, no API key needed)
+sources:
+  europepmc: true          # PubMed / PMC / preprints (biomedical fs-laser work, ophthalmology, cryo-ET)
+  openalex: true           # every journal, with abstracts and institutions (main source for this field)
+  crossref: true           # Optica / Elsevier / IOP / AIP journals not in PubMed
+  arxiv: true              # physics.optics, physics.app-ph, cond-mat.mtrl-sci, quant-ph preprints
+  max_results_per_query: 400    # arXiv
+  max_europepmc: 6000           # records per run
+  max_crossref_rows: 1000       # per query (Crossref maximum)
+  max_openalex_per_term: 6000   # per search term
+
+# A paper is kept if its TITLE matches any include pattern,
+# or its ABSTRACT matches one at least twice. Patterns are case-insensitive regular expressions.
+include:
+  - '\b(femto|pico)-?second[- ](pulsed?[- ])?laser[- ]?(direct[- ])?(writ|inscri|fabricat|process|machin|micromachin|ablat|structur|nanostructur|textur|drill|cut|dic|slic|thin|weld|join|modif|induc|irradiat|pattern|print|engrav|mark|trim|polish|clean|strip|reduc|crystalli|sinter|etch|lithograph|assisted|based|treat)'
+  - '\bultra-?(fast|short)[- ](pulsed?[- ])?(pulse[sd]?[- ])?laser[- ]?(direct[- ])?(writ|inscri|fabricat|process|machin|micromachin|ablat|structur|nanostructur|textur|drill|cut|dic|slic|thin|weld|join|modif|induc|irradiat|pattern|print|engrav|mark|trim|polish|clean|etch|lithograph)'
+  - '\b(fs|ps)[- ]laser'
+  - '(direct )?laser[- ](direct[- ])?writ(e|ten|ing)|laser-inscribed'
+  - 'two-photon (polymeri|lithograph|direct laser writing|3D print|nanoprint|fabricat|reduction)|multi-?photon (lithograph|polymeri|fabricat|3D print|reduction)|\b2PP\b|3D nano-?print|nano-?3D print|volumetric (additive manufacturing|3D printing)'
+  - 'laser-induced periodic surface|\bLIPSS\b'
+  - 'laser-induced (graphene|forward transfer|nanostructur|crystalli|selective etching|microstructur|surface structur)'
+  - 'selective (laser-induced |laser )?etching|laser-assisted (chemical |wet )?etching|\bFLI?CE\b|\bFLISE\b'
+  - 'nano-?gratings? in (glass|silica|fused silica)|self-organi[sz]ed nano-?gratings?|5D (optical )?(data )?(storage|memory)|optical data storage|glass (data )?storage|laser-written (data|memory|storage)'
+  - 'stealth dicing|laser (dicing|slicing|lift-?off|scribing|trimming)\b'
+  - '(GHz|MHz)[- ]burst|burst[- ]mode (ablation|processing|laser|femtosecond|ultrashort)'
+  - 'Bessel[- ]beams?\W+(\w+\W+){0,6}(cut|drill|dic|machin|process|fabricat|writ|ablat|weld|hole|via)'
+  - 'spatio-?temporal(ly)? focus|\bSSTF\b|simultaneous spatial and temporal focus'
+  - 'laser ablation in (liquids?|water)|pulsed laser ablation in liquid|\bPLAL\b|laser fragmentation in liquid'
+  - 'laser (micro|nano)-?(machining|fabrication|structuring|processing|printing|welding|texturing|drilling|cutting|patterning|lithography|surgery|ablation)'
+  - 'ultrafast laser|ultrashort[- ]pulse(d)? laser|femtosecond[- ]laser|picosecond[- ]laser'
+
+# Process names specific enough that ONE mention in the abstract is enough
+strong_include:
+  - 'femtosecond[- ]laser[- ](direct[- ])?writ'
+  - '(femtosecond|ultrafast|fs)[- ]laser[- ](written|inscribed)'
+  - 'laser[- ]written (waveguide|circuit|chip|photonic|grating|structure)'
+  - 'two-photon polymeri[sz]ation|multiphoton lithograph|two-photon lithograph'
+  - 'laser-induced periodic surface structures'
+  - 'selective laser-induced etching|femtosecond[- ]laser[- ]induced (selective )?(chemical )?etching'
+  - '5D optical (data )?storage'
+  - 'ultrafast laser (weld|writ|inscri|micromachin|nanostructur|process)'
+  - '(femto|pico)second[- ]laser (micro|nano)?-?(machin|fabricat|ablat|process|structur|textur|inscri|drill|cut|weld|modif|irradiat|pattern|print)'
+  - 'stealth dicing'
+  - '(GHz|MHz)[- ]burst'
+  - 'spatiotemporal focusing'
+
+# Generic terms count only in the TITLE: in abstracts they are mostly incidental
+title_only:
+  - 'ultrafast laser'
+  - 'femtosecond[- ]laser'
+  - 'picosecond[- ]laser'
+  - 'ultrashort[- ]pulse(d)? laser'
+
+# Mentions inside characterisation lists ("SEM, XRD, Raman and XPS") are not counted
+characterisation_list: '(?:\b(?:XRD|XPS|SEM|TEM|HRTEM|EDS|EDX|BET|TGA|DSC|UV-?vis(?:ible)?|NMR|FT-?IR|Raman|PL|AFM|EBSD|EPR|XAS|DLS)\b(?:\s*(?:spectroscopy|spectra|analysis|analyses|measurements?))?\s*(?:,|/|;|\band\b|\bor\b)\s*){2,}(?:\band\s+)?\b(?:XRD|XPS|SEM|TEM|HRTEM|EDS|EDX|BET|TGA|DSC|UV-?vis(?:ible)?|NMR|FT-?IR|Raman|PL|AFM|EBSD|EPR|XAS|DLS)\b'
+
+# Records from data repositories are not articles
+exclude_sources: ['zenodo', 'figshare', 'mendeley data', 'dryad', 'harvard dataverse', 'pangaea']
+
+# Further topics. A paper is included when its TITLE matches a `title` pattern, or its ABSTRACT mentions
+# one `abstract` term once, unless one of the topic's `exclude` patterns applies.
+extra_topics:
+  - name: Laser-written photonics
+    title:
+      - '(waveguide|photonic lattice|photonic chip|integrated photonic)s?\b.*\b(femtosecond|ultrafast|laser[- ]written|direct[- ]writ)'
+      - 'photonic lanterns?\b.*\blaser'
+      - 'fib(er|re) Bragg gratings?\b.*\b(femtosecond|ultrafast|point-by-point|plane-by-plane|line-by-line)'
+    abstract:
+      - 'femtosecond[- ]laser[- ]written waveguides?'
+      - 'point-by-point (inscription|writing)'
+      - 'plane-by-plane (inscription|writing)'
+  - name: Light-field engineering for processing
+    title:
+      - '(spatial light modulator|hologra\w*|multi-?foc\w*|parallel)\b.*\b(fabricat|process|machin|writ|printing|ablat)'
+      - '(fabricat|process|machin|writ|printing|ablat)\w*\b.*\b(spatial light modulator|hologra\w*|multi-?foc\w*|Bessel|Airy|vortex beam|flat-?top|top-?hat)'
+    abstract:
+      - 'holographic (femtosecond|laser) (fabrication|processing|printing|writing)'
+      - 'multifocal (femtosecond|laser) (fabrication|processing|writing)'
+    exclude: ['microscop', 'optical trapping|optical tweezers']
+
+# Core journals: EVERY paper they publish is included (no keyword filter)
+core_journals:
+  issn: ['1880-0688']
+  titles: ['journal of laser micro/nanoengineering', 'journal of laser micro nanoengineering']
+
+# Papers first published longer ago than this are ignored (re-indexed old papers, late corrections)
+max_age_days: 180
+
+# Drop a paper if its title or abstract matches any of these
+exclude:
+  - 'LA-?ICP-?MS|laser ablation[- ]inductively coupled|inductively coupled plasma[- ]mass'   # geochemistry / elemental analysis
+  - 'laser-induced breakdown spectroscop|\bLIBS\b'                                          # analytical spectroscopy
+  - 'endovenous|thyroid nodul|radiofrequency ablation|catheter ablation|atrial fibrillation|interstitial laser|varicose|pilonidal|benign prostatic'
+  - 'attosecond|high[- ]harmonic generation|wakefield|laser[- ]plasma accelerat|(electron|proton|ion) accelerat|inertial confinement|relativistic (laser|intensit|plasma)|petawatt'
+  - '\b(fNIRS|lidar)\b|light detection and ranging'
+  - 'two-photon (excitation|microscop|fluorescence (imaging|microscop)|calcium imaging|absorption cross)'
+  - 'free-electron laser|x-ray free-electron|\bXFEL\b'
+  - '\b(galax(y|ies)|exoplanet|interstellar)\b'
+
+# Technique / process / method papers MUST be included: a paper that uses one of `terms` AND matches one
+# of `cues` bypasses the routine-application, title and soft exclusions and the venue h-index check, needs
+# only one mention, and is put on the front page ("Selected Papers") automatically.
+technique:
+  terms:
+    - '(femto|pico)-?second[- ](pulsed?[- ])?laser|ultra-?(fast|short)[- ](pulsed?[- ])?(pulse[sd]?[- ])?laser|\bfs[- ]laser|two-photon polymeri|multi-?photon lithograph|laser[- ]written|direct laser writing|laser direct writing'
+  # broad cues: protect the paper from every exclusion (it is never dropped)
+  cues:
+    - '\b(we|here,? we|this work|this paper)\s+(\w+\s+){0,3}(develop|demonstrat|present|introduc|report|propos|realiz|build|construct|design|invent)\w*\s+(\S+\s+){0,8}?(writ\w*|fabricat\w*|print\w*|lithograph\w*|machin\w*|process\w*|method|strategy|technique|approach|platform|route|scheme)'
+    - '(writ|inscri|fabricat|machin|ablat|structur|weld|drill|cut|dic|slic|etch|print|polymeri)\w*\b.*\b(waveguide|photonic (chip|circuit|lattice)|fib(er|re) Bragg|metasurface|microlens|micro-?optic|nanograting|data storage|microfluidic|quantum|color cent|sapphire|silicon carbide|diamond|fused silica|glass)'
+  # strict cues: the paper also goes straight to the front page ("Selected Papers")
+  strong_cues:
+    - '\b(we|here,? we|this work)\s+(\w+\s+){0,2}(develop|demonstrat|present|introduc|report|propos|realiz|invent)\w*\s+(a|an|the first)\s+(\S+\s+){0,6}?(method|technique|strategy|approach|platform|printer|system|scheme|route|process|paradigm)\b'
+    - '\b(first|record|unprecedented|orders? of magnitude|sub-?10 ?nm|sub-?diffraction|super-?resolution|nanometer[- ]scale|3D (photonic|integrated))\b'
+  journals: ['^optica\b', 'optics express', 'optics letters', 'light: science', 'light: advanced manufacturing', 'nature photonics', 'nature communications', 'science advances', 'advanced photonics', 'apl photonics', '^elight', 'photonix', 'laser & photonics', 'opto-electronic advances', 'international journal of extreme manufacturing', 'advanced materials', 'nano letters', 'acs photonics', 'ultrafast science', 'optics & laser technology', 'optics and lasers in engineering', 'applied surface science', 'journal of materials processing technology', 'international journal of machine tools', 'cirp annals', 'journal of laser applications', 'applied physics a', 'optical materials express', 'nanophotonics', 'photonics research', 'chinese optics letters', 'chinese journal of lasers', 'journal of physics d', 'additive manufacturing']
+
+# Routine applications: the TITLE names a clinical-outcome setting AND a standard fs-laser surgical procedure.
+# Technique papers on the laser process itself are unaffected.
+routine_application:
+  domain:
+    - 'outcomes?|follow-?up|retrospective|prospective|randomi[sz]ed|comparative study|patients?|eyes\b|case series|cohort|visual acuity|complications'
+  method:
+    - 'femtosecond laser[- ]assisted (cataract|keratoplasty|LASIK|surgery)|\bFLACS\b|\bLASIK\b|\bSMILE\b|small[- ]incision lenticule|keratomileusis|phacoemulsification'
+
+# Title-only exclusions: off-topic hits, editorial matter
+exclude_title:
+  - '^comment on\b|^reply to\b|^erratum|^correction'
+  - 'call for papers|editorial board|issue information'
+  - 'laser hair|tattoo removal|photodynamic therapy|low-level laser|photobiomodulation'
+  - 'selective laser melting|powder bed fusion|\bL-?PBF\b|laser cladding|directed energy deposition|laser metal deposition|wire[- ]arc|laser-arc hybrid'
+
+# Off-topic uses of ultrafast lasers (spectroscopy, laser physics, magnetism) are dropped unless the title
+# names a fabrication term
+soft_exclude:
+  patterns:
+    - 'ultrafast (magnet|demagnet|spin|carrier|exciton|charge|electron dynamics)|coherent phonon|transient absorption|photoemission|time-resolved spectroscop|pump-probe spectroscop|exciton-polariton|nonadiabatic|photodissociation|photoisomeri'
+    - 'mode-?locked (fib(er|re) )?laser|soliton|dissipative|supercontinuum|frequency comb|optical parametric|pulse compression|chirped[- ]pulse amplification|regenerative amplifier'
+    - 'filament(ation)? in air|air filament|terahertz (generation|emission)|microwave radiation'
+  unless_title: ['writ', 'inscri', 'fabricat', 'machin', 'ablat', 'process', 'structur', 'textur', 'weld', 'drill', 'cut', 'modif', 'polymeri', 'printing', 'lithograph', 'etch', 'micromachin', 'nanostructur', 'pattern', 'dicing', 'trimm']
+
+# Venue filter: papers from these DOI prefixes (publishers / preprint servers) are kept; papers from
+# blocked prefixes or journals are dropped; any other venue is kept only if its OpenAlex h-index is at
+# least min_h_index (cached in data/venues.json). Core journals and inbox submissions are always kept.
+venues:
+  min_h_index: 40
+  trusted_doi_prefixes:
+    - '10.48550'   # arXiv
+    - '10.1101'    # bioRxiv / medRxiv
+    - '10.64898'   # bioRxiv / medRxiv (new prefix)
+    - '10.26434'   # ChemRxiv
+    - '10.1016'    # Elsevier / Cell Press
+    - '10.1021'    # ACS
+    - '10.1039'    # RSC
+    - '10.1002'    # Wiley
+    - '10.1111'    # Wiley
+    - '10.1155'    # Hindawi (Wiley)
+    - '10.1007'    # Springer
+    - '10.1038'    # Nature Portfolio
+    - '10.1186'    # BMC
+    - '10.1140'    # EPJ
+    - '10.1557'    # MRS
+    - '10.1364'    # Optica
+    - '10.1117'    # SPIE
+    - '10.1063'    # AIP
+    - '10.1103'    # APS
+    - '10.1088'    # IOP
+    - '10.1109'    # IEEE
+    - '10.1126'    # Science / AAAS
+    - '10.34133'   # Science Partner Journals
+    - '10.1073'    # PNAS
+    - '10.1093'    # Oxford UP
+    - '10.1017'    # Cambridge UP
+    - '10.1080'    # Taylor & Francis
+    - '10.1177'    # SAGE (Applied Spectroscopy, JNIRS)
+    - '10.3390'    # MDPI
+    - '10.3389'    # Frontiers
+    - '10.1371'    # PLOS
+    - '10.7554'    # eLife
+    - '10.1515'    # De Gruyter
+    - '10.1055'    # Thieme
+    - '10.1142'    # World Scientific
+    - '10.1108'    # Emerald
+    - '10.1149'    # ECS
+    - '10.1146'    # Annual Reviews
+    - '10.1152'    # American Physiological Society
+    - '10.1128'    # ASM
+    - '10.1158'    # AACR
+    - '10.1161'    # AHA
+    - '10.1172'    # SNMMI
+    - '10.3171'    # J Neurosurgery
+    - '10.1001'    # JAMA
+    - '10.1056'    # NEJM
+    - '10.1136'    # BMJ
+    - '10.1029'    # AGU
+    - '10.5194'    # Copernicus
+    - '10.2138'    # Mineralogical Society of America
+    - '10.1130'    # GSA
+    - '10.2113'    # GSA (Lithosphere)
+    - '10.1180'    # Mineralogical Society
+    - '10.1051'    # EDP Sciences (A&A, EPJ)
+    - '10.1360'    # Science China
+    - '10.26599'   # Tsinghua UP (Nano Research)
+    - '10.31635'   # CCS Chemistry
+    - '10.37188'   # Light: Advanced Manufacturing
+    - '10.3762'    # Beilstein
+    - '10.3791'    # JoVE
+    - '10.1246'    # Chemical Society of Japan
+    - '10.7567'    # JJAP
+    - '10.1209'    # JPSJ
+    - '10.1143'    # Japan Society of Applied Physics
+    - '10.21273'   # ASHS (HortScience)
+    - '10.5713'    # Animal Bioscience
+    - '10.3724'    # Acta Biochim Biophys Sin
+    - '10.20517'   # OAE Publishing
+  blocked_doi_prefixes:
+    - '10.21203'   # Research Square
+    - '10.20944'   # Preprints.org
+    - '10.22541'   # Authorea
+    - '10.31219'   # OSF Preprints
+    - '10.17605'   # OSF
+    - '10.31224'   # OSF / EarthArXiv
+    - '10.24412'   # CyberLeninka
+    - '10.5281'    # Zenodo
+    - '10.13140'   # ResearchGate
+    - '10.6084'    # figshare
+    - '10.9734'    # Sciencedomain (Asian Journal of ...)
+    - '10.22271'   # AkiNik (J Pharmacognosy & Phytochemistry)
+  blocked_journals: ['web of conferences', '^DOAJ', 'cyberlenin']
+  # preprint servers recognised by name when a record carries no DOI
+  trusted_journals: ['^arxiv', 'biorxiv', 'medrxiv', 'chemrxiv']
+
+# Europe PMC search terms (combined with OR, searched in title + abstract)
+europepmc_terms:
+  - '"femtosecond laser"'
+  - '"ultrafast laser"'
+  - '"picosecond laser"'
+  - '"ultrashort pulse laser"'
+  - '"two-photon polymerization"'
+  - '"multiphoton lithography"'
+  - '"direct laser writing"'
+  - '"laser direct writing"'
+  - '"3D nanoprinting"'
+  - '"laser-induced periodic surface structures"'
+  - '"laser micromachining"'
+  - '"laser nanofabrication"'
+  - '"laser ablation in liquid"'
+  - '"laser-induced graphene"'
+  - '"selective laser etching"'
+  - '"femtosecond pulsed laser ablation"'
+
+# OpenAlex title+abstract searches (each paginated in full for the look-back window)
+openalex_terms:
+  - femtosecond laser
+  - ultrafast laser
+  - picosecond laser
+  - ultrashort pulse laser
+  - two-photon polymerization
+  - multiphoton lithography
+  - direct laser writing
+  - laser direct writing
+  - laser-written waveguide
+  - 3D nanoprinting
+  - laser-induced periodic surface structures
+  - selective laser-induced etching
+  - optical data storage glass
+  - stealth dicing
+  - laser slicing silicon carbide
+  - burst mode laser ablation
+  - Bessel beam laser processing
+  - spatiotemporal focusing
+  - laser ablation in liquid
+  - laser-induced graphene
+  - laser micromachining
+  - fiber Bragg grating inscription
+# OpenAlex is searched by publication date, so it looks back further to catch late-indexed papers
+openalex_lookback_days: 30
+
+# Crossref query strings (Crossref search is fuzzy; results are then filtered by `include`)
+crossref_queries:
+  - femtosecond laser writing
+  - femtosecond laser processing
+  - femtosecond laser ablation
+  - ultrafast laser processing
+  - ultrafast laser welding
+  - picosecond laser processing
+  - two-photon polymerization
+  - multiphoton lithography
+  - direct laser writing
+  - laser-induced periodic surface structures
+  - femtosecond laser waveguide
+  - femtosecond fiber Bragg grating
+  - selective laser etching glass
+  - optical data storage femtosecond
+  - laser dicing sapphire silicon carbide
+  - burst mode ultrashort pulse
+  - Bessel beam laser cutting
+  - laser ablation in liquid nanoparticles
+
+# arXiv abstract search terms
+arxiv_terms:
+  - '"femtosecond laser"'
+  - '"ultrafast laser"'
+  - '"laser writing"'
+  - '"laser-written"'
+  - '"laser written"'
+  - '"two-photon polymerization"'
+  - '"direct laser writing"'
+  - '"laser ablation"'
+  - '"laser processing"'
+  - micromachining
+  - nanograting
+  - '"Bessel beam"'
+  - '"spatiotemporal focusing"'
+  - '"laser-induced periodic"'
+  - '"burst mode"'
+
+arxiv_categories: [physics.optics, physics.app-ph, cond-mat.mtrl-sci, physics.ins-det, quant-ph, cond-mat.mes-hall]
+
+# Thumbnails
+#   oa_figure_else_cover : open-access paper -> its own preview image (og:image, usually Fig. 1 or the
+#                          graphical abstract); paywalled paper -> journal cover only. (default)
+#   all                  : every paper -> its preview image; journal cover as fallback
+# If nothing is found the site draws a process glyph (see `glyphs`).
+figures:
+  mode: oa_figure_else_cover
+  max_width: 400
+  max_height: 280
+  min_side_px: 120         # smaller images are treated as logos and ignored
+  reject_url_patterns: ['logo', 'favicon', 'default', 'placeholder', 'sprite', 'icon', 'blank']
+
+# Journal covers, used when an article page offers no preview image.
+# Key = journal title (case-insensitive) or ISSN; value = an image URL you are allowed to use.
+journal_covers: {}
+
+# Category rules. A category is added when any of its patterns matches title or abstract.
+# Group names and their order must match the site's GROUPS (index.html).
+categories:
+  Directions:
+    Hard & Brittle Materials: ['(sapphire|silicon carbide|\bSiC\b|4H-SiC|diamond|glass|fused silica|ceramics?|\bGaN\b|Ga2O3|quartz|brittle|wafers?)\W+(\w+\W+){0,5}\b(cut|drill|dic|slic|thin|machin|ablat|groov|holes?\b|vias?\b|scrib|polish|separat|crack)', '\b(cut|drill|dic|slic|thin|machin|ablat|groov|scrib|polish|separat|process)\w*\W+(\w+\W+){0,5}(sapphire|silicon carbide|\bSiC\b|4H-SiC|diamond|glass|fused silica|ceramics?|\bGaN\b|wafers?)', 'stealth dicing|laser slicing|through[- ]glass vias?|\bTGVs?\b|hard[- ](and[- ])?brittle']
+    Waveguides & Photonic Chips: ['waveguide', 'photonic (chip|circuit|lattice|integrated)', 'integrated photonic', 'directional coupler', 'Y-junction', 'Bloch oscillation', 'photonic lantern', 'optical hybrid', 'power splitter']
+    Two-Photon Polymerization: ['two-photon (induced )?(polymeri|lithograph|direct laser writing|3D print|reduction)', 'multi-?photon (lithograph|polymeri|fabricat|3D print)', '\b2PP\b', '3D nano-?print', 'nanoprint', 'photoresists?', 'volumetric (additive|printing)']
+    Optical Computing: ['optical comput', 'photonic comput', 'diffractive (deep )?neural', '\bD2NN\b', 'neuromorphic', 'optical neural', 'matrix[- ]vector', 'in-sensor comput', 'optical (logic|processor)', 'image processing']
+    Optical Data Storage: ['data storage', 'optical storage', 'optical memory', '\b5D\b', 'nanogratings?', 'birefringent (modification|nanostructur)', 'anti-?counterfeit', 'information (encryption|storage)']
+    Surface Structuring & LIPSS: ['\bLIPSS\b', 'periodic surface structur', 'ripples?\b', 'surface textur', 'superhydrophob', 'hydrophilic', 'wettability', 'anti-?icing', 'anti-?reflect', 'black (silicon|metal)', 'structural colou?r', 'hierarchical (micro|structur)', 'biomimetic', 'bioinspired', 'shark-?skin', 'surface (morpholog|modification|structuring|oxidation)', 'micro-?structuring']
+    Fiber Gratings & Devices: ['fib(er|re) Bragg', '\bFBGs?\b', 'long[- ]period (fib(er|re) )?grating', '\bLPFGs?\b', 'in-?fib(er|re)', 'fib(er|re)[- ](tip|end|facet|probe)', 'lab[- ]on[- ]fib', 'hollow[- ]core fib']
+    Selective Etching & Microfluidics: ['selective (laser-induced |laser )?etching', '\bFLI?SE\b', '\bSLE\b', '\bFLICE\b', 'wet etching', 'chemical etching', 'microfluidic', 'microchannels?', 'lab-on-(a-)?chip', 'optofluidic']
+    Ultrafast Welding & Joining: ['weld', 'joining', 'joints?\b', 'brazing']
+    Bulk Modification & Nanocrystals: ['bulk modification', 'in-?volume', 'inside (glass|silicon|bulk|transparent)', 'internal (modification|micro)', 'refractive[- ]index (change|modification|engineering)', 'nanocrystals?', 'crystalli[sz]', 'nanovoid', 'microexplosion', 'microplasma', 'space-selective', 'Kerr self-focusing']
+    Micro-Optics & Metasurfaces: ['micro-?lens', '\bMLAs?\b', 'micro-?optic', 'metasurface', 'metalens', 'diffractive optical element', 'phase masks?', 'Fresnel', 'freeform', 'grating coupler', 'moir[eé] lens']
+    Laser-Induced Graphene & Carbon: ['laser-induced graphene', '\bLIG\b', 'carboni[sz]', 'carbon (layer|nanostructure|electrode)', 'graphene oxide', 'polyimide', 'Kapton']
+    Nanoparticles & Ablation in Liquids: ['ablation in (liquids?|water)', '\bPLAL\b', 'laser (synthesis|generation|fragmentation) of nanoparticles', 'nanoparticle (synthesis|generation|inks?)', 'laser-generated (nano)?particles']
+    Thin Films & 2D Materials: ['\bfilms?\b', 'monolayer', '2D materials?', 'two-dimensional (material|semiconductor)', 'MoS2', 'MoTe2', 'WSe2', '\bhBN\b', 'boron nitride', 'perovskite', 'lift-?off', 'resist\b']
+    Quantum Photonics & Color Centers: ['quantum (photonic|circuit|emitter|sensing|walk|gate|information)', 'colou?r cent', '\bNV\b', 'nitrogen-vacancy', 'single[- ]photon', 'entangl', 'qubit', 'spin defect', 'magnetometr']
+    Precision Micromachining & Trimming: ['trimm', 'mass (balanc|tuning)', '\bMEMS\b', 'hemispherical resonator', '\bHRG\b', 'micro-?machining', 'micro-?drilling', 'percussion drilling', 'micro-?holes?', 'foils?\b', '\bstents?\b', '\bNiTi\b|nitinol', 'lithium (metal )?anodes?', '(electrode|cathode|anode)s?\b.*\b(cutting|structuring|drill)', '(cutting|structuring|drilling)\w*\b.*\b(electrode|cathode|anode)s?\b', '\bdrilling\b', 'cryo-?(ET|electron)|lamellae?\b', 'paint stripping']
+    Other Processing: ['a^']          # fallback tag when nothing else matches (never matched by a pattern)
+  Methods:
+    Beam Shaping & SLM: ['Bessel', 'Airy beam', 'vortex', 'spatial light modulator', '\bSLMs?\b', 'hologra', 'multi-?foc', 'multi-?beam', 'parallel (processing|fabrication|writing)', 'beam shaping', 'flat-?top', 'top-?hat', 'axicon', 'interference (processing|lithography)', 'vector beam', 'polari[sz]ation convert', 'dynamic focusing', 'counter-?focus', 'double-?focus']
+    Spatiotemporal & Burst Control: ['burst', 'spatio-?temporal(ly)? (focus|control|shaping)', '\bSSTF\b', 'pulse (duration|width)', 'pulse shaping', 'temporal (pulse )?shaping', 'double[- ]pulse', 'pulse pairs?', 'repetition[- ]rate', 'energy accumulation', 'heat accumulation', 'multi-pulse']
+    Ultrafast Sources & Systems: ['mode-?lock', 'oscillator', 'laser (source|system)s?\b', 'coherent(ly)? combin', 'all-PM', 'fib(er|re) laser\b', 'integrated (mid-?infrared )?femtosecond lasers?', 'polygon scanner', 'scanning system']
+    Diagnostics & Pump-Probe: ['pump-?probe', 'time-resolved', 'transient (reflectivity|imaging)', 'shadowgraph', 'ultrafast imaging', 'in[- ]situ (monitoring|observation|measurement)', 'plasma emission', '\bICCD\b', 'process monitoring', 'depth monitoring']
+    Modeling & Simulation: ['two-temperature', '\bTTM\b', 'molecular dynamics', 'multiphysics', 'finite[- ]element', 'simulation', 'numerical (model|study)', 'ray-optics model', 'coupling model', 'statistical framework']
+    AI & Process Optimization: ['machine learning', 'deep learning', 'Gaussian process', 'Bayesian', 'surrogate model', 'data-driven', 'generative', 'AI-assisted', 'artificial intelligence', 'reinforcement learning', 'flow model', 'process (optimi[sz]ation|selection|window)']
+  Materials:
+    Glass & Silica: ['glass', 'fused silica', '\bsilica\b', 'borosilicate', 'chalcogenide', 'quartz', 'N-BK7', 'gallate', 'aluminosilicate']
+    Sapphire & Crystals: ['sapphire', 'lithium niobate', 'LiNbO3', '\bYAG\b', 'garnet', 'LiTaO3', 'single[- ]crystals?']
+    SiC & Wide-Bandgap: ['silicon carbide', '\bSiC\b', '4H-SiC', '\bGaN\b', 'gallium nitride', 'Ga2O3', '\bAlN\b', 'wide[- ]bandgap']
+    Diamond: ['diamond']
+    Silicon & Semiconductors: ['\bsilicon\b(?! (carbide|nitride|rubber|oil))', 'silicon-on-insulator', '\bSOI\b', 'GeSn', 'germanium', 'GaAs', '\bInP\b']
+    Metals & Alloys: ['\bmetals?\b', 'alloys?\b', 'steel', 'copper', 'alumin(i)?um', 'titanium', 'nickel', 'tungsten', 'molybdenum', 'tantalum', 'brass', 'zinc', '\bNiTi\b', 'lithium metal', 'platinum', 'gold']
+    Polymers & Resins: ['polymer', 'resins?\b', 'photoresist', 'PDMS', 'PMMA', 'polyimide', 'Kapton', 'hydrogel', 'silicone rubber', 'CFRP', 'polystyrene', 'elastomer']
+    Perovskites & 2D: ['perovskite', 'MoS2', 'MoTe2', 'WSe2', 'graphene', '\bhBN\b', 'boron nitride', '2D materials?', 'van der Waals']
+    Ceramics & Coatings: ['ceramic', 'coatings?\b', 'ZrB2', 'thermal barrier', '\bTBCs?\b', 'Y2O3', 'ZrO2']
+    Biological Tissue: ['tissue', '\bcells?\b', 'collagen', 'cornea', '\bbone\b', 'teeth|tooth|dental', '\bbrain\b', 'virus', 'bacteri', 'biops']
+  Applications:
+    Integrated Photonics & Telecom: ['telecom', 'C-band', 'coherent receiver', 'optical communication', 'photonic integrated', 'silicon photonic', 'optical hybrid', 'power splitter', 'interconnect', 'mid-?infrared photonic']
+    Quantum Technologies: ['quantum (photonic|circuit|sensing|computing|information|key)', 'magnetometr', 'single-photon', 'entangle', 'qubit', '\bNV\b']
+    Semiconductor & Packaging: ['wafers?', 'packaging', '\bTGVs?\b', 'interposer', 'transistor', '\bFETs?\b', 'photodetect', 'microelectronic', 'dicing']
+    Energy & Batteries: ['batter', 'anodes?\b', 'cathodes?\b', 'hydrogen evolution', '\bHER\b', 'water splitting', 'solar', 'photovoltaic', 'supercapacitor', 'desalination', 'evaporation']
+    Biomedical & Life Science: ['biomedical', 'implants?', 'cryo-?(ET|electron)', '\bdrug', 'biosens', 'antibacterial', 'scaffold', 'osseointegration', 'virus', 'microrobot', 'lamella', 'collagen']
+    Ophthalmology & Dentistry: ['cornea', 'corneal', 'cataract', 'keratoconus', 'ophthalm', 'refractive surgery', '\bLASIK\b', '\bSMILE\b', 'dental', 'dentistry', 'Bowman']
+    Sensing: ['sensors?\b', 'sensing', '\bSERS\b', 'magnetometr', 'detection limit', 'refractometer']
+    Thermal Management: ['heat (sink|pipe|transfer)', 'boiling', 'thermal management', 'cooling', 'thermal barrier', 'thermal cycling']
+    Aerospace & Nuclear: ['aerospace', 'aircraft', 'aeronaut', 'turbine', 'nuclear', 'gyroscope', '\bHRG\b', 'satellite', 'superalloy']
+    Imaging & Displays: ['display', 'image transmission', 'structural colou?r', '\bLEDs?\b', 'micro-?LED', 'endoscop', 'anti-?counterfeit']
+  Miscellaneous:
+    News & Highlights: ['a^']        # set by the editor
+    Jobs & Studentships: ['a^']      # set by the editor
+    Student Theses: ['\bthesis\b|dissertation']
+    Reviews: ['^review', '\breview of\b', 'a review', 'mini[- ]review', '\bperspective\b', 'tutorial', 'recent (advances|progress)', ': mechanism and applications', 'state of the art']
+
+# How many tags of each group a paper may carry (in this order), and the overall cap is 5
+category_limits: {Directions: 2, Methods: 1, Materials: 1, Applications: 1, Miscellaneous: 1}
+default_category: Other Processing
+
+# Fallback thumbnail glyph: the first entry whose category the paper carries
+glyphs:
+  - [Optical Computing, computing]
+  - [Optical Data Storage, storage]
+  - [Two-Photon Polymerization, tpp]
+  - [Quantum Photonics & Color Centers, quantum]
+  - [Waveguides & Photonic Chips, waveguide]
+  - [Fiber Gratings & Devices, fiber]
+  - [Selective Etching & Microfluidics, etch]
+  - [Ultrafast Welding & Joining, weld]
+  - [Micro-Optics & Metasurfaces, microoptics]
+  - [Laser-Induced Graphene & Carbon, carbon]
+  - [Nanoparticles & Ablation in Liquids, nano]
+  - [Surface Structuring & LIPSS, lipss]
+  - [Hard & Brittle Materials, dicing]
+  - [Bulk Modification & Nanocrystals, bulk]
+  - [Thin Films & 2D Materials, film]
+  - [Precision Micromachining & Trimming, drill]
+  - [Beam Shaping & SLM, beam]
+  - [Spatiotemporal & Burst Control, burst]
+  - [Ultrafast Sources & Systems, source]
+  - [Diagnostics & Pump-Probe, probe]
+  - [Modeling & Simulation, model]
+  - [AI & Process Optimization, ai]
+
+# Daily mode: how many days back each daily run looks. Europe PMC is searched by the date the record
+# entered the database (CREATION_DATE), Crossref by DOI registration date, so late-indexed papers are caught.
+daily_lookback_days: 3
+
+# How long the trimmed abstract shown on the site may be (characters)
+summary_max_chars: 700
