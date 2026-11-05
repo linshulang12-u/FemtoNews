@@ -1502,6 +1502,58 @@
       "source": "openalex"
     },
     {
+      "id": "10-3788-lpb-2027-10003-0f9f02",
+      "date": "2026-10-30",
+      "title": "Plasma-based backward Raman amplification of tunable short-wave infrared femtosecond lasers",
+      "authors": "Jiajun Li, Xianzhi Wang, Zhiyi Wei",
+      "institutions": [],
+      "journal": "Laser and Particle Beams",
+      "doi": "10.3788/lpb.2027.10003",
+      "url": "https://doi.org/10.3788/lpb.2027.10003",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Processing"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/laser-and-particle-beams.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Laser and Particle Beams"
+      },
+      "source": "openalex"
+    },
+    {
+      "id": "10-3788-lpb-2027-10001-856909",
+      "date": "2026-10-30",
+      "title": "Evolution mechanism of angular spectrum in terahertz radiation driven by high-power mid-infrared sub-picosecond lasers",
+      "authors": "Yaochong Chen, Xi Chen, Chunhua Zhao, Zhaoqiang Wang, Chenhui Lu, Yi Liu",
+      "institutions": [],
+      "journal": "Laser and Particle Beams",
+      "doi": "10.3788/lpb.2027.10001",
+      "url": "https://doi.org/10.3788/lpb.2027.10001",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Processing"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/laser-and-particle-beams.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Laser and Particle Beams"
+      },
+      "source": "openalex"
+    },
+    {
       "id": "10-1016-j-mattod-2026-103541-d91660",
       "date": "2026-10-29",
       "title": "Microstructure engineering of diamond via femtosecond laser machining",
@@ -2018,6 +2070,29 @@
       "glyph": "tpp",
       "summary": "This study demonstrates a single-step fabrication of blazed gratings on silicon substrates using direct laser greyscale lithography and aluminum coating. Three key parameters were studied for process optimization, i.e., the exposure dose of the photoresist, the focusing method, and the laser scan writing mode. We have shown that a bijective correspondence between dose and thickness ranging from 0 to 127 mJ/cm2, defined across 100 levels, enabled to obtain a linear photoresist thickness profile. Stitching artifacts were then eliminated using fine optical autofocus with overlap writing mode. …",
       "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1364-oe-613120-73e139",
+      "date": "2026-10-28",
+      "title": "Instantaneous one-dimensional velocity measurements of gas flow field under low-pressure conditions based on femtosecond laser-extended electrode discharge",
+      "authors": "Zheng Lu, Kun Li, Bo Li, Qiang Gao",
+      "institutions": [],
+      "journal": "Optics Express",
+      "doi": "10.1364/oe.613120",
+      "url": "https://doi.org/10.1364/oe.613120",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Diagnostics & Pump-Probe"
+      ],
+      "glyph": "probe",
+      "summary": "Accurate measurement of gas flow field velocity is crucial for revealing the dynamic characteristics of fluid evolution. Although femtosecond laser electronic excitation tagging (FLEET) has become a vital tool for gas flow velocimetry due to its non-intrusive and tracer-free advantages, its applicability is significantly compromised under low-pressure conditions due to severe signal attenuation. Here, we establish a research platform for velocity measurement under low-pressure conditions based on femtosecond laser-extended electrode discharge. …",
+      "why": "",
+      "tier": "notable",
       "pick": false,
       "feature": false,
       "fig": null,
@@ -2570,6 +2645,60 @@
       ],
       "glyph": "carbon",
       "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1016-j-optlastec-2026-116775-49c4b4",
+      "date": "2026-10-24",
+      "title": "Comparative study of second harmonic generation at 1030 nm in BiBO and LBO crystals using a 57 W picosecond laser",
+      "authors": "Huzefa Aliasger, Šimon Šatra, Ondřej Novák, Jiří Mužík, Michal Jelínek, Martin Smrž, Tomáš Mocek",
+      "institutions": [
+        "FZU - Institute of Physics of the Czech Academy of Sciences",
+        "Czech Technical University in Prague",
+        "Charles University"
+      ],
+      "journal": "Optics & Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.116775",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.116775",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Spatiotemporal & Burst Control"
+      ],
+      "glyph": "burst",
+      "summary": "We present a systematic experimental comparison of second-harmonic generation (SHG) in bismuth triborate (BiBO) and lithium triborate (LBO) nonlinear crystals, driven by a 1.3 ps, 91 kHz laser at 1030 nm with up to 57 W of average input power. Both crystals yielded 32 W of second harmonic (SH) output at 515 nm, corresponding to a conversion efficiency of 56%, which to the best of our knowledge represents the highest SH output power reported in the green spectral region using a BiBO crystal. Power dependence, long-term stability, beam quality, pulse duration, spectral properties, thermal effects, and angular acceptance bandwidth are characterized and directly compared for both crystals. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1016-j-injury-2026-113834-721420",
+      "date": "2026-10-24",
+      "title": "Comprehensive treatment approaches for traumatic tattoos: An integrative review",
+      "authors": "Josef Haik, Yossef Levi, Rachel Anne Kornhaber, Michelle L. Cleary, Dmitry Beylin, Sotirios Tasigiorgos, Moti Harats",
+      "institutions": [
+        "Sheba Medical Center",
+        "Adelaide University",
+        "The University of Adelaide"
+      ],
+      "journal": "Injury",
+      "doi": "10.1016/j.injury.2026.113834",
+      "url": "https://doi.org/10.1016/j.injury.2026.113834",
+      "oa": true,
+      "license": "CC BY-NC-ND",
+      "categories": [
+        "Hard & Brittle Materials",
+        "Sapphire & Crystals",
+        "Reviews"
+      ],
+      "glyph": "dicing",
+      "summary": "Background Traumatic tattoos result from an injury that drives external pigment into the dermis. They often affect exposed sites such as the face and extremities. Pigment may persist for years within the dermis, complicating management and limiting cosmetic outcomes. Consequently, no optimal treatment technique has been identified, and long-term data remain limited. Aim To synthesise evidence on treatments for traumatic tattoos and to evaluate effectiveness and outcomes over the past 25 years. Design: Integrative review with narrative synthesis following Whittemore and Knafl's five stages. …",
       "why": "",
       "pick": false,
       "feature": false,
@@ -3436,6 +3565,30 @@
       "source": "openalex"
     },
     {
+      "id": "10-1103-lmbs-lz7q-8c3a1b",
+      "date": "2026-10-19",
+      "title": "Depth-resolved magnetization dynamics in Fe thin films after ultrafast laser excitation",
+      "authors": "Valentin Chardonnet, Marcel Martin Hennes, Romain Jarrier, Renaud Delaunay, Nicolas Pierre Jaouen, Marion Kuhlmann, Cyril Léveillé, Clemens von Korff Schmising, Daniel Schick, Kelvin Yao, Xuan Liu, Gheorghe S. Chiuzbăian, Jan Lüning, Boris Vodungbo, Emmanuelle Jal",
+      "institutions": [],
+      "journal": "Physical review. B./Physical review. B",
+      "doi": "10.1103/lmbs-lz7q",
+      "url": "https://doi.org/10.1103/lmbs-lz7q",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Thin Films & 2D Materials",
+        "Diagnostics & Pump-Probe"
+      ],
+      "glyph": "film",
+      "summary": "We performed time-resolved x-ray resonant magnetic reflectivity measurements on a laser-excited ferromagnetic Fe thin film to simultaneously probe the transient magnetic and structural depth profiles with nanometer spatial and femtosecond temporal resolution. Our results show that during the first picoseconds after optical excitation, the magnetization of the Fe layer is strongly inhomogeneous, especially in the vicinity of the buried interface. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
       "id": "10-1016-j-apsusc-2026-168687-503b58",
       "date": "2026-10-18",
       "title": "Micro-groove interfaces architectured by femtosecond laser enabling coupled wetting and capillary dynamics in garnet-based solid-state lithium batteries",
@@ -3945,6 +4098,63 @@
       "source": "openalex"
     },
     {
+      "id": "10-3390-nano16201307-0e4d45",
+      "date": "2026-10-16",
+      "title": "Reconstruction of Acoustic Echoes and Their Effect on Brillouin Oscillations in Nanoscale Characterization of Supported Thin Films by Ultrafast Photoacoustics",
+      "authors": "Sergey A. Romashevskiy",
+      "institutions": [
+        "Joint Institute for High Temperatures"
+      ],
+      "journal": "Nanomaterials",
+      "doi": "10.3390/nano16201307",
+      "url": "https://doi.org/10.3390/nano16201307",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Thin Films & 2D Materials",
+        "Diagnostics & Pump-Probe",
+        "Glass & Silica"
+      ],
+      "glyph": "film",
+      "summary": "The paper presents an experimental and theoretical analysis of the effects accompanying the non-contact, non-destructive nanoscale characterization of thin-film metal–dielectric structures through the substrate, using high-amplitude picosecond acoustic pulses generated by an ultrafast laser. Time-resolved reflectivity changes ΔR(t)/R0 at 793 nm are measured in the picosecond time domain using an all-optical pump-probe setup with balanced, phase-sensitive detection tuned to 0.5 kHz. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-4103-ijo-ijo-1725-25-b96035",
+      "date": "2026-10-16",
+      "title": "Technique of intrastromal pocket creation in the Visumax Femtosecond Laser System – The Ganesh pocket",
+      "authors": "Sri Ganesh, Skanda Samak Sriganesh, Faiza Syed Jafar",
+      "institutions": [
+        "Nethradhama Superspeciality Eye Hospital"
+      ],
+      "journal": "Indian Journal of Ophthalmology",
+      "doi": "10.4103/ijo.ijo_1725_25",
+      "url": "https://doi.org/10.4103/ijo.ijo_1725_25",
+      "oa": true,
+      "license": "CC BY-NC-ND",
+      "categories": [
+        "Ultrafast Sources & Systems",
+        "Biological Tissue",
+        "Biomedical & Life Science"
+      ],
+      "glyph": "source",
+      "summary": "Intrastromal pocket creation for purposes of lenticule-assisted corneal refractive surgery in the treatment of high hyperopia, keratoconus, and corneal inlay implantation has shown promising results. Several femtosecond laser machines have preprogrammed software that aids in the creation of such an intrastromal pocket. The Visumax Femtosecond Laser System (FSL) (Carl Zeiss Meditec, Germany), however, does not, although it is an excellent system for lenticule extraction procedures such as ReLEX Small Incision Lenticule Extraction. Here, we describe a novel surgical technique using the Visumax FSL to create an intrastromal femto-pocket for purposes described above.",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/indian-journal-of-ophthalmology.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Indian Journal of Ophthalmology"
+      },
+      "source": "openalex"
+    },
+    {
       "id": "10-1016-j-surfin-2026-110968-eb7ad2",
       "date": "2026-10-15",
       "title": "Silver nano-hedgehogs: A femtosecond laser-printed platform for SERS biosensing",
@@ -4321,6 +4531,61 @@
       "source": "openalex"
     },
     {
+      "id": "10-1063-5-0344787-ee8df9",
+      "date": "2026-10-14",
+      "title": "Ultrafast spin-transfer dynamics and single-qubit logic gate design in monocyclic carbon rings with transition metal atoms adsorbed",
+      "authors": "Yan Wu, Shangjie Ma, Ronghua Chen, Shuai Xu, Yiming Zhang, Jing Liu, Chun Li, Georgios Lefkidis, Wolfgang Hübner, Wei Jin",
+      "institutions": [
+        "Shaanxi Normal University",
+        "Northwestern Polytechnical University",
+        "Xi'an University of Architecture and Technology"
+      ],
+      "journal": "The Journal of Chemical Physics",
+      "doi": "10.1063/5.0344787",
+      "url": "https://doi.org/10.1063/5.0344787",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Quantum Photonics & Color Centers",
+        "Metals & Alloys",
+        "Quantum Technologies"
+      ],
+      "glyph": "quantum",
+      "summary": "We present a first-principles study of ultrafast spin-transfer dynamics and single-qubit logic gate design in transition metal (TM) atom-adsorbed monocyclic carbon ring systems. The structure- and size-dependent features of geometries, electronic structures, and spin localizations are analyzed. Notably, the TM2-C4n+2 systems generally prefer out-of-plane configurations and exhibit localized states with spin localized singly on one TM atom or doubly on two TM atoms, rather than the carbon ring-related localized states found in the mostly coplanar TM-C4n+2 systems. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1186-s12886-026-05416-1-82c143",
+      "date": "2026-10-14",
+      "title": "Success of femtosecond laser-assisted deep anterior lamellar keratoplasty (Femto-DALK): a clinical case series of 42 eyes using an intraoperative optical coherence tomography (iOCT)-guided laser-generated pre-descemet tunnel",
+      "authors": "Nicola R. Otto, Friedrich Anton Steindor, G Geerling, Theo Guenter Seiler",
+      "institutions": [
+        "Düsseldorf University Hospital",
+        "Heinrich Heine University Düsseldorf",
+        "University Hospital of Bern"
+      ],
+      "journal": "BMC Ophthalmology",
+      "doi": "10.1186/s12886-026-05416-1",
+      "url": "https://doi.org/10.1186/s12886-026-05416-1",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Biomedical & Life Science"
+      ],
+      "glyph": "pulse",
+      "summary": "PURPOSE: To evaluate the success of Femto-DALK with an iOCT-guided generated intrastromal pre-Descemet tunnel. METHODS: This monocentric, retrospective study evaluated all patients treated with Femto-DALK between January 2020 and December 2023 at the Department of Ophthalmology at the University of Düsseldorf (Germany). The iOCT-guided tunnel was generated 30 microns anterior of Descemet's membrane. BB generation, surgery time and conversion to penetrating keratoplasty (PK) were analyzed. RESULTS: A total of 42 eyes of 41 patients were identified. BB creation was successful in 78.6% of cases. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
       "id": "10-1186-s43074-026-00281-z-31ddfc",
       "date": "2026-10-13",
       "title": "Dynamic feature-size tuning in femtosecond-laser nanofabrication with phase-modulated radially polarized beams",
@@ -4690,6 +4955,33 @@
       "source": "openalex"
     },
     {
+      "id": "10-3390-nano16201291-1e0213",
+      "date": "2026-10-12",
+      "title": "Modelling Terahertz Wave Generation in InAs Quantum-Dot Containing GaAs-Based Photoconductive Antenna",
+      "authors": "Osamu Wada, Yasuo Minami, Takahiro Kitada, Toshiyuki Kaizu, Yukihiro Harada, Takashi Kita",
+      "institutions": [
+        "Kobe University",
+        "Nihon University",
+        "National Institute of Technology, Matsue College"
+      ],
+      "journal": "Nanomaterials",
+      "doi": "10.3390/nano16201291",
+      "url": "https://doi.org/10.3390/nano16201291",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Modeling & Simulation",
+        "Silicon & Semiconductors"
+      ],
+      "glyph": "model",
+      "summary": "InAs quantum-dot-containing GaAs-based photoconductive antenna (PCA) devices are promising for terahertz (THz) generation under below-bandgap excitation by ultrafast laser pulses. This paper describes the results of rate equation analyses of these devices by assuming the two-step photocarrier generation via midgap states in GaAs and carrier capture into the quantum dots. In the present simulation model, the Coulomb space charge screening effect and the radiated THz field screening effect are taken into consideration. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
       "id": "10-3390-ma19204286-60b6ca",
       "date": "2026-10-11",
       "title": "Interfacial Characteristics and Metallurgical Mechanism of Sapphire/TC4 Alloy Joints Produced by Femtosecond Laser Welding",
@@ -5044,6 +5336,81 @@
       "source": "openalex"
     },
     {
+      "id": "10-48550-arxiv-2610-13251-516ef0",
+      "date": "2026-10-09",
+      "title": "Ultrafast laser-stimulated field emission from a metal: a non-equilibrium Green's functions approach",
+      "authors": "Luciano Jacopo D’Onofrio, Adolfo Avella, Martin Eckstein",
+      "institutions": [
+        "Universität Hamburg",
+        "Hamburg Centre for Ultrafast Imaging"
+      ],
+      "journal": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2610.13251",
+      "url": "https://doi.org/10.48550/arxiv.2610.13251",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Metals & Alloys"
+      ],
+      "glyph": "pulse",
+      "summary": "Ultrafast laser-assisted field emission from metallic nanotips is a promising route for generating coherent electron pulses. However, existing theoretical models often neglect many-body strong correlation effects in the emitter's electronic structure and its response to the optical field. In this work, we propose a theoretical framework based on the non-equilibrium Green's function formalism to simulate the out-of-equilibrium electron dynamics across a strongly driven matter-vacuum interface, in a one-dimensional model. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-3390-photonics13100947-e4d71f",
+      "date": "2026-10-09",
+      "title": "Linear-Chirp Instability Measurement of Ultrashort Laser Pulse Trains Using Convolutional Neural Networks",
+      "authors": "Soroush D. Khosravi, Joshua Houseman, Finley Romano, Om Jethwa, Rick P. Trebino",
+      "institutions": [
+        "Pennsylvania State University",
+        "Georgia Institute of Technology"
+      ],
+      "journal": "Photonics",
+      "doi": "10.3390/photonics13100947",
+      "url": "https://doi.org/10.3390/photonics13100947",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "AI & Process Optimization"
+      ],
+      "glyph": "ai",
+      "summary": "We present a novel deep learning-based technique for measuring linear-chirp instability of ultrashort laser pulse trains directly from their Frequency-Resolved Optical Gating (FROG) traces. This approach requires neither an iterative retrieval algorithm nor pre- or post-processing steps, enabling real-time measurements. Although our proof-of-concept convolutional neural networks (CNNs) are moderately deep and trained on compact datasets, they demonstrate resilience to significant additive and multiplicative noise and high robustness across a wide range of laser pulse parameter variations. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-7759-cureus-117667-21a5ae",
+      "date": "2026-10-09",
+      "title": "The Role of a 1064-nm Picosecond Laser in Treating Prolonged Bruising Secondary to Liquid Polycaprolactone Injection",
+      "authors": "Zenus Saleh",
+      "institutions": [
+        "Soliman Fakeeh Hospital"
+      ],
+      "journal": "Cureus",
+      "doi": "10.7759/cureus.117667",
+      "url": "https://doi.org/10.7759/cureus.117667",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Biomedical & Life Science"
+      ],
+      "glyph": "pulse",
+      "summary": "Liquid-form polycaprolactone (PCL) is an increasingly utilized dermal biostimulator in aesthetic dermatology.We report the case of a 72-year-old man who developed persistent infraorbital bruising following bilateral tear trough injection of liquid PCL.Owing to bruising persisting over six weeks, the patient underwent four weekly sessions of long-pulsed 1064-nm Nd laser therapy with minimal improvement.Subsequently, treatment with a 1064-nm picosecond laser was initiated, followed by resolution of the bruising after two sessions.To our knowledge, this represents the eighth reported case of prolonged bruising after liquid PCL injection and the sixth involving the tear trough region.We …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
       "id": "10-1016-j-surfin-2026-110639-d1460c",
       "date": "2026-10-08",
       "title": "Femtosecond laser burst ablation of vanadium for pulsed laser deposition",
@@ -5283,6 +5650,30 @@
       "source": "openalex"
     },
     {
+      "id": "10-1364-ome-607229-84bbc2",
+      "date": "2026-10-08",
+      "title": "Photonically enabled coherent spatiotemporal focusing via time-reversal for wideband communications [Invited]",
+      "authors": "Md Saheed Ullah, Shadia Islam Chowdhury, Shi Shouyuan, Janusz A. Murakowski, Garrett J. Schneider, Xiao-Feng Qi, Dennis W. Prather",
+      "institutions": [
+        "Phase Sensitive Innovations (United States)"
+      ],
+      "journal": "Optical Materials Express",
+      "doi": "10.1364/ome.607229",
+      "url": "https://doi.org/10.1364/ome.607229",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Spatiotemporal & Burst Control"
+      ],
+      "glyph": "burst",
+      "summary": "Time-reversal (TR) signal processing is a promising approach for mitigating multipath propagation effects in wideband wireless systems by leveraging channel reciprocity to pre-compensate for propagation-induced symbol delays, phase misalignment, and interference at the transmitter. This enables temporal compression at the receiver, resulting in the constructive combination of multipath components, reduced inter-symbol interference (ISI), and improved spatial focusing, while shifting the signal processing burden away from the receiver. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
       "id": "10-48550-arxiv-2610-09435-e25746",
       "date": "2026-10-07",
       "title": "Compact Fully Integrated Alignment-Free and Linearly Polarized Ho3+ Single-Frequency Waveguide Laser",
@@ -5424,6 +5815,58 @@
       "source": "openalex"
     },
     {
+      "id": "10-48550-arxiv-2610-08223-206afd",
+      "date": "2026-10-06",
+      "title": "In-line Dispersion Control of Femtosecond Laser Pulses by Multilayer Huygens' Metasurfaces",
+      "authors": "Anna Fitriana, Katsuya Tanaka, Roland Schiek, Thomas Perstch, Dragomir N. Neshev, Isabelle Staude",
+      "institutions": [
+        "Friedrich Schiller University Jena"
+      ],
+      "journal": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2610.08223",
+      "url": "https://doi.org/10.48550/arxiv.2610.08223",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Micro-Optics & Metasurfaces",
+        "Integrated Photonics & Telecom"
+      ],
+      "glyph": "microoptics",
+      "summary": "Dispersion is a key limiting factor in ultrafast systems as it modifies the temporal structure of ultrashort optical pulses. Conventional dispersion compensation techniques, though widely used, rely on a combination of several bulky optical components and complex, long propagation paths, posing challenges for integration into compact photonic platforms. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-26434-chemrxiv-15009965-v1-b312a9",
+      "date": "2026-10-06",
+      "title": "Laser ablation rapid evaporative ionisation mass spectrometry imaging with few-micrometer sampling pixels",
+      "authors": "Yu Wang, Ronan A. Battle, William J. C. Francis, Lucy Noyes, Daniel Simon, Yayue Song, Yuchen Xiang, Stefania Maneta Stavrakaki, Duncan Roberts, Timothy H. Runcorn, Stefan Antonowicz, Simone Di Giovanni, Lauren Ford, Zoltán Takáts, R. Murray",
+      "institutions": [
+        "Imperial College London",
+        "University of Regensburg"
+      ],
+      "journal": "ChemRxiv",
+      "doi": "10.26434/chemrxiv.15009965/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15009965/v1",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Spatiotemporal & Burst Control",
+        "Biological Tissue"
+      ],
+      "glyph": "burst",
+      "summary": "Achieving sub-cellular resolution in ambient, matrix-free mass spectrometry imaging (MSI) remains challenging because reducing the sampling area often compromises ion yield and image fidelity. Here, we demonstrate an infrared laser–driven ambient MSI platform that mitigates these limitations through low-fluence, picosecond pulsed, highrepetition-rate laser ablation with a custom 2.94 μm light source with near-diffraction limited beam quality. This approach produces well-confined ablation features with diameters of 5μm to 10 μm. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
       "id": "10-1364-ol-608488-3c0353",
       "date": "2026-09-14",
       "title": "Femtosecond laser integrating an optical diffractive neural network for air-core fiber image transmission",
@@ -5452,30 +5895,13 @@
   ],
   "removed": [
     "10-1007-s40964-026-02007-w-8fe76c",
-    "10-1016-j-injury-2026-113834-721420",
     "10-1016-j-mtcomm-2026-116311-d21594",
     "10-1016-j-nxnano-2026-100824-7d8f19",
-    "10-1016-j-optlastec-2026-116775-49c4b4",
     "10-1021-acsomega-6c09304-170d69",
     "10-1038-s41467-026-78945-4-a9c70e",
-    "10-1063-5-0344787-ee8df9",
-    "10-1103-lmbs-lz7q-8c3a1b",
     "10-1109-lpt-2026-3740928-ddcd8a",
-    "10-1186-s12886-026-05416-1-82c143",
-    "10-1364-oe-613120-73e139",
-    "10-1364-ome-607229-84bbc2",
-    "10-26434-chemrxiv-15009965-v1-b312a9",
     "10-26434-chemrxiv-15011543-v1-e54a61",
-    "10-3390-mi17111231-57918b",
-    "10-3390-nano16201291-1e0213",
-    "10-3390-nano16201307-0e4d45",
-    "10-3390-photonics13100947-e4d71f",
-    "10-3788-lpb-2027-10001-856909",
-    "10-3788-lpb-2027-10003-0f9f02",
-    "10-4103-ijo-ijo-1725-25-b96035",
-    "10-48550-arxiv-2610-08223-206afd",
-    "10-48550-arxiv-2610-13251-516ef0",
-    "10-7759-cureus-117667-21a5ae"
+    "10-3390-mi17111231-57918b"
   ],
   "curated": "2026-11-05",
   "updated": "2026-11-05"
