@@ -608,3 +608,28 @@ def test_standalone_page_embeds_all_issues(tmp_path):
     html = out.read_text(encoding="utf-8")
     assert "window.FEMTO_DATA = {" in html and "<!--FEMTO_DATA-->" not in html
     assert html.count("</script>") == (root / "index.html").read_text(encoding="utf-8").count("</script>") + 1
+
+
+QUANTUM_DEVICES = [
+    ("A low-loss, 24-mode laser-written universal photonic processor in a glass-based platform",
+     "We report a reconfigurable interferometer for multiphoton experiments.", "Quantum Photonics & Color Centers"),
+    ("Experimental quantum walks of correlated photons in a three-dimensional lattice",
+     "Photon pairs propagate in laser-written waveguide arrays in borosilicate glass.", "Quantum Photonics & Color Centers"),
+    ("Two-qubit quantum photonic processor manufactured by femtosecond laser writing", "", "Quantum Photonics & Color Centers"),
+    ("Microfabrication of a Paul trap chip in fused silica",
+     "Electrodes are formed after selective laser etching of the glass substrate.", "Quantum Photonics & Color Centers"),
+    ("Deterministic creation of nitrogen-vacancy centres in diamond",
+     "Laser writing of NV centres with sub-micrometre placement for magnetometry.", "Quantum Photonics & Color Centers"),
+]
+
+
+@pytest.mark.parametrize("title,abstract,cat", QUANTUM_DEVICES, ids=[t[0][:30] for t in QUANTUM_DEVICES])
+def test_quantum_device_papers_are_kept_and_tagged(title, abstract, cat):
+    rec = {"title": title, "abstract": abstract}
+    assert vs.is_relevant(rec, CFG), title
+    assert cat in vs.categorize(rec, CFG)
+
+
+def test_quantum_paper_without_laser_fabrication_is_not_kept():
+    rec = {"title": "Boson sampling with squeezed light in a superconducting circuit", "abstract": "We use a cryogenic chip."}
+    assert not vs.is_relevant(rec, CFG)

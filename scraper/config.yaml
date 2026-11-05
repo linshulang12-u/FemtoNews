@@ -56,6 +56,8 @@ strong_include:
   - 'ultrafast laser (weld|writ|inscri|micromachin|nanostructur|process)'
   - '(femto|pico)second[- ]laser (micro|nano)?-?(machin|fabricat|ablat|process|structur|textur|inscri|drill|cut|weld|modif|irradiat|pattern|print)'
   - 'stealth dicing'
+  - '\blaser[- ](written|inscribed|micromachined)\b|ultrafast laser inscription|femtosecond laser micromachining|selective laser etching'
+  - 'laser (writing|written|annealing|activation) of (single )?(colou?r cent|NV|nitrogen-vacancy|vacanc|spin defect|quantum emitter)'
   - '(GHz|MHz)[- ]burst'
   - 'spatiotemporal focusing'
 
@@ -286,6 +288,14 @@ openalex_terms:
   - laser-induced graphene
   - laser micromachining
   - fiber Bragg grating inscription
+  - laser-written
+  - laser-inscribed
+  - ultrafast laser inscription
+  - femtosecond laser micromachining
+  - laser-written photonic chip quantum
+  - integrated quantum photonics glass waveguide
+  - selective laser etching ion trap
+  - laser writing color centers
 # OpenAlex is searched by publication date, so it looks back further to catch late-indexed papers
 openalex_lookback_days: 30
 
@@ -309,6 +319,9 @@ crossref_queries:
   - burst mode ultrashort pulse
   - Bessel beam laser cutting
   - laser ablation in liquid nanoparticles
+  - laser-written quantum photonic chip
+  - femtosecond laser written integrated quantum photonics
+  - laser written color centers
 
 # arXiv abstract search terms
 arxiv_terms:
@@ -327,6 +340,12 @@ arxiv_terms:
   - '"spatiotemporal focusing"'
   - '"laser-induced periodic"'
   - '"burst mode"'
+  - '"laser-inscribed"'
+  - '"laser inscription"'
+  - '"laser micromachining"'
+  - '"laser micromachined"'
+  - '"selective laser etching"'
+  - '"laser writing of color centers"'
 
 arxiv_categories: [physics.optics, physics.app-ph, cond-mat.mtrl-sci, physics.ins-det, quant-ph, cond-mat.mes-hall]
 
@@ -350,6 +369,7 @@ journal_covers: {}
 # Group names and their order must match the site's GROUPS (index.html).
 categories:
   Directions:
+    Quantum Photonics & Color Centers: ['quantum (photonic|circuit|emitter|sensing|walk|gate|information|memor\w*|interference|state|optic|light|key|simulat\w*|processor|comput\w*|network|repeater|frequency conversion)', 'colou?r cent', '\bNV\b', 'nitrogen-vacancy', 'single[- ]photons?', 'photon pairs?', 'entangl', 'qubit', 'qudit', 'spin defect', 'magnetometr', 'boson sampling', 'Hong[- ]Ou[- ]Mandel', 'squeez\w* (light|state|vacuum)', '(ion|atom) traps?', 'trapped[- ](ion|atom)', 'Paul (trap|wheel)', 'atom chips?', 'Bell states?', 'universal photonic processor']
     Hard & Brittle Materials: ['(sapphire|silicon carbide|\bSiC\b|4H-SiC|diamond|glass|fused silica|ceramics?|\bGaN\b|Ga2O3|quartz|brittle|wafers?)\W+(\w+\W+){0,5}\b(cut|drill|dic|slic|thin|machin|ablat|groov|holes?\b|vias?\b|scrib|polish|separat|crack)', '\b(cut|drill|dic|slic|thin|machin|ablat|groov|scrib|polish|separat|process)\w*\W+(\w+\W+){0,5}(sapphire|silicon carbide|\bSiC\b|4H-SiC|diamond|glass|fused silica|ceramics?|\bGaN\b|wafers?)', 'stealth dicing|laser slicing|through[- ]glass vias?|\bTGVs?\b|hard[- ](and[- ])?brittle']
     Waveguides & Photonic Chips: ['waveguide', 'photonic (chip|circuit|lattice|integrated)', 'integrated photonic', 'directional coupler', 'Y-junction', 'Bloch oscillation', 'photonic lantern', 'optical hybrid', 'power splitter']
     Two-Photon Polymerization: ['two-photon (induced )?(polymeri|lithograph|direct laser writing|3D print|reduction)', 'multi-?photon (lithograph|polymeri|fabricat|3D print)', '\b2PP\b', '3D nano-?print', 'nanoprint', 'photoresists?', 'volumetric (additive|printing)']
@@ -364,7 +384,6 @@ categories:
     Laser-Induced Graphene & Carbon: ['laser-induced graphene', '\bLIG\b', 'carboni[sz]', 'carbon (layer|nanostructure|electrode)', 'graphene oxide', 'polyimide', 'Kapton']
     Nanoparticles & Ablation in Liquids: ['ablation in (liquids?|water)', '\bPLAL\b', 'laser (synthesis|generation|fragmentation) of nanoparticles', 'nanoparticle (synthesis|generation|inks?)', 'laser-generated (nano)?particles']
     Thin Films & 2D Materials: ['\bfilms?\b', 'monolayer', '2D materials?', 'two-dimensional (material|semiconductor)', 'MoS2', 'MoTe2', 'WSe2', '\bhBN\b', 'boron nitride', 'perovskite', 'lift-?off', 'resist\b']
-    Quantum Photonics & Color Centers: ['quantum (photonic|circuit|emitter|sensing|walk|gate|information)', 'colou?r cent', '\bNV\b', 'nitrogen-vacancy', 'single[- ]photon', 'entangl', 'qubit', 'spin defect', 'magnetometr']
     Precision Micromachining & Trimming: ['trimm', 'mass (balanc|tuning)', '\bMEMS\b', 'hemispherical resonator', '\bHRG\b', 'micro-?machining', 'micro-?drilling', 'percussion drilling', 'micro-?holes?', 'foils?\b', '\bstents?\b', '\bNiTi\b|nitinol', 'lithium (metal )?anodes?', '(electrode|cathode|anode)s?\b.*\b(cutting|structuring|drill)', '(cutting|structuring|drilling)\w*\b.*\b(electrode|cathode|anode)s?\b', '\bdrilling\b', 'cryo-?(ET|electron)|lamellae?\b', 'paint stripping']
     Other Processing: ['a^']          # fallback tag when nothing else matches (never matched by a pattern)
   Methods:
@@ -386,8 +405,8 @@ categories:
     Ceramics & Coatings: ['ceramic', 'coatings?\b', 'ZrB2', 'thermal barrier', '\bTBCs?\b', 'Y2O3', 'ZrO2']
     Biological Tissue: ['tissue', '\bcells?\b', 'collagen', 'cornea', '\bbone\b', 'teeth|tooth|dental', '\bbrain\b', 'virus', 'bacteri', 'biops']
   Applications:
+    Quantum Technologies: ['quantum (photonic|circuit|sensing|computing|information|key|memor\w*|simulat\w*|processor|network|communication)', 'magnetometr', 'single-photon', 'entangle', 'qubit', '\bNV\b', 'boson sampling', '(ion|atom) traps?', 'trapped[- ](ion|atom)', 'Paul (trap|wheel)']
     Integrated Photonics & Telecom: ['telecom', 'C-band', 'coherent receiver', 'optical communication', 'photonic integrated', 'silicon photonic', 'optical hybrid', 'power splitter', 'interconnect', 'mid-?infrared photonic']
-    Quantum Technologies: ['quantum (photonic|circuit|sensing|computing|information|key)', 'magnetometr', 'single-photon', 'entangle', 'qubit', '\bNV\b']
     Semiconductor & Packaging: ['wafers?', 'packaging', '\bTGVs?\b', 'interposer', 'transistor', '\bFETs?\b', 'photodetect', 'microelectronic', 'dicing']
     Energy & Batteries: ['batter', 'anodes?\b', 'cathodes?\b', 'hydrogen evolution', '\bHER\b', 'water splitting', 'solar', 'photovoltaic', 'supercapacitor', 'desalination', 'evaporation']
     Biomedical & Life Science: ['biomedical', 'implants?', 'cryo-?(ET|electron)', '\bdrug', 'biosens', 'antibacterial', 'scaffold', 'osseointegration', 'virus', 'microrobot', 'lamella', 'collagen']

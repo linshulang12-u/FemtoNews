@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "23 22 * * *"     # 22:23 UTC = 06:23 Singapore time, every day
   workflow_dispatch:
+  push:                       # adding DOIs to data/inbox.txt runs a crawl straight away
+    branches: [main]
+    paths: ["data/inbox.txt"]
 
 permissions:
   contents: write
@@ -40,6 +43,10 @@ jobs:
         run: |
           python scraper/femtonews_scraper.py --daily | tee scrape-output.txt
           grep -E '^(ISSUE_ID|ISSUE_NUMBER|ADDED)=' scrape-output.txt >> "$GITHUB_OUTPUT"
+          if [ "${{ github.event_name }}" = "push" ]; then
+            # started by an inbox edit: also fill in thumbnails the editor's hand-added papers are missing
+            python scraper/femtonews_scraper.py --refresh-figures --issue-date "$(sed -n 's/^ISSUE_ID=//p' scrape-output.txt)" > /dev/null || true
+          fi
           python scraper/build_standalone.py --asset-base "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
 
       - name: Commit to main
@@ -57,6 +64,7 @@ jobs:
             exit 0
           fi
           git commit -m "Daily update $(TZ=Asia/Singapore date +%F): +${ADDED} papers in issue ${ISSUE_ID}"
+          git pull --rebase --autostash origin main || true
           git push
           echo "changed=true" >> "$GITHUB_OUTPUT"
 

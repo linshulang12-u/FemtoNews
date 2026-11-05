@@ -4490,12 +4490,12 @@
       "oa": false,
       "license": "",
       "categories": [
+        "Quantum Photonics & Color Centers",
         "Hard & Brittle Materials",
-        "Selective Etching & Microfluidics",
         "Glass & Silica",
-        "Integrated Photonics & Telecom"
+        "Quantum Technologies"
       ],
-      "glyph": "etch",
+      "glyph": "quantum",
       "summary": "Through-substrate interconnects are a key technology for scaling surface-electrode ion traps (SEITs) toward large electrode counts and complex architectures. Dielectric substrates such as fused silica offer superior RF performance compared to silicon, but the reliable fabrication of void-free through-glass vias (TGVs) remains challenging. In this work, we demonstrate a SEIT fabricated on a fused silica substrate incorporating TGVs. The via-holes are formed using Selective Laser-Induced Etching and subsequently metallized with gold by electroplating. …",
       "why": "",
       "pick": false,
@@ -5744,10 +5744,11 @@
       "license": "",
       "categories": [
         "Selective Etching & Microfluidics",
+        "Quantum Photonics & Color Centers",
         "Glass & Silica",
-        "Semiconductor & Packaging"
+        "Quantum Technologies"
       ],
-      "glyph": "etch",
+      "glyph": "quantum",
       "summary": "We present a rapid, mask-free fabrication workflow for the Paul wheel trap chip based on selective laser etching (SLE) of fused silica. The complete process - femtosecond laser writing, wet-chemical etching in KOH (~230 μm/h, releasing the trap geometry from a 500 μm wafer in approximately 2 h), RF magnetron sputtering of silver electrodes, and direct femtosecond laser ablation for electrode patterning - is carried out in-house, bypassing photolithographic processing and custom shadow masks entirely. Nine chips per 4-inch wafer can be produced in a single working day, reducing the fabrication lead time by more than one order of magnitude relative to the outsourced CVD diamond design. …",
       "why": "",
       "tier": "notable",

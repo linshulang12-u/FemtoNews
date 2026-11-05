@@ -62,13 +62,14 @@
 
 **手动补抓**：*Actions → Manual run (draft PR) → Run workflow*，可补抓某段时间，或给某一期补缩略图（勾选 `refresh_figures`），结果以 PR 形式给你审核。
 
-**投稿 / 手动加文章**：把 DOI 一行一个写进 `data/inbox.txt`，下次抓取时会加入当期（不受关键词过滤），处理完自动从 inbox 删除。
+**投稿 / 手动加文章**：把 DOI 一行一个写进 `data/inbox.txt` 并保存，会**立即**触发一次抓取（不受关键词过滤），顺便补缩略图，处理完自动从 inbox 删除。
 
 ## 抓取范围与去杂
 
 全部在 `scraper/config.yaml`：
 
 - **收录**（`include` / `strong_include`）：标题命中即收录。专门工艺名（飞秒激光直写、laser-written waveguide、双光子聚合、LIPSS、选择性激光诱导刻蚀、5D 存储、隐形切割、GHz/MHz burst、时空聚焦等）在摘要里出现一次即收录；泛泛的 “femtosecond laser / ultrafast laser” 只在标题里算数（`title_only`），避免材料论文里一句 “用飞秒激光清洗” 就被收进来。
+- **器件与量子实验**：摘要里出现一次 laser-written / laser-inscribed / ultrafast laser inscription / femtosecond laser micromachining / selective laser etching，或激光写入色心，即收录；量子类标签（玻色采样、量子行走、量子存储、离子阱 / Paul 阱芯片、NV 色心、纠缠光子等）优先显示。摘要里完全不提激光加工的量子论文抓不到，可以把 DOI 写进 inbox。
 - **方法类必收**（`technique`）：出现超快激光工艺词且有方法学信号（“we develop/demonstrate … strategy / platform / printer …”，或加工动词 + 波导、光纤光栅、超表面、微透镜、存储、量子、蓝宝石、SiC、金刚石、玻璃等）的论文一律保留，强信号的直接上首页 Selected Papers。
 - **排除**（`exclude`、`exclude_title`、`soft_exclude`）：LA-ICP-MS / LIBS 等分析用激光烧蚀、临床射频/静脉消融、阿秒与高次谐波、尾波加速等强场物理、双光子荧光成像、选区激光熔化 / 粉末床熔融与激光熔覆等宏观增材；超快磁学、瞬态吸收、锁模光纤激光、超连续谱等 “超快但不加工” 的论文，除非标题里有加工词。
 - **常规临床应用**（`routine_application`）：飞秒激光辅助白内障 / LASIK / SMILE 的临床随访类论文不收；讲激光工艺本身的眼科论文照收。

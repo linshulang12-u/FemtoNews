@@ -1,1 +1,2 @@
-# One DOI per line. The next daily run adds these papers to the current issue (no keyword filter) and removes them from this file.
+# One DOI per line (a comment after # is fine). Saving this file on GitHub starts a crawl straight away: each paper
+# is added to the current issue regardless of the keyword filter, its line is removed, and missing thumbnails are fetched.
