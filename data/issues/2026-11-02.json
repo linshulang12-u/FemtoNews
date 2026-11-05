@@ -56,7 +56,11 @@
       "glyph": "tpp",
       "summary": "Printing a hybrid preform by 2PP and converting it with heat is the main route to 3D-printed glass, ceramic and metal microstructures, yet the conversion is poorly understood. Starting from a POSS-based resist, the authors follow the transformation into silica glass with correlated thermal, mechanical and spectroscopic measurements, linking microstructure to shrinkage, colour and mechanics. Depending on the end point, parts range from rubber-like to ceramic-hard, with tensile strength up to 6 GPa.",
       "why": "A process map for turning 2PP prints into silica glass, needed for printed micro-optics that must survive heat and high laser power.",
-      "fig": null,
+      "fig": {
+        "src": "figs/10-1038-s43246-026-01420-6-ba9e13.jpg",
+        "kind": "figure",
+        "credit": "CC BY · via nature.com"
+      },
       "source": "editor",
       "reviewed": true,
       "pick": true,
@@ -172,7 +176,11 @@
       "glyph": "burst",
       "summary": "Lithium metal sticks to punch dies and blades, so solid-state battery anodes need non-contact cutting. Remote femtosecond cutting of free-standing lithium foil was tested with two spot sizes in pulsed and burst modes. With the small spot, burst mode raised the cutting speed from 1.0 to 7.0 m/s; with the larger spot both modes reached 4.0 m/s. A two-temperature model reproduces the burst gain at fixed average power, and instability at small spots is traced to molten lithium closing the kerf.",
       "why": "Metre-per-second speeds make ultrafast lasers a realistic production tool for lithium-metal anodes.",
-      "fig": null,
+      "fig": {
+        "src": "covers/journal-of-physics-d-applied-physics.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Journal of Physics D: Applied Physics"
+      },
       "source": "editor",
       "reviewed": true,
       "pick": true,
@@ -314,7 +322,11 @@
       "glyph": "tpp",
       "summary": "Tomographic volumetric additive manufacturing (TVAM) cures millimetre-to-centimetre parts in seconds at tens-of-micrometre resolution, while 2PP reaches sub-micrometre detail only over sub-millimetre fields. This printer runs both on one platform with one resin: TVAM first builds a millimetre-scale body on a glass rod, then 2PP adds fine features inside or on its surface, with no resin change or intermediate post-processing. The TVAM pre-polymerised volume also eases the following 2PP step. Printed parts span three orders of magnitude in scale and carry 830 nm details.",
       "why": "Puts sub-micrometre resolution only where a part needs it, the practical route to millimetre-scale micro-optics and scaffolds without days of 2PP writing.",
-      "fig": null,
+      "fig": {
+        "src": "covers/light-advanced-manufacturing.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Light: Advanced Manufacturing"
+      },
       "source": "editor",
       "reviewed": true,
       "pick": true,
@@ -431,6 +443,58 @@
       "source": "crossref"
     },
     {
+      "id": "10-1364-oe-615355-0b2a59",
+      "date": "2026-11-05",
+      "title": "Physics-Informed GPR with Deep Kernel Learning for Femtosecond Laser Machining of Fused Silica Microchannels",
+      "authors": "Chaowei Sun, li runsheng, Guo weibo, zhang jiakui, Liu Haoran, Xu zimeng, Hongxing Xu",
+      "institutions": [],
+      "journal": "Optics Express",
+      "doi": "10.1364/oe.615355",
+      "url": "https://doi.org/10.1364/oe.615355",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Hard & Brittle Materials",
+        "Selective Etching & Microfluidics",
+        "Glass & Silica"
+      ],
+      "glyph": "etch",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1007-s41204-026-00627-9-77e8bd",
+      "date": "2026-11-05",
+      "title": "Synthesis and characterization of ZnO–SnO₂ nanocomposites prepared by pulsed laser ablation in liquid for photocatalytic and antibacterial applications",
+      "authors": "Ali Sh. Maktoof, Ibtihal Talib Najm, Mohammed H. Jawad, Kadhim A. Aadim, Ghaith H. Jihad, Ghouson H. Mohammed",
+      "institutions": [],
+      "journal": "Nanotechnology for Environmental Engineering",
+      "doi": "10.1007/s41204-026-00627-9",
+      "url": "https://doi.org/10.1007/s41204-026-00627-9",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Nanoparticles & Ablation in Liquids",
+        "Biological Tissue",
+        "Biomedical & Life Science"
+      ],
+      "glyph": "nano",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/nanotechnology-for-environmental-engineering.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Nanotechnology for Environmental Engineering"
+      },
+      "source": "crossref"
+    },
+    {
       "id": "10-1364-oe-615691-736ed6",
       "date": "2026-11-04",
       "title": "Femtosecond laser direct writing of tapered waveguides in Tm:YAP crystal",
@@ -479,6 +543,31 @@
       "feature": false,
       "fig": null,
       "source": "crossref"
+    },
+    {
+      "id": "10-48550-arxiv-2611-06167-dab53c",
+      "date": "2026-11-04",
+      "title": "BIC-Engineered Silicon Nitride Microring Resonators Enabled by an Etch-Free Laser-Writing Approach",
+      "authors": "Leila Hajshahvaladi, Mohammad Amin Salmani, Media Abbasi, Mobin Yaghoobi, Mohammad Asgari, Gholam-Mohammad Parsanasab",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2611.06167",
+      "url": "https://arxiv.org/abs/2611.06167",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Waveguides & Photonic Chips",
+        "Thin Films & 2D Materials",
+        "Modeling & Simulation"
+      ],
+      "glyph": "waveguide",
+      "summary": "We report the initial experimental demonstration of a complementary, etch-free approach with fewer fabrication steps, in useful SU-8 ridges written by direct ultraviolet laser lithography on an unpatterned silicon nitride film define waveguides and microring resonators. Because the nitride film is never patterned, scattering at patterned nitride sidewalls does not arise, and the remaining radiative loss is engineered by design. The guided transverse-magnetic mode lies within the continuum of transverse-electric slab modes, and we use bound states in the continuum (BICs) as a design tool to control this radiation. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "arxiv"
     },
     {
       "id": "10-1063-5-0314905-1dfc15",
@@ -612,8 +701,8 @@
       "journal": "Journal of Thermal Spray Technology",
       "doi": "10.1007/s11666-026-02351-x",
       "url": "https://doi.org/10.1007/s11666-026-02351-x",
-      "oa": false,
-      "license": "",
+      "oa": true,
+      "license": "CC BY",
       "categories": [
         "Surface Structuring & LIPSS",
         "Metals & Alloys"
@@ -621,7 +710,11 @@
       "glyph": "lipss",
       "summary": "LIPSS and ablation patterns produced by ultrashort pulses on porous nickel in different gas atmospheres.",
       "why": "",
-      "fig": null,
+      "fig": {
+        "src": "covers/journal-of-thermal-spray-technology.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Journal of Thermal Spray Technology"
+      },
       "source": "editor",
       "reviewed": true
     },
@@ -634,8 +727,8 @@
       "journal": "Surface Science and Technology",
       "doi": "10.1007/s44251-026-00161-5",
       "url": "https://doi.org/10.1007/s44251-026-00161-5",
-      "oa": false,
-      "license": "",
+      "oa": true,
+      "license": "CC BY-NC-ND",
       "categories": [
         "Surface Structuring & LIPSS",
         "Polymers & Resins"
@@ -808,6 +901,35 @@
       "source": "openalex"
     },
     {
+      "id": "10-1063-5-0343190-b33eba",
+      "date": "2026-11-02",
+      "title": "A zero-power biasing approach for Mach–Zehnder modulators using phase-change materials",
+      "authors": "Ruiqing He, Yujun Liu, Dongyue Sun, Ruitao Ma, Zexu Wang, Hanwen Li, Yaoxin Bao, Ming Zhang, Chenlei Li, Huan Li, Daoxin Dai",
+      "institutions": [
+        "Center for Optical & Electromagnetic Research",
+        "Ningbo Global Innovation Center",
+        "Jiaxing Key Laboratory of Photonic Sensing & Intelligent Imaging"
+      ],
+      "journal": "APL Photonics",
+      "doi": "10.1063/5.0343190",
+      "url": "https://doi.org/10.1063/5.0343190",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Bulk Modification & Nanocrystals",
+        "Thin Films & 2D Materials",
+        "Sapphire & Crystals",
+        "Integrated Photonics & Telecom"
+      ],
+      "glyph": "bulk",
+      "summary": "High-performance and energy-efficient optical modulators are indispensable for the development of next-generation high-speed optical interconnects. Thin-film lithium niobate (TFLN) has emerged as a leading platform owing to its large Pockels coefficient and broad optical transparency. Despite the outstanding performance of lithium niobate electro-optic (EO) modulators, a bias method is typically required to set the Mach–Zehnder modulators (MZMs) to the operating point. Conventional bias schemes, whether based on EO or thermo-optic (TO) approaches, consume static power to sustain the bias. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-1016-j-optlastec-2026-116876-0bd9a4",
       "date": "2026-11-01",
       "title": "Femtosecond laser surface texturing of pure zinc for biomedical applications",
@@ -818,8 +940,8 @@
       "journal": "Optics & Laser Technology",
       "doi": "10.1016/j.optlastec.2026.116876",
       "url": "https://doi.org/10.1016/j.optlastec.2026.116876",
-      "oa": false,
-      "license": "",
+      "oa": true,
+      "license": "CC BY",
       "categories": [
         "Surface Structuring & LIPSS",
         "Metals & Alloys",
@@ -1146,7 +1268,11 @@
       "glyph": "pulse",
       "summary": "Piece by Nature Photonics editor Giampaolo Pitruzzello on femtosecond-laser nanostructuring and its uses in green technologies.",
       "why": "",
-      "fig": null,
+      "fig": {
+        "src": "covers/nature-photonics.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Nature Photonics"
+      },
       "source": "editor",
       "reviewed": true,
       "tier": "notable"
@@ -1240,7 +1366,11 @@
       "glyph": "microoptics",
       "summary": "Review of diffractive optical elements for beam shaping and nanostructuring in laser processing.",
       "why": "",
-      "fig": null,
+      "fig": {
+        "src": "covers/optical-memory-and-neural-networks.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Optical Memory and Neural Networks"
+      },
       "source": "editor",
       "reviewed": true
     },
@@ -1730,8 +1860,8 @@
       "journal": "Physica Scripta",
       "doi": "10.1088/1402-4896/aebb6d",
       "url": "https://doi.org/10.1088/1402-4896/aebb6d",
-      "oa": false,
-      "license": "",
+      "oa": true,
+      "license": "CC BY",
       "categories": [
         "Diagnostics & Pump-Probe",
         "Beam Shaping & SLM"
@@ -1752,8 +1882,8 @@
       "journal": "International Journal of Heat and Mass Transfer",
       "doi": "10.1016/j.ijheatmasstransfer.2026.129801",
       "url": "https://doi.org/10.1016/j.ijheatmasstransfer.2026.129801",
-      "oa": false,
-      "license": "",
+      "oa": true,
+      "license": "CC BY",
       "categories": [
         "Surface Structuring & LIPSS",
         "Energy & Batteries"
@@ -1853,8 +1983,8 @@
       "journal": "Applied Materials Today",
       "doi": "10.1016/j.apmt.2026.103464",
       "url": "https://doi.org/10.1016/j.apmt.2026.103464",
-      "oa": false,
-      "license": "",
+      "oa": true,
+      "license": "CC BY",
       "categories": [
         "Two-Photon Polymerization",
         "Selective Etching & Microfluidics",
@@ -2138,7 +2268,11 @@
       "glyph": "drill",
       "summary": "Quantitative picosecond-laser trimming of MEMS resonators, built on measured links between process settings, removed mass and frequency response.",
       "why": "",
-      "fig": null,
+      "fig": {
+        "src": "covers/microsystem-technologies.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Microsystem Technologies"
+      },
       "source": "editor",
       "reviewed": true,
       "tier": "notable"
@@ -2349,7 +2483,11 @@
       "glyph": "lipss",
       "summary": "How the processing atmosphere changes femtosecond microstructuring and surface oxidation of molybdenum, tantalum and tungsten.",
       "why": "",
-      "fig": null,
+      "fig": {
+        "src": "covers/applied-physics-a.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Applied Physics A"
+      },
       "source": "editor",
       "reviewed": true
     },
@@ -2440,8 +2578,8 @@
       "journal": "Optics & Laser Technology",
       "doi": "10.1016/j.optlastec.2026.116815",
       "url": "https://doi.org/10.1016/j.optlastec.2026.116815",
-      "oa": false,
-      "license": "",
+      "oa": true,
+      "license": "CC BY",
       "categories": [
         "Thin Films & 2D Materials",
         "Beam Shaping & SLM"
@@ -2486,8 +2624,8 @@
       "journal": "Optics & Laser Technology",
       "doi": "10.1016/j.optlastec.2026.116748",
       "url": "https://doi.org/10.1016/j.optlastec.2026.116748",
-      "oa": false,
-      "license": "",
+      "oa": true,
+      "license": "CC BY",
       "categories": [
         "Precision Micromachining & Trimming",
         "Spatiotemporal & Burst Control",
@@ -2748,7 +2886,11 @@
       "glyph": "drill",
       "summary": "A form-birefringent element gives the beam a cross-polarized profile so that femtosecond drilling produces square holes.",
       "why": "",
-      "fig": null,
+      "fig": {
+        "src": "covers/optical-review.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Optical Review"
+      },
       "source": "editor",
       "reviewed": true,
       "tier": "notable"
@@ -2932,8 +3074,8 @@
       "journal": "Chemistry – A European Journal",
       "doi": "10.1002/chem.71810",
       "url": "https://doi.org/10.1002/chem.71810",
-      "oa": false,
-      "license": "",
+      "oa": true,
+      "license": "CC BY",
       "categories": [
         "Two-Photon Polymerization",
         "Polymers & Resins"
@@ -3438,7 +3580,11 @@
       "glyph": "carbon",
       "summary": "How pulse repetition rate changes the morphology and wetting of femtosecond laser-induced graphene on polyimide.",
       "why": "",
-      "fig": null,
+      "fig": {
+        "src": "covers/applied-physics-a.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Applied Physics A"
+      },
       "source": "editor",
       "reviewed": true
     },

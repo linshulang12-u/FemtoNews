@@ -53,5 +53,40 @@
     "src": "covers/progress-in-additive-manufacturing.jpg",
     "kind": "cover",
     "credit": "Journal cover · Progress in Additive Manufacturing"
+  },
+  "nanotechnology for environmental engineering": {
+    "src": "covers/nanotechnology-for-environmental-engineering.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Nanotechnology for Environmental Engineering"
+  },
+  "journal of physics d: applied physics": {
+    "src": "covers/journal-of-physics-d-applied-physics.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Journal of Physics D: Applied Physics"
+  },
+  "light: advanced manufacturing": {
+    "src": "covers/light-advanced-manufacturing.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Light: Advanced Manufacturing"
+  },
+  "journal of thermal spray technology": {
+    "src": "covers/journal-of-thermal-spray-technology.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Journal of Thermal Spray Technology"
+  },
+  "microsystem technologies": {
+    "src": "covers/microsystem-technologies.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Microsystem Technologies"
+  },
+  "applied physics a": {
+    "src": "covers/applied-physics-a.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Applied Physics A"
+  },
+  "optical review": {
+    "src": "covers/optical-review.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Optical Review"
   }
 }
