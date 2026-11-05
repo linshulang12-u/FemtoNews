@@ -105,6 +105,7 @@ max_age_days: 180
 exclude:
   - 'LA-?ICP-?MS|laser ablation[- ]inductively coupled|inductively coupled plasma[- ]mass'   # geochemistry / elemental analysis
   - 'laser-induced breakdown spectroscop|\bLIBS\b'                                          # analytical spectroscopy
+  - 'rapid evaporative ioni[sz]ation|\bREIMS\b|mass spectrometry imaging'                    # analytical laser ablation
   - 'endovenous|thyroid nodul|radiofrequency ablation|catheter ablation|atrial fibrillation|interstitial laser|varicose|pilonidal|benign prostatic'
   - 'attosecond|high[- ]harmonic generation|wakefield|laser[- ]plasma accelerat|(electron|proton|ion) accelerat|inertial confinement|relativistic (laser|intensit|plasma)|petawatt'
   - '\b(fNIRS|lidar)\b|light detection and ranging'
@@ -132,15 +133,17 @@ technique:
 # Technique papers on the laser process itself are unaffected.
 routine_application:
   domain:
-    - 'outcomes?|follow-?up|retrospective|prospective|randomi[sz]ed|comparative study|patients?|eyes\b|case series|cohort|visual acuity|complications'
+    - 'outcomes?|follow-?up|retrospective|prospective|randomi[sz]ed|comparative study|patients?|eyes\b|case series|cohort|visual acuity|complications|clinical|success|technique of|surgical technique'
   method:
-    - 'femtosecond laser[- ]assisted (cataract|keratoplasty|LASIK|surgery)|\bFLACS\b|\bLASIK\b|\bSMILE\b|small[- ]incision lenticule|keratomileusis|phacoemulsification'
+    - 'femtosecond laser[- ]assisted (\w+ ){0,3}(cataract|keratoplasty|LASIK|surgery)|\bFLACS\b|\bLASIK\b|\bSMILE\b|small[- ]incision lenticule|keratomileusis|phacoemulsification|Femto-DALK|\bDALK\b|Visumax|intrastromal pocket'
 
 # Title-only exclusions: off-topic hits, editorial matter
 exclude_title:
   - '^comment on\b|^reply to\b|^erratum|^correction'
   - 'call for papers|editorial board|issue information'
-  - 'laser hair|tattoo removal|photodynamic therapy|low-level laser|photobiomodulation'
+  - 'laser hair|tattoos?\b|bruis\w*|melasma|photodynamic therapy|low-level laser|photobiomodulation'
+  # laser physics / metrology / communications that only USE an ultrafast laser (kept if the title names a fabrication step)
+  - '^(?!.*(writ|inscri|fabricat|machin|ablat|process|structur|textur|weld|drill|cut|modif|polymeri|print|lithograph|etch|pattern|dicing|trimm)).*(Raman amplification|terahertz (radiation|wave|generation|emission)|photoconductive antenna|harmonic generation|nonlinear crystals?|magnetization dynamics|field emission|pulse trains?|chirp instability|dispersion (control|compensation)|flow fields?|velocity measurements?|velocimetry|Brillouin oscillations?|acoustic echoes|spin-transfer|qubit|wireless|wideband communications?)'
   - 'selective laser melting|powder bed fusion|\bL-?PBF\b|laser cladding|directed energy deposition|laser metal deposition|wire[- ]arc|laser-arc hybrid'
 
 # Off-topic uses of ultrafast lasers (spectroscopy, laser physics, magnetism) are dropped unless the title
