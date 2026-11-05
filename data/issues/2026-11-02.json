@@ -4,7 +4,7 @@
   "date": "2026-11-02",
   "window": [
     "2026-10-19",
-    "2026-11-05"
+    "2026-11-06"
   ],
   "articles": [
     {
@@ -495,6 +495,85 @@
       "source": "crossref"
     },
     {
+      "id": "10-1063-5-0340036-f7753f",
+      "date": "2026-11-05",
+      "title": "Femtosecond-laser nanomanufacturing of solid-state surface-enhanced Raman scattering substrates: Electromagnetic enhancement, chemical activation, and interfacial engineering",
+      "authors": "Haoran Sun, Huijuan Zhang, Xuegang Zhang, Yan Zhao, Yinzhou Yan",
+      "institutions": [
+        "School of Physics and Optoelectronic Engineering"
+      ],
+      "journal": "Harmonics and Scattering",
+      "doi": "10.1063/5.0340036",
+      "url": "https://doi.org/10.1063/5.0340036",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Surface Structuring & LIPSS",
+        "Micro-Optics & Metasurfaces",
+        "Beam Shaping & SLM",
+        "Sensing"
+      ],
+      "glyph": "microoptics",
+      "summary": "Surface-enhanced Raman scattering (SERS) spectroscopy has shown broad potential in chemical, biological, and environmental sensing owing to its ultrasensitive vibrational fingerprint recognition down to the single-molecule level. Compared with colloids, solid-state SERS substrates offer superior structural stability and fabrication reproducibility, facilitating on-chip integration. Unfortunately, the trade-off between fabrication efficiency and cost hampers their scalable production with homogeneous nanostructures. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-ome-614277-f188bf",
+      "date": "2026-11-05",
+      "title": "Ultrafast Laser Nanostructuring in silica glass for Optical Microscopy",
+      "authors": "Sergei Shevtsov, Huijun Wang, Michael Shribak, Haruyuki Sakurai, Peter Kazansky",
+      "institutions": [],
+      "journal": "Optical Materials Express",
+      "doi": "10.1364/ome.614277",
+      "url": "https://doi.org/10.1364/ome.614277",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Glass & Silica"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3390-nano16211431-31a677",
+      "date": "2026-11-05",
+      "title": "Review of Silicon-Based Nanomaterials Fabricated via Laser Microstructuring, Electrochemical Etching, and Hybrid Microstructures: Exploring Functional Integration and Future Applications",
+      "authors": "Luis Humberto Robledo-Taboada, Fernando Chiñas-Castillo, Magdaleno Caballero-Caballero, Rafael Alavez-Ramírez, Jesica Ariadna Jiménez-Mendoza, José Raúl Pérez-Higareda, Irving Néstor Sierra-Sánchez, Reynier Suárez Martínez, Laura Elvira Serrano de la Rosa",
+      "institutions": [
+        "Instituto Tecnológico de Oaxaca",
+        "Instituto Politécnico Nacional",
+        "Laboratorio de Ingeniería Térmica"
+      ],
+      "journal": "Nanomaterials",
+      "doi": "10.3390/nano16211431",
+      "url": "https://doi.org/10.3390/nano16211431",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Surface Structuring & LIPSS",
+        "Selective Etching & Microfluidics",
+        "Silicon & Semiconductors",
+        "Sensing",
+        "Reviews"
+      ],
+      "glyph": "etch",
+      "summary": "This review examines silicon surfaces produced by femtosecond laser microstructuring and electrochemical etching, as well as their sequential integration. Laser processing creates multiscale topographies, including laser-induced periodic surface structures (LIPSS), conical features, and craters, whereas electrochemical etching generates porous silicon with tunable pore dimensions and high surface area. The central focus is the process coupling between these techniques: how laser-generated topography, defects, and modified surface chemistry may influence subsequent electrochemical dissolution, and how etching, in turn, may alter the stability and wetting of the laser-defined architecture. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-1364-oe-615691-736ed6",
       "date": "2026-11-04",
       "title": "Femtosecond laser direct writing of tapered waveguides in Tm:YAP crystal",
@@ -568,6 +647,36 @@
       "feature": false,
       "fig": null,
       "source": "arxiv"
+    },
+    {
+      "id": "10-1007-s00170-026-19466-8-a01951",
+      "date": "2026-11-04",
+      "title": "Tribological performance of injection-molded microtextured surfaces for silicone oil-free syringes",
+      "authors": "Kristal Bornillo, Marco Sorgato, Giovanni Lucchetta",
+      "institutions": [
+        "University of Padua"
+      ],
+      "journal": "The International Journal of Advanced Manufacturing Technology",
+      "doi": "10.1007/s00170-026-19466-8",
+      "url": "https://doi.org/10.1007/s00170-026-19466-8",
+      "oa": true,
+      "license": "CC BY-NC-ND",
+      "categories": [
+        "Two-Photon Polymerization",
+        "Surface Structuring & LIPSS",
+        "Polymers & Resins"
+      ],
+      "glyph": "tpp",
+      "summary": "Silicone oil in prefilled syringes causes issues with stability, contamination, and immune response. To solve these problems, this study explores surface texturing as an alternative way to reduce friction in silicone oil-free syringes. By fine-tuning microdimple size, especially area density and aspect ratio, the study aims to enhance glide performance without needing extra coatings. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "figs/10-1007-s00170-026-19466-8-a01951.jpg",
+        "kind": "figure",
+        "credit": "CC BY-NC-ND · via link.springer.com"
+      },
+      "source": "openalex"
     },
     {
       "id": "10-1063-5-0314905-1dfc15",
@@ -1109,6 +1218,58 @@
       "feature": false,
       "fig": null,
       "source": "openalex"
+    },
+    {
+      "id": "10-3390-biomimetics11110786-0f5f61",
+      "date": "2026-11-01",
+      "title": "Triple-Doped (Mg, Zn, Sr) β-Tricalcium Phosphate Ceramics: Biomimetic Synthesis, Femtosecond Laser-Induced Microstructure Formation and Biological Assessment",
+      "authors": "Kostadinka Sezanova, Albena Daskalova, Tsvetelina Paunova-Krasteva, Liliya Angelova, Даяна Борисова, Shazie Yusein-Myashkova, Iva Ugrinova, Rumiana Gergulova, Diana Rabadjieva",
+      "institutions": [
+        "Institute of General and Inorganic Chemistry",
+        "Institute of Electronics",
+        "Stephan Angeloff Institute of Microbiology"
+      ],
+      "journal": "Biomimetics",
+      "doi": "10.3390/biomimetics11110786",
+      "url": "https://doi.org/10.3390/biomimetics11110786",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Hard & Brittle Materials",
+        "Surface Structuring & LIPSS",
+        "Ceramics & Coatings"
+      ],
+      "glyph": "lipss",
+      "summary": "Triple-doped substitution and femtosecond laser surface microstructuring represent synergistic strategies for tailoring the physicochemical, structural, and biological properties of β-tricalcium phosphate (β-TCP) ceramics for bone tissue engineering. In this study, β-TCP ceramic materials were synthesized, substituted with Mg (8–9 mol%), Zn (3 mol%), and Sr (1 mol% or 5 mol%), and possessed a (Ca + Mg + Zn + Sr)/P molar ratio of 1.51 or 1.55. The synthesis was carried out by biomimetic precipitation in simulated body fluid at pH 8.0–8.2, followed by tableting and calcination up to 1000 °C. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1016-j-diamond-2026-114375-f39e02",
+      "date": "2026-11-01",
+      "title": "Evaluation of nitrogen-doped laser-induced graphene with enhanced structural and electrochemical properties for advanced supercapacitor",
+      "authors": "Shruti Lavania, Adil Alshoaibi, Manas Nasit, Nitin Kumar Gautam, Mrinalini Sharma, Sachin, P.A. Alvi, Ranjeet Kumar Brajpuriya, Aditya Sharma, Shalendra Kumar",
+      "institutions": [],
+      "journal": "Diamond and Related Materials",
+      "doi": "10.1016/j.diamond.2026.114375",
+      "url": "https://doi.org/10.1016/j.diamond.2026.114375",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Laser-Induced Graphene & Carbon",
+        "Perovskites & 2D",
+        "Energy & Batteries"
+      ],
+      "glyph": "carbon",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
     },
     {
       "id": "10-1016-j-surfin-2026-111174-bc6f24",
@@ -2229,6 +2390,32 @@
       "source": "openalex"
     },
     {
+      "id": "10-48550-arxiv-2610-38609-b6122e",
+      "date": "2026-10-28",
+      "title": "Stability Study of Photo-inscribed Bragg Gratings in Sapphire Fibers at Very High Temperature",
+      "authors": "Antoine Bourel, Léo Colliard, Thomas Blanchet, Guillaume Laffont, Sylvain Magne, Géraud Bouwmans",
+      "institutions": [
+        "Laboratoire de Physique des Lasers, Atomes et Molécules"
+      ],
+      "journal": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2610.38609",
+      "url": "https://doi.org/10.48550/arxiv.2610.38609",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Fiber Gratings & Devices",
+        "Glass & Silica",
+        "Thermal Management"
+      ],
+      "glyph": "fiber",
+      "summary": "Fiber Bragg gratings inscribed by femtosecond laser in sapphire fibers were subjected to thermal cycling up to 1500\\degreeC. Adding a multimode silica fiber reduces modal interference, improves the quality of the Bragg spectrum and the measurement accuracy. The measurement uncertainty is about 1.9\\degreeC at 1500\\degreeC.",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
       "id": "10-1016-j-ceramint-2026-10-352-1d543b",
       "date": "2026-10-27",
       "title": "Femtosecond laser-induced valence state change of rare-earth ions in magnesium aluminosilicate glass and applications",
@@ -3211,6 +3398,32 @@
       "source": "openalex"
     },
     {
+      "id": "10-1021-acssensors-6c03286-0c06ef",
+      "date": "2026-10-22",
+      "title": "A Laser-Projection-Programmed Liquid Crystal Platform for Chemical-to-Visual Information Transduction",
+      "authors": "Yuxiang Yan, Gang Zhao, Pengxia Li, Mei Wang, Yifei Ma, Weinan Gao, Yong Bi, Lei Dong, Hongpeng Wu, Weiguang Ma, Suotang Jia, Xuyuan Chen, Zhaomin Tong",
+      "institutions": [
+        "Shanxi University",
+        "Chinese Academy of Sciences"
+      ],
+      "journal": "ACS Sensors",
+      "doi": "10.1021/acssensors.6c03286",
+      "url": "https://doi.org/10.1021/acssensors.6c03286",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Sensing"
+      ],
+      "glyph": "pulse",
+      "summary": "Translating molecular-scale chemical interactions into intuitive and information-rich visual representations remains a central challenge in chemical sensing. Liquid crystals (LCs) provide a stimulus-responsive optical medium for chemical-to-optical transduction; however, existing approaches primarily rely on predefined optical responses rather than programmable representations of multiple chemical concentrations. Here, we introduce a laser-projection-programmed LC platform that extends established LC visual sensing toward programmable, multilevel concentration-to-symbol encoding. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
       "id": "10-3390-met16101160-9ff29f",
       "date": "2026-10-21",
       "title": "Pulse-Dependent Transient Reflectivity and Simulated Subsurface Density Evolution in Titanium Under Femtosecond Laser Irradiation",
@@ -3841,6 +4054,34 @@
       "source": "openalex"
     },
     {
+      "id": "10-48550-arxiv-2610-25382-6c77ec",
+      "date": "2026-10-18",
+      "title": "Design and synthesis of laser inscribed flexible Bragg gratings containing silicon oxynitride-doped silicon thin film for authentication applications with the insights from X-Ray Absorption Spectroscopy and Quantum Mechanical Calculations",
+      "authors": "Ali Karatutlu, Timuçin Emre Tabaru, Umut Taylan, Zehra Gizem Mutlay, Doğukan Hazar Özbey, Okan Uslu, Hamid-Reza Bahari, Esra Kendir Tekgül, Andriy Budnyk, İremnur Duru, Mustafa Fatih Genişel, Zeynep Reyhan Öztürk, Taylan Görkan, Engin Durgun, Bülend Ortaç",
+      "institutions": [
+        "Bilkent University",
+        "National Nanotechnology Research Center",
+        "Sivas Bilim ve Teknoloji Üniversitesi"
+      ],
+      "journal": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2610.25382",
+      "url": "https://doi.org/10.48550/arxiv.2610.25382",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Thin Films & 2D Materials",
+        "Silicon & Semiconductors",
+        "Integrated Photonics & Telecom"
+      ],
+      "glyph": "film",
+      "summary": "Silicon-on-insulator is mostly the main driving material system for the field of silicon photonics, including PICs, due to high index contrast and compatibility with current semiconductor manufacturing processes [1]. A recent example is silicon oxynitride-doped silicon [2] discovered recently by our group, offering to set a new position for the fields of silicon photonics with a precise control of refractive index from 2.1 to 2.5 together with the photosensitivity property at different wavelengths. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
       "id": "10-1016-j-optlastec-2026-116730-025fed",
       "date": "2026-10-17",
       "title": "Surface microtextures on medical Zr-based metallic glasses via femtosecond laser processing: Optimization and performance",
@@ -3975,6 +4216,35 @@
       "glyph": "pulse",
       "summary": "This work presents a theoretical and experimental investigation of polarization-dependent direct laser writing of birefringent structures in the bulk of fused silica. Within the framework of Keldysh photoionization theory, the ionization rate in wide-bandgap dielectrics irradiated by linearly and elliptically polarized ultrashort laser pulses has been analyzed. It is demonstrated that linearly polarized radiation yields higher ionization rates compared to circular polarization at comparable intensities for both investigated wavelengths (515 nm and 1030 nm). …",
       "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1016-j-yofte-2026-104833-ade337",
+      "date": "2026-10-17",
+      "title": "Geometry-tuned PDMS embedded FBG sensors for low- and ultra-low frequency vibration monitoring",
+      "authors": "Fernando Velázquez-Carreón, Gabriel Eduardo Sandoval-Romero, Hongcheng Wang, Emiliano Ehecatl García-Unzueta",
+      "institutions": [
+        "Universidad Nacional Autónoma de México",
+        "Dongguan University of Technology"
+      ],
+      "journal": "Optical Fiber Technology",
+      "doi": "10.1016/j.yofte.2026.104833",
+      "url": "https://doi.org/10.1016/j.yofte.2026.104833",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Fiber Gratings & Devices",
+        "Modeling & Simulation",
+        "Polymers & Resins",
+        "Sensing"
+      ],
+      "glyph": "fiber",
+      "summary": "This work reports the design and experimental characterization of two femtosecond-laser-inscribed fiber Bragg grating (FBG) vibration sensors based on direct polydimethylsiloxane (PDMS) encapsulation, for low- and ultra-low-frequency monitoring. FBG accelerometers for this regime have so far relied on rigid mass-spring structures with inertial masses; embedding the grating directly in a soft elastomer, trading absolute sensitivity for low mass and conformability, had not been examined for acceleration sensing. Two comparable gratings were embedded in PDMS beams of different geometry, a reference structure ( L = 50 mm, h = 7 mm) and a longer, thinner structure ( L = 60 mm, h = 4 mm). …",
+      "why": "",
+      "tier": "notable",
       "pick": false,
       "feature": false,
       "fig": null,
@@ -4725,6 +4995,32 @@
       ],
       "glyph": "pulse",
       "summary": "PURPOSE: To evaluate the success of Femto-DALK with an iOCT-guided generated intrastromal pre-Descemet tunnel. METHODS: This monocentric, retrospective study evaluated all patients treated with Femto-DALK between January 2020 and December 2023 at the Department of Ophthalmology at the University of Düsseldorf (Germany). The iOCT-guided tunnel was generated 30 microns anterior of Descemet's membrane. BB generation, surgery time and conversion to penetrating keratoplasty (PK) were analyzed. RESULTS: A total of 42 eyes of 41 patients were identified. BB creation was successful in 78.6% of cases. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1038-s41598-026-74322-9-09f1d1",
+      "date": "2026-10-14",
+      "title": "Quantum eddy current wall thickness tomography using nitrogen-vacancy vector magnetometry for onshore crude oil pipeline integrity assessment",
+      "authors": "Kuan Fu, Rui Li, Pengchao Chen, Xiaoben Liu, Lili Zuo",
+      "institutions": [
+        "China University of Petroleum, Beijing"
+      ],
+      "journal": "Scientific Reports",
+      "doi": "10.1038/s41598-026-74322-9",
+      "url": "https://doi.org/10.1038/s41598-026-74322-9",
+      "oa": true,
+      "license": "CC BY-NC-ND",
+      "categories": [
+        "Quantum Photonics & Color Centers",
+        "Diamond",
+        "Quantum Technologies"
+      ],
+      "glyph": "quantum",
+      "summary": "As core infrastructure for global energy distribution, onshore long-distance crude oil pipelines face multiple challenges, including wax deposition, structural stress concentration, and H 2 S release. Traditional non-destructive testing (NDT) techniques, such as eddy current testing and magnetic flux leakage (MFL), suffer from limitations including low spatial resolution, limited penetration depth, and directional blind spots, making high-resolution and omnidirectional defect identification difficult. Diamond nitrogen-vacancy (NV) centers have shown strong potential for high-precision vector magnetic sensing. …",
       "why": "",
       "pick": false,
       "feature": false,
@@ -5557,6 +5853,30 @@
       "source": "openalex"
     },
     {
+      "id": "10-1103-lyw5-qdfx-df41ee",
+      "date": "2026-10-09",
+      "title": "Optimal distillation of photonic indistinguishability",
+      "authors": "Francesco Hoch, Anita Camillini, Giovanni Rodari, Eugenio Caruccio, Gonzalo Carvacho, Taira Giordani, Riccardo Albiero, Niki Di Giano, Giacomo Corrielli, Francesco Ceccarelli, Roberto Osellame, Marco Robbio, Leonardo Novo, Nicolò Spagnolo, Ernesto F. Galvão, Fabio Sciarrino",
+      "institutions": [],
+      "journal": "Physical Review Research",
+      "doi": "10.1103/lyw5-qdfx",
+      "url": "https://doi.org/10.1103/lyw5-qdfx",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Quantum Photonics & Color Centers",
+        "Waveguides & Photonic Chips",
+        "Quantum Technologies"
+      ],
+      "glyph": "quantum",
+      "summary": "Imperfect photons' indistinguishability limits the performance of photonic quantum communication and computation . Distillation protocols, inspired by entanglement purification, enhance photons' indistinguishability by leveraging quantum interference in linear optical circuits. In this work, we present a three-photon distillation protocol optimized to achieve the maximum visibility gain, which requires consideration of multi-photon effects such as collective photonic phases. We employ interferometers with the minimum number of modes, optimizing also over the protocol's success probability. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
       "id": "10-1016-j-surfin-2026-110639-d1460c",
       "date": "2026-10-08",
       "title": "Femtosecond laser burst ablation of vanadium for pulsed laser deposition",
@@ -6051,5 +6371,5 @@
     "10-3390-mi17111231-57918b"
   ],
   "curated": "2026-11-05",
-  "updated": "2026-11-05"
+  "updated": "2026-11-06"
 }
