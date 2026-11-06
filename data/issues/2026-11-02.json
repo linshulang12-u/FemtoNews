@@ -4,7 +4,7 @@
   "date": "2026-11-02",
   "window": [
     "2026-10-19",
-    "2026-11-06"
+    "2026-11-07"
   ],
   "articles": [
     {
@@ -415,6 +415,28 @@
       "source": "crossref"
     },
     {
+      "id": "10-1016-j-optlastec-2026-116929-58cd21",
+      "date": "2026-12-01",
+      "title": "Femtosecond Laser-Driven phase transition and magnetoresistance modulation in WTe2",
+      "authors": "Yicen Li, Xiaozhe Chen, Fuhui Cui, Feifei Wang, Rongke Gao, Yang Lu, Liandong Yu",
+      "institutions": [],
+      "journal": "Optics &amp; Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.116929",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.116929",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Processing"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-1126-sciadv-aek8532-3bdfcd",
       "date": "2026-11-06",
       "title": "Accumulated radicals by GHz femtosecond burst drive one-step superhydrophobic conversion",
@@ -436,6 +458,136 @@
       ],
       "glyph": "lipss",
       "summary": "Short-lived radicals usually decay before they can drive long-range reactions, making laser-induced radical chain reactions difficult to sustain. Here, we used GHz femtosecond bursts to temporally couple excitation events, allowing reactive intermediates from preceding subpulses to remain available for subsequent reactions and favoring their transient accumulation relative to isolated-pulse excitation. Consistent with this temporally coupled process, the methylphenyl silicone resin/graphene/CuFe 2 O 4 /SiO 2 composite coating exhibits a threshold-like nonlinear wettability transition near 430 subpulses. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1088-1748-605x-aeb77f-875166",
+      "date": "2026-11-06",
+      "title": "Defying the ‘wettability determinism’: dynamic interfacial evolution directs cell fate on femtosecond laser-textured Ti6Al4V",
+      "authors": "Jiana Song, Jiayi Zhao, Yifei Wang",
+      "institutions": [
+        "Wuxi University of Technology",
+        "School of Energy and Power Engineering",
+        "University of Shanghai for Science and Technology"
+      ],
+      "journal": "Biomedical Materials",
+      "doi": "10.1088/1748-605x/aeb77f",
+      "url": "https://doi.org/10.1088/1748-605x/aeb77f",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Surface Structuring & LIPSS",
+        "Biological Tissue"
+      ],
+      "glyph": "lipss",
+      "summary": "Highly hydrophobic surfaces, with contact angles approaching or exceeding 150° (the superhydrophobic criterion), are often considered poor at supporting cell adhesion, a view largely derived from wettability theories that did not account for proteins. Although protein adsorption in serum-containing media has been shown to mitigate the adverse effects of high hydrophobicity, it remains unclear whether, among surfaces with comparably high contact angles, the specific microscale topography governs cellular behavior and how the wettability of the cell-conditioned surface evolves with culture time. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1063-5-0345816-775749",
+      "date": "2026-11-06",
+      "title": "Laser micromachining of phononic crystals and waveguides in borosilicate glass",
+      "authors": "Wataru Takeda, Samarjith Biswas, Qing Wang, Shibin Jiang, Pierre Deymier, Pierre Lucas",
+      "institutions": [
+        "University of Arizona 1",
+        "New Frontiers of Sound Science and Technology Center",
+        "AdValue Photonics Inc. 3"
+      ],
+      "journal": "Journal of Applied Physics",
+      "doi": "10.1063/5.0345816",
+      "url": "https://doi.org/10.1063/5.0345816",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Waveguides & Photonic Chips",
+        "Precision Micromachining & Trimming",
+        "Modeling & Simulation",
+        "Glass & Silica"
+      ],
+      "glyph": "waveguide",
+      "summary": "Fabrication of phononic crystals (PnCs) in borosilicate glass is demonstrated through laser microfabrication with a nanosecond pulsed laser at a wavelength of 515 nm. PnC and waveguide structures are produced in 6.35 mm thick (1/4 in.) plates of Duran® glass. The phononic bandgap of the fabricated crystal, centered near 200 kHz, is measured in both in-plane and out-of-plane modes and shown to closely agree with finite element analysis (FEA) performed using COMSOL Multiphysics®. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1007-s00403-026-05038-z-00dc5a",
+      "date": "2026-11-06",
+      "title": "Efficacy and safety of 1064-nm Nd: YAG picosecond laser for the treatment of xanthelasma palpebrarum",
+      "authors": "Huiying Zheng, Yiping Ge, Yuqing Huang, Mengli Zhang, Tong Lin",
+      "institutions": [],
+      "journal": "Archives of Dermatological Research",
+      "doi": "10.1007/s00403-026-05038-z",
+      "url": "https://doi.org/10.1007/s00403-026-05038-z",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Sapphire & Crystals"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/archives-of-dermatological-research.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Archives of Dermatological Research"
+      },
+      "source": "crossref"
+    },
+    {
+      "id": "10-1142-s0217979227500251-c09ba3",
+      "date": "2026-11-06",
+      "title": "Laser-Controlled Defect Engineering in ZnO@Au Core-Shell Nanoparticles on Porous Silicon for Enhanced CO Sensing",
+      "authors": "Yasmine H. Khadim, Hussain M. Selman, Ahmed B. Taha, Husam Raed Sabeeh Al-Esaifer, Mohammed W. Muayad, Uday M. Nayef, Lava T. Shireef, Rahell N. M. Rashid",
+      "institutions": [],
+      "journal": "International Journal of Modern Physics B",
+      "doi": "10.1142/s0217979227500251",
+      "url": "https://doi.org/10.1142/s0217979227500251",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Nanoparticles & Ablation in Liquids",
+        "Silicon & Semiconductors",
+        "Sensing"
+      ],
+      "glyph": "nano",
+      "summary": "This study employs pulsed laser ablation in liquid (PLAL) to synthesize ZnO@Au core–shell nanoparticles with controlled size and surface properties, while avoiding contamination from stabilizers and reducing agents. A two-step synthesis was performed, with Au-target ablation at pulse energies of 800, 1000, and 1200 mJ. The ZnO@Au core–shell nanoparticles were deposited onto porous silicon substrates to improve gas-sensing performance by increasing surface area and facilitating charge transport. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1044-2026-jslhr-26-00089-d8cd94",
+      "date": "2026-11-06",
+      "title": "Language Experience Modulates Parallel Acoustic and Phonological Processing of Mandarin Tone: Evidence From Mismatch Negativity",
+      "authors": "Yu Zou, Bing Cheng, Xiaojuan Zhang, Yang Zhang",
+      "institutions": [
+        "University of Minnesota"
+      ],
+      "journal": "Journal of Speech, Language, and Hearing Research",
+      "doi": "10.1044/2026_jslhr-26-00089",
+      "url": "https://doi.org/10.1044/2026_jslhr-26-00089",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Beam Shaping & SLM"
+      ],
+      "glyph": "beam",
+      "summary": "Purpose: Second-language (L2) speech perception is strongly influenced by prior language experience, but the neural mechanisms supporting this process remain incompletely understood. This study examined how language experience modulates the pre-attentive encoding of acoustic and phonological information in Mandarin tone perception and whether these cues are processed serially or in parallel. Method: Twenty native Mandarin speakers and 20 novice Mandarin learners with a tonal first language (L1: Thai) completed a behavioral tone identification task and a passive listening multifeature oddball event-related potential paradigm. …",
       "why": "",
       "pick": false,
       "feature": false,
@@ -572,6 +724,57 @@
       "feature": false,
       "fig": null,
       "source": "crossref"
+    },
+    {
+      "id": "10-1002-lpor-72171-8632d9",
+      "date": "2026-11-05",
+      "title": "Theranostic Endoscope for Three‐Dimensional OCT‐Guided Ultrafast Laser Ablation of Atherosclerotic Lesions",
+      "authors": "Anlan Shen, Fan Yang, Wei Yu, Sen Yang, Xinwu Lu, Fu Wang, Zhen Zhao, Jigang Wu, William Wijns, Shengxian Tu",
+      "institutions": [
+        "Biophotonics Laboratory Global College Shanghai Jiao Tong University Shanghai China"
+      ],
+      "journal": "Laser &amp; Photonics Reviews",
+      "doi": "10.1002/lpor.72171",
+      "url": "https://doi.org/10.1002/lpor.72171",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Biological Tissue",
+        "Imaging & Displays"
+      ],
+      "glyph": "pulse",
+      "summary": "Ultrafast laser surgery enables effective removal with minimal damage across a wide range of biological tissues through nonlinear interactions, offering a promising therapy for calcified atherosclerotic lesions where safe and effective recanalization remains an unmet clinical need. However, clinical adoption is hindered by the lack of endoscopes capable of handling high peak intensity while maintaining miniaturization and high performance. Moreover, integrating optical coherence tomography (OCT) can further enhance its utility as OCT provides disease diagnosis and ablation evaluation. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-48550-arxiv-2611-07742-12e16a",
+      "date": "2026-11-05",
+      "title": "Laser fabrication of vibrating microcavities on silicon: Formation dynamics and frequency tunability",
+      "authors": "Belen Valiente, Gonzalo Gomez-Munoz, Mario Garcia-Lechuga, Irene Solana, Fernando Agulló-Rueda, David Grojo, Angel Rodriguez-Fernandez, Javier Solis, Jan Siegel",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2611.07742",
+      "url": "https://arxiv.org/abs/2611.07742",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Hard & Brittle Materials",
+        "Surface Structuring & LIPSS",
+        "Diagnostics & Pump-Probe",
+        "Silicon & Semiconductors",
+        "Semiconductor & Packaging"
+      ],
+      "glyph": "lipss",
+      "summary": "Laser processing of silicon has long since become a standard method for wafer dicing, surface texturing, re-crystallization after ion implantation, as well as surface amorphization, to name a few examples. Here, we introduce a novel concept, the fabrication of vibrating microcavities in a commercial platform, Si wafers covered by a thick SiO2 layer, acting as a membrane. We demonstrate that by exposing our material system to single ultrashort laser pulses above the evaporation threshold of Si, a controlled delamination of the cover layer without fracture can be achieved, leading to the formation of a microcavity accompanied by a surface bulging up to 1.5 micrometer. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "arxiv"
     },
     {
       "id": "10-1364-oe-615691-736ed6",
@@ -1272,6 +1475,103 @@
       "source": "crossref"
     },
     {
+      "id": "10-1002-jbio-70388-e642ce",
+      "date": "2026-11-01",
+      "title": "Hybrid Confocal Fluorescence and Photoacoustic Microscopy for In‐Depth and Noninvasive Imaging of Biomolecule‐Functionalized 3D Scaffolds",
+      "authors": "Eudokia Kyriakou, George J. Tserevelakis, Konstantina Terzaki, Petros Tavlas, Chrysanthi Pinelopi Apostolidou, Stefanos Mavrikos, Costas P. Grigoropoulos, Anna Mitraki, Maria Farsari, Giannis Zacharakis",
+      "institutions": [
+        "University of Crete",
+        "Foundation for Research and Technology Hellas",
+        "University of California, Berkeley"
+      ],
+      "journal": "Journal of Biophotonics",
+      "doi": "10.1002/jbio.70388",
+      "url": "https://doi.org/10.1002/jbio.70388",
+      "oa": true,
+      "license": "CC BY-NC-ND",
+      "categories": [
+        "Two-Photon Polymerization",
+        "Thin Films & 2D Materials",
+        "AI & Process Optimization",
+        "Metals & Alloys",
+        "Biomedical & Life Science"
+      ],
+      "glyph": "tpp",
+      "summary": "The precise integration of biomolecules within three-dimensional (3D) scaffolds is essential for tissue engineering and regenerative medicine. However, conventional characterization techniques, such as scanning electron microscopy, are destructive or limited to surface analysis, while confocal fluorescence microscopy is often hindered by scaffold autofluorescence. Here, we introduce a nondestructive hybrid imaging approach combining confocal fluorescence and frequency-domain photoacoustic microscopy for volumetric characterization of biomolecule-functionalized scaffolds. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-3928-1081597x-20260925-01-8381a4",
+      "date": "2026-11-01",
+      "title": "Toward Automated Femtosecond Laser–TransPRK: A Conceptual Extension of Transepithelial Refractive Surgery",
+      "authors": "Soheil Adib-Moghaddam, Samuel Arba-Mosquera",
+      "institutions": [],
+      "journal": "Journal of Refractive Surgery",
+      "doi": "10.3928/1081597x-20260925-01",
+      "url": "https://doi.org/10.3928/1081597x-20260925-01",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Ophthalmology & Dentistry"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-jmrt-2026-11-062-6aa099",
+      "date": "2026-11-01",
+      "title": "Morphological Evolution and Hydrophobicity of Crater-like Microtextures Fabricated on Ti-6Al-4V Titanium Alloy by Picosecond Laser Ablation",
+      "authors": "Yichen Fang, Biaoqiang Qi, Chengyi Shu, Faquan Tang, Kaiwen Hua, Yuyang He, Yanhu Zhang, Jinghu Ji",
+      "institutions": [],
+      "journal": "Journal of Materials Research and Technology",
+      "doi": "10.1016/j.jmrt.2026.11.062",
+      "url": "https://doi.org/10.1016/j.jmrt.2026.11.062",
+      "oa": true,
+      "license": "CC BY-NC-ND 4.0",
+      "categories": [
+        "Metals & Alloys"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-otorri-2026-512385-b16586",
+      "date": "2026-11-01",
+      "title": "Transoral laser microsurgery for early glottic carcinoma: laryngeal preservation and long-term oncological outcomes in 161 patients",
+      "authors": "Carlos Miguel Chiesa-Estomba, Maider Andueza-Guembe, Alfonso Rodriguez-Urzay, Maria Landa-Garmendia, Aitor Vargas-Alvarez, Ekhiñe Larruscain-Sarasola, Jose Angel Gónzalez-García, Jon Alexander Sistiaga-Suarez",
+      "institutions": [],
+      "journal": "Acta Otorrinolaringológica Española",
+      "doi": "10.1016/j.otorri.2026.512385",
+      "url": "https://doi.org/10.1016/j.otorri.2026.512385",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Processing"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-1016-j-surfin-2026-111174-bc6f24",
       "date": "2026-10-31",
       "title": "Mechanically protected superhydrophobic regions on aluminum alloy enabled by multi-bioinspired hierarchical structures and femtosecond-laser processing",
@@ -1845,6 +2145,33 @@
       "source": "openalex"
     },
     {
+      "id": "10-1016-j-snb-2026-141168-183c2e",
+      "date": "2026-10-30",
+      "title": "Bi/BiOCl decorated Laser-Induced Graphene: A novel electrochemical platform for cadmium and lead detections",
+      "authors": "Panuwat Luengrojanakul, Jitapa Sumranjit, Piyawan Leepheng, Panita Kasamechonchung, Pacharaphan Thumutok, Natchanon Yimngam, Narathon Khemasiri, Annop Klamchuen",
+      "institutions": [
+        "National Science and Technology Development Agency",
+        "National Nanotechnology Center",
+        "King Mongkut's Institute of Technology Ladkrabang"
+      ],
+      "journal": "Sensors and Actuators B Chemical",
+      "doi": "10.1016/j.snb.2026.141168",
+      "url": "https://doi.org/10.1016/j.snb.2026.141168",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Laser-Induced Graphene & Carbon",
+        "Perovskites & 2D"
+      ],
+      "glyph": "carbon",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
       "id": "10-1016-j-mattod-2026-103541-d91660",
       "date": "2026-10-29",
       "title": "Microstructure engineering of diamond via femtosecond laser machining",
@@ -2103,6 +2430,65 @@
       ],
       "glyph": "tpp",
       "summary": "Photocurable hydrogels derived from native proteins offer high bio-functionality for biomedical micro-devices; however, traditional approaches require chemical functionalization such as methacrylation, altering native bio-activity. Here, an acrylate-free photocurable magnetic composite ink is developed using native gelatin photocrosslinked via ruthenium-mediated di-tyrosine coupling and loaded with zinc-substituted iron oxide (ZFO) nanoparticles. Incorporating magnetic nanoparticles introduces an inherent trade-off between magnetic responsiveness and light penetration during light-based fabrication. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1364-opticaopen-34842351-v1-f850be",
+      "date": "2026-10-29",
+      "title": "Fabrication Process for Direct Femtosecond Laser Writing of Phase Masks in Polydimethylsiloxane",
+      "authors": "Thomas Sicotte, Ahmed Al Makki, Jean-Sébastien Boisvert, Lucien Weiss, Sébastien Loranger",
+      "institutions": [
+        "Polytechnique Montréal"
+      ],
+      "journal": "",
+      "doi": "10.1364/opticaopen.34842351.v1",
+      "url": "https://doi.org/10.1364/opticaopen.34842351.v1",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Bulk Modification & Nanocrystals",
+        "Micro-Optics & Metasurfaces",
+        "Beam Shaping & SLM",
+        "Polymers & Resins"
+      ],
+      "glyph": "microoptics",
+      "summary": "Femtosecond direct laser writing of phase masks presents a highly versatile and simplified prototyping alternative to conventional lithography. In this work, we demonstrate a process capable of inducing controlled localized phase shifts up to 2π inside bulk polydimethylsiloxane (PDMS), a flexible and biocompatible substrate, using femtosecond pulses at 515 nm by varying line density and number of layers. We validated the process by fabricating several masks such as a cylindrical Fresnel lens, a Dammann diffraction grating, and a Fourier computer-generated hologram.",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/journal.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · "
+      },
+      "source": "openalex"
+    },
+    {
+      "id": "10-1016-j-surfin-2026-111144-2e690c",
+      "date": "2026-10-29",
+      "title": "Femtosecond laser-fabricated 4H-SiC with superhydrophobic surfaces and subsurface absorption layers for anti-icing and photo-electrothermal de-icing",
+      "authors": "Zhiwei He, Chong Shan, Erxi Wang, Xiaohui Zhao, Jianjun Cao, Quanzhong Zhao",
+      "institutions": [
+        "Jiangnan University",
+        "Chinese Academy of Sciences",
+        "China Academy of Engineering Physics"
+      ],
+      "journal": "Surfaces and Interfaces",
+      "doi": "10.1016/j.surfin.2026.111144",
+      "url": "https://doi.org/10.1016/j.surfin.2026.111144",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Surface Structuring & LIPSS",
+        "SiC & Wide-Bandgap"
+      ],
+      "glyph": "lipss",
+      "summary": "",
       "why": "",
       "pick": false,
       "feature": false,
@@ -6371,5 +6757,5 @@
     "10-3390-mi17111231-57918b"
   ],
   "curated": "2026-11-05",
-  "updated": "2026-11-06"
+  "updated": "2026-11-07"
 }

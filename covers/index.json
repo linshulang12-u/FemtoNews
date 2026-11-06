@@ -88,5 +88,10 @@
     "src": "covers/optical-review.jpg",
     "kind": "cover",
     "credit": "Journal cover · Optical Review"
+  },
+  "archives of dermatological research": {
+    "src": "covers/archives-of-dermatological-research.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Archives of Dermatological Research"
   }
 }
