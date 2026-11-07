@@ -4,7 +4,7 @@
   "date": "2026-11-02",
   "window": [
     "2026-10-19",
-    "2026-11-07"
+    "2026-11-08"
   ],
   "articles": [
     {
@@ -437,6 +437,55 @@
       "source": "crossref"
     },
     {
+      "id": "10-1016-j-optlastec-2026-116938-f8340d",
+      "date": "2026-12-01",
+      "title": "Interference-enhanced dynamic absorption and interfacial spallation in water-assisted femtosecond laser ablation of Au/Si heterostructures",
+      "authors": "Tao Wei, Shufeng Sun, Fengyun Zhang, Jin Wang, Xi Wang, Yong Pang, Pingping Wang, Guanghui Dong, Long Wang, Dianhe Hou, Qitong Xu, Peter Monka, Harith Bin Ahmad, Yoshio Hayasaki",
+      "institutions": [],
+      "journal": "Optics &amp; Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.116938",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.116938",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Processing"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1021-acs-nanolett-6c04565-bf439d",
+      "date": "2026-11-07",
+      "title": "Ultralow-Loss Femtosecond Laser Slicing of Lithium Niobate Enabled by Anisotropic Thermal Dissipation-Guided Vector Scanning",
+      "authors": "Xin Zhang, Yue-Zhang Sun, De-Rong Sun, Zhi-Yong Hu, Qi-Dai Chen, Xue-Qing Liu",
+      "institutions": [
+        "Jilin University"
+      ],
+      "journal": "Nano Letters",
+      "doi": "10.1021/acs.nanolett.6c04565",
+      "url": "https://doi.org/10.1021/acs.nanolett.6c04565",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Hard & Brittle Materials",
+        "Sapphire & Crystals",
+        "Semiconductor & Packaging"
+      ],
+      "glyph": "dicing",
+      "summary": "Lithium niobate (LiNbO3) crystals have been widely used in photonic and electronic devices owing to their outstanding intrinsic optoelectronic properties. However, fabricating hundreds-of-micrometer-thick LiNbO3 wafers remains dominated by diamond wire sawing, which causes substantial material loss. Although ultrafast laser processing offers a promising alternative, the intrinsic noncentrosymmetric lattice, spontaneous polarization, and anisotropic photothermal response of LiNbO3 severely hinder high-quality laser cutting. Here, a thermal dissipation-guided vector scanning technology is proposed to realize ultrafast laser slicing of LiNbO3 crystals for the first time. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-1126-sciadv-aek8532-3bdfcd",
       "date": "2026-11-06",
       "title": "Accumulated radicals by GHz femtosecond burst drive one-step superhydrophobic conversion",
@@ -593,6 +642,36 @@
       "feature": false,
       "fig": null,
       "source": "crossref"
+    },
+    {
+      "id": "10-1088-1361-6463-aebeda-a4d29c",
+      "date": "2026-11-06",
+      "title": "Zr-MOF nanocolloids prepared by pulsed laser ablation in water for tyrosine electrochemical sensing",
+      "authors": "Dario Morganti, Giuseppe Nania, Carmelo Corsaro, Govar M. Abdullah, Timothy L. Easun, Emily Worobiej, Rosalba Saija, F. Neri, G. Neri, Enza Fazio",
+      "institutions": [
+        "University of Messina",
+        "University of Birmingham"
+      ],
+      "journal": "Journal of Physics D Applied Physics",
+      "doi": "10.1088/1361-6463/aebeda",
+      "url": "https://doi.org/10.1088/1361-6463/aebeda",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Nanoparticles & Ablation in Liquids",
+        "Sensing"
+      ],
+      "glyph": "nano",
+      "summary": "This work presents the synthesis of contaminant-free Zr-MOF nanocolloids via pulsed laser ablation in liquids, a green and by-product-free top-down approach. A focused picosecond laser beam was employed to ablate a UiO-67 MOF target immersed in deionized water, yielding well-dispersed nanostructures with diameters ranging from 20 to 100 nm. For comparison, the effects of direct laser irradiation on dispersed UiO-67 powders were also investigated. Scanning-Transmission Electron Microscopy revealed a distinct morphological reorganization of the nanostructures upon laser processing. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/journal-of-physics-d-applied-physics.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Journal of Physics D Applied Physics"
+      },
+      "source": "openalex"
     },
     {
       "id": "10-1364-oe-615355-0b2a59",
@@ -775,6 +854,37 @@
       "feature": false,
       "fig": null,
       "source": "arxiv"
+    },
+    {
+      "id": "10-1017-hpl-2026-10225-843a8e",
+      "date": "2026-11-05",
+      "title": "Chirped volume Bragg gratings with nonlinear periods generated by two-cylindrical-beam holographic recording for robust ultrashort pulse compression",
+      "authors": "Jianwei Mo, Yuxing Han, Yuanzhi Dong, Fanyu Kong, Yunxia Jin, Jianda Shao",
+      "institutions": [
+        "Chinese Academy of Sciences",
+        "University of Chinese Academy of Sciences"
+      ],
+      "journal": "High Power Laser Science and Engineering",
+      "doi": "10.1017/hpl.2026.10225",
+      "url": "https://doi.org/10.1017/hpl.2026.10225",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Beam Shaping & SLM",
+        "Glass & Silica"
+      ],
+      "glyph": "beam",
+      "summary": "Chirped volume Bragg gratings (CVBGs) recorded in photo-thermo-refractive (PTR) glass are attractive compact pulse compressors for ultrafast laser systems.Conventional calculations assume a linear grating period and execute single-parameter analysis, limiting prediction of the coupled diffraction and dispersive responses generated by interference between converging and diverging cylindrical beams.Here, we first propose the resulting nonlinear grating period distribution in CVBGs and combine it with a multi-parameter coupled analysis.A PTR-glass CVBG compressor designed and fabricated for a 1030 nm ultrafast fiber laser exhibits an average relative diffraction efficiency of 85.2% over …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/high-power-laser-science-and-engineering.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · High Power Laser Science and Engineering"
+      },
+      "source": "openalex"
     },
     {
       "id": "10-1364-oe-615691-736ed6",
@@ -1564,6 +1674,28 @@
         "Other Processing"
       ],
       "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-cej-2026-183993-9bb4bb",
+      "date": "2026-11-01",
+      "title": "Selective etching-assisted fabrication of MOF-on-MOF heterostructures for ionic liquid encapsulation: Towards high-performance flame-retardant, mechanically robust, and self-healing polyurea composites",
+      "authors": "Kunpeng Song, Yuanyuan Zhou, Xiuhong Sun, Ye-Tang Pan, Peng Wu, Fuzhi Cao, HuaHao Yang, Jiyu He",
+      "institutions": [],
+      "journal": "Chemical Engineering Journal",
+      "doi": "10.1016/j.cej.2026.183993",
+      "url": "https://doi.org/10.1016/j.cej.2026.183993",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Selective Etching & Microfluidics"
+      ],
+      "glyph": "etch",
       "summary": "",
       "why": "",
       "pick": false,
@@ -6757,5 +6889,5 @@
     "10-3390-mi17111231-57918b"
   ],
   "curated": "2026-11-05",
-  "updated": "2026-11-07"
+  "updated": "2026-11-08"
 }

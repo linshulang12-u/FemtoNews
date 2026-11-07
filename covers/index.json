@@ -93,5 +93,15 @@
     "src": "covers/archives-of-dermatological-research.jpg",
     "kind": "cover",
     "credit": "Journal cover · Archives of Dermatological Research"
+  },
+  "high power laser science and engineering": {
+    "src": "covers/high-power-laser-science-and-engineering.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · High Power Laser Science and Engineering"
+  },
+  "journal of physics d applied physics": {
+    "src": "covers/journal-of-physics-d-applied-physics.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Journal of Physics D Applied Physics"
   }
 }
