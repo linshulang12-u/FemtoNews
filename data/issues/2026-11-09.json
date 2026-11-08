@@ -1,0 +1,92 @@
+{
+  "id": "2026-11-09",
+  "number": 2,
+  "date": "2026-11-09",
+  "window": [
+    "2026-11-09",
+    "2026-11-09"
+  ],
+  "articles": [
+    {
+      "id": "10-26434-chemrxiv-15011543-v2-64828c",
+      "date": "2026-11-02",
+      "title": "Self-Evolving Laboratories Through Persistent Digital and Physical Adaptation",
+      "authors": "Renjie Li, Yuanhao Zhou, Yinqi Zeng, Edward Lukhanin, Huan Liu, Carter McNear, Daniel Ceballos, Mohamed Eshan, Olamide Ogunjobi, Owen Funke, Yu Liu, Yuxing Wang, Gregory Victor Lowry, Paul J. Braun, Lynford L. Goddard",
+      "institutions": [
+        "University of Illinois Urbana-Champaign",
+        "Carnegie Mellon University",
+        "Northeastern University"
+      ],
+      "journal": "ChemRxiv",
+      "doi": "10.26434/chemrxiv.15011543/v2",
+      "url": "https://doi.org/10.26434/chemrxiv.15011543/v2",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Two-Photon Polymerization",
+        "Thin Films & 2D Materials",
+        "Polymers & Resins"
+      ],
+      "glyph": "tpp",
+      "summary": "Turning a scientific idea into an experiment often requires researchers to build, configure and repeatedly adapt the laboratory around it. This work demands resources and specialized expertise that can place ambitious experiments beyond reach. Here we introduce a self-evolving laboratory framework that connects computation, physical experiments and AI models through persistent cycles of observation and revision. GPT Astra uses camera observations and physical feedback to adapt robotic actions, digital twins and CAD designs. These changes are retained as reusable skills and infrastructure, allowing the laboratory to develop alongside its scientific tasks. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1016-j-surfin-2026-111244-22d0fa",
+      "date": "2026-11-01",
+      "title": "Study on Orientation Rotation Mechanism of LIPSS Induced on Stainless Steel Surface by Multi-pulse Ultraviolet Nanosecond Laser",
+      "authors": "Wenqiang He, Yanfeng Liu, Bing Han, Jinmiao Ma, Yanqin Wu, Xiaoyang Lu, Donglei Dai, Muchun Zhou, Yanru Chen",
+      "institutions": [],
+      "journal": "Surfaces and Interfaces",
+      "doi": "10.1016/j.surfin.2026.111244",
+      "url": "https://doi.org/10.1016/j.surfin.2026.111244",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Surface Structuring & LIPSS",
+        "Spatiotemporal & Burst Control",
+        "Metals & Alloys"
+      ],
+      "glyph": "lipss",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-26434-chemrxiv-15010578-v2-03b439",
+      "date": "2026-10-16",
+      "title": "Nanoscale Phase Engineering and Magnetic Property Enhancement in High-Entropy Alloy Nanoparticles by Continuous Microparticle Laser Fragmentation in Liquid",
+      "authors": "Robert Stuckert, Felix Pohl, Oleg Prymak, Nikola Apanowicz, Christoph Rehbock, Ulrich Schürmann, Michael Farle, Dierk Raabe, Lorenz Kienle, Stephan Barcikowski, Natalia Shkodich",
+      "institutions": [
+        "University of Duisburg-Essen",
+        "Max-Planck-Institut für Nachhaltige Materialien"
+      ],
+      "journal": "ChemRxiv",
+      "doi": "10.26434/chemrxiv.15010578/v2",
+      "url": "https://doi.org/10.26434/chemrxiv.15010578/v2",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Quantum Photonics & Color Centers",
+        "Metals & Alloys",
+        "Quantum Technologies"
+      ],
+      "glyph": "quantum",
+      "summary": "High-entropy alloy nanoparticles (HEA NPs) offer compositional and structural tunability for applications, like water splitting, H2O2 production, or magnetocaloric technologies. Therefore, the interplay between composition, structure, and functionality is of significant interest for materials´ functionality optimization. Microparticle laser fragmentation in liquid flow (MP-LFL) is an emerging scalable method for nanoalloy production, but remains underexplored for HEA NPs. Here, we investigate CrFeCoNiX (X = Ga, Cu, Mo) HEA NPs fabricated by MP-LFL in ethanol and examine how compositional variations affect elemental homogeneity, size, phase structure, and magnetic properties. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    }
+  ],
+  "removed": [],
+  "updated": "2026-11-09"
+}
