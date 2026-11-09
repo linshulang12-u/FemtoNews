@@ -4,9 +4,317 @@
   "date": "2026-11-09",
   "window": [
     "2026-11-09",
-    "2026-11-09"
+    "2026-11-10"
   ],
   "articles": [
+    {
+      "id": "10-1016-j-solmat-2026-114829-f1449a",
+      "date": "2027-01-01",
+      "title": "Single-wavelength green microsecond laser scribing of P1-P3 interconnects for n-i-p perovskite solar cells",
+      "authors": "Komsun Lapawae, Kitiphat Sinthiptharakoon, Nuttaya Sukgorn, Sorrawit Meeklinhom, Anusit Kaewprajak, Pisist Kumnorkaew",
+      "institutions": [],
+      "journal": "Solar Energy Materials and Solar Cells",
+      "doi": "10.1016/j.solmat.2026.114829",
+      "url": "https://doi.org/10.1016/j.solmat.2026.114829",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Thin Films & 2D Materials",
+        "Perovskites & 2D",
+        "Integrated Photonics & Telecom"
+      ],
+      "glyph": "film",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-optlastec-2026-116945-3ac082",
+      "date": "2026-12-01",
+      "title": "Model-driven strategy for ultrafast laser precision fabrication of microscale structure arrays on hard and brittle materials",
+      "authors": "Suning Zhao, Yi Zhu, Wei Xiong, Leimin Deng, Guiyang Yang",
+      "institutions": [],
+      "journal": "Optics &amp; Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.116945",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.116945",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Hard & Brittle Materials"
+      ],
+      "glyph": "dicing",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1007-s00339-026-10386-8-ddd882",
+      "date": "2026-11-09",
+      "title": "Strategies for improving the regularity of high spatial frequency laser-induced periodic surface structures on titanium materials upon sub-ps-laser areal scan processing",
+      "authors": "Heike Voss, Eric Rahner, Matthias Weise, Thorid Lange, Mario Sahre, Jörg Krüger, Frank A. Müller, Stephan Gräf, Jörn Bonse",
+      "institutions": [],
+      "journal": "Applied Physics A",
+      "doi": "10.1007/s00339-026-10386-8",
+      "url": "https://doi.org/10.1007/s00339-026-10386-8",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Surface Structuring & LIPSS",
+        "Metals & Alloys"
+      ],
+      "glyph": "lipss",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "figs/10-1007-s00339-026-10386-8-ddd882.jpg",
+        "kind": "figure",
+        "credit": "CC BY · via link.springer.com"
+      },
+      "source": "openalex"
+    },
+    {
+      "id": "10-1007-s10762-026-01189-2-3e267c",
+      "date": "2026-11-09",
+      "title": "Terahertz Spectroscopy of Femtosecond-Laser-Induced Frequency Upshifts of the Transverse Optical Phonons in CuInSe2 Nanoparticles",
+      "authors": "Shekhar Priyadarshi",
+      "institutions": [],
+      "journal": "Journal of Infrared, Millimeter, and Terahertz Waves",
+      "doi": "10.1007/s10762-026-01189-2",
+      "url": "https://doi.org/10.1007/s10762-026-01189-2",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Processing"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/journal-of-infrared-millimeter-and-terahertz-waves.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Journal of Infrared, Millimeter, and Terahertz Waves"
+      },
+      "source": "crossref"
+    },
+    {
+      "id": "10-1007-s00170-026-19465-9-9f4405",
+      "date": "2026-11-09",
+      "title": "Approach for high precision ultrashort pulsed laser deep ablation for the generation of macroscopic freeform 2.5D structures in fused silica",
+      "authors": "Dominik Mücke, Cemal Esen, Ralf Hellmann",
+      "institutions": [],
+      "journal": "The International Journal of Advanced Manufacturing Technology",
+      "doi": "10.1007/s00170-026-19465-9",
+      "url": "https://doi.org/10.1007/s00170-026-19465-9",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Hard & Brittle Materials",
+        "Optical Data Storage",
+        "Glass & Silica"
+      ],
+      "glyph": "storage",
+      "summary": "We report on deep laser ablation of fused silica using ultrashort pulses at a high pulse frequency rate of 1000 kHz, enabling highly precise and fast generation of 2.5D structures, such as, e.g., optical elements and microfluidic elements. Depending on the specific demands of such applications in terms of surface roughness and geometrical features, initially the applied fluence is finely chosen in conjunction with the scan velocity and a fine refocusing to ablate defined layer heights even across larger ablation depths. Specifically, our approach allows a consistent layer-wise ablation of 1 µm down to at least 1900 µm with an error of below 0.5 % with respect to the targeted depth. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/the-international-journal-of-advanced-manufacturing-technolo.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · The International Journal of Advanced Manufacturing Technology"
+      },
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-lpor-72198-84d315",
+      "date": "2026-11-08",
+      "title": "Wavelength‐Programmable Parallel Bidirectional Photoresponse for In‐Sensor Information Processing and Fourier Image Encryption",
+      "authors": "Zinan Ma, Fei Liu, Peize Yuan, Mengjie He, Xiaohui Song, Xueping Li, Congxin Xia",
+      "institutions": [
+        "School of Optoelectronic Engineering",
+        "School of Physics"
+      ],
+      "journal": "Laser &amp; Photonics Reviews",
+      "doi": "10.1002/lpor.72198",
+      "url": "https://doi.org/10.1002/lpor.72198",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Semiconductor & Packaging"
+      ],
+      "glyph": "pulse",
+      "summary": "In‐sensor information processing and image encryption transmission are critical for next‐generation optoelectronic devices with low data latency and robust information security. However, unidirectional photoresponse and complex architectures hinder the integration of optical information processing and image encryption transmission. Here, we design a two‐terminal photodetector based on a Te/MoS 2 /WSe 2 heterojunction, exhibiting excellent broadband self‐powered photodetection with the responsivity, shot‐noise‐limited specific detectivity, and external quantum efficiency of 310.3 mA/W, 3.79 × 10 12 Jones, and 94.9%, respectively. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3390-photonics13111053-22d5ef",
+      "date": "2026-11-08",
+      "title": "Sensing Characteristics of a Compact All-in-Fibre fs-Laser Inscribed MZI and Grating Dual Structure",
+      "authors": "Andreas Ioannou, Antreas Theodosiou, Kyriacos Kalli",
+      "institutions": [
+        "Photonics & Optical Sensors Research Laboratory (PhOSLab)"
+      ],
+      "journal": "Photonics",
+      "doi": "10.3390/photonics13111053",
+      "url": "https://doi.org/10.3390/photonics13111053",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Fiber Gratings & Devices",
+        "Precision Micromachining & Trimming",
+        "Sensing"
+      ],
+      "glyph": "fiber",
+      "summary": "This work investigates the sensing capabilities of a compact, all-in-fibre Mach–Zehnder interferometer (MZI) fabricated using femtosecond laser inscription. The device was created within the cladding region of a single-mode optical fibre, in close proximity to the cladding–air interface, enabling light extraction from the core and enhanced evanescent-field interaction with the surrounding environment. The sensing structure integrates three collocated optical elements: a cladding-based MZI, a fibre Bragg grating (FBG) inscribed within the MZI sensing arm, and a conventional FBG inscribed in the fibre core, providing distinct and complementary sensing responses. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-smtd-71099-1aaaa9",
+      "date": "2026-11-08",
+      "title": "Ultrafast Laser‐Driven Crystallization of LTA Zeolite (Small Methods 21/2026)",
+      "authors": "Meryem Merve Doğan, Mehdi Hagverdiyev, Sezin Galioglu",
+      "institutions": [
+        "UNAM—National Nanotechnology Research Center Bilkent University Ankara Türkiye"
+      ],
+      "journal": "Small Methods",
+      "doi": "10.1002/smtd.71099",
+      "url": "https://doi.org/10.1002/smtd.71099",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Bulk Modification & Nanocrystals"
+      ],
+      "glyph": "bulk",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1038-s41467-026-78009-7-cdaf82",
+      "date": "2026-11-07",
+      "title": "Fully Integrated Deep-Ocean Flexible Temperature–Depth Sensor with Neural Network Compensation",
+      "authors": "Hai Zhang, Zihong Wei, A. S. Ismail, Zhuhang Dai, Diye Wu, Rongjie Lin, Zhenting Ye, Quan Hong, Maggie C. Y. Lau, Yaxiaer Yalikun, Huaping Wu, Chenjing Shang, Yang Yang",
+      "institutions": [
+        "Chinese Academy of Sciences",
+        "Institute of Deep-Sea Science and Engineering",
+        "University of Chinese Academy of Sciences"
+      ],
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-026-78009-7",
+      "url": "https://doi.org/10.1038/s41467-026-78009-7",
+      "oa": true,
+      "license": "CC BY-NC-ND",
+      "categories": [
+        "Laser-Induced Graphene & Carbon",
+        "Perovskites & 2D",
+        "Sensing"
+      ],
+      "glyph": "carbon",
+      "summary": "Earth’s deep ocean shapes global heat transport, carbon cycling and abyssal circulation, yet large regions remain undersampled. While conventional instruments provide precise single point measurements, their rigidity and weight limit deployment on emerging platforms that could extend observational reach. Here, we introduce the fully integrated, flexible temperature–depth sensor deployable on curved and mobile surfaces for deep-sea measurements. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-3390-polym18212778-f74098",
+      "date": "2026-11-07",
+      "title": "Fabrication of Laser-Induced Graphene/MoS2/PVA@Melamine Evaporators for Rapid Solar Steam Generation",
+      "authors": "Entesar A. Ganash, Salihah A. Al-zahrani, Hala A. Al-Jawhari, Reem M. Altuwirqi",
+      "institutions": [
+        "King Abdulaziz University"
+      ],
+      "journal": "Polymers",
+      "doi": "10.3390/polym18212778",
+      "url": "https://doi.org/10.3390/polym18212778",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Surface Structuring & LIPSS",
+        "Laser-Induced Graphene & Carbon",
+        "Metals & Alloys",
+        "Energy & Batteries"
+      ],
+      "glyph": "carbon",
+      "summary": "The increasing global water scarcity, driven by population growth, industrialization, and climate change, has created an urgent need for sustainable and efficient water desalination. This study focuses on developing a solar-driven steam generation (SSG) desalination system that uses photothermal materials (PTMs), such as molybdenum disulfide (MoS2) and graphene produced via laser-induced graphene (LIG), to enhance evaporation efficiency. The system was prepared by coating melamine foam (MF), used as the base, with polyvinyl alcohol (PVA) at varying concentrations (0.6 wt%–1.4 wt%), with the 1 wt% concentration showing the highest evaporation rate. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-15407-iopt-2026-61-171-12afa4",
+      "date": "2026-11-05",
+      "title": "COMPARATIVE ANALYSIS OF MODERN TECHNOLOGICAL APPROACHES TO FORMING MICRO-OPTICAL STRUCTURES",
+      "authors": "E. V. Beliak",
+      "institutions": [],
+      "journal": "Optoelektronìka ta napìvprovìdnikova tehnìka",
+      "doi": "10.15407/iopt.2026.61.171",
+      "url": "https://doi.org/10.15407/iopt.2026.61.171",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Waveguides & Photonic Chips",
+        "Two-Photon Polymerization",
+        "Sensing"
+      ],
+      "glyph": "tpp",
+      "summary": "The paper systematizes modern approaches to the classification, formation, and industrial application of micro-optical structures. The main directions of their use in image formation and optical radiation control systems, information photonics, sensors, biophotonics, lighting engineering, and optical identification tools are considered. A multi-level classification of micro-optical elements is proposed based on their functional purpose, the type of optical field transformation, geometric complexity, and spatial organization. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-opticaopen-34868058-70d4ed",
+      "date": "2026-11-04",
+      "title": "An Alignment Microscope for Imaging Rotational Wavepacket Dynamics",
+      "authors": "James Strohaber",
+      "institutions": [],
+      "journal": "",
+      "doi": "10.1364/opticaopen.34868058",
+      "url": "https://doi.org/10.1364/opticaopen.34868058",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Beam Shaping & SLM"
+      ],
+      "glyph": "beam",
+      "summary": "We introduce a new method for encoding polarization-angle-dependent molecular alignment signals directly into the transverse spatial profile of a femtosecond laser beam. The approach employs a pump-probe setup in a common-path geometry. A radial–azimuthal polarization converter placed in the probe beam produces a doughnut-shaped beam whose local polarization varies continuously with azimuthal angle, thereby encoding the full range of linear polarization orientations from 0 to 2π within a single transverse beam profile. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/journal.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · "
+      },
+      "source": "openalex"
+    },
     {
       "id": "10-26434-chemrxiv-15011543-v2-64828c",
       "date": "2026-11-02",
@@ -60,6 +368,95 @@
       "source": "crossref"
     },
     {
+      "id": "10-1016-j-cej-2026-184085-803db6",
+      "date": "2026-11-01",
+      "title": "Femtosecond laser-engineered micro-nano composite structures toward stable zinc metal anodes",
+      "authors": "Xuejiao Yang, Zhenyang Yu, Chang Liu, Yang Zheng, Wei Niu, Fulin Yao, Liangliang Xu, Yanan Liu",
+      "institutions": [],
+      "journal": "Chemical Engineering Journal",
+      "doi": "10.1016/j.cej.2026.184085",
+      "url": "https://doi.org/10.1016/j.cej.2026.184085",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Metals & Alloys",
+        "Energy & Batteries"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-surfcoat-2026-134118-95c354",
+      "date": "2026-11-01",
+      "title": "Structure–property relationships governing femtosecond laser ablation in functional coatings",
+      "authors": "Erwin Peck, Balint Istvan Hajas, Benedikt Kunagl, Markus Kircher, Roland Fürbacher, Lukas Kreuziger, Szilard Kolozsvári, Paul H. Mayrhofer, Alexander Kirnbauer",
+      "institutions": [],
+      "journal": "Surface and Coatings Technology",
+      "doi": "10.1016/j.surfcoat.2026.134118",
+      "url": "https://doi.org/10.1016/j.surfcoat.2026.134118",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Ceramics & Coatings"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-surfin-2026-111251-1fc1ea",
+      "date": "2026-11-01",
+      "title": "Atomistic mechanisms of material removal and damage evolution during sequential multi-directional picosecond laser scanning of 3C-SiC",
+      "authors": "Meng Li, Pengyue Zhao, Di Chang, Bingxu Chen, Jiubin Tan",
+      "institutions": [],
+      "journal": "Surfaces and Interfaces",
+      "doi": "10.1016/j.surfin.2026.111251",
+      "url": "https://doi.org/10.1016/j.surfin.2026.111251",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "SiC & Wide-Bandgap"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-apsusc-2026-168906-a3de94",
+      "date": "2026-11-01",
+      "title": "Oxygen-mediated structural evolution of T800 carbon fibers under high-dose electron irradiation: From selective etching to graphitic framework degradation",
+      "authors": "Xuan Zhou, Weihua Liu, Zhongfeng Tang",
+      "institutions": [],
+      "journal": "Applied Surface Science",
+      "doi": "10.1016/j.apsusc.2026.168906",
+      "url": "https://doi.org/10.1016/j.apsusc.2026.168906",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Selective Etching & Microfluidics"
+      ],
+      "glyph": "etch",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-26434-chemrxiv-15010578-v2-03b439",
       "date": "2026-10-16",
       "title": "Nanoscale Phase Engineering and Magnetic Property Enhancement in High-Entropy Alloy Nanoparticles by Continuous Microparticle Laser Fragmentation in Liquid",
@@ -88,5 +485,5 @@
     }
   ],
   "removed": [],
-  "updated": "2026-11-09"
+  "updated": "2026-11-10"
 }
