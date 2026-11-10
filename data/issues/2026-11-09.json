@@ -4,7 +4,7 @@
   "date": "2026-11-09",
   "window": [
     "2026-11-09",
-    "2026-11-10"
+    "2026-11-11"
   ],
   "articles": [
     {
@@ -32,6 +32,29 @@
       "source": "crossref"
     },
     {
+      "id": "10-1016-j-est-2026-125593-4c925e",
+      "date": "2027-01-01",
+      "title": "Selective etching and depassivation of Zn crystal facets for highly reversible Zn anodes",
+      "authors": "Jie Wen, Xiaoning Tang, Xu Zeng, Jie Lei, Shan Guo, Xinyi Dai, An Xue, Fuzhong Wu",
+      "institutions": [],
+      "journal": "Journal of Energy Storage",
+      "doi": "10.1016/j.est.2026.125593",
+      "url": "https://doi.org/10.1016/j.est.2026.125593",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Selective Etching & Microfluidics",
+        "Energy & Batteries"
+      ],
+      "glyph": "etch",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-1016-j-optlastec-2026-116945-3ac082",
       "date": "2026-12-01",
       "title": "Model-driven strategy for ultrafast laser precision fabrication of microscale structure arrays on hard and brittle materials",
@@ -48,6 +71,181 @@
       "glyph": "dicing",
       "summary": "",
       "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1063-5-0355226-d1295d",
+      "date": "2026-11-10",
+      "title": "AC streamer discharge propagation assisted by femtosecond laser filamentation in a long air gap",
+      "authors": "Leonid Arantchouk, Thomas Clark, Magali Lozano, Aurelien Houard",
+      "institutions": [
+        "CNRS"
+      ],
+      "journal": "Applied Physics Letters",
+      "doi": "10.1063/5.0355226",
+      "url": "https://doi.org/10.1063/5.0355226",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Ultrafast Sources & Systems"
+      ],
+      "glyph": "source",
+      "summary": "We study the development of laser-guided, meter-scale electric discharges produced in air by a Tesla AC voltage generator. Using ultrafast imaging, we observe the propagation of streamers produced in the presence of femtosecond laser filaments when a 100 μs oscillatory voltage of 300 kV is applied to a rod electrode. We found that the streamers propagate much faster in the low-density gas channel formed by the filament when the voltage polarity is negative. Their propagation is unaffected by a grounded second electrode at the filament's end. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3390-mi17111305-f16a68",
+      "date": "2026-11-10",
+      "title": "Groove Morphology and Debris Height in Femtosecond Laser Grooving of SiCOH Low-k Wafers Under Infrared and Ultraviolet Processing Conditions",
+      "authors": "Ki-Cheol Kim, Cheong-Ha Jung, Ji-Woong Kang, Gu-Sung Kim",
+      "institutions": [
+        "Electronic Package Research Center"
+      ],
+      "journal": "Micromachines",
+      "doi": "10.3390/mi17111305",
+      "url": "https://doi.org/10.3390/mi17111305",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Hard & Brittle Materials",
+        "Thin Films & 2D Materials",
+        "Spatiotemporal & Burst Control",
+        "Silicon & Semiconductors",
+        "Semiconductor & Packaging"
+      ],
+      "glyph": "dicing",
+      "summary": "Femtosecond laser grooving is used as a pre-processing step ahead of the mechanical dicing of low-k dielectrics, which are brittle and prone to cracking and delamination under stress. To relate the groove geometry and the debris height to the processing parameters, SiCOH low-k wafers were grooved at a fixed pulse duration of 250 fs under an infrared condition at 1030 nm and an ultraviolet condition at 343 nm, with nominal spot diameters of 12 and 7 µm, respectively. Each groove was formed in eight passes. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1063-5-0341075-99d1d6",
+      "date": "2026-11-10",
+      "title": "Femtosecond laser irradiation of thin Ge2Sb2Te5−x films: Amorphization and morphological evolution",
+      "authors": "F. Mignerot, M. Texier, S. Comby-Dassonneville, T. Fernandes, P. Hans, C. Mocuta, Y. Le-Friec, P. Boivin, S. Jeannot, O. Uteza, O. Thomas",
+      "institutions": [
+        "CNRS"
+      ],
+      "journal": "Journal of Applied Physics",
+      "doi": "10.1063/5.0341075",
+      "url": "https://doi.org/10.1063/5.0341075",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Thin Films & 2D Materials",
+        "Metals & Alloys"
+      ],
+      "glyph": "film",
+      "summary": "This study explores the amorphization of a Te-poor Ge–Sb–Te alloy using single 800 nm femtosecond laser pulses. Before irradiation, the phase composition and microstructure of the investigated sample were characterized using synchrotron x-ray diffraction and high-resolution transmission electron microscopy. The threshold fluence required for amorphization with a single laser shot was identified, with a minimum fluence of ∼45 mJ cm−2 necessary to induce structural changes. At higher fluences (≥83 mJ cm−2), surface blistering and layer delamination occurred, also due to laser absorption by the TiN capping layer. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3103-s1068335626601597-0930cf",
+      "date": "2026-11-10",
+      "title": "Cumulative Thermal Effects in Nanoplasmonic Recording of Birefringent Microstructures by Femtosecond Laser Radiation in the Bulk of Fused Silica",
+      "authors": "A. E. Rupasov, G. K. Krasin, M. S. Kovalev, S. I. Kudryashov, A. S. Comshin",
+      "institutions": [],
+      "journal": "Bulletin of the Lebedev Physics Institute",
+      "doi": "10.3103/s1068335626601597",
+      "url": "https://doi.org/10.3103/s1068335626601597",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Glass & Silica"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1103-jdf2-r5hr-d9d411",
+      "date": "2026-11-10",
+      "title": "Coherent shear wave in crystalline Si upon subthreshold femtosecond laser-induced excitation",
+      "authors": "Angel Rodríguez-Fernández, Jan-Etienne Pudell, Roman Shayduk, James Wrigley, Alejandro Fraile-Gimeno, Wonhyuk Jo, Johannes Möller, Alexey Zozulya, Jörg Hallmann, Anders Madsen, Pablo Villanueva-Perez, Zdenek Matej, Thies J. Albert, Dominik Kaczmarek, Klaus Sokolowski-Tinten, Antonowicz Jerzy, Oleksii I. Liubchenko, Houri Rahimi Mosafer, Ryszard Sobierajski, Javier Solis et al.",
+      "institutions": [],
+      "journal": "Physical Review Letters",
+      "doi": "10.1103/jdf2-r5hr",
+      "url": "https://doi.org/10.1103/jdf2-r5hr",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Processing"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1007-s00339-026-10444-1-2e79c6",
+      "date": "2026-11-10",
+      "title": "Enhanced visible-light photocatalytic performance of plasmonic Au/CdS nanocomposites prepared by pulsed laser ablation in liquid",
+      "authors": "Sümeyye KIZGIN, Serap YİĞİT GEZGİN, Ömer Faruk YÜKSEL, Hamdi Şükür KILIÇ",
+      "institutions": [],
+      "journal": "Applied Physics A",
+      "doi": "10.1007/s00339-026-10444-1",
+      "url": "https://doi.org/10.1007/s00339-026-10444-1",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Nanoparticles & Ablation in Liquids"
+      ],
+      "glyph": "nano",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/applied-physics-a.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Applied Physics A"
+      },
+      "source": "crossref"
+    },
+    {
+      "id": "10-1021-acsomega-6c03033-b96461",
+      "date": "2026-11-10",
+      "title": "Microfabrication via Two-Photon Cross-Linking: An Investigation of Fabrication Parameters",
+      "authors": "Ha-Neul Chae, Oswald Prucker, Jürgen Rühe",
+      "institutions": [
+        "University of Freiburg"
+      ],
+      "journal": "ACS Omega",
+      "doi": "10.1021/acsomega.6c03033",
+      "url": "https://doi.org/10.1021/acsomega.6c03033",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Two-Photon Polymerization",
+        "Thin Films & 2D Materials",
+        "Polymers & Resins"
+      ],
+      "glyph": "tpp",
+      "summary": "Two-photon lithography (2PL) is a microfabrication technique that has become a standard method for the generation of miniaturized 3D objects. A promising novel approach to laser direct writing is two-photon cross-linking (2PC), which uses thin solid films of copolymers containing small amounts of chromophores acting as a two-photon cross-linker. Upon activation by two-photon light absorption, they form polymer networks through cross-linking via C–H insertion (CHic) at the focal point of the laser beam. As the focal volume moves, polymer structures are written into the film as a latent image. …",
+      "why": "",
+      "tier": "notable",
       "pick": false,
       "feature": false,
       "fig": null,
@@ -133,6 +331,55 @@
         "credit": "Journal cover · The International Journal of Advanced Manufacturing Technology"
       },
       "source": "crossref"
+    },
+    {
+      "id": "10-1002-smll-76552-99ca29",
+      "date": "2026-11-09",
+      "title": "Femtosecond Laser Achieving High‐Entropy Alloys Composited Multiscale Structures Toward Efficient Crude Oil Transport",
+      "authors": "Jiaqing Pei, Kai Yin, Lingxiao Wang, Xinghao Song, Jianqiang Xiao, Hao Song, Yuchun He",
+      "institutions": [],
+      "journal": "Small",
+      "doi": "10.1002/smll.76552",
+      "url": "https://doi.org/10.1002/smll.76552",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Surface Structuring & LIPSS",
+        "Metals & Alloys",
+        "Energy & Batteries"
+      ],
+      "glyph": "lipss",
+      "summary": "Crude oil becomes highly viscous and may solidify at low temperatures, reducing pipeline throughput and increasing transport energy demand. Conventional heating systems require complex infrastructure and substantial energy input, limiting their use in low‐energy, high‐performance oil transport. Here, we report a flash femtosecond laser route that creates an in situ photothermal superhydrophobic high‐entropy alloy nanoparticle (HEA‐NPs)/aluminum surface for solar‐assisted crude oil transport. The transient heating and quenching generated by the laser produce FeCoNiCrMnLa HEA‐NPs and distribute them uniformly across the hierarchical aluminum substrate (HEAs/PA). …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-48550-arxiv-2611-12354-90db35",
+      "date": "2026-11-09",
+      "title": "Boosting bottom-up milling of glass with GHz laser bursts",
+      "authors": "Miglė Mackevičiūtė, Juozas Dudutis, Aleksandras Kondratas, Paulius Gečys",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2611.12354",
+      "url": "https://arxiv.org/abs/2611.12354",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Hard & Brittle Materials",
+        "Spatiotemporal & Burst Control",
+        "Glass & Silica"
+      ],
+      "glyph": "dicing",
+      "summary": "Burst-mode laser processing has gained increasing attention in material machining due to its potential to enhance processing efficiency and quality. However, most studies have focused on conventional top-down machining strategies, while investigations of bottom-up milling (BUM) remain limited. In this work, we optimize processing parameters for high-efficiency glass milling using a bottom-up approach with GHz bursts. The results show that the highest BUM efficiencies are achieved when employing high pulse counts (\\geq 20). To the best of our knowledge, we report the highest glass milling efficiency, reaching more than 250 μm3/μJ for both soda-lime glass and fused silica. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "arxiv"
     },
     {
       "id": "10-1002-lpor-72198-84d315",
@@ -289,6 +536,31 @@
       "source": "crossref"
     },
     {
+      "id": "10-48550-arxiv-2611-08805-b092f8",
+      "date": "2026-11-05",
+      "title": "Laser-Direct-Written polymer WGM microring laser integrated on a fiber tip for refractive index sensing",
+      "authors": "Mobin Yaghoobi, Seyedeh Mahshad Hosseini, Leila Hajshahvaladi, Gholam-Mohammad Parsanasab, Mohammad Ismail Zibaii",
+      "institutions": [],
+      "journal": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2611.08805",
+      "url": "https://doi.org/10.48550/arxiv.2611.08805",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Fiber Gratings & Devices",
+        "Modeling & Simulation",
+        "Polymers & Resins",
+        "Sensing"
+      ],
+      "glyph": "fiber",
+      "summary": "Whispering-gallery-mode (WGM) microlasers are promising for refractometric sensing, but their practical implementation can be limited by the need for stable resonator-coupler alignment. Here, we demonstrate a Rhodamine B-doped polymer WGM microring laser directly fabricated on an optical-fiber tip, eliminating the external resonator-fiber coupling interface at the sensing head. Micro-droplet coating and UV laser direct writing are combined for fabrication, while finite-difference time-domain simulations guide the microring laser design. The microlasers operate in air and water with thresholds of 0.224 uJ and 0.458 uJ, respectively. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
       "id": "10-1364-opticaopen-34868058-70d4ed",
       "date": "2026-11-04",
       "title": "An Alignment Microscope for Imaging Rotational Wavepacket Dynamics",
@@ -297,6 +569,33 @@
       "journal": "",
       "doi": "10.1364/opticaopen.34868058",
       "url": "https://doi.org/10.1364/opticaopen.34868058",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Beam Shaping & SLM"
+      ],
+      "glyph": "beam",
+      "summary": "We introduce a new method for encoding polarization-angle-dependent molecular alignment signals directly into the transverse spatial profile of a femtosecond laser beam. The approach employs a pump-probe setup in a common-path geometry. A radial–azimuthal polarization converter placed in the probe beam produces a doughnut-shaped beam whose local polarization varies continuously with azimuthal angle, thereby encoding the full range of linear polarization orientations from 0 to 2π within a single transverse beam profile. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/journal.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · "
+      },
+      "source": "openalex"
+    },
+    {
+      "id": "10-1364-opticaopen-34868058-v1-8387e9",
+      "date": "2026-11-04",
+      "title": "An Alignment Microscope for Imaging Rotational Wavepacket Dynamics",
+      "authors": "James Strohaber",
+      "institutions": [],
+      "journal": "",
+      "doi": "10.1364/opticaopen.34868058.v1",
+      "url": "https://doi.org/10.1364/opticaopen.34868058.v1",
       "oa": false,
       "license": "",
       "categories": [
@@ -457,6 +756,125 @@
       "source": "crossref"
     },
     {
+      "id": "10-1016-j-jmatprotec-2026-119579-76bc51",
+      "date": "2026-11-01",
+      "title": "Tailoring Nano Gradient Architectures on Copper Surface through Low-energy Ultrashort-pulse Laser Peening",
+      "authors": "Pengjie Wang, Haimin Ding",
+      "institutions": [],
+      "journal": "Journal of Materials Processing Technology",
+      "doi": "10.1016/j.jmatprotec.2026.119579",
+      "url": "https://doi.org/10.1016/j.jmatprotec.2026.119579",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Metals & Alloys"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-diamond-2026-114388-d5326b",
+      "date": "2026-11-01",
+      "title": "Recent advances in microstructure, processing, and integrated applications of laser-induced graphene",
+      "authors": "Zhichun Yuan, Bo Zhang, Lixing Chen, Wenbo Cong, Qinglin Zeng, Wentao Wang",
+      "institutions": [],
+      "journal": "Diamond and Related Materials",
+      "doi": "10.1016/j.diamond.2026.114388",
+      "url": "https://doi.org/10.1016/j.diamond.2026.114388",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Laser-Induced Graphene & Carbon",
+        "Perovskites & 2D",
+        "Reviews"
+      ],
+      "glyph": "carbon",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-jmatprotec-2026-119581-720423",
+      "date": "2026-11-01",
+      "title": "Laser Micromachining of Ultrafine Glass Micro-structures for Next-Generation Packaging: Mechanisms, Processes, and Future Trends",
+      "authors": "Yong Sun, Xiangqian Xu, Jingyi Wang, Yongfeng Zhao, Yusuke Ito, Jiawang Xie, Lijuan Zheng, Xin Wei, Jun Wang, Chengyong Wang",
+      "institutions": [],
+      "journal": "Journal of Materials Processing Technology",
+      "doi": "10.1016/j.jmatprotec.2026.119581",
+      "url": "https://doi.org/10.1016/j.jmatprotec.2026.119581",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Precision Micromachining & Trimming",
+        "Glass & Silica",
+        "Semiconductor & Packaging"
+      ],
+      "glyph": "drill",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-colsurfa-2026-142303-b63a71",
+      "date": "2026-11-01",
+      "title": "Preparation of asymmetric superwetting Janus membranes via laser-induced graphene (LIG) deposition on copper foam for seawater desalination",
+      "authors": "Liyong Wang, Zhe Luo, Xiaoyan Luo, Xianren Zeng, Jinlei Hu, Lingping Zeng, Jiaxing Liu, Mingming Liu, Yonghong Tan, Hongyu Zheng",
+      "institutions": [],
+      "journal": "Colloids and Surfaces A: Physicochemical and Engineering Aspects",
+      "doi": "10.1016/j.colsurfa.2026.142303",
+      "url": "https://doi.org/10.1016/j.colsurfa.2026.142303",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Laser-Induced Graphene & Carbon",
+        "Metals & Alloys",
+        "Energy & Batteries"
+      ],
+      "glyph": "carbon",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-snb-2026-141227-f96bad",
+      "date": "2026-11-01",
+      "title": "Miniature Two-Photon Polymerized Fiber-Tip Sensor for Temperature-Compensated pH Monitoring in Tissue Fluid",
+      "authors": "Dongshuo Li, Pengqi Gong, Pengchong Yuan, Qi Yu, Yu Wang, Xue Zhou, Jian Zhao, Yong Zhao, Xuegang Li",
+      "institutions": [],
+      "journal": "Sensors and Actuators B: Chemical",
+      "doi": "10.1016/j.snb.2026.141227",
+      "url": "https://doi.org/10.1016/j.snb.2026.141227",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Two-Photon Polymerization",
+        "Fiber Gratings & Devices",
+        "Polymers & Resins",
+        "Sensing"
+      ],
+      "glyph": "tpp",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-26434-chemrxiv-15010578-v2-03b439",
       "date": "2026-10-16",
       "title": "Nanoscale Phase Engineering and Magnetic Property Enhancement in High-Entropy Alloy Nanoparticles by Continuous Microparticle Laser Fragmentation in Liquid",
@@ -485,5 +903,5 @@
     }
   ],
   "removed": [],
-  "updated": "2026-11-10"
+  "updated": "2026-11-11"
 }
