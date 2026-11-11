@@ -4,7 +4,7 @@
   "date": "2026-11-09",
   "window": [
     "2026-11-09",
-    "2026-11-11"
+    "2026-11-12"
   ],
   "articles": [
     {
@@ -55,6 +55,50 @@
       "source": "crossref"
     },
     {
+      "id": "10-1016-j-optlastec-2026-116878-a8523f",
+      "date": "2027-01-01",
+      "title": "Femtosecond laser fabrication of metallic micro- and nanostructures for functional applications",
+      "authors": "Yue Zhang, Yang Liu, Shuai Gao, Zhaopeng Tong, Jingjing Zhang, Zijie Dai",
+      "institutions": [],
+      "journal": "Optics &amp; Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.116878",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.116878",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Processing"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-optlastec-2026-116994-783bd6",
+      "date": "2027-01-01",
+      "title": "Dynamic bias compensation for suppressing frequency–response-induced baseline distortion in high-power LFM burst-mode lasers",
+      "authors": "Jia Yan, Bin Zhang, Jing Hou",
+      "institutions": [],
+      "journal": "Optics &amp; Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.116994",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.116994",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Spatiotemporal & Burst Control"
+      ],
+      "glyph": "burst",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-1016-j-optlastec-2026-116945-3ac082",
       "date": "2026-12-01",
       "title": "Model-driven strategy for ultrafast laser precision fabrication of microscale structure arrays on hard and brittle materials",
@@ -71,6 +115,129 @@
       "glyph": "dicing",
       "summary": "",
       "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1007-s00339-026-10326-6-ad11f5",
+      "date": "2026-11-11",
+      "title": "Machining performance of flax-reinforced polylactide biocomposites using high-power picosecond lasers",
+      "authors": "Stephen D. Dondieu, Ben Mason, Ffion A. M. Rodes, Helen Elkington, Sundar Marimuthu",
+      "institutions": [],
+      "journal": "Applied Physics A",
+      "doi": "10.1007/s00339-026-10326-6",
+      "url": "https://doi.org/10.1007/s00339-026-10326-6",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Processing"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/applied-physics-a.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Applied Physics A"
+      },
+      "source": "openalex"
+    },
+    {
+      "id": "10-1364-ol-614478-7c4cde",
+      "date": "2026-11-11",
+      "title": "Femtosecond laser-induced metasurface for broadband pyroelectric photodetection",
+      "authors": "haozhou yuan, Minghui Fan, Shuyao Zhang, Chenhui Lu, Liping Shi, Jiao Geng",
+      "institutions": [],
+      "journal": "Optics Letters",
+      "doi": "10.1364/ol.614478",
+      "url": "https://doi.org/10.1364/ol.614478",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Micro-Optics & Metasurfaces",
+        "Semiconductor & Packaging"
+      ],
+      "glyph": "microoptics",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-oe-618539-4b149a",
+      "date": "2026-11-11",
+      "title": "Polarization-locked additive silver nanostripes through femtosecond-laser photoreduction",
+      "authors": "Tianwei Wang, Zhen-Ze Li, Hong-Wei Zhou, Peng-Yi Feng, Qianqian Shi, Quan Sun, Weiwei Liu, Linhan Lin",
+      "institutions": [],
+      "journal": "Optics Express",
+      "doi": "10.1364/oe.618539",
+      "url": "https://doi.org/10.1364/oe.618539",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Processing"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1007-s44174-026-00803-0-189b86",
+      "date": "2026-11-11",
+      "title": "Investigation of Au@Ag@Pd Nanoparticles Prepared by Pulsed Laser Ablation in Liquid for Enhanced Diabetic Wound Healing",
+      "authors": "Zahraa Sahib Shanon, Mushtaq Talib Al-Helaly",
+      "institutions": [],
+      "journal": "Biomedical Materials &amp; Devices",
+      "doi": "10.1007/s44174-026-00803-0",
+      "url": "https://doi.org/10.1007/s44174-026-00803-0",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Nanoparticles & Ablation in Liquids"
+      ],
+      "glyph": "nano",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1021-acs-cgd-6c01233-bca60d",
+      "date": "2026-11-11",
+      "title": "Laser-Heated Pedestal Growth and Optical Attenuation Mechanisms of Magnesium Aluminate Spinel Single-Crystal Fibers for Radiation-Hardened Fiber Bragg Grating Sensing up to 1600 °C",
+      "authors": "Tao Wang, Qi Guo, Kaihui Zhang, Zhengmin Wang, Lin Liu, Yongsen Yu, Na Lin, Jian Zhang, Zhigang Zhao, Zhitai Jia",
+      "institutions": [
+        "Shandong University",
+        "Jilin University",
+        "Shandong First Medical University & Shandong Academy of Medical Sciences"
+      ],
+      "journal": "Crystal Growth &amp; Design",
+      "doi": "10.1021/acs.cgd.6c01233",
+      "url": "https://doi.org/10.1021/acs.cgd.6c01233",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Waveguides & Photonic Chips",
+        "Fiber Gratings & Devices",
+        "Sapphire & Crystals",
+        "Sensing"
+      ],
+      "glyph": "waveguide",
+      "summary": "In situ sensing in extreme environments requires waveguide media that can withstand ultrahigh temperatures, intense radiation, and large mechanical strains. Here, [100]-, [110]-, and [111]-oriented magnesium aluminate spinel (MgAl2O4) single-crystal fibers (SCFs) were fabricated by the laser-heated pedestal growth (LHPG) method for the first time, with diameters down to 50 μm and lengths exceeding 1 m. High-temperature exposure produces extensive surface deposition together with aligned linear features and triangular faceted surface features. …",
+      "why": "",
+      "tier": "notable",
       "pick": false,
       "feature": false,
       "fig": null,
@@ -250,6 +417,56 @@
       "feature": false,
       "fig": null,
       "source": "crossref"
+    },
+    {
+      "id": "10-1088-2058-8585-aec029-cd001c",
+      "date": "2026-11-10",
+      "title": "Highly sensitive LIG/MWCNTs flexible strain sensor enabled by fingerprint-inspired microcrack engineering",
+      "authors": "Jiaxuan Wang, Linhua Piao, Kaixuan Wang, Xing Gao",
+      "institutions": [
+        "Beijing Information Science & Technology University"
+      ],
+      "journal": "Flexible and Printed Electronics",
+      "doi": "10.1088/2058-8585/aec029",
+      "url": "https://doi.org/10.1088/2058-8585/aec029",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Ultrafast Welding & Joining",
+        "Laser-Induced Graphene & Carbon",
+        "Perovskites & 2D",
+        "Sensing"
+      ],
+      "glyph": "weld",
+      "summary": "Flexible strain sensors are essential components of wearable electronic devices. However, simultaneously achieving high sensitivity, stable electrical conductivity, a wide working strain range, and controllable structural fabrication remains a major challenge. In this study, a laser-induced graphene/multi-walled carbon nanotube (LIG/MWCNTs) composite conductive network regulated by fingerprint-inspired microcracks was fabricated through laser direct writing. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1103-9qb4-5qpd-27884a",
+      "date": "2026-11-10",
+      "title": "Coexistence of dipolar and quadrupolar higher-order topology",
+      "authors": "Konstantin Rodionenko, Maxim Mazanov, Maxim A. Gorlach",
+      "institutions": [],
+      "journal": "Physical Review A",
+      "doi": "10.1103/9qb4-5qpd",
+      "url": "https://doi.org/10.1103/9qb4-5qpd",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Waveguides & Photonic Chips",
+        "Modeling & Simulation"
+      ],
+      "glyph": "waveguide",
+      "summary": "Two-dimensional higher-order topological insulators are typically classified either as dipolar or quadrupolar depending on the relevant invariant. These two classes were previously considered non-overlapping. Here we put forward an example system exhibiting dipolar and quadrupolar higher-order topology simultaneously, suggest its implementation using the arrays of laser-written evanescently coupled optical waveguides and support our conclusions by the full-wave numerical simulations.",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
     },
     {
       "id": "10-1007-s00339-026-10386-8-ddd882",
@@ -457,6 +674,37 @@
       "source": "crossref"
     },
     {
+      "id": "10-1002-btm2-70197-aecd8b",
+      "date": "2026-11-08",
+      "title": "Magnetic microrobots for precision medicine: From locomotion mechanisms and advanced materials to clinical translation",
+      "authors": "Gongxin Li, Yuting Mao, Fei Liu, fangmei an, Qiang Zhan",
+      "institutions": [
+        "Jiangnan University",
+        "Wuxi People's Hospital",
+        "Nanjing Medical University"
+      ],
+      "journal": "Bioengineering & Translational Medicine",
+      "doi": "10.1002/btm2.70197",
+      "url": "https://doi.org/10.1002/btm2.70197",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Two-Photon Polymerization",
+        "Selective Etching & Microfluidics",
+        "Polymers & Resins",
+        "Biomedical & Life Science",
+        "Reviews"
+      ],
+      "glyph": "tpp",
+      "summary": "As minimally invasive surgery (MIS) ventures into increasingly confined and delicate anatomical regions, conventional tethered instruments encounter inherent limitations in miniaturization and maneuverability. Untethered magnetic microrobots, characterized by precise navigation, deep tissue penetration, and highly efficient propulsion in low-Reynolds-number fluids, have emerged as a transformative platform for targeted diagnostics and therapeutics with sub-millimeter accuracy. This review systematically examines the state-of-the-art breakthroughs and the clinical translation landscape of magnetic microrobotic systems. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
       "id": "10-1038-s41467-026-78009-7-cdaf82",
       "date": "2026-11-07",
       "title": "Fully Integrated Deep-Ocean Flexible Temperature–Depth Sensor with Neural Network Compensation",
@@ -510,6 +758,31 @@
       "feature": false,
       "fig": null,
       "source": "crossref"
+    },
+    {
+      "id": "10-48550-arxiv-2611-10686-a64e48",
+      "date": "2026-11-07",
+      "title": "Nonlinear Optical Properties of MXenes for Photonic Applications",
+      "authors": "Alina Karabchevsky, Shadad Watad, Aviad Katiyi, Muhammad Sharif Uddin, Nicolás Abadía, Anupma Thakur, Babak Anasori",
+      "institutions": [],
+      "journal": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2611.10686",
+      "url": "https://doi.org/10.48550/arxiv.2611.10686",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Micro-Optics & Metasurfaces",
+        "Metals & Alloys",
+        "Sensing"
+      ],
+      "glyph": "microoptics",
+      "summary": "MXenes - a rapidly expanding family of two-dimensional transition-metal carbides, nitrides, and carbonitrides - have emerged as powerful nonlinear photonic materials owing to their metallic conductivity, ultrafast carrier dynamics, broadband optical response, and highly tunable surface chemistry. This Review provides the first comprehensive overview of the nonlinear optical (NLO) properties of MXenes and their growing impact on advanced photonic technologies. We discuss state-of-the-art synthesis strategies, from fluoride-based etching to molten-salt, electrochemical, and CVD-enabled routes, highlighting how structural quality and surface terminations govern optical behaviour. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
     },
     {
       "id": "10-15407-iopt-2026-61-171-12afa4",
@@ -903,5 +1176,5 @@
     }
   ],
   "removed": [],
-  "updated": "2026-11-11"
+  "updated": "2026-11-12"
 }
