@@ -4,7 +4,7 @@
   "date": "2026-11-09",
   "window": [
     "2026-11-09",
-    "2026-11-12"
+    "2026-11-13"
   ],
   "articles": [
     {
@@ -114,6 +114,56 @@
       ],
       "glyph": "dicing",
       "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1021-acsomega-6c12460-2ff3f6",
+      "date": "2026-11-12",
+      "title": "Effects of Resistance Compensation on Laser-Induced Graphene Electrodes",
+      "authors": "Nathália Florência B. Azeredo, Thawan G. Oliveira, Irlan S. Lima, Eleilton da Silva, Claudimir L. Lago, Lúcio Angnes",
+      "institutions": [
+        "University of São Paulo"
+      ],
+      "journal": "ACS Omega",
+      "doi": "10.1021/acsomega.6c12460",
+      "url": "https://doi.org/10.1021/acsomega.6c12460",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Laser-Induced Graphene & Carbon",
+        "Perovskites & 2D",
+        "Sensing"
+      ],
+      "glyph": "carbon",
+      "summary": "Laser-induced graphene (LIG) offers a promising approach for fabricating low-cost, flexible, and disposable electrochemical sensors. However, the electrical resistance associated with thin conductive tracks and their connections can introduce substantial ohmic potential losses, compromising potential control and distorting electrochemical measurements. Here, we report a paper-based LIG electrochemical platform incorporating a four-terminal configuration designed to minimize resistance-related distortions through separate current-carrying and potential-sensing pathways. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3762-bjnano-17-110-395a85",
+      "date": "2026-11-12",
+      "title": "Exploring combinations of spatial laser beam shaping for advancing nanoparticle synthesis by ablation in liquids",
+      "authors": "Rémi Bérard, Abdel Rahman Altakroury, Oleksandr Gatsa, Zongwen Fu, Bilal Gökce, Alexander V Bulgakov",
+      "institutions": [],
+      "journal": "Beilstein Journal of Nanotechnology",
+      "doi": "10.3762/bjnano.17.110",
+      "url": "https://doi.org/10.3762/bjnano.17.110",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Nanoparticles & Ablation in Liquids",
+        "Beam Shaping & SLM",
+        "Metals & Alloys"
+      ],
+      "glyph": "nano",
+      "summary": "Pulsed laser ablation in liquids (PLAL) is a versatile and sustainable technique for the synthesis of ligand-free colloidal nanoparticles, but its wider application is limited by relatively low productivity and insufficient control over particle size distributions. Here, to advance the technique, we investigate the possibility of combining in one synthesis process the advantages of two recently developed cost-effective approaches, multibeam PLAL for productivity increase and donut-shaped laser beams for particle size modification. …",
       "why": "",
       "pick": false,
       "feature": false,
@@ -242,6 +292,118 @@
       "feature": false,
       "fig": null,
       "source": "crossref"
+    },
+    {
+      "id": "10-1126-sciadv-aej0287-48d23f",
+      "date": "2026-11-11",
+      "title": "Controllable fabrication of visible-spectrum 3D photonic crystals",
+      "authors": "Hu H, Li D, Gao H, Chen F, Zhang M, Li Z, Mao A, Xiong W",
+      "institutions": [
+        "Wuhan National Laboratory for Optoelectronics",
+        "Huazhong University of Science and Technology",
+        "Optics Valley Laboratory"
+      ],
+      "journal": "Science advances",
+      "doi": "10.1126/sciadv.aej0287",
+      "url": "https://doi.org/10.1126/sciadv.aej0287",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Waveguides & Photonic Chips",
+        "Two-Photon Polymerization",
+        "Diamond"
+      ],
+      "glyph": "tpp",
+      "summary": "The fabrication of visible-spectrum three-dimensional (3D) photonic crystals (PhCs) remains highly challenging, because existing manufacturing techniques cannot simultaneously achieve high processing precision and sufficient geometric freedom. Here, we propose a suspended pyrolysis-assisted two-photon polymerization (SP-TPP) printing strategy, achieving the controllable fabrication of visible-spectrum 3D PhCs. The resulting 3D diamond PhCs exhibit a remarkable lattice-period standard deviation of only 5.75 nm, approximately 1/45 of that achieved without suspended pyrolysis. Microscopic reflection spectra confirm these PhCs possess uniform optical responses across all spatial positions. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-3390-nano16221459-2d75a1",
+      "date": "2026-11-11",
+      "title": "The Influence of Light-Induced Periodic Structures on the Electronic Third-Order Optical Nonlinearity of As2S3 Films at 1550 nm Wavelength",
+      "authors": "Petronela S. Gheorghe, Adrian Petris",
+      "institutions": [
+        "National Institute for Laser Plasma and Radiation Physics"
+      ],
+      "journal": "Nanomaterials",
+      "doi": "10.3390/nano16221459",
+      "url": "https://doi.org/10.3390/nano16221459",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Surface Structuring & LIPSS",
+        "Thin Films & 2D Materials",
+        "Spatiotemporal & Burst Control",
+        "Glass & Silica",
+        "Integrated Photonics & Telecom"
+      ],
+      "glyph": "lipss",
+      "summary": "The influence of laser-induced periodic structures on the third-order nonlinear optical response of chalcogenide glasses is of significant interest for advanced photonic applications. This paper presents a comparative study of the ultrafast third-order nonlinearity of unstructured and periodically micro-structured arsenic trisulfide (As2S3) thin films. The nonlinear optical response was investigated by the third-harmonic generation (THG) process using high-repetition-rate ultrashort laser pulses at the telecommunications wavelength λ = 1550 nm. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1016-j-optlastec-2026-116925-89dfd3",
+      "date": "2026-11-11",
+      "title": "Laue photonic crystals integrated in the bulk of sapphire",
+      "authors": "Edvinas Aleksandravičius, Gabrielius Kontenis, Indre Meskelaite, Domas Paipulas, Vygantas Mizeikis, Saulius Juodkazis, Kęstutis Staliūnas, Darius Gailevičius",
+      "institutions": [
+        "Vilnius University",
+        "Shizuoka University",
+        "Research Institute of Electronics, Shizuoka University"
+      ],
+      "journal": "Optics & Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.116925",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.116925",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Hard & Brittle Materials",
+        "Sapphire & Crystals"
+      ],
+      "glyph": "dicing",
+      "summary": "We report controllable, crack-free volumetric phase inscription in sapphire by switching femtosecond direct laser writing from the near-IR to the deep-UV (fourth harmonic, 257 nm), and validate the approach by fabricating Laue-type photonic-crystal (PhC) spatial filters. The UV-fs inscription with the beam incident along the M axis, scanning along the C axis, and polarization along the A axis widens the modification window and suppresses stress-driven failure that typically plagues IR laser-patterning in hard, brittle crystals, enabling densely packed 3D phase elements at the millimeter scale. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1149-2754-2726-aec0b4-9d53e3",
+      "date": "2026-11-11",
+      "title": "Reproducible Laser-Induced Graphene Electrodes for Electrochemical Conductivity Sensing Enabled by Full Factorial Design of Experiments",
+      "authors": "Nihal Ahmed, Michael Neubauer, Stephan Warnat",
+      "institutions": [
+        "Montana State University"
+      ],
+      "journal": "ECS Sensors Plus",
+      "doi": "10.1149/2754-2726/aec0b4",
+      "url": "https://doi.org/10.1149/2754-2726/aec0b4",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Laser-Induced Graphene & Carbon",
+        "Polymers & Resins",
+        "Sensing"
+      ],
+      "glyph": "carbon",
+      "summary": "Laser-induced graphene (LIG) enables scalable fabrication of conductive carbon electrodes directly on polymer substrates, but variations in laser-processing conditions can affect electrode properties and sensing reliability. In this work, a full factorial design of experiments was used to investigate how laser power, scan speed, focus offset, and scan cycle number influence LIG fabrication and quantitative aqueous conductivity sensing. Sheet resistance was used to identify under-exposed, optimized, and over-exposed processing regimes. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
     },
     {
       "id": "10-1063-5-0355226-d1295d",
@@ -467,6 +629,29 @@
       "feature": false,
       "fig": null,
       "source": "openalex"
+    },
+    {
+      "id": "10-48550-arxiv-2611-14034-e191b1",
+      "date": "2026-11-10",
+      "title": "An Alignment Microscope for Imaging Rotational Wavepacket Dynamics",
+      "authors": "J. Strohaber",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2611.14034",
+      "url": "https://arxiv.org/abs/2611.14034",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Beam Shaping & SLM"
+      ],
+      "glyph": "beam",
+      "summary": "We introduce a new method for encoding polarization-angle-dependent molecular alignment signals directly into the transverse spatial profile of a femtosecond laser beam. The approach employs a pump-probe setup in a common-path geometry. A radial-azimuthal polarization converter placed in the probe beam produces a doughnut-shaped beam whose local polarization varies continuously with azimuthal angle, thereby encoding the full range of linear polarization orientations from 0 to 2π within a single transverse beam profile. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "arxiv"
     },
     {
       "id": "10-1007-s00339-026-10386-8-ddd882",
@@ -834,6 +1019,293 @@
       "source": "openalex"
     },
     {
+      "id": "10-1051-epjconf-202639306020-pdf-8e78c9",
+      "date": "2026-11-05",
+      "title": "Femtosecond laser-written Ho",
+      "authors": "Faik Derya Ince, Wendwesen Gebremichael, Sergei Tomilov, Anna Suzuki, Jie Qiao, Clara Jody Saraceno",
+      "institutions": [
+        "Ruhr University Bochum",
+        "Rochester Institute of Technology"
+      ],
+      "journal": "Springer Link (Chiba Institute of Technology)",
+      "doi": "10.1051/epjconf/202639306020/pdf",
+      "url": "https://doi.org/10.1051/epjconf/202639306020/pdf",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Waveguides & Photonic Chips"
+      ],
+      "glyph": "waveguide",
+      "summary": "We report on the first demonstration of continuous-wave laser operation near 2.05-µm wavelength from an in-band pumped fs-laser written waveguide in Ho3+:CaAlGdO4 crystal, resulting in an output power of 523 mW with a slope efficiency of 23.3%.",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1051-epjconf-202639306021-pdf-cab48d",
+      "date": "2026-11-05",
+      "title": "Improved pulse-to-pulse energy stability measurements for sub-percent noise femtosecond lasers",
+      "authors": "Michele Natile, Gautier Parize, Florent Guichard, Marc Hanna, Patrick Georges",
+      "institutions": [
+        "Amplitude Systèmes (France)",
+        "Centre National de la Recherche Scientifique",
+        "Université Paris-Saclay"
+      ],
+      "journal": "Springer Link (Chiba Institute of Technology)",
+      "doi": "10.1051/epjconf/202639306021/pdf",
+      "url": "https://doi.org/10.1051/epjconf/202639306021/pdf",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Processing"
+      ],
+      "glyph": "pulse",
+      "summary": "we experimentally highlight limitations of short-term energy stability measurements for femtosecond lasers. We propose an improved method for pulse-to-pulse stability measurements offering a resolution approaching 0.1% rms, with a simple and low-cost setup.",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1051-epjconf-202639307020-pdf-306593",
+      "date": "2026-11-05",
+      "title": "The impact of atmospheric pressure on the dispersion of stretcher and compressor of pico-and femtosecond laser pulses",
+      "authors": "Efim Khazanov",
+      "institutions": [
+        "Russian Academy of Sciences",
+        "Institute of Applied Physics"
+      ],
+      "journal": "Springer Link (Chiba Institute of Technology)",
+      "doi": "10.1051/epjconf/202639307020/pdf",
+      "url": "https://doi.org/10.1051/epjconf/202639307020/pdf",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Processing"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1051-epjconf-202639307030-pdf-9f4920",
+      "date": "2026-11-05",
+      "title": "Femtosecond inscription of fiber Bragg grating arrays with the phase mask technique in specific cores of a multicore fiber for shape measurements",
+      "authors": "Aviran Halstuch, Avry Shirakov, Amiel A. Ishaaya",
+      "institutions": [
+        "Ben-Gurion University of the Negev"
+      ],
+      "journal": "Springer Link (Chiba Institute of Technology)",
+      "doi": "10.1051/epjconf/202639307030/pdf",
+      "url": "https://doi.org/10.1051/epjconf/202639307030/pdf",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Fiber Gratings & Devices",
+        "Micro-Optics & Metasurfaces",
+        "Sensing"
+      ],
+      "glyph": "fiber",
+      "summary": "With a femtosecond laser and a single uniform phase-mask we inscribe an array of 76 Fiber-Bragg- Gratings spanning 1522-1588 nm with spacing of 3-5 nm. This array can be used for sensing applications such as temperature, strain and vector/shape monitoring.",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1051-epjconf-202639306005-pdf-a13ce5",
+      "date": "2026-11-05",
+      "title": "Diode-pumped CW and pulsed waveguide lasers based on Pr:KY",
+      "authors": "Davide Baiocco, D’Amico Francesco, Ignacio Lopez-Quintas, Javier Rodríguez Vázquez de Aldana, Mauro Tonelli, Alessandro Tredicucci",
+      "institutions": [
+        "University of Pisa",
+        "Universidad de Salamanca",
+        "Istituto Nanoscienze"
+      ],
+      "journal": "Springer Link (Chiba Institute of Technology)",
+      "doi": "10.1051/epjconf/202639306005/pdf",
+      "url": "https://doi.org/10.1051/epjconf/202639306005/pdf",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Waveguides & Photonic Chips",
+        "Spatiotemporal & Burst Control"
+      ],
+      "glyph": "waveguide",
+      "summary": "We report the fabrication of compact femtosecond-laser-written waveguide lasers on Pr:KY3F10. Self Q- switched lasing at 914 nm was observed, with 200 ns-long pulses, repetition rate of 1 MHz and average output power of 14 mW. CW lasing in the visible was also observed.",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1051-epjconf-202639306004-pdf-c84995",
+      "date": "2026-11-05",
+      "title": "Ultrafast-laser-inscribed mid-infrared Er:CaF2 waveguide laser",
+      "authors": "Jı Eun Bae, Carolina Romero, Javier Rodríguez Vázquez de Aldana, Xavier Mateos, Abdelmjid Benayad, Alain Braud, Patrice Camy, Pavel A. Loiko",
+      "institutions": [],
+      "journal": "Springer Link (Chiba Institute of Technology)",
+      "doi": "10.1051/epjconf/202639306004/pdf",
+      "url": "https://doi.org/10.1051/epjconf/202639306004/pdf",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Waveguides & Photonic Chips",
+        "Bulk Modification & Nanocrystals"
+      ],
+      "glyph": "waveguide",
+      "summary": "A Er:CaF2 waveguide fabricated by ultrafast-laser inscription is studied by micro-luminescence spectroscopy for structural and stress-induced refractive-index change features. Mid-infrared waveguide laser generates 59-mW output power at 2726 nm with a slope efficiency of 13%.",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1051-epjconf-202639307066-pdf-704d12",
+      "date": "2026-11-05",
+      "title": "Microspectroscopy of Ultrafast Laser-Written Waveguides in Ho:ZBLAN Glass",
+      "authors": "Ngoc Nguyen, Dale E. Otten, Niranjana Prasad, Patrice Camy, Alain Braud, Pavel A. Loiko",
+      "institutions": [
+        "Adelaide University",
+        "The University of Adelaide",
+        "Centre National de la Recherche Scientifique"
+      ],
+      "journal": "Springer Link (Chiba Institute of Technology)",
+      "doi": "10.1051/epjconf/202639307066/pdf",
+      "url": "https://doi.org/10.1051/epjconf/202639307066/pdf",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Waveguides & Photonic Chips",
+        "Glass & Silica"
+      ],
+      "glyph": "waveguide",
+      "summary": "We report µ-spectroscopy of ultrafast-laser-inscribed depressed-cladding waveguides in Ho3+-doped ZBLAN glass for 2 µm laser development. Laser-induced structural modification alters Ho3+ emission via increased local disorder and modified ion–ion interactions.",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1051-epjconf-202639303018-pdf-0d8218",
+      "date": "2026-11-05",
+      "title": "High-efficiency Broadband Pulse Amplification Using an Optical Parametric Multi-pass Cell Amplifier",
+      "authors": "Supriya Rajhans, Nikolas Rupp, Esmerando Escoto, Arthur Schönberg, Dominic Laumer, Malte Sumfleth, Issam Abdallah, Bastian Manschwetus, Caroline Juliano, Nikan Javid, Cord L. Arnold, Tais Gorkhover, Markus Drescher, Robert Riedel, Ingmar Hartl, Christoph M. Heyl, Tino Lang",
+      "institutions": [
+        "Deutsches Elektronen-Synchrotron DESY",
+        "Universität Hamburg",
+        "Lund University"
+      ],
+      "journal": "Springer Link (Chiba Institute of Technology)",
+      "doi": "10.1051/epjconf/202639303018/pdf",
+      "url": "https://doi.org/10.1051/epjconf/202639303018/pdf",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Spatiotemporal & Burst Control",
+        "Biological Tissue"
+      ],
+      "glyph": "burst",
+      "summary": "We experimentally demonstrate a high efficiency, novel amplification scheme for generating ultrafast laser pulses, the optical parametric multi-pass cell amplifier (OPMPC). The setup reaches >42% pump-to-signal conversion efficiency with excellent spatio-spectral homogeneity and stability while supporting <50 fs pulse duration.",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1051-epjconf-202639307059-pdf-c293db",
+      "date": "2026-11-05",
+      "title": "Phase and intensity from simultaneous cross-correlation and spectrum in Fabry-Pérot laser diodes",
+      "authors": "Adrian F. Chlebowski, Anna Masajada, Jaroslaw Z. Sotor, Łukasz A. Sterczewski",
+      "institutions": [
+        "Wrocław University of Science and Technology"
+      ],
+      "journal": "Springer Link (Chiba Institute of Technology)",
+      "doi": "10.1051/epjconf/202639307059/pdf",
+      "url": "https://doi.org/10.1051/epjconf/202639307059/pdf",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Processing"
+      ],
+      "glyph": "pulse",
+      "summary": "We demonstrate an ultrashort laser pulse characterization technique, leveraging a commercial Fabry– Pérot laser diode with an integrated monitor photodiode. Simultaneous first and second-order autocorrelations paired with dispersive cross-correlation enable retrieval of temporal intensity and spectral phase within single setup.",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1051-epjconf-202639307026-pdf-fcddad",
+      "date": "2026-11-05",
+      "title": "Quasi-Phase Matching of Third-Order Nonlinear Processes in Waveguide obtained by Direct Laser Writing",
+      "authors": "E. Pefani, V. Fortin, M. Carpentier, L. Canioni, T. Cardinal, Ph. Balcou, Jérôme Lhermite, J.-M. Rampnoux, Laurent Oyhénart, Y. Petit, Jean-Christophe Delagnes",
+      "institutions": [
+        "Centre National de la Recherche Scientifique",
+        "Université de Bordeaux",
+        "Commissariat à l'Énergie Atomique et aux Énergies Alternatives"
+      ],
+      "journal": "Springer Link (Chiba Institute of Technology)",
+      "doi": "10.1051/epjconf/202639307026/pdf",
+      "url": "https://doi.org/10.1051/epjconf/202639307026/pdf",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Waveguides & Photonic Chips"
+      ],
+      "glyph": "waveguide",
+      "summary": "We use direct laser writing to create integrated nonlinear structures achieving quasi-phase matching of third-order processes. In order to guide the design, material characterization is used for accurately simulating the waveguide (mode, dispersion), its phase-matching curves and conversion efficiencies.",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1051-epjconf-202639307033-pdf-18536f",
+      "date": "2026-11-05",
+      "title": "Fs-inscribed pump light reflectors for Thulium doped fiber lasers",
+      "authors": "Ria G. Krämer, Karsten Scholle, Mirjam C. Schray, Andreas Gieselman, Georg R. Schwartz, Samuel L. Döpfner, Malte P. Siems, Daniel Richter, P. Fuhrberg, Stefan Nolte",
+      "institutions": [
+        "Friedrich Schiller University Jena",
+        "Fraunhofer Institute for Applied Optics and Precision Engineering"
+      ],
+      "journal": "Springer Link (Chiba Institute of Technology)",
+      "doi": "10.1051/epjconf/202639307033/pdf",
+      "url": "https://doi.org/10.1051/epjconf/202639307033/pdf",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Fiber Gratings & Devices",
+        "Micro-Optics & Metasurfaces",
+        "Ultrafast Sources & Systems"
+      ],
+      "glyph": "fiber",
+      "summary": "We realized fiber Bragg gratings in the cladding of large mode area fibers as pump light reflectors. The inscription is based on phase mask inscription with IR-fs laser pulses. Efficiency increase of a Thulium doped all-fiber laser systems was demonstrated.",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
       "id": "10-1364-opticaopen-34868058-70d4ed",
       "date": "2026-11-04",
       "title": "An Alignment Microscope for Imaging Rotational Wavepacket Dynamics",
@@ -1148,6 +1620,50 @@
       "source": "crossref"
     },
     {
+      "id": "10-1016-j-optmat-2026-118671-d53676",
+      "date": "2026-11-01",
+      "title": "Substrate-Dependent Ultrafast Dynamics and Ablation Mechanism of Femtosecond Laser-Irradiated TiN Thin Films",
+      "authors": "Binhang Gao, Jingya Sun, Fengyu Zhou, Wenpan Tao, Manlou Ye, Ruochen Zhang",
+      "institutions": [],
+      "journal": "Optical Materials",
+      "doi": "10.1016/j.optmat.2026.118671",
+      "url": "https://doi.org/10.1016/j.optmat.2026.118671",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Thin Films & 2D Materials"
+      ],
+      "glyph": "film",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-2147-ccid-s625481-66f909",
+      "date": "2026-11-01",
+      "title": "Fractional Picosecond Laser Treatment of Facial Superficial Scars Associated with Hyperpigmentation in Chinese Patients",
+      "authors": "Zhihao Xu, Yue Zhai, Yuting Men, Qianqian Gao, Yongqian Cao",
+      "institutions": [],
+      "journal": "Clinical, Cosmetic and Investigational Dermatology",
+      "doi": "10.2147/ccid.s625481",
+      "url": "https://doi.org/10.2147/ccid.s625481",
+      "oa": true,
+      "license": "CC BY-NC 3.0",
+      "categories": [
+        "Other Processing"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-26434-chemrxiv-15010578-v2-03b439",
       "date": "2026-10-16",
       "title": "Nanoscale Phase Engineering and Magnetic Property Enhancement in High-Entropy Alloy Nanoparticles by Continuous Microparticle Laser Fragmentation in Liquid",
@@ -1176,5 +1692,5 @@
     }
   ],
   "removed": [],
-  "updated": "2026-11-12"
+  "updated": "2026-11-13"
 }
