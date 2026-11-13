@@ -4,7 +4,7 @@
   "date": "2026-11-09",
   "window": [
     "2026-11-09",
-    "2026-11-13"
+    "2026-11-14"
   ],
   "articles": [
     {
@@ -121,6 +121,62 @@
       "source": "crossref"
     },
     {
+      "id": "10-1177-08853282261508989-680c62",
+      "date": "2026-11-13",
+      "title": "Geometric compatibility between bacterial morphology and laser-induced microstructures regulates adhesion on Zr-based bulk metallic glass",
+      "authors": "Songlin Li, Gengbing Weng, Wenjie Feng, Chen Yu, Cezhi Du",
+      "institutions": [
+        "School of Modern Equipment Manufacturing",
+        "Guangdong Academy of Sciences",
+        "School of Electromechanical Engineering"
+      ],
+      "journal": "Journal of Biomaterials Applications",
+      "doi": "10.1177/08853282261508989",
+      "url": "https://doi.org/10.1177/08853282261508989",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Surface Structuring & LIPSS",
+        "Glass & Silica",
+        "Biomedical & Life Science"
+      ],
+      "glyph": "lipss",
+      "summary": "Preparing nanostructures on the surface of medical devices is considered to be an effective method to reduce bacterial contamination. However, due to the differences in the geometric contours of bacteria, the contact characteristics between different types of microstructures and bacteria vary significantly, resulting in distinct antibacterial adhesion behaviors. In this study, Escherichia coli ( E. coli ), a representative rod-shaped bacterium associated with clinical infections, was selected to investigate the adhesion characteristics of ordered and disordered microstructures. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1007-s10854-026-18821-5-946a94",
+      "date": "2026-11-13",
+      "title": "Parameter-optimized laser-induced graphene strain sensors integrated into a wireless smart glove for real-time finger-motion monitoring",
+      "authors": "Merve Acar, Mehmet Akif Dalgıç",
+      "institutions": [],
+      "journal": "Journal of Materials Science: Materials in Electronics",
+      "doi": "10.1007/s10854-026-18821-5",
+      "url": "https://doi.org/10.1007/s10854-026-18821-5",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Laser-Induced Graphene & Carbon",
+        "Perovskites & 2D",
+        "Sensing"
+      ],
+      "glyph": "carbon",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/journal-of-materials-science-materials-in-electronics.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Journal of Materials Science: Materials in Electronics"
+      },
+      "source": "crossref"
+    },
+    {
       "id": "10-1021-acsomega-6c12460-2ff3f6",
       "date": "2026-11-12",
       "title": "Effects of Resistance Compensation on Laser-Induced Graphene Electrodes",
@@ -169,6 +225,58 @@
       "feature": false,
       "fig": null,
       "source": "crossref"
+    },
+    {
+      "id": "10-1021-acssuschemeng-6c08456-ff3f04",
+      "date": "2026-11-12",
+      "title": "Constructing a Flower-Like Microspherical Multifunctional Co3O4-NiO/mSiO2 Heterostructure toward Synergistic Regulation of Polysulfide with Ultrafast Charge Transfer Kinetics",
+      "authors": "Xinwei Wang, Xianting Qiu, Yuemin Li, Qingcheng Liang, Kaiyue Zhao, Junkai Zhang, Wanqiang Liu, Shang Gao",
+      "institutions": [
+        "Changchun University of Science and Technology",
+        "Jilin Normal University"
+      ],
+      "journal": "ACS Sustainable Chemistry &amp; Engineering",
+      "doi": "10.1021/acssuschemeng.6c08456",
+      "url": "https://doi.org/10.1021/acssuschemeng.6c08456",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Surface Structuring & LIPSS",
+        "Glass & Silica",
+        "Energy & Batteries"
+      ],
+      "glyph": "lipss",
+      "summary": "The shuttle effect of lithium polysulfides (LiPSs) and their sluggish redox reaction kinetics severely impede the utilization efficiency of sulfur (S) and significantly deteriorate the cycling stability of lithium-sulfur (Li–S) batteries. Herein, a three-dimensional (3D) flower-like microspherical nanoarchitecture (Co3O4-NiO/mSiO2), in which the Co3O4-NiO heterojunction nanosheets are uniformly anchored onto mesoporous silica (mSiO2) nanospheres, is synthesized. This architecture is synthesized via a scalable hydrothermal approach. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-48550-arxiv-2611-16791-b6a3ac",
+      "date": "2026-11-12",
+      "title": "Non-Convex Optimization via Quantum Tunneling Search on a Photonic Chip",
+      "authors": "Xi-Jun Yuan, Shuo Zhou, Yizhou Liu, Xuan Chen, Hong-Jing Du, Xiao-Wen Shang, Wen-Hao Zhou, Yu-Xuan Fu, Bao-Jing Liu, Ze-Feng Lan, Hang Song, Fang-Song Nie, Yu-Lin Yu, Xiao-Yun Xu, Jian-Peng Dou, Tongyang Li, Hao Tang, Xian-Min Jin",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2611.16791",
+      "url": "https://arxiv.org/abs/2611.16791",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Quantum Photonics & Color Centers",
+        "Waveguides & Photonic Chips",
+        "AI & Process Optimization",
+        "Quantum Technologies"
+      ],
+      "glyph": "quantum",
+      "summary": "Non-convex optimization plays an important role in modern machine learning since plenty of real-world problems have objective functions or constraints with non-convex properties. The non-convex nature of landscapes gives rise to numerous local minima and saddle points, dramatically hindering the ability of gradient descent-based methods to explore the landscape and obtain global optima. Here we present quantum tunneling search (QTS), an algorithm based on quantum tunneling walk and local annealing, which effectively explores the non-convex landscape by leveraging the quantum tunneling effect. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "arxiv"
     },
     {
       "id": "10-1007-s00339-026-10326-6-ad11f5",
@@ -404,6 +512,30 @@
       "feature": false,
       "fig": null,
       "source": "openalex"
+    },
+    {
+      "id": "10-48550-arxiv-2611-14939-6f145b",
+      "date": "2026-11-11",
+      "title": "Effect of Gas Pressure and Molecular Structure in the Spatial-Mode Conversion of Terahertz Radiation from a Plasma Filament",
+      "authors": "Y. E. Geints, L. V. Seleznev, G. E. Rizaev, T. A. Dick, M. V. Levus",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2611.14939",
+      "url": "https://arxiv.org/abs/2611.14939",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Waveguides & Photonic Chips",
+        "Metals & Alloys"
+      ],
+      "glyph": "waveguide",
+      "summary": "In this work, the generation of terahertz (THz) radiation under single color filamentation of a femtosecond laser pulse in an optical cell with compressed gases (argon, nitrogen, CO2) in broad pressure range from 0.001 to 25 atm is experimentally studied for the first time. A nonmonotonic dependence of the integral energy of the THz signal on the gas pressure is revealed, which can be attributed to the competition between an increase in the plasma density and the development of plasma selfabsorption processes, multiple filamentation of the femtosecond pump, and collision induced absorption in the neutral medium. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "arxiv"
     },
     {
       "id": "10-1063-5-0355226-d1295d",
@@ -1664,6 +1796,123 @@
       "source": "crossref"
     },
     {
+      "id": "10-1016-j-cej-2026-184213-0284ca",
+      "date": "2026-11-01",
+      "title": "Monolithic wettability partitioning in laser-induced graphene via in situ fluorination for saturation-resistant hydrovoltaic energy harvesting",
+      "authors": "Jaekang Kim, Yuseob Lee, Inkyum Kim, Daewon Kim",
+      "institutions": [],
+      "journal": "Chemical Engineering Journal",
+      "doi": "10.1016/j.cej.2026.184213",
+      "url": "https://doi.org/10.1016/j.cej.2026.184213",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Surface Structuring & LIPSS",
+        "Laser-Induced Graphene & Carbon",
+        "Perovskites & 2D"
+      ],
+      "glyph": "carbon",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1016-j-matdes-2026-117531-aa2493",
+      "date": "2026-11-01",
+      "title": "Pulse-overlap-driven femtosecond laser-induced defect healing in oxygen-deficient amorphous Ga2O3 thin films",
+      "authors": "Binhang Gao, Jingya Sun, Ziqian Ning, Manlou Ye, Zongsheng Zhang, Ruochen Zhang, Jingao Bi, Yongjiu Yuan, Lan Jiang",
+      "institutions": [],
+      "journal": "Materials &amp; Design",
+      "doi": "10.1016/j.matdes.2026.117531",
+      "url": "https://doi.org/10.1016/j.matdes.2026.117531",
+      "oa": true,
+      "license": "CC BY-NC-ND 4.0",
+      "categories": [
+        "Hard & Brittle Materials",
+        "Thin Films & 2D Materials",
+        "SiC & Wide-Bandgap"
+      ],
+      "glyph": "dicing",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-ceramint-2026-11-145-8e0613",
+      "date": "2026-11-01",
+      "title": "Melt-Pool Control and Crack-Suppression Mechanisms in Ultrafast Laser Welding of Alumina Ceramics",
+      "authors": "Cong Chen, Zhongao Zhai, Peng Li, Junle Li, Yi Zhang, Yuchao Lei",
+      "institutions": [],
+      "journal": "Ceramics International",
+      "doi": "10.1016/j.ceramint.2026.11.145",
+      "url": "https://doi.org/10.1016/j.ceramint.2026.11.145",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Ultrafast Welding & Joining",
+        "Ceramics & Coatings"
+      ],
+      "glyph": "weld",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-electacta-2026-150422-57887d",
+      "date": "2026-11-01",
+      "title": "A dual-recognition MIP-aptamer electrochemical sensor based on in situ AuNP-modified laser-induced graphene for sensitive kanamycin detection",
+      "authors": "Tao Liu, Zhitan Huang, Jiaqi Geng, Yitian Huang, Shuhai He, Xiaobao Li, Daniel Scherman, Wei Sun",
+      "institutions": [],
+      "journal": "Electrochimica Acta",
+      "doi": "10.1016/j.electacta.2026.150422",
+      "url": "https://doi.org/10.1016/j.electacta.2026.150422",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Laser-Induced Graphene & Carbon",
+        "Perovskites & 2D",
+        "Sensing"
+      ],
+      "glyph": "carbon",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-diamond-2026-114395-fb6218",
+      "date": "2026-11-01",
+      "title": "Study on the picosecond laser preparation of CVD diamond coated micro-milling tools with large aspect ratio",
+      "authors": "Shangshang Li, Xiuqing Hao, Yukun Mao, Huangcheng Zhu, Annan Xia, Zhongguang Yu, Jianping Wang, Shengqiang Zhao",
+      "institutions": [],
+      "journal": "Diamond and Related Materials",
+      "doi": "10.1016/j.diamond.2026.114395",
+      "url": "https://doi.org/10.1016/j.diamond.2026.114395",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Diamond"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-26434-chemrxiv-15010578-v2-03b439",
       "date": "2026-10-16",
       "title": "Nanoscale Phase Engineering and Magnetic Property Enhancement in High-Entropy Alloy Nanoparticles by Continuous Microparticle Laser Fragmentation in Liquid",
@@ -1692,5 +1941,5 @@
     }
   ],
   "removed": [],
-  "updated": "2026-11-13"
+  "updated": "2026-11-14"
 }
