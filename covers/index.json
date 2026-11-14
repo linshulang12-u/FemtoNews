@@ -113,5 +113,10 @@
     "src": "covers/journal-of-materials-science-materials-in-electronics.jpg",
     "kind": "cover",
     "credit": "Journal cover · Journal of Materials Science: Materials in Electronics"
+  },
+  "journal of micromechanics and microengineering": {
+    "src": "covers/journal-of-micromechanics-and-microengineering.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Journal of Micromechanics and Microengineering"
   }
 }

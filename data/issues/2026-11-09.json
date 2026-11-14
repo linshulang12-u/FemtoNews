@@ -4,7 +4,7 @@
   "date": "2026-11-09",
   "window": [
     "2026-11-09",
-    "2026-11-14"
+    "2026-11-15"
   ],
   "articles": [
     {
@@ -121,6 +121,55 @@
       "source": "crossref"
     },
     {
+      "id": "10-1016-j-nxnano-2026-100939-835344",
+      "date": "2026-12-01",
+      "title": "Synthesis, characterization, and antibacterial activity of selenium@copper core–shell nanoparticles produced by pulsed laser ablation in liquid",
+      "authors": "Ghadeer Abdulhadi Abduljabbar, Ahmed Naji Abd",
+      "institutions": [],
+      "journal": "Next Nanotechnology",
+      "doi": "10.1016/j.nxnano.2026.100939",
+      "url": "https://doi.org/10.1016/j.nxnano.2026.100939",
+      "oa": true,
+      "license": "CC BY-NC-ND 4.0",
+      "categories": [
+        "Nanoparticles & Ablation in Liquids",
+        "Metals & Alloys",
+        "Biomedical & Life Science"
+      ],
+      "glyph": "nano",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-adfm-79658-fbcdb9",
+      "date": "2026-11-14",
+      "title": "High Atomic Utilization of V 2 AlC MAX Unlocking the Integrated Cathode‐Anode Stabilization Toward Anode‐Less Lithium‐Sulfur Batteries",
+      "authors": "Mengjie Zhang, Maoqiang Shen, Yang Liu, Xuanze Cao, Qingfa Shi, Xinzhao Yue, Junhao Cheng, Linrui Hou, Changzhou Yuan",
+      "institutions": [
+        "School of Material Science &amp"
+      ],
+      "journal": "Advanced Functional Materials",
+      "doi": "10.1002/adfm.79658",
+      "url": "https://doi.org/10.1002/adfm.79658",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Surface Structuring & LIPSS",
+        "Energy & Batteries"
+      ],
+      "glyph": "lipss",
+      "summary": "Practical lithium‐sulfur batteries (LSBs) require a limited Li inventory to achieve high energy density, however, lithium‐polysulfide (LiPSs) shuttling and irreversible Li plating/stripping continuously consume active Li, making anode‐less LSBs (ALSBs) particularly vulnerable to rapid failure. Herein, a dual‐interface regulation strategy based on bifunctional AlF 3 /V 2 C MXene is proposed to simultaneously preserve the finite Li inventory and regulate S conversion. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-1177-08853282261508989-680c62",
       "date": "2026-11-13",
       "title": "Geometric compatibility between bacterial morphology and laser-induced microstructures regulates adhesion on Zr-based bulk metallic glass",
@@ -174,6 +223,124 @@
         "kind": "cover",
         "credit": "Journal cover · Journal of Materials Science: Materials in Electronics"
       },
+      "source": "crossref"
+    },
+    {
+      "id": "10-1088-1361-6439-aec1ec-d8657a",
+      "date": "2026-11-13",
+      "title": "Femtosecond laser microfabrication of open Janus wettability channels on silicon for pump-free passive fluidic transport",
+      "authors": "Byunghak Lee, Kook In Youn, Bomi Kim, Younghyeon Kim, Ji Woo Lee, Jinhyuk Park, Young Min Bae, Kwang Hoon Song, Bosu Jeong",
+      "institutions": [
+        "Incheon National University",
+        "University of Suwon",
+        "Korea Electrotechnology Research Institute"
+      ],
+      "journal": "Journal of Micromechanics and Microengineering",
+      "doi": "10.1088/1361-6439/aec1ec",
+      "url": "https://doi.org/10.1088/1361-6439/aec1ec",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Surface Structuring & LIPSS",
+        "Selective Etching & Microfluidics",
+        "Glass & Silica",
+        "Semiconductor & Packaging"
+      ],
+      "glyph": "etch",
+      "summary": "We report a femtosecond laser microfabrication strategy for creating open microfluidic channels on silicon substrates with programmable Janus wettability, defined as the coexistence of superhydrophilic (water contact angle, WCA ≈ 0°) transport channels and a superhydrophobic (WCA = 178.9°) background within a single silicon wafer. Three sequential steps are employed: (i) global femtosecond laser surface structuring (3.0 W, 10 mm s−1, 25 μm hatch spacing) to generate hierarchical micro/nanostructures including laser-induced periodic surface structures (LIPSS), yielding a superhydrophobic background of WCA = 178.9° after silanization; (ii) vapor-phase fluorinated silane functionalization; and …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/journal-of-micromechanics-and-microengineering.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Journal of Micromechanics and Microengineering"
+      },
+      "source": "openalex"
+    },
+    {
+      "id": "10-1088-1361-6439-aec1ed-64655c",
+      "date": "2026-11-13",
+      "title": "Optical isotropy of structure made by 2PP method for polarization-insensitive micro-optics",
+      "authors": "Michael Babaev, Alexander Kravchenkov, Mariia Reshetova, Michael A. Tarkhov, Н. В. Минаев, I. M. Asharchuk",
+      "institutions": [
+        "Russian Academy of Sciences",
+        "Kurchatov Institute"
+      ],
+      "journal": "Journal of Micromechanics and Microengineering",
+      "doi": "10.1088/1361-6439/aec1ed",
+      "url": "https://doi.org/10.1088/1361-6439/aec1ed",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Two-Photon Polymerization",
+        "Micro-Optics & Metasurfaces",
+        "Polymers & Resins"
+      ],
+      "glyph": "tpp",
+      "summary": "This paper presents the results of an experimental study on the polarization properties of polymer samples (parallelepipeds and prisms) fabricated from commercial Anycubic Clear resin using two-photon polymerization. Using crossed polarizers, measurements of the transmitted light intensity as a function of the analyzer rotation angle were performed. The angular dependences of transmission, obtained by rotating the analyzer, are in good agreement with a Malus's law-type dependence and exhibit no resolvable shift in the positions of the extrema relative to the reference measurement. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/journal-of-micromechanics-and-microengineering.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Journal of Micromechanics and Microengineering"
+      },
+      "source": "openalex"
+    },
+    {
+      "id": "10-1002-smll-76732-3c4b14",
+      "date": "2026-11-13",
+      "title": "Femtosecond Laser‐Induced Self‐Organized 3D Graphene Microcones for Programmable Photothermal Information Encryption",
+      "authors": "Zongsheng Zhang, Yaozhong Hu, Binhang Gao, Yusi Chen, Zi Wang, Xin Li, Junfang Zhao, Sumei Wang",
+      "institutions": [],
+      "journal": "Small",
+      "doi": "10.1002/smll.76732",
+      "url": "https://doi.org/10.1002/smll.76732",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Optical Data Storage",
+        "Laser-Induced Graphene & Carbon",
+        "Modeling & Simulation",
+        "Polymers & Resins",
+        "Sensing"
+      ],
+      "glyph": "storage",
+      "summary": "Owing to its unique capabilities of in situ functionalization, multiscale structural construction, and single‐step fabrication, femtosecond laser‐induced graphene demonstrates significant potential in flexible sensing and micro/nano optoelectronic devices. However, most studies focus on two‐dimensional (2D) graphene, while three‐dimensional (3D) architectures and their formation mechanisms remain less explored. Here, femtosecond (fs) laser direct writing is employed to fabricate morphologically controllable microcone structures on polyimide (PI) substrates, and the underlying graphitization and structural evolution are systematically investigated. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1111-jocd-71295-bba236",
+      "date": "2026-11-13",
+      "title": "755‐nm Picosecond Laser Versus Intense Pulsed Light for Diffuse Lip Hyperpigmentation: A Prospective, Randomized, Controlled, Evaluator‐Blinded Trial",
+      "authors": "Hongfei Ouyang, Jiahui Han, Lili Chen, Xuejiao Song, Yong Cui, Ruixing Yu",
+      "institutions": [
+        "Department of Dermatology Peking University First Hospital Beijing China",
+        "Department of Dermatology China‐Japan Friendship Hospital Beijing China",
+        "China‐Japan Friendship Institute of Clinical Medical Sciences Beijing China"
+      ],
+      "journal": "Journal of Cosmetic Dermatology",
+      "doi": "10.1111/jocd.71295",
+      "url": "https://doi.org/10.1111/jocd.71295",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Other Processing"
+      ],
+      "glyph": "pulse",
+      "summary": "Background Lip hyperpigmentation is an aesthetic concern. Evidence supporting light‐based treatments for diffuse lip hyperpigmentation is limited. This study evaluated the efficacy and safety of 755‐nm picosecond laser versus intense pulsed light (IPL) for the treatment of diffuse lip hyperpigmentation. Methods In this 12‐week, prospective, randomized, controlled, evaluator‐blinded trial, 50 patients were assigned 1:1 to five sessions of either a 755‐nm picosecond laser or IPL at 2‐week intervals. The primary endpoint was the Physician's Global Assessment (PGA) score at Week 12. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
       "source": "crossref"
     },
     {
@@ -1913,6 +2080,57 @@
       "source": "crossref"
     },
     {
+      "id": "10-1016-j-jmrt-2026-11-121-bf59b8",
+      "date": "2026-11-01",
+      "title": "Crystallographic Orientation-Dependent Behavior and Si/C-Face Difference of Laser Modification in 4H-SiC under Stress-Field Modulation",
+      "authors": "Lu Cheng, Yingde Wang, Xing Zou, Yimin Xu, Haolin Hu, Daohua Zhang",
+      "institutions": [],
+      "journal": "Journal of Materials Research and Technology",
+      "doi": "10.1016/j.jmrt.2026.11.121",
+      "url": "https://doi.org/10.1016/j.jmrt.2026.11.121",
+      "oa": true,
+      "license": "CC BY-NC-ND",
+      "categories": [
+        "Hard & Brittle Materials",
+        "Bulk Modification & Nanocrystals",
+        "SiC & Wide-Bandgap"
+      ],
+      "glyph": "dicing",
+      "summary": ": Crack dynamics within modified layers are dictated by internal stress fields during laser lift-off of 4H-SiC. Here we investigate how crystallographic orientation and Si/C-face polarity govern crack initiation-propagation and stress-field redistribution, through in-volume laser modification experiments framed around stress-evolution perspectives. Line-scan in-volume modification along the representative [1-100] and [11-20] directions under gradient single-pulse laser energies is performed. Under equivalent irradiation conditions, Si-face incidence along [1-100] promotes crack propagation with efficient stress relaxation and reduced residual compressive stress. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1093-neuonc-noag189-1316-d36842",
+      "date": "2026-11-01",
+      "title": "TMOD-03 A spatially controlled 3D glioblastoma model recapitulates core-edge heterogeneity and invasive phenotypes",
+      "authors": "Nastaran Barin, Céline den Bremer, Rania Head, Maurice de Wit, Martine L.M. Lamfers, Hayri Emrah Balcioglu, Angelo Accardo, Pim J. French",
+      "institutions": [
+        "Erasmus MC",
+        "Delft University of Technology"
+      ],
+      "journal": "Neuro-Oncology",
+      "doi": "10.1093/neuonc/noag189.1316",
+      "url": "https://doi.org/10.1093/neuonc/noag189.1316",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Two-Photon Polymerization",
+        "Polymers & Resins",
+        "Biomedical & Life Science"
+      ],
+      "glyph": "tpp",
+      "summary": "Background Glioblastoma is a highly infiltrative brain tumor with a dense core and invasive edge cells that migrate into surrounding tissue, often along blood vessels, contributing to tumor recurrence after surgery. The high failure rate of clinical trials highlights the need for more physiologically relevant preclinical models. Here, we developed a spatially controlled 3D in vitro model using 3D-printed micro-scaffolds to recapitulate glioblastoma core-edge architecture by integrating a dense spheroid core with capillary-like structures guiding radial migration. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
       "id": "10-26434-chemrxiv-15010578-v2-03b439",
       "date": "2026-10-16",
       "title": "Nanoscale Phase Engineering and Magnetic Property Enhancement in High-Entropy Alloy Nanoparticles by Continuous Microparticle Laser Fragmentation in Liquid",
@@ -1941,5 +2159,5 @@
     }
   ],
   "removed": [],
-  "updated": "2026-11-14"
+  "updated": "2026-11-15"
 }
