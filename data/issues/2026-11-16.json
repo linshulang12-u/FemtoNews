@@ -1,0 +1,177 @@
+{
+  "id": "2026-11-16",
+  "number": 3,
+  "date": "2026-11-16",
+  "window": [
+    "2026-11-16",
+    "2026-11-16"
+  ],
+  "articles": [
+    {
+      "id": "10-1038-s41598-026-79064-2-d60d6b",
+      "date": "2026-11-15",
+      "title": "Micron-precision depth control in automated volumetric laser ablation with ultrashort laser pulses",
+      "authors": "Daniel Holder, Matthias Buser, Rudolf Weber, Volkher Onuseit, Thomas Graf",
+      "institutions": [],
+      "journal": "Scientific Reports",
+      "doi": "10.1038/s41598-026-79064-2",
+      "url": "https://doi.org/10.1038/s41598-026-79064-2",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Surface Structuring & LIPSS",
+        "Metals & Alloys"
+      ],
+      "glyph": "lipss",
+      "summary": "Achieving “first time right” depth precision in volumetric laser ablation – particularly for deep features exceeding 50 μm – is challenging due to dynamic effects such as incubation-induced changes in ablation efficiency and altered laser-material coupling caused by the formation of Laser-Induced Periodic Surface Structures (LIPSS). This work presents an industrial-grade setup for closed-loop volumetric ablation that integrates an ultrafast laser, a galvanometer scanner, and coaxial Optical Coherence Tomography (OCT) for real-time depth control. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1038-s41598-026-80683-y-071020",
+      "date": "2026-11-15",
+      "title": "Low-frequency noise reduction in laser-induced graphene devices by noble metal nanoparticles decoration",
+      "authors": "Katarzyna Drozdowska-Czubek, Janusz Smulko",
+      "institutions": [],
+      "journal": "Scientific Reports",
+      "doi": "10.1038/s41598-026-80683-y",
+      "url": "https://doi.org/10.1038/s41598-026-80683-y",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Laser-Induced Graphene & Carbon",
+        "Metals & Alloys",
+        "Sensing"
+      ],
+      "glyph": "carbon",
+      "summary": "We exploited the surface-modified laser-induced graphene (LIG) resistors decorated with gold, silver, or platinum nanoparticles (AuNPs, AgNPs, or PtNPs) to reduce their low-frequency noise. The resistors can be used to prepare sensors or contact paths in wearable electronics due to their elastic properties, and their inherent noise impacts their performance. The simple NPs modification of the LIG surface resulted in a noise-reduction effect, which increased in the following order: Pt<Ag<Au for the devices investigated here.​ Au-decorated LIG exhibited a 32-times reduction of normalized voltage noise. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-adma-75667-a4c6d0",
+      "date": "2026-11-13",
+      "title": "Ion-Access Engineering for High-Performance Vertical Organic Electrolyte-Gated Transistors",
+      "authors": "Wang J, Teuerle L, Chen L, Meier T, Sun T, Antrack T, Dong T, Zhang Z, Li P, Weissbach A, Solgi A, Kleemann H",
+      "institutions": [
+        "Center of Smart Materials and Devices",
+        "Technische Universität Ilmenau"
+      ],
+      "journal": "Advanced materials (Deerfield Beach, Fla.)",
+      "doi": "10.1002/adma.75667",
+      "url": "https://doi.org/10.1002/adma.75667",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Optical Computing",
+        "Semiconductor & Packaging"
+      ],
+      "glyph": "computing",
+      "summary": "Organic electrolyte-gated transistors (OEGTs) are promising platforms for bioelectronics and neuromorphic systems owing to their low-voltage operation and strong ionic-electronic coupling. However, in vertical OEGTs, which offer higher current densities and faster switching, the semiconductor channel is often shielded from direct electrolyte contact, limiting ionic accessibility and resulting in inefficient gate coupling and slow switching dynamics. Here, we introduce a photolithography-free ion-access strategy for vertical OEGTs, combining femtosecond laser micropatterning with inkjet-printed solid-state electrolytes. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-1016-j-ceramint-2026-11-182-d6dda1",
+      "date": "2026-11-01",
+      "title": "Mechanism of Enhanced CMAS Corrosion Resistance of Ytterbium Silicate Environmental Barrier Coatings via Ultraviolet Picosecond Laser Glazing",
+      "authors": "Xinhao Chen, Kun Huo, Jie Kang, Chuangchuang Li, Kaili Zhao, Yinqun Hua, Huifeng Yang, 戴峰泽 Dai Fengze",
+      "institutions": [],
+      "journal": "Ceramics International",
+      "doi": "10.1016/j.ceramint.2026.11.182",
+      "url": "https://doi.org/10.1016/j.ceramint.2026.11.182",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Ceramics & Coatings"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1016-j-optmat-2026-118696-2c308a",
+      "date": "2026-11-01",
+      "title": "Femtosecond Laser-Induced Thickness Modulation and Optical Response Engineering in WS2 Flakes",
+      "authors": "Kelly T. Paula, Ana Carolina F. de Brito, Marcelo B. Andrade, Ingrid D. Barcelos, Cleber R. Mendonça",
+      "institutions": [],
+      "journal": "Optical Materials",
+      "doi": "10.1016/j.optmat.2026.118696",
+      "url": "https://doi.org/10.1016/j.optmat.2026.118696",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Processing"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-cpc-2026-110518-e06b4c",
+      "date": "2026-11-01",
+      "title": "Multiscale Numerical Modelling of Ultrafast Laser–Matter Interactions: Maxwell–Two-Temperature Model–Molecular Dynamics (M-TTM-MD)",
+      "authors": "O. Benhayoun, M.E. Garcia",
+      "institutions": [],
+      "journal": "Computer Physics Communications",
+      "doi": "10.1016/j.cpc.2026.110518",
+      "url": "https://doi.org/10.1016/j.cpc.2026.110518",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Modeling & Simulation"
+      ],
+      "glyph": "model",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-cej-2026-184300-4a1397",
+      "date": "2026-11-01",
+      "title": "A picosecond laser-processed gradient-distributed hydrogel/Fe₃O₄ nanocomposite evaporator for efficient seawater desalination and thermoelectric generation",
+      "authors": "Xinxin Lv, Dongkai Chu, Peng Yao, Zhiliang Tang, Fangyu Yang, Shuangshuang Hu, Yuanhao Zhao, Wei Chen",
+      "institutions": [],
+      "journal": "Chemical Engineering Journal",
+      "doi": "10.1016/j.cej.2026.184300",
+      "url": "https://doi.org/10.1016/j.cej.2026.184300",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Polymers & Resins",
+        "Energy & Batteries"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    }
+  ],
+  "removed": [],
+  "updated": "2026-11-16"
+}
