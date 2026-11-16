@@ -118,5 +118,10 @@
     "src": "covers/journal-of-micromechanics-and-microengineering.jpg",
     "kind": "cover",
     "credit": "Journal cover · Journal of Micromechanics and Microengineering"
+  },
+  "journal of cataract &amp; refractive surgery": {
+    "src": "covers/journal-of-cataract-amp-refractive-surgery.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Journal of Cataract &amp; Refractive Surgery"
   }
 }

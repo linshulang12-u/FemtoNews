@@ -4,9 +4,235 @@
   "date": "2026-11-16",
   "window": [
     "2026-11-16",
-    "2026-11-16"
+    "2026-11-17"
   ],
   "articles": [
+    {
+      "id": "10-1016-j-optlastec-2026-116935-3bae78",
+      "date": "2027-01-01",
+      "title": "Four-wavelength-switchable narrow-linewidth Tm/Ho co-doped fiber laser enabled by fs-laser direct-written SMF-based polarization-dependent multi-channel filter",
+      "authors": "Zixuan Gao, Yilei Miao, Zining Wang, Bing Han, Yanqiong Wang, Xiang Li, Yong Zhao, Fengping Yan, Ting Feng",
+      "institutions": [],
+      "journal": "Optics &amp; Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.116935",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.116935",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Ultrafast Sources & Systems"
+      ],
+      "glyph": "source",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-optlastec-2026-116794-1258a7",
+      "date": "2027-01-01",
+      "title": "Process regulation and transfer mechanism of carbon paste in laser-induced forward transfer for high-resolution printing",
+      "authors": "Ming Xu, Chenyang Li, Rujian Sun, Yisong Yu, Jiadao Wang, Ruizhi Li",
+      "institutions": [],
+      "journal": "Optics &amp; Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.116794",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.116794",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Processing"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-optlastec-2026-116957-e075ce",
+      "date": "2027-01-01",
+      "title": "Breaking the resolution-throughput trade-off: A Fs-Laser-FIB-TKD method for bulk nanotwin statistics",
+      "authors": "Hongyan Guo, Yifei Hao, Xin Tan, Wentao Wu, Zhaojiang Xue, Erkang Liu, Xinzhi Hu, Min Xia, Manchao He",
+      "institutions": [],
+      "journal": "Optics &amp; Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.116957",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.116957",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Processing"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1097-j-jcrs-0000000000002111-bebb2f",
+      "date": "2026-11-16",
+      "title": "Keratorefractive Lenticule Extraction With 2-MHz Versus 500-kHz Femtosecond Laser Platforms: A Systematic Review and Meta-Analysis",
+      "authors": "Salem Abu Al-Burak, M. Basil Marchi, Adeya Al Harami, Abdul Rahman Bakdach, Fahad Butt, Kishan Avaiya, Truong Dang Minh Pham, Hashem Abu Serhan",
+      "institutions": [
+        "Schulich School of Medicine and Dentistry",
+        "Hamad Medical Corporation",
+        "Georgetown University"
+      ],
+      "journal": "Journal of Cataract &amp; Refractive Surgery",
+      "doi": "10.1097/j.jcrs.0000000000002111",
+      "url": "https://doi.org/10.1097/j.jcrs.0000000000002111",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Processing"
+      ],
+      "glyph": "pulse",
+      "summary": "Topic: To determine whether keratorefractive lenticule extraction (KLEx) with a 2-MHz femtosecond laser (VisuMax 800, Carl Zeiss Meditec AG) offers visual, refractive, aberrometric, intraoperative, or safety advantages over a 500-kHz femtosecond laser (VisuMax 500, Carl Zeiss Meditec AG) for myopia or myopic astigmatism. Clinical Relevance: The VisuMax 800 offers faster laser delivery and software-guided alignment, but its clinical benefit is unresolved. Methods: 4 databases were searched to May 13, 2026, for studies comparing both lasers. Screening, extraction, and ROBINS-I risk-of-bias assessment were performed in duplicate. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/journal-of-cataract-amp-refractive-surgery.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Journal of Cataract &amp; Refractive Surgery"
+      },
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-ol-615136-d0eaa1",
+      "date": "2026-11-16",
+      "title": "Low-Threshold Efficient Air Lasing Enabled by Resonant Excitation with Yb-Doped Femtosecond Lasers",
+      "authors": "Kailu Wang, Shaofen Gao, Haicheng Mei, Liang Xu, Qingqing Liang, Yi Liu",
+      "institutions": [],
+      "journal": "Optics Letters",
+      "doi": "10.1364/ol.615136",
+      "url": "https://doi.org/10.1364/ol.615136",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Processing"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1063-5-0334958-0dc0ae",
+      "date": "2026-11-16",
+      "title": "Ultrafast laser trimming of silicon photonics devices with UV sensitized films",
+      "authors": "Scott Madaras, Alex Sarracino, Morgann Berg, Wilfredo Cabrera, Michael Busse, Andrew Pomerene, Andrew Starbuck, Matt Boady, Nathan Young, Michael J. Abere, Christopher Long",
+      "institutions": [
+        "Sandia National Laboratories"
+      ],
+      "journal": "AIP Advances",
+      "doi": "10.1063/5.0334958",
+      "url": "https://doi.org/10.1063/5.0334958",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Waveguides & Photonic Chips",
+        "Surface Structuring & LIPSS",
+        "Silicon & Semiconductors",
+        "Integrated Photonics & Telecom"
+      ],
+      "glyph": "waveguide",
+      "summary": "We demonstrate a scalable post-fabrication trimming technique for silicon photonic devices utilizing a germanium-doped silicon dioxide (SiO2:Ge) cladding sensitive to ultraviolet femtosecond laser irradiation. Precise refractive index tuning is essential to compensate for fabrication-induced variations in large-scale integrated photonic circuits, enabling improved device performance without active power consumption. By irradiating SiO2:Ge films with 258-nm, 400-fs pulses, we achieve controllable, permanent refractive index shifts (Δn > 0.06) that exceed prior laser trimming results by over an order of magnitude at substantially lower cumulative doses. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3389-fmed-2026-2007032-b2a63c",
+      "date": "2026-11-16",
+      "title": "Flat optic versus diffractive lens array for 755-nm picosecond laser treatment of melasma-associated photoaging: a randomized split-face trial in Chinese women",
+      "authors": "Qilin Sun, Yang Liu, Qingqing Cen, Yue Han, Ying Shang, Gang Ma, Pinru Wu",
+      "institutions": [
+        "Shanghai Ninth People's Hospital"
+      ],
+      "journal": "Frontiers in Medicine",
+      "doi": "10.3389/fmed.2026.2007032",
+      "url": "https://doi.org/10.3389/fmed.2026.2007032",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Biological Tissue",
+        "Biomedical & Life Science"
+      ],
+      "glyph": "pulse",
+      "summary": "Introduction Facial aging in Asian populations presents unique challenges, as photoaging frequently coexists with melasma, and conventional laser treatments carry elevated post-inflammatory hyperpigmentation (PIH) risk. The comparative efficacy of different 755-nm picosecond alexandrite laser (PSAL) delivery systems remains unclear. This study aims to compare the efficacy and safety of 755-nm PSAL flat optic versus diffractive lens array (DLA) for facial rejuvenation in Chinese women with Fitzpatrick skin types III-IV and melasma. Methods This randomized split-face trial enrolled 80 Chinese women with symmetrical facial photoaging and melasma. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3390-nano16221478-463a3b",
+      "date": "2026-11-16",
+      "title": "From Nanoparticle Formation to LIPSS: Morphological Evolution of Copper Below Conventional Ablation Thresholds",
+      "authors": "László Égerházi, Judit Kopniczky, Tamás Szörényi",
+      "institutions": [
+        "University of Szeged"
+      ],
+      "journal": "Nanomaterials",
+      "doi": "10.3390/nano16221478",
+      "url": "https://doi.org/10.3390/nano16221478",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Surface Structuring & LIPSS",
+        "Metals & Alloys"
+      ],
+      "glyph": "lipss",
+      "summary": "Characterizing the fluence-dependent surface morphologies of copper irradiated by ultrafast laser pulses, from nanoparticle-dominated regions to periodically ordered structures, requires finely resolved information across the investigated low-fluence range of 0.014–0.050 J/cm2. We followed this evolution on copper using Energy-Gradient Surface Mapping (EGSM), which correlates the lateral energy distribution of a large-diameter, unfocused femtosecond beam with local surface responses. SEM, AFM, particle statistics, and textural anisotropy analysis revealed fluence-dependent morphological regimes. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1007-s00340-026-08738-6-b6111e",
+      "date": "2026-11-16",
+      "title": "Design and fabrication of a multilevel phase grating via two-photon polymerization lithography for space-division phase-shifting incoherent digital holography",
+      "authors": "Teruyoshi Nobukawa, Yasutaka Maeda, Kei Hagiwara, Tetsuhiko Muroi",
+      "institutions": [],
+      "journal": "Applied Physics B",
+      "doi": "10.1007/s00340-026-08738-6",
+      "url": "https://doi.org/10.1007/s00340-026-08738-6",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Two-Photon Polymerization",
+        "Beam Shaping & SLM",
+        "Polymers & Resins",
+        "Sensing"
+      ],
+      "glyph": "tpp",
+      "summary": "Grating-assisted space-division phase-shifting incoherent digital holography (IDH) allows a conventional image sensor to simultaneously record multiple phase-shifted holograms, enabling single-shot acquisition of complex-amplitude information. However, conventional binary grating configurations involve a trade-off between high diffraction efficiency and uniform optical-power distribution among the phase-shifted holograms. To address this issue, we propose a multilevel two-dimensional phase grating that generates four principal diffraction orders with high and nearly equal efficiencies. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/applied-physics-b.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Applied Physics B"
+      },
+      "source": "crossref"
+    },
     {
       "id": "10-1038-s41598-026-79064-2-d60d6b",
       "date": "2026-11-15",
@@ -56,6 +282,33 @@
       "source": "crossref"
     },
     {
+      "id": "10-3390-mi17111328-8a38bb",
+      "date": "2026-11-15",
+      "title": "Resource-Efficient Inspection of Two-Photon Lithography via Cross-Modal Machine Learning from Electron to Optical Microscopy",
+      "authors": "Aditya Ghosh, Harnjoo Kim, Sourabh K. Saha",
+      "institutions": [
+        "George W. Woodruff School of Mechanical Engineering",
+        "College of Computing"
+      ],
+      "journal": "Micromachines",
+      "doi": "10.3390/mi17111328",
+      "url": "https://doi.org/10.3390/mi17111328",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Two-Photon Polymerization",
+        "AI & Process Optimization",
+        "Polymers & Resins"
+      ],
+      "glyph": "tpp",
+      "summary": "Iterative process optimization in two-photon lithography (TPL) is fundamentally constrained by a critical metrology bottleneck: the reliance on slow, resource-intensive, and destructive scanning electron microscopy (SEM) for structural verification. To overcome this bottleneck, we introduce a resource-efficient inspection framework that provides high-fidelity fabrication feedback using only rapid, in-situ optical imaging. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-1002-adma-75667-a4c6d0",
       "date": "2026-11-13",
       "title": "Ion-Access Engineering for High-Performance Vertical Organic Electrolyte-Gated Transistors",
@@ -81,6 +334,61 @@
       "feature": false,
       "fig": null,
       "source": "europepmc"
+    },
+    {
+      "id": "10-1039-d6fd00110f-18890d",
+      "date": "2026-11-11",
+      "title": "High-voltage gel polymer electrolyte integrated laser-induced graphene flexible micro-supercapacitors for wearable and sustainable aerospace electronics",
+      "authors": "Apurba Ray, Sangha Mitra, Vasiliki Georgopoulou, Labrini Sygellou, Spyros N. Yannopoulos, Bilge Saruhan",
+      "institutions": [
+        "Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR)",
+        "FORTH Institute of Chemical Engineering Sciences",
+        "Foundation for Research and Technology Hellas"
+      ],
+      "journal": "Faraday Discussions",
+      "doi": "10.1039/d6fd00110f",
+      "url": "https://doi.org/10.1039/d6fd00110f",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Laser-Induced Graphene & Carbon",
+        "Polymers & Resins",
+        "Energy & Batteries"
+      ],
+      "glyph": "carbon",
+      "summary": "This work demonstrates the fabrication of high-voltage gel polymer electrolyte (GPE) and laser-induced graphene (LIG) electrode based flexible micro-supercapacitors (FMSCs).",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1039-d6ra09624g-061010",
+      "date": "2026-11-11",
+      "title": "Municipal wastewater sludge/laser-induced graphene nanozyme for machine-learning-assisted smartphone colorimetric tetracycline sensing",
+      "authors": "Nguyen Ngoc Nghia, Phung Thanh An, Nguyễn Hữu Hiếu",
+      "institutions": [
+        "Vietnam National University Ho Chi Minh City",
+        "Ho Chi Minh City University of Technology"
+      ],
+      "journal": "RSC Advances",
+      "doi": "10.1039/d6ra09624g",
+      "url": "https://doi.org/10.1039/d6ra09624g",
+      "oa": true,
+      "license": "CC BY-NC",
+      "categories": [
+        "Laser-Induced Graphene & Carbon",
+        "Perovskites & 2D",
+        "Sensing"
+      ],
+      "glyph": "carbon",
+      "summary": "= 0.987, RMSE = 6.95 µM), whereas leave-one-condition-out validation highlighted outdoor illumination as the major limitation for model generalization. The LIG/MWS composite also demonstrated secondary methylene blue adsorption, highlighting its multifunctional potential. This work provides a sustainable nanozyme platform integrating waste valorization, smartphone-assisted sensing, and machine-learning-enabled colorimetric analysis.",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
     },
     {
       "id": "10-1016-j-ceramint-2026-11-182-d6dda1",
@@ -170,8 +478,190 @@
       "feature": false,
       "fig": null,
       "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-matdes-2026-117525-8c70e5",
+      "date": "2026-11-01",
+      "title": "Inverse design of volumetric polymer spectral routers with connectivity and anisotropic feature-size control",
+      "authors": "Kyungmin Kim, JUNSEO HAN, Changkyun Lee, Seunghyun Lee, Chanik Kang, Haejun Chung",
+      "institutions": [
+        "Hanyang University"
+      ],
+      "journal": "Materials & Design",
+      "doi": "10.1016/j.matdes.2026.117525",
+      "url": "https://doi.org/10.1016/j.matdes.2026.117525",
+      "oa": true,
+      "license": "CC BY-NC-ND",
+      "categories": [
+        "Two-Photon Polymerization",
+        "Micro-Optics & Metasurfaces",
+        "Polymers & Resins"
+      ],
+      "glyph": "tpp",
+      "summary": "Fabricating freeform volumetric spectral routers by two-photon polymerization (2PP) requires solid connections to supports, void passages for unpolymerized photoresist removal, and direction-dependent feature-size control. Full-wave topology optimization with connectivity and anisotropic length-scale penalties for both phases yields the proposed designs. Baseline designs are optimized without these penalties. Lateral periodicity is imposed on the auxiliary thermal problems to include paths across unit-cell boundaries, while axial boundary conditions are specified separately for each layer. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1016-j-jlumin-2026-122311-6ef764",
+      "date": "2026-11-01",
+      "title": "Investigation of the ultrafast excited carrier dynamics of two pyrene-based derivatives and their application in femtosecond lasers",
+      "authors": "Chenlong Zhou, Zhaoru Xie, Ziwen Chen, Yuhao Huang, Xujing Xu, Lili Tao, Xing Feng, Bo Zhou",
+      "institutions": [],
+      "journal": "Journal of Luminescence",
+      "doi": "10.1016/j.jlumin.2026.122311",
+      "url": "https://doi.org/10.1016/j.jlumin.2026.122311",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Processing"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1039-d6nr01674j-95a5d5",
+      "date": "2026-10-29",
+      "title": "Laser-induced graphene-based moisture generators for scalable integration and self-powered respiration monitoring",
+      "authors": "Dingyun Zhang, Peicheng Han, Daozhi Shen",
+      "institutions": [
+        "Shanghai Jiao Tong University"
+      ],
+      "journal": "Nanoscale",
+      "doi": "10.1039/d6nr01674j",
+      "url": "https://doi.org/10.1039/d6nr01674j",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Laser-Induced Graphene & Carbon",
+        "Polymers & Resins",
+        "Energy & Batteries"
+      ],
+      "glyph": "carbon",
+      "summary": "Moisture-enabled generators (MEGs) generate electricity through moisture-induced interfacial and ionic process, yet their practical deployment is still restricted by the modest output of a single unit and the difficulty of large-scale integration. Here, we report an electrochemically coupled, laser-induced-graphene-based moisture electric generator (L-MEG), in which the redox reactions of an active Al top electrode operate synergistically with moisture-induced ionic transport, thereby providing an additional ionic source and electrochemical driving force. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1039-d6ay01910b-18a426",
+      "date": "2026-10-29",
+      "title": "A portable electrochemical platform for azithromycin determination based on batch injection analysis and laser-induced graphene electrode",
+      "authors": "Lizandra Nascimento Castro, Dianderson  C. M. Ferreira, Luiz Ricardo Guterres Silva, Jéssica S. Stefano, Luiza Maria Ferreira Dantas, Rodrigo A.A. Muñoz, Iranaldo Santos da Silva",
+      "institutions": [
+        "Universidade Federal do Maranhão",
+        "Universidade Federal de Uberlândia"
+      ],
+      "journal": "Analytical Methods",
+      "doi": "10.1039/d6ay01910b",
+      "url": "https://doi.org/10.1039/d6ay01910b",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Laser-Induced Graphene & Carbon",
+        "Perovskites & 2D",
+        "Sensing"
+      ],
+      "glyph": "carbon",
+      "summary": ", together with satisfactory precision and accuracy across different matrices. The method was successfully applied to pharmaceutical formulations, synthetic urine, and environmental water samples, providing satisfactory recovery results under the investigated sample conditions. In addition to its analytical performance, the proposed approach offers key practical advantages, including simple electrode fabrication, low sample consumption, minimal sample manipulation, and rapid successive measurements. These results highlight the potential of LIG-based sensors as a versatile and accessible alternative for routine monitoring of azithromycin in complex samples.",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1039-d6ra07397b-19b6d5",
+      "date": "2026-10-29",
+      "title": "Chitosan-poly(ethylene glycol)-NaClO 4 solid polymer electrolytes for activated carbon and flexible laser-induced graphene-based all-solid-state supercapacitors",
+      "authors": "Jadan Resnik Jaleel UC, Somashekara Bhat, Yethadka Narahari Sudhakar, Vipin Cyriac",
+      "institutions": [
+        "Manipal Academy of Higher Education",
+        "Symbiosis International University"
+      ],
+      "journal": "RSC Advances",
+      "doi": "10.1039/d6ra07397b",
+      "url": "https://doi.org/10.1039/d6ra07397b",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Laser-Induced Graphene & Carbon",
+        "Polymers & Resins",
+        "Energy & Batteries"
+      ],
+      "glyph": "carbon",
+      "summary": "Laser-induced graphene (LIG) electrodes integrated with sustainable solid polymer electrolytes provide a flexible and eco-friendly platform for supercapacitor applications, offering improved charge storage performance and electrochemical stability.",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1039-d6nr02031c-811d00",
+      "date": "2026-10-22",
+      "title": "High-resolution dual-layer two-photon lithography for nanoscale patterning",
+      "authors": "Chenran Zhang, Yun‐Lu Sun, Zifeng Xiao, Xiuzhen Xu, Xiaobin Xu",
+      "institutions": [
+        "Fudan University",
+        "Shanghai Zhangjiang Laboratory",
+        "Zhangjiang Laboratory"
+      ],
+      "journal": "Nanoscale",
+      "doi": "10.1039/d6nr02031c",
+      "url": "https://doi.org/10.1039/d6nr02031c",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Two-Photon Polymerization",
+        "Thin Films & 2D Materials",
+        "Polymers & Resins"
+      ],
+      "glyph": "tpp",
+      "summary": "Multi-photon lithography (MPL), which predominantly utilises femtosecond lasers, is a significant maskless, high-resolution and ambient (non-vacuum) lithography technique. To achieve a comparable resolution to primary competing solutions, such as electron-beam lithography, and to improve processing efficiency or throughput, the implementation of costly, complex methodologies is usually necessary. These include specialised material customisation, precise control over light-matter interactions, and sophisticated optical instrumentation. In this work, we introduce dual-layer two-photon lithography (DL-TPL), a new patterning approach that combines dual-layer lithography with TPL. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1039-d6mh01368f-a830cd",
+      "date": "2026-10-19",
+      "title": "In situ additive manufacturing of embedded multifunctional laser-induced graphene in PEEK",
+      "authors": "Yao Yao, Zefan Chai, Irosha Jayasooriya, Aidan Eiswirth, Joshua Moore, Joel Mathai, Malinda Jayathilake, Jingbo Qin, Jian Lin, Yi Wang",
+      "institutions": [
+        "University of Missouri"
+      ],
+      "journal": "Materials Horizons",
+      "doi": "10.1039/d6mh01368f",
+      "url": "https://doi.org/10.1039/d6mh01368f",
+      "oa": true,
+      "license": "CC BY-NC",
+      "categories": [
+        "Laser-Induced Graphene & Carbon",
+        "Perovskites & 2D",
+        "Biomedical & Life Science"
+      ],
+      "glyph": "carbon",
+      "summary": ", layer-by-layer alternating PEEK deposition and LIG graphitization within a single manufacturing process, providing an automated route to fabricating multifunctional PEEK devices with spatially registered, programmable LIG networks. Building on this platform, a series of fabrication characterizations were conducted. Using the optimized fabrication parameters, we further demonstrated the versatility of the platform in directly fabricating functional devices for multiple applications, including Joule heating, temperature sensing, and strain sensing, used in aerospace and biomedical areas.",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
     }
   ],
   "removed": [],
-  "updated": "2026-11-16"
+  "updated": "2026-11-17"
 }
