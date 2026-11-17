@@ -4,9 +4,31 @@
   "date": "2026-11-16",
   "window": [
     "2026-11-16",
-    "2026-11-17"
+    "2026-11-18"
   ],
   "articles": [
+    {
+      "id": "10-1016-j-mseb-2026-120010-9eeda7",
+      "date": "2027-02-01",
+      "title": "Ultrafast laser-driven nonlinear optical response and harmonic generation in microwave-irradiated Cu-NiO thin films for photonic applications",
+      "authors": "R. Thundiyil, J. Lang, K. Ozga, J. Jedryka, D. Guichaoua, S. Taboukhat, S. Chattopadhyay, P. Poornesh, B. Sahraoui",
+      "institutions": [],
+      "journal": "Materials Science and Engineering: B",
+      "doi": "10.1016/j.mseb.2026.120010",
+      "url": "https://doi.org/10.1016/j.mseb.2026.120010",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Thin Films & 2D Materials"
+      ],
+      "glyph": "film",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
     {
       "id": "10-1016-j-optlastec-2026-116935-3bae78",
       "date": "2027-01-01",
@@ -67,6 +89,174 @@
       ],
       "glyph": "pulse",
       "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-sna-2026-118813-5f6289",
+      "date": "2027-01-01",
+      "title": "Lab-in-fiber: A femtosecond-laser-inscribed waveguide mach-zehnder interferometer in hollow-core fiber for temperature-compensated seawater salinity sensing",
+      "authors": "Ruijie Liu, Peng Yang, Hongyun Zhao, Lu Cai, Riqing Lv, Ziting Lin, Yong Zhao",
+      "institutions": [],
+      "journal": "Sensors and Actuators A: Physical",
+      "doi": "10.1016/j.sna.2026.118813",
+      "url": "https://doi.org/10.1016/j.sna.2026.118813",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Waveguides & Photonic Chips",
+        "Fiber Gratings & Devices",
+        "Sensing"
+      ],
+      "glyph": "waveguide",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-optlastec-2026-116966-d5ec29",
+      "date": "2027-01-01",
+      "title": "The picosecond laser ablation mechanism of high aspect ratio monocrystalline Si microholes",
+      "authors": "Quanli Zhang, Jian Liu, Boxin Xu, Xu Miao, Chengqian Wang, Changlin Liu, Kui Liu, Yucan Fu",
+      "institutions": [],
+      "journal": "Optics &amp; Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.116966",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.116966",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Precision Micromachining & Trimming"
+      ],
+      "glyph": "drill",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-optlastec-2026-116964-7a56c5",
+      "date": "2026-11-17",
+      "title": "Water-mediated interfacial charge redistribution and reduced thermal damage in femtosecond laser processing of silicon carbide",
+      "authors": "Yanghao Lin, Jianxiong Chen, Weicheng Wu, Jiaqi Wan, Bingchen Li, Chengxin Wang, Yuhua Huang",
+      "institutions": [],
+      "journal": "Optics & Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.116964",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.116964",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Hard & Brittle Materials",
+        "SiC & Wide-Bandgap"
+      ],
+      "glyph": "dicing",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1016-j-optlastec-2026-116986-abdb47",
+      "date": "2026-11-17",
+      "title": "Effect of pulse width on the interfacial microstructure and mechanical properties of sapphire/Invar36 alloy joints fabricated by ultrafast laser microwelding: Experiments and thermal-response modeling",
+      "authors": "Linpeng Zhang, Jianian Tian, Rui Zhou, Defeng Mo, Meng Yang, Jin Yang, Yixuan Zhao, Rui Pan, Peng Li, Hua Zhang",
+      "institutions": [],
+      "journal": "Optics & Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.116986",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.116986",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Ultrafast Welding & Joining",
+        "Spatiotemporal & Burst Control",
+        "Sapphire & Crystals"
+      ],
+      "glyph": "weld",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1063-5-0353615-c33578",
+      "date": "2026-11-17",
+      "title": "Acoustic and optical emission in femtosecond laser-induced argon plasma",
+      "authors": "Hang Lv, Jie Lin, Rongjun Pan, Haifeng Xu",
+      "institutions": [
+        "Institute of Atomic and Molecular Physics"
+      ],
+      "journal": "Physics of Plasmas",
+      "doi": "10.1063/5.0353615",
+      "url": "https://doi.org/10.1063/5.0353615",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Sensing"
+      ],
+      "glyph": "pulse",
+      "summary": "Both acoustic and optical measurements offer simple, remote sensing capabilities for ultrafast intense laser-induced plasma diagnostics. While optical emission has been widely employed for the investigation of the laser-induced plasma, the acoustic emission as well as its relation to plasma parameters remain unclear. We perform an experimental study to simultaneously measure acoustic and optical emission from femtosecond laser-induced argon plasma. The electron temperature Te and electron density Ne of the plasma are extracted by the analysis of the optical emission, and the feature of the photoacoustic emission is investigated as functions of laser pulse energy. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-2351-7-0002219-a3550d",
+      "date": "2026-11-17",
+      "title": "High aspect-ratio modified layers and single-shot processing: Exploring the capabilities of a 2.8 μ m nanosecond laser for stealth dicing of silicon wafers",
+      "authors": "Alexandre Sagona, Sara Mondor, François Légaré, Christophe Arnaud",
+      "institutions": [
+        "Institut National de la Recherche Scientifique"
+      ],
+      "journal": "Journal of Laser Applications",
+      "doi": "10.2351/7.0002219",
+      "url": "https://doi.org/10.2351/7.0002219",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Hard & Brittle Materials",
+        "Silicon & Semiconductors",
+        "Semiconductor & Packaging"
+      ],
+      "glyph": "dicing",
+      "summary": "In the semiconductor industry, die singulation is a critical step, as poor dicing leads to yield loss. Although mechanical sawing remains the most widely used technique, it becomes inefficient for thicker wafers and induces numerous defects along the cut edges. Laser stealth dicing (SD) has emerged as a promising solution for the singulation of advanced semiconductor packages; however, current industrial implementations mainly rely on 1–2 μm infrared sources. In this work, we investigate the potential of a 2.8 μm nanosecond laser for SD of thick silicon wafers. Experiments are performed on boron-doped 〈100〉 silicon wafers of 650 μm thickness using a 60 ns mid-infrared source. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3390-coatings16111367-c69793",
+      "date": "2026-11-17",
+      "title": "Machine Learning in Ultrafast Laser Manufacturing: Modelling, Optimisation and Control for Surface and Coating Engineering",
+      "authors": "Conall Kirk, Chi-Wai Chan",
+      "institutions": [
+        "School of Mechanical and Aerospace Engineering"
+      ],
+      "journal": "Coatings",
+      "doi": "10.3390/coatings16111367",
+      "url": "https://doi.org/10.3390/coatings16111367",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "AI & Process Optimization",
+        "Ceramics & Coatings"
+      ],
+      "glyph": "ai",
+      "summary": "Ultrafast laser manufacturing is increasingly used for precision machining, surface preparation and functional surface engineering, but its nonlinear and material-dependent response makes process modelling and optimisation challenging. This review examines machine learning applications in ultrafast laser manufacturing, with particular emphasis on coatings and surface engineering. Existing approaches are compared across process modelling, parameter optimisation, monitoring and intelligent control, while distinguishing nominal process inputs from physically meaningful descriptors and hybrid physics–ML methods. …",
       "why": "",
       "pick": false,
       "feature": false,
@@ -234,6 +424,57 @@
       "source": "crossref"
     },
     {
+      "id": "10-1002-smll-76747-643ab9",
+      "date": "2026-11-16",
+      "title": "Skeleton-Filled Micropillar-Array Photothermal Surfaces for Durable Passive and Active Anti-/De-Icing",
+      "authors": "Cui Z, Xu H, Li G, Li Y, Xiao D, Chen Y, Shen Y, Wang Y, Xu Z, Liu S, Yu J",
+      "institutions": [
+        "Southwest University of Science and Technology",
+        "Nanjing University of Aeronautics and Astronautics",
+        "Civil Aviation Flight University of China"
+      ],
+      "journal": "Small (Weinheim an der Bergstrasse, Germany)",
+      "doi": "10.1002/smll.76747",
+      "url": "https://doi.org/10.1002/smll.76747",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Precision Micromachining & Trimming",
+        "Metals & Alloys",
+        "Energy & Batteries"
+      ],
+      "glyph": "drill",
+      "summary": "Mechanically durable photothermal icephobic surfaces remain challenging to develop because mechanical abrasion can degrade both water-repellent microstructures and photothermal functionality. Herein, we report a skeleton-filled micropillar-array photothermal surface (SMPS) fabricated by vacuum impregnation of a porous copper skeleton with a photothermal MWCNT/PDMS composite, followed by femtosecond laser micromachining. The resulting SMPS architecture features recessed micropillar arrays surrounded by a raised porous copper skeleton, which is designed to bear mechanical contact and protect the functional microstructures. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-1016-j-mssp-2026-111390-e9c8bf",
+      "date": "2026-11-16",
+      "title": "Evaluation of laser stealth dicing for die-to-wafer hybrid bonding",
+      "authors": "Zhifei Wang, Tingting Zhao, Haimin Chen, Xingyao Chen, Liyi Li",
+      "institutions": [],
+      "journal": "Materials Science in Semiconductor Processing",
+      "doi": "10.1016/j.mssp.2026.111390",
+      "url": "https://doi.org/10.1016/j.mssp.2026.111390",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Hard & Brittle Materials",
+        "Semiconductor & Packaging"
+      ],
+      "glyph": "dicing",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
       "id": "10-1038-s41598-026-79064-2-d60d6b",
       "date": "2026-11-15",
       "title": "Micron-precision depth control in automated volumetric laser ablation with ultrashort laser pulses",
@@ -334,6 +575,31 @@
       "feature": false,
       "fig": null,
       "source": "europepmc"
+    },
+    {
+      "id": "10-48550-arxiv-2611-18045-b0a296",
+      "date": "2026-11-13",
+      "title": "Optical Representation Neural Networks Enabled by Weakly Supervised Learning",
+      "authors": "Bochang Wu, Chengfeng Pan, Xuhao Luo, John You En Chan, Shutao Zhang, Zhenchao Liu, Hao Wang, Deepshikha Arora, Nur Qalishah Adanan, Ho Soon Yee, Lei Chen, Hongtao Wang, Wang Zhang, Cheng-Wei Qiu, Joel K. W. Yang",
+      "institutions": [],
+      "journal": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2611.18045",
+      "url": "https://doi.org/10.48550/arxiv.2611.18045",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Two-Photon Polymerization",
+        "Optical Computing",
+        "Polymers & Resins"
+      ],
+      "glyph": "computing",
+      "summary": "Diffractive optical neural networks (ONNs) show remarkable promise in high-speed and energy-efficient optical computing. However, most existing ONNs are optimized to reproduce predefined output intensity distributions, with the desired optical responses explicitly specified before training. Here, we introduce optical representation neural networks (ORNNs) enabled by coarse-grained weak supervision. Using handwritten Devanagari, Arabic, and English characters as three semantic groups, a modified contrastive objective encourages samples from the same script to cluster into similar optical representations. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
     },
     {
       "id": "10-1039-d6fd00110f-18890d",
@@ -528,6 +794,28 @@
       "source": "crossref"
     },
     {
+      "id": "10-1016-j-apsusc-2026-168982-eba460",
+      "date": "2026-11-01",
+      "title": "Glancing-angle femtosecond laser polishing of tantalum carbide",
+      "authors": "Haoyu Dong, Luke Wadle, Zheyun Gu, Peizi Li, Xi Huang, Jean-François Silvain, Caillin J. Ryan, Patrick E. Albert, Xing Wang, Bai Cui, Yongfeng Lu",
+      "institutions": [],
+      "journal": "Applied Surface Science",
+      "doi": "10.1016/j.apsusc.2026.168982",
+      "url": "https://doi.org/10.1016/j.apsusc.2026.168982",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Metals & Alloys"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-1039-d6nr01674j-95a5d5",
       "date": "2026-10-29",
       "title": "Laser-induced graphene-based moisture generators for scalable integration and self-powered respiration monitoring",
@@ -663,5 +951,5 @@
     }
   ],
   "removed": [],
-  "updated": "2026-11-17"
+  "updated": "2026-11-18"
 }
