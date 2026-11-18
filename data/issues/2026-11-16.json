@@ -4,7 +4,7 @@
   "date": "2026-11-16",
   "window": [
     "2026-11-16",
-    "2026-11-18"
+    "2026-11-19"
   ],
   "articles": [
     {
@@ -142,6 +142,108 @@
       "source": "crossref"
     },
     {
+      "id": "10-1016-j-est-2026-125725-4c6873",
+      "date": "2027-01-01",
+      "title": "Sequential dual-wavelength laser engineering of 3D-integrated laser-induced graphene/carbon nanotube electrodes for aqueous supercapacitors with high areal capacitance",
+      "authors": "Xiuyuan Li, Yudong Wang, Zehui Zhang, Wenjie Shao, Jun Kang, Shuai Han, Zhao Li, Na Hong, Zhiyuan Yang, Yanping Song",
+      "institutions": [],
+      "journal": "Journal of Energy Storage",
+      "doi": "10.1016/j.est.2026.125725",
+      "url": "https://doi.org/10.1016/j.est.2026.125725",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Laser-Induced Graphene & Carbon",
+        "Perovskites & 2D",
+        "Energy & Batteries"
+      ],
+      "glyph": "carbon",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1051-photon-202614044-388f1d",
+      "date": "2026-11-18",
+      "title": "Spatial shaping of ultrafast laser beams for advanced material processing",
+      "authors": "Cyril Mauclair",
+      "institutions": [],
+      "journal": "Photoniques",
+      "doi": "10.1051/photon/202614044",
+      "url": "https://doi.org/10.1051/photon/202614044",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Beam Shaping & SLM"
+      ],
+      "glyph": "beam",
+      "summary": "Ultrafast lasers enable material processing with remarkable precision, but exploiting the increasing power of modern laser sources remains challenging. Dynamic wavefront shaping offers a powerful solution by tailoring the focal intensity distribution in space. This article introduces the main concepts and technologies behind spatial beam shaping and illustrates how shaped beams, parallel processing and structured light can improve the flexibility and efficiency of laser processing.",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3390-photonics13111085-3bc26c",
+      "date": "2026-11-18",
+      "title": "Composite-Path-Based Picosecond Laser Microhole Machining and Coherent Imaging Detection",
+      "authors": "Yu Lu, Shuze Zhang, Meng Ren, Ruilong Wu, Yanan Liu, Rui Meng, Yuanqin Xia",
+      "institutions": [
+        "School of Electronic Engineering",
+        "Hebei Key Laboratory of Advanced Laser Technology and Equipment"
+      ],
+      "journal": "Photonics",
+      "doi": "10.3390/photonics13111085",
+      "url": "https://doi.org/10.3390/photonics13111085",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Precision Micromachining & Trimming",
+        "Spatiotemporal & Burst Control",
+        "Silicon & Semiconductors",
+        "Semiconductor & Packaging"
+      ],
+      "glyph": "drill",
+      "summary": "Ultrafast laser microhole machining still lacks reliable taper control and on-machine geometric inspection. We combine a partitioned full-factorial design, composite-path optimization and spectral-domain optical coherence tomography (SD-OCT) on a single 355 nm, 10 ps platform for 80 μm holes in 200 μm silicon wafers. Range analysis and a second-order regression on uncoded physical variables, fitted to 448 parameter combinations with three replicate holes each, identified power, scanning speed and number of scans as significant at p < 0.001 but not repetition rate at p = 0.838, with R2 = 0.802. The resulting helical setting of 498 kHz, 15 W, 203 mm/s and 50 scans gave a mean taper of 0.90°. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3390-app162211432-46e3f9",
+      "date": "2026-11-18",
+      "title": "Process Regime Mapping of Green Picosecond Laser Delamination Through Glass in POE Photovoltaic Laminates After Field Aging",
+      "authors": "Szymon Tofil, Shuyang Lin, Qunli Zhang, Leonardo Orazi, António B. Pereira, Liang Wang, Xinran Liu, Jianhua Yao",
+      "institutions": [
+        "Institute of Laser Advanced Manufacturing",
+        "Moganshan Institute",
+        "Laser Processing Research Center"
+      ],
+      "journal": "Applied Sciences",
+      "doi": "10.3390/app162211432",
+      "url": "https://doi.org/10.3390/app162211432",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Spatiotemporal & Burst Control",
+        "Glass & Silica",
+        "Energy & Batteries"
+      ],
+      "glyph": "burst",
+      "summary": "This study maps operational separation responses in cut fragments from one field-aged crystalline-silicon photovoltaic module containing a polyolefin elastomer (POE)-rich encapsulant. Through-glass irradiation used a 532 nm picosecond laser and eighteen combinations of repetition rate (100–300 kHz), controller setting (50% or 100%), and scan speed (1000–2000 mm s−1). After cooling, one operator assessed corner-initiated manual opening. Responses were classified by sustained opening, interface-opening sequence, and visually estimated released area. Two additional fragments were tested for each of four selected conditions. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-1016-j-optlastec-2026-116964-7a56c5",
       "date": "2026-11-17",
       "title": "Water-mediated interfacial charge redistribution and reduced thermal damage in femtosecond laser processing of silicon carbide",
@@ -262,6 +364,138 @@
       "feature": false,
       "fig": null,
       "source": "crossref"
+    },
+    {
+      "id": "10-1002-smll-76109-f44042",
+      "date": "2026-11-17",
+      "title": "Interface-Engineered Conformal CNT Forests on 3D Architected Scaffolds for Enhanced Charge Transport and Mechanical Resilience",
+      "authors": "Zhou J, Azeez MO, Reinhard AG, Gopaul C, Mehregan M, Young MJ, Maschmann MR",
+      "institutions": [
+        "University of Missouri",
+        "MU Materials Science & Engineering Institute"
+      ],
+      "journal": "Small (Weinheim an der Bergstrasse, Germany)",
+      "doi": "10.1002/smll.76109",
+      "url": "https://doi.org/10.1002/smll.76109",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Two-Photon Polymerization",
+        "Surface Structuring & LIPSS",
+        "Polymers & Resins",
+        "Biomedical & Life Science"
+      ],
+      "glyph": "tpp",
+      "summary": "Three-dimensional (3D) micro-architectures are central to next-generation devices requiring high surface area, mechanical robustness, and integrated electrical functionality. Arbitrarily complex 3D micro-architectures are now accessible through two-photon polymerization (TPP), yet their translation into electrically functional materials remains a fundamental challenge. Carbon nanotube (CNT) forests, despite their exceptional electrical conductivity and surface area, remain largely limited to planar, substrate-bound growth. Herein, we integrate TPP, atomic layer deposition (ALD), and chemical vapor deposition (CVD) to achieve complex, conductive, CNT forest-coated 3D micro-scaffolds. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-1021-acsaelm-6c01677-8c65a1",
+      "date": "2026-11-17",
+      "title": "Maskless Femtosecond-Laser Micromachining of Recessed Gates in β-Ga2O3 MOSFETs",
+      "authors": "Justinas Jorudas, Simonas Indrišiūnas, Maxim Moscotin, Giedrius Stalnionis, Ilja Ignatjev, Tomas Daugalas, Andrius Bičiūnas, Paulius Gečys, Wei-Jhe Chen, Nien-Yao Tsou, Ray‐Hua Horng, Irmantas Kašalynas",
+      "institutions": [
+        "Center for Physical Sciences and Technology",
+        "National Yang Ming Chiao Tung University"
+      ],
+      "journal": "ACS Applied Electronic Materials",
+      "doi": "10.1021/acsaelm.6c01677",
+      "url": "https://doi.org/10.1021/acsaelm.6c01677",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Precision Micromachining & Trimming",
+        "SiC & Wide-Bandgap",
+        "Semiconductor & Packaging"
+      ],
+      "glyph": "drill",
+      "summary": "Maskless patterning routes that enable rapid, flexible prototyping of ultra-wide-bandgap transistors are highly desirable for accelerating the development of beta-phase gallium oxide (β-Ga2O3) electronics. Here, we present the first demonstration of maskless femtosecond-laser micromachining (fs-LM) utilized as a lithography-free approach to fabricate recessed gates in β-Ga2O3 MOSFETs. Controlled gate-recess depths are realized directly within the epitaxial channel and incorporated into functional transistors. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1088-2516-1075-aec345-44b04b",
+      "date": "2026-11-17",
+      "title": "Photo-Induced Metallization and Nonthermal Melting of 4H-SiC under Femtosecond Laser Irradiation: A Real-Time TDDFT Study",
+      "authors": "Wenyong Feng, Zhao Jun, Wei Hang, Dekui Mu, Libo ZHOU, Jian Li, Jixiong Li, Zhourui Tang",
+      "institutions": [
+        "Jiaying University",
+        "Sun Yat-sen University",
+        "Foshan University"
+      ],
+      "journal": "Electronic Structure",
+      "doi": "10.1088/2516-1075/aec345",
+      "url": "https://doi.org/10.1088/2516-1075/aec345",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "SiC & Wide-Bandgap"
+      ],
+      "glyph": "pulse",
+      "summary": "SiC as a representative third-generation wide-bandgap semiconductor, is of great importance for high-power electronics, high-frequency devices, and radiation-resistant applications. However, the microscopic mechanisms underlying femtosecond laser-induced nonthermal melting in SiC remain insufficiently understood. Herein, real-time time-dependent density functional theory is employed to investigate the electron dynamics of 4H-SiC under 800 nm femtosecond laser irradiation with intensities ranging from 10 10 to 10 14 W/cm 2 . The ionization mechanisms, energy absorption, current density dynamics and dielectric response are systematically analyzed. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1111-jace-71438-86975b",
+      "date": "2026-11-17",
+      "title": "Selective Etching in MAB Phases (Mo‐Al‐B and Cr‐Al‐B): A Theoretical Study on Mechanism and Electrochemical Performance",
+      "authors": "Zhuanlong Yan, Haoyu Chen, Yuxiao Deng, Mengyang Cao, Hongyu Li, Ming Yan",
+      "institutions": [
+        "Ltd. Xiaogan China",
+        "Hubei Longzhong Laboratory Xiangyang China"
+      ],
+      "journal": "Journal of the American Ceramic Society",
+      "doi": "10.1111/jace.71438",
+      "url": "https://doi.org/10.1111/jace.71438",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Selective Etching & Microfluidics"
+      ],
+      "glyph": "etch",
+      "summary": "This study systematically compares the topochemical transformation of Mo‐ and Cr‐based MAB phases into 2D borides (MBenes). Through tailored etching kinetics, MoAlB was partially de‐aluminized in 2 M HF to yield Mo 2 AlB 2 , while Cr 2 AlB 2 achieved complete exfoliation into delaminated 2D‐CrB in 3 M HCl, revealing a distinct discrepancy in their degrees of etching. Consequently, density functional theory (DFT) calculations demonstrate that the conversion of Mo 2 AlB 2 to MoB must overcome a high exfoliation barrier of 4.458 J/m 2 , whereas the conversion of Cr 2 AlB 2 to CrB requires only 3.6 J/m 2 . …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-48550-arxiv-2611-22573-7084d0",
+      "date": "2026-11-17",
+      "title": "Targeted material doping to enable the formation and coherent propagation of Laser Induced Periodic Surface Structures (LIPSS): the ZnO paradigm",
+      "authors": "Gonzalo Gomez-Munoz, Rocio Ariza, Juan Francisco Ramos-Justicia, Fatima Cabello Pardos, Antonio Pablo Pérez-Marín, Jose Gonzalo, Belén Sotillo, Binbing Xia, Paloma Fernandez, Javier Solis",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2611.22573",
+      "url": "https://arxiv.org/abs/2611.22573",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Surface Structuring & LIPSS",
+        "Thin Films & 2D Materials",
+        "Spatiotemporal & Burst Control",
+        "Sensing"
+      ],
+      "glyph": "lipss",
+      "summary": "This work explores how the initial free carrier density governs the formation and coherent propagation of Low Spatial Frequency Laser-Induced Periodic Surface Structures (LSF-LIPSS). As a paradigm we have analyzed the behavior of ad-hoc-doped ZnO films. ZnO is a multifunctional Transparent Conducting Oxide (TCO) with many scientific and technologic uses including applications in biomedicine, photonics, sensing or photocatalysis. Many of them would benefit from the use of large area, electrically anisotropic surfaces. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "arxiv"
     },
     {
       "id": "10-1097-j-jcrs-0000000000002111-bebb2f",
@@ -816,6 +1050,30 @@
       "source": "crossref"
     },
     {
+      "id": "10-1016-j-ijleo-2026-172983-74b092",
+      "date": "2026-11-01",
+      "title": "Structural and Terahertz Characterization of a Femtosecond-Laser-Fabricated Flexible Polyimide Metasurface",
+      "authors": "Meraline Selvaraj, B S Sreeja, Pritam P. Shetty, Sivarama Krishnan",
+      "institutions": [],
+      "journal": "Optik",
+      "doi": "10.1016/j.ijleo.2026.172983",
+      "url": "https://doi.org/10.1016/j.ijleo.2026.172983",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Micro-Optics & Metasurfaces",
+        "Laser-Induced Graphene & Carbon",
+        "Polymers & Resins"
+      ],
+      "glyph": "microoptics",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-1039-d6nr01674j-95a5d5",
       "date": "2026-10-29",
       "title": "Laser-induced graphene-based moisture generators for scalable integration and self-powered respiration monitoring",
@@ -896,6 +1154,31 @@
       "source": "openalex"
     },
     {
+      "id": "10-1016-j-optcom-2026-133928-13a7bf",
+      "date": "2026-10-28",
+      "title": "Single structural colors on silver surfaces fabricated by picosecond laser and underlying coloring mechanism",
+      "authors": "XinYu Zhang, Yi Wang, XinHuan Niu, Yi Pan, Dajiang Lu, 索红利",
+      "institutions": [
+        "Beijing University of Technology"
+      ],
+      "journal": "Optics Communications",
+      "doi": "10.1016/j.optcom.2026.133928",
+      "url": "https://doi.org/10.1016/j.optcom.2026.133928",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Surface Structuring & LIPSS",
+        "Imaging & Displays"
+      ],
+      "glyph": "lipss",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
       "id": "10-1039-d6nr02031c-811d00",
       "date": "2026-10-22",
       "title": "High-resolution dual-layer two-photon lithography for nanoscale patterning",
@@ -948,8 +1231,30 @@
       "feature": false,
       "fig": null,
       "source": "openalex"
+    },
+    {
+      "id": "10-1016-j-identj-2026-110132-342f89",
+      "date": "2026-10-01",
+      "title": "Femtosecond Laser Treatment for Dentinal Tubule Occlusion",
+      "authors": "Vesela Stefanova, Vera Gledacheva, Elena Stavreva, Kostadin Zhekov, Angel Sapundzhiev, Aneta Chitkusheva, Simeon Uzunov, Dragomir Vassilev, Todor Petrov, Julia Genova, Lyubomir Stoychev",
+      "institutions": [],
+      "journal": "International Dental Journal",
+      "doi": "10.1016/j.identj.2026.110132",
+      "url": "https://doi.org/10.1016/j.identj.2026.110132",
+      "oa": true,
+      "license": "CC BY-NC-ND 4.0",
+      "categories": [
+        "Other Processing"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
     }
   ],
   "removed": [],
-  "updated": "2026-11-18"
+  "updated": "2026-11-19"
 }
