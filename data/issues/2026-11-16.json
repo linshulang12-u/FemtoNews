@@ -4,7 +4,7 @@
   "date": "2026-11-16",
   "window": [
     "2026-11-16",
-    "2026-11-19"
+    "2026-11-20"
   ],
   "articles": [
     {
@@ -163,6 +163,122 @@
       "pick": false,
       "feature": false,
       "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3390-photonics13111089-78b809",
+      "date": "2026-11-19",
+      "title": "Spatially Modulated Femtosecond Laser-Induced 2D-LIPSS on Diamond for Infrared Antireflective Windows",
+      "authors": "Ren Zhang, Da Li, Jia-Wei Tan, Zheng Wang, Gong Wang, Yu Ding, Zhenxu Bai, Yulei Wang, Zhiwei Lu",
+      "institutions": [
+        "Center for Advanced Laser Technology",
+        "Collaborative Innovation Center for Diamond Laser Technology and Applications",
+        "Hebei Key Laboratory of Advanced Laser Technology and Equipment"
+      ],
+      "journal": "Photonics",
+      "doi": "10.3390/photonics13111089",
+      "url": "https://doi.org/10.3390/photonics13111089",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Surface Structuring & LIPSS",
+        "Selective Etching & Microfluidics",
+        "Beam Shaping & SLM",
+        "Diamond"
+      ],
+      "glyph": "etch",
+      "summary": "Diamond exhibits outstanding stability and broadband spectral transparency, rendering it an ideal material for optical windows in extreme environments. Antireflective structures such as pyramids and nano-stripes serve as the prevailing strategy for further enhancing window transmittance. However, their fabrication is often hindered by the inherent trade-off between processing quality and efficiency. Herein, we propose a scalable method combining spatial beam shaping with orthogonal scanning via femtosecond laser to fabricate sub-wavelength structures (laser-induced periodic surface structures, LIPSS) on diamond for infrared antireflective windows. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-2351-7-0002103-14f2dc",
+      "date": "2026-11-19",
+      "title": "Laser structuring of graphite electrodes for lithium-ion batteries—GHz-burst ablation and process upscaling",
+      "authors": "Y. Sterzl, V. Falkowski, M. Kapitz, M. Pulst, S. Xiao, W. Pfleging",
+      "institutions": [
+        "Institute for Applied Materials",
+        "EAS Batteries GmbH 2",
+        "EdgeWave GmbH 3"
+      ],
+      "journal": "Journal of Laser Applications",
+      "doi": "10.2351/7.0002103",
+      "url": "https://doi.org/10.2351/7.0002103",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Micro-Optics & Metasurfaces",
+        "Precision Micromachining & Trimming",
+        "Beam Shaping & SLM",
+        "Energy & Batteries"
+      ],
+      "glyph": "microoptics",
+      "summary": "This study investigates the influence of laser pulse width, from femtoseconds (fs) to nanoseconds (ns), and gigahertz (GHz)-bursts on the ablation of graphite electrodes. GHz-burst laser ablation with burst widths of 50–100 ns showed the highest ablation efficiency and aspect ratio compared to fs and ns laser ablation. Analyses via scanning electron microscopy, light microscopy, and Raman spectroscopy revealed slight material modifications near ablated regions. The insights from the ablation study were transferred to theoretical considerations of potential process upscaling and reachable processing speeds as a function of the targeted structure pitch and ablation depth for a line pattern. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1063-5-0354946-2e06d2",
+      "date": "2026-11-19",
+      "title": "Rapid fabrication of customizable laser-induced graphene microelectrode arrays",
+      "authors": "Courtney Wilson, Jeffery Low, Claude Aguergaray, Jadranka Travas-Sejdic",
+      "institutions": [
+        "Centre for Innovative Materials for Health",
+        "MacDiarmid Institute for Advanced Materials and Nanotechnology",
+        "University of Auckland 3"
+      ],
+      "journal": "APL Electronic Devices",
+      "doi": "10.1063/5.0354946",
+      "url": "https://doi.org/10.1063/5.0354946",
+      "oa": true,
+      "license": "CC BY-NC 4.0",
+      "categories": [
+        "Laser-Induced Graphene & Carbon",
+        "Thin Films & 2D Materials",
+        "Polymers & Resins",
+        "Sensing"
+      ],
+      "glyph": "carbon",
+      "summary": "Laser-induced graphene (LIG) electrodes fabricated by CO2 laser scribing have been widely utilized in bioelectronic and sensing applications due to their compatibility with flexible substrates and scalable, cleanroom-free production. The digitally programmable nature of this process enables rapid and customizable electrode patterning. However, the relatively large spot size of the CO2 laser limits fabrication resolution and prevents device miniaturization. Here, we report a novel dual-laser approach for the direct writing of high-resolution, multiplexed, and integrated LIG microelectrode arrays with tunable structural and electrochemical properties. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1007-s00170-026-19587-0-de87fe",
+      "date": "2026-11-19",
+      "title": "Material removal behavior and surface integrity in waterjet-assisted laser micromachining of Al2O3 ceramics",
+      "authors": "Kexin Song, Jinjin Han, Yunxia Guo, Kai Ding, Weining Lei",
+      "institutions": [],
+      "journal": "The International Journal of Advanced Manufacturing Technology",
+      "doi": "10.1007/s00170-026-19587-0",
+      "url": "https://doi.org/10.1007/s00170-026-19587-0",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Precision Micromachining & Trimming",
+        "Ceramics & Coatings"
+      ],
+      "glyph": "drill",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/the-international-journal-of-advanced-manufacturing-technolo.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · The International Journal of Advanced Manufacturing Technology"
+      },
       "source": "crossref"
     },
     {
@@ -891,6 +1007,55 @@
       "source": "openalex"
     },
     {
+      "id": "10-1103-mtpb-zns2-758909",
+      "date": "2026-11-10",
+      "title": "Ultrafast optical suppression of mid-gap states in deep-learning chalcogenide glasses",
+      "authors": "Li Chen, Jianrong Qiu",
+      "institutions": [],
+      "journal": "Physical review. B./Physical review. B",
+      "doi": "10.1103/mtpb-zns2",
+      "url": "https://doi.org/10.1103/mtpb-zns2",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Glass & Silica",
+        "Thermal Management"
+      ],
+      "glyph": "pulse",
+      "summary": "Time-dependent density functional theory is employed to observe ultrafast mid-gap electronic annihilation driven by interband optical excitation from 1.55 eV pump photons in the chalcogenide glass Ge2Sb2Se4Te. We propose an automated framework employing supervised classification methods from deep-learning for identifying mid-gap states, enabling a set of descriptors to discern dominant structural signatures correlated with electronic defect states. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1103-456m-lvq9-2fc0cd",
+      "date": "2026-11-10",
+      "title": "Anderson localization with single photons from a quantum emitter",
+      "authors": "Simon White, Diego N. Bernal-García, Toan Trong Tran, Igor Aharonovich, Alexander S. Solntsev",
+      "institutions": [],
+      "journal": "APS Open Science",
+      "doi": "10.1103/456m-lvq9",
+      "url": "https://doi.org/10.1103/456m-lvq9",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Quantum Photonics & Color Centers",
+        "Waveguides & Photonic Chips",
+        "Perovskites & 2D",
+        "Quantum Technologies"
+      ],
+      "glyph": "quantum",
+      "summary": "Anderson localization of light is a fundamental emergent phenomenon in disordered systems. In arrays of coupled waveguides, it suppresses transport and causes photons to remain localized near the excitation site as coupling disorder increases. Here, we experimentally demonstrate Anderson localization using single photons emitted by a single-photon emitter in hexagonal boron nitride at room temperature. Despite the limited temporal coherence of the emitter, the photons undergo pronounced Anderson localization, evidenced by exponentially localized output intensity profiles in laser-written disordered waveguide lattices, for excitation both in the bulk of the array and at its boundary. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
       "id": "10-1016-j-ceramint-2026-11-182-d6dda1",
       "date": "2026-11-01",
       "title": "Mechanism of Enhanced CMAS Corrosion Resistance of Ytterbium Silicate Environmental Barrier Coatings via Ultraviolet Picosecond Laser Glazing",
@@ -1066,6 +1231,73 @@
         "Polymers & Resins"
       ],
       "glyph": "microoptics",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-apsusc-2026-169005-ca0369",
+      "date": "2026-11-01",
+      "title": "Bio-inspired hierarchical surface engineering of TiAl4822 via femtosecond laser: ablation dynamics simulation and tribo-wetting performance",
+      "authors": "Guanghui Dong, Shufeng Sun, Xizhang Chen, Fengyun Zhang, Jin Wang, Tao Wei, Mingsai Zhang, Yadi Wang, Xiangwei Meng",
+      "institutions": [],
+      "journal": "Applied Surface Science",
+      "doi": "10.1016/j.apsusc.2026.169005",
+      "url": "https://doi.org/10.1016/j.apsusc.2026.169005",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Modeling & Simulation"
+      ],
+      "glyph": "model",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1016-j-micrna-2026-209014-7d01ab",
+      "date": "2026-11-01",
+      "title": "Crystal plane-dependent crack-mediated evolution of femtosecond laser-induced periodic surface structures on SrTiO3",
+      "authors": "Shuowen Zhang, Cian Du, Pengbo Wang, Ting Lin, Shichun Jiang, Hao Shen, Lisha Fan, Jianhua Yao",
+      "institutions": [],
+      "journal": "Micro and Nanostructures",
+      "doi": "10.1016/j.micrna.2026.209014",
+      "url": "https://doi.org/10.1016/j.micrna.2026.209014",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Surface Structuring & LIPSS"
+      ],
+      "glyph": "lipss",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-desal-2026-121076-305c0f",
+      "date": "2026-11-01",
+      "title": "Enhanced solar desalination performance of copper-based interfacial evaporators via ultrafast laser and hydrothermal synergistic treatment",
+      "authors": "Yongrui Nie, Dongkai Chu, Peng Yao, Shuangshuang Hu, Xinxin Lv, Zhiliang Tang, Fangyu Yang, Shuoshuo Qu, Chonghai Xu",
+      "institutions": [],
+      "journal": "Desalination",
+      "doi": "10.1016/j.desal.2026.121076",
+      "url": "https://doi.org/10.1016/j.desal.2026.121076",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Metals & Alloys",
+        "Energy & Batteries"
+      ],
+      "glyph": "pulse",
       "summary": "",
       "why": "",
       "pick": false,
@@ -1256,5 +1488,5 @@
     }
   ],
   "removed": [],
-  "updated": "2026-11-19"
+  "updated": "2026-11-20"
 }
