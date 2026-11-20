@@ -4,7 +4,7 @@
   "date": "2026-11-16",
   "window": [
     "2026-11-16",
-    "2026-11-20"
+    "2026-11-21"
   ],
   "articles": [
     {
@@ -22,6 +22,30 @@
         "Thin Films & 2D Materials"
       ],
       "glyph": "film",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-optlastec-2026-116991-f564bd",
+      "date": "2027-02-01",
+      "title": "Simulation design and femtosecond laser direct writing fabrication of antireflective subwavelength artificial microstructures on zinc sulfide surfaces",
+      "authors": "Jiecai Feng, Chengxian Liang, Hongfei Liu, Zheng Hu, Yilian Zhang, Yanning Sun, Yingzhong Tian",
+      "institutions": [],
+      "journal": "Optics &amp; Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.116991",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.116991",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Surface Structuring & LIPSS",
+        "Modeling & Simulation",
+        "Metals & Alloys"
+      ],
+      "glyph": "lipss",
       "summary": "",
       "why": "",
       "pick": false,
@@ -166,6 +190,140 @@
       "source": "crossref"
     },
     {
+      "id": "10-1016-j-jmapro-2026-11-055-a291c9",
+      "date": "2026-12-01",
+      "title": "Understanding the bracket effect in femtosecond laser micromachining of quartz glass via a five-axis galvanometer",
+      "authors": "Genyu Chen, Bing Ding, Nengru Tao, Fei Lu, Yilin Wang, Jun Zhou, Li Dong, Bang Hu",
+      "institutions": [],
+      "journal": "Journal of Manufacturing Processes",
+      "doi": "10.1016/j.jmapro.2026.11.055",
+      "url": "https://doi.org/10.1016/j.jmapro.2026.11.055",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Hard & Brittle Materials",
+        "Precision Micromachining & Trimming",
+        "Glass & Silica"
+      ],
+      "glyph": "dicing",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1021-acsami-6c18551-562928",
+      "date": "2026-11-20",
+      "title": "Laser Fabrication of Vibrating Microcavities on Silicon: Formation Dynamics and Frequency Tunability",
+      "authors": "Belen Valiente, Gonzalo Gomez-Muñoz, Mario García-Lechuga, Irene Solana, Fernando Agulló-Rueda, David Grojo, Angel Rodríguez-Fernández, Javier Solis, Jan Siegel",
+      "institutions": [
+        "Consejo Superior de Investigaciones Científicas",
+        "Instituto de Óptica \"Daza de Valdés\"",
+        "Instituto de Ciencia de Materiales de Madrid"
+      ],
+      "journal": "ACS Applied Materials & Interfaces",
+      "doi": "10.1021/acsami.6c18551",
+      "url": "https://doi.org/10.1021/acsami.6c18551",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Hard & Brittle Materials",
+        "Surface Structuring & LIPSS",
+        "Diagnostics & Pump-Probe",
+        "Silicon & Semiconductors",
+        "Semiconductor & Packaging"
+      ],
+      "glyph": "lipss",
+      "summary": "Laser processing of silicon has long since become a standard method for wafer dicing, surface texturing, recrystallization after ion implantation, as well as surface amorphization, to name a few examples. Here, we introduce a different concept: the fabrication of vibrating microcavities in a commercial platform, Si wafers covered by a thick SiO2 layer, acting as a membrane. We demonstrate that by exposing our material system to single ultrashort laser pulses above the evaporation threshold of Si, a controlled delamination of the cover layer without fracture can be achieved, leading to the formation of a microcavity accompanied by a surface bulging up to 1.5 μm. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1063-5-0359021-14ba37",
+      "date": "2026-11-20",
+      "title": "Long-range ionic mobility tuning under picosecond laser irradiation in KTiOPO4 single crystals",
+      "authors": "Mario Maglione, Vincent Rodriguez",
+      "institutions": [
+        "CNRS",
+        "Institut des Sciences Moléculaires"
+      ],
+      "journal": "Applied Physics Letters",
+      "doi": "10.1063/5.0359021",
+      "url": "https://doi.org/10.1063/5.0359021",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Spatiotemporal & Burst Control",
+        "Sapphire & Crystals",
+        "Imaging & Displays"
+      ],
+      "glyph": "burst",
+      "summary": "Non-linear optical crystals often display a coexistence of ionic conductivity and bulk polarization at room temperature. We previously showed that the resulting ionic space charge increases drastically the Second Harmonic Generation (SHG) in KTiOPO4 (KTP) close to the crystal surface. We show here that laser irradiation in a plane is a way to induce and control such space charge at any depth in KTP single crystals. To this aim, we used a 1064 nm laser of average power less than 400 mW and with a repetition rate of 1 MHz leading to a pulse energy below 400 nJ. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1038-s41467-026-79489-3-6230bb",
+      "date": "2026-11-20",
+      "title": "Laser ablation rapid evaporative ionisation mass spectrometry imaging with few-micrometer sampling pixels",
+      "authors": "Yu Wang, Ronan A. Battle, William J. C. Francis, Lucy Noyes, Daniel Simon, Yayue Song, Yuchen Xiang, Stefania Maneta-Stavrakaki, Duncan Roberts, Timothy H. Runcorn, Stefan Antonowicz, Simone Di Giovanni, Lauren Ford, Zoltan Takats, Robert T. Murray",
+      "institutions": [],
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-026-79489-3",
+      "url": "https://doi.org/10.1038/s41467-026-79489-3",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Spatiotemporal & Burst Control",
+        "Biological Tissue"
+      ],
+      "glyph": "burst",
+      "summary": "Achieving sub-cellular resolution in ambient, matrix-free mass spectrometry imaging (MSI) remains challenging because reducing the sampling area often compromises ion yield and image fidelity. Here, we demonstrate an infrared laser–driven ambient MSI platform that mitigates these limitations through low-fluence, picosecond pulsed, high-repetition-rate laser ablation with a custom 2.94 μm light source with near-diffraction limited beam quality. This approach produces well-confined ablation features with diameters of 5 μm to 10 μm. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3390-polym18222918-54ad45",
+      "date": "2026-11-20",
+      "title": "Two-Photon Polymerization of Pristine and Magnetic Nanoparticle-Loaded Low-Autofluorescence IP-Visio Photoresist: Comparative Study of the Fabrication and Properties of High-Aspect-Ratio Micropillars",
+      "authors": "Roxana Gabriela Ghita, Bogdan Stefanita Calin, Antoniu Moldovan, Eugenia Tanasa, Roxana Cristina Popescu, Irina Alexandra Paun",
+      "institutions": [
+        "National Institute for Lasers",
+        "National University of Science and Technology Politehnica Bucharest",
+        "National Centre of Micro and Nanomaterials"
+      ],
+      "journal": "Polymers",
+      "doi": "10.3390/polym18222918",
+      "url": "https://doi.org/10.3390/polym18222918",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Two-Photon Polymerization",
+        "Surface Structuring & LIPSS",
+        "Polymers & Resins",
+        "Biomedical & Life Science"
+      ],
+      "glyph": "tpp",
+      "summary": "Three-dimensional polymeric microstructures are widely used as controlled in vitro microenvironments for biomedical applications, but their fabrication fidelity and fluorescence background represent challenging issues. This study compares arrays of micropillars made of low autofluorescence polymer IP-Visio with IP-Visio incorporating 4 mg/mL PEG-coated iron oxide magnetic nanoparticles (MNPs). Micropillar arrays (designed to have 5 µm in width and heights between 5 and 55 µm) were fabricated at laser powers between 24 and 62.4 mW and examined by optical and fluorescence microscopy, scanning electron microscopy, energy-dispersive X-ray spectroscopy, and atomic force microscopy. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-3390-photonics13111089-78b809",
       "date": "2026-11-19",
       "title": "Spatially Modulated Femtosecond Laser-Induced 2D-LIPSS on Diamond for Infrared Antireflective Windows",
@@ -282,6 +440,55 @@
       "source": "crossref"
     },
     {
+      "id": "10-1364-optica-610037-4da8fe",
+      "date": "2026-11-19",
+      "title": "Ultracompact and high-precision 3D nanoprinting via volumetric photoinhibition lithography metasurface",
+      "authors": "王星儿 Wang Xinger, 王星儿 Wang Xinger, 范旭浩 Fan Xuhao, 范旭浩 Fan Xuhao, zongjing Li, zongjing Li, Zhongtian Nie, Zhilin Teng, Wei Xiong, Gao Hui",
+      "institutions": [],
+      "journal": "Optica",
+      "doi": "10.1364/optica.610037",
+      "url": "https://doi.org/10.1364/optica.610037",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Two-Photon Polymerization",
+        "Micro-Optics & Metasurfaces"
+      ],
+      "glyph": "tpp",
+      "summary": "Driven by the demands for the large-scale manufacturing of high-performance 3D micro- and nanodevices such as metamaterials and photonic wire bonds, next-generation laser manufacturing technologies are facing a dual dilemma: how to balance the high fabrication precision that gives devices superior performance, and the high system integration that drives low-cost, stable, and reliable mass production. Consequently, realizing precise 3D focal field engineering based on minimalist optical architectures has emerged as a pivotal challenge in current high-precision laser manufacturing. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1002-pmic-70206-46e4dc",
+      "date": "2026-11-19",
+      "title": "Using UV Femtosecond Lasers for Advanced Characterization of Multiple Intricate Disulfide Bonds in Peptides and Proteins: A Proof‐of‐Principle",
+      "authors": "Thomas ten Napel, Bendeguz Szihalmi, Massume Zaki, Hélène Coudert‐Alteirac, Richard Squibb, Benoît Bernay, Raimund Feifel, Thomas Schlathölter, Jean‐Christophe Poully",
+      "institutions": [
+        "Department of Physics University of Gothenburg Gothenburg Sweden",
+        "US EMerode Université de Caen Normandie Caen France",
+        "University College Groningen University of Groningen Groningen The Netherlands"
+      ],
+      "journal": "PROTEOMICS",
+      "doi": "10.1002/pmic.70206",
+      "url": "https://doi.org/10.1002/pmic.70206",
+      "oa": true,
+      "license": "CC BY-NC-ND 4.0",
+      "categories": [
+        "Other Processing"
+      ],
+      "glyph": "pulse",
+      "summary": "Characterizing all post‐translational chemical modifications in a given protein is challenging, especially when they are numerous and have high local density and complex topology. Top–down mass spectrometry has shown great potential for characterizing disulfide bond patterns in intact proteins, but the reported methods almost always require several fragmentation steps. Moreover, dissociation of two disulfide bonds together with backbone bonds has only been reported once, for insulin. In this study, we present evidence for the cleavage of not only one or two intricate disulfide bonds, but also for cleavage of backbone bonds of a multiply‐protonated sub‐sequence of the fibronectin protein. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-1051-photon-202614044-388f1d",
       "date": "2026-11-18",
       "title": "Spatial shaping of ultrafast laser beams for advanced material processing",
@@ -353,6 +560,59 @@
       ],
       "glyph": "burst",
       "summary": "This study maps operational separation responses in cut fragments from one field-aged crystalline-silicon photovoltaic module containing a polyolefin elastomer (POE)-rich encapsulant. Through-glass irradiation used a 532 nm picosecond laser and eighteen combinations of repetition rate (100–300 kHz), controller setting (50% or 100%), and scan speed (1000–2000 mm s−1). After cooling, one operator assessed corner-initiated manual opening. Responses were classified by sustained opening, interface-opening sequence, and visually estimated released area. Two additional fragments were tested for each of four selected conditions. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1007-s42514-026-00282-1-74e219",
+      "date": "2026-11-18",
+      "title": "Approximation algorithm for the two-depot parallel-machine customer order scheduling with delivery time and submodular rejection penalties",
+      "authors": "Wencheng Wang, Zhuo Ma, Tongquan Zhang",
+      "institutions": [],
+      "journal": "CCF Transactions on High Performance Computing",
+      "doi": "10.1007/s42514-026-00282-1",
+      "url": "https://doi.org/10.1007/s42514-026-00282-1",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Processing"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/ccf-transactions-on-high-performance-computing.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · CCF Transactions on High Performance Computing"
+      },
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-adma-75603-983db9",
+      "date": "2026-11-18",
+      "title": "Anodic Selective Etching: A Mechanism‐Centric Perspective for Electrochemical Subtractive Manufacturing",
+      "authors": "Xiuhao Jiao, Shaolong Li, Zepeng Lv, Handong Jiao, Jilin He, Shuqiang Jiao, Jianxun Song",
+      "institutions": [
+        "Zhongyuan Critical Metals Laboratory Zhengzhou University Zhengzhou Henan China",
+        "Institute of Advanced Structure Technology Beijing Institute of Technology Beijing China"
+      ],
+      "journal": "Advanced Materials",
+      "doi": "10.1002/adma.75603",
+      "url": "https://doi.org/10.1002/adma.75603",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Selective Etching & Microfluidics",
+        "Thin Films & 2D Materials",
+        "Reviews"
+      ],
+      "glyph": "etch",
+      "summary": "Anodic selective etching (ASE) is a precision electrochemical subtractive manufacturing strategy that enables controllable material removal, interfacial reconstruction, and morphology evolution under electrochemically controlled conditions. Unlike material‐centric reviews that mainly catalogue substrates or products, this mechanism‐centric framework reveals common electrochemical principles, enabling cross‐material comparison, transferable design rules, and predictive control over selectivity, reaction location, and structural evolution. …",
       "why": "",
       "pick": false,
       "feature": false,
@@ -825,6 +1085,32 @@
       "source": "openalex"
     },
     {
+      "id": "10-1103-1lmr-876g-1ef1fb",
+      "date": "2026-11-16",
+      "title": "High-Heating Efficiency and Reproducibility in Double-Cone Ignition Experiments",
+      "authors": "Xiao Su, Zekun Xu, Yangyi Lei, Meiqiao Wang, Jinglong Li, Yihang Zhang, Zhiwei Wang, Kaitian Ye, Ke Fang, Chenglong Zhang, Zhengdong Liu, Yufeng Dong, Yu Dai, Bofang Jiang, Zude Lin, Fuyuan Wu, Weimin Wang, Xiaohui Yuan, Zhe Zhang, Jingquan Liu et al.",
+      "institutions": [
+        "Shanghai Jiao Tong University",
+        "Chinese Academy of Sciences",
+        "Institute of Physics"
+      ],
+      "journal": "Physical Review Letters",
+      "doi": "10.1103/1lmr-876g",
+      "url": "https://doi.org/10.1103/1lmr-876g",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Modeling & Simulation"
+      ],
+      "glyph": "model",
+      "summary": "We report the first integrated experiments of the double-cone ignition scheme, conducted on the ShenGuang II Upgrade facility using 14 kJ nanosecond laser beams and a 450 J picosecond (ps) laser beam. Two carbon-deuterium shells were imploded by the nanosecond laser beams inside dual compressing cones. Heated by the ps laser beam to 600\\ifmmode±\\elsepm\\fi50 eV, we achieved a heating efficiency of 15.6\\ifmmode±\\elsepm\\fi6.2% and a consistent neutron yield of up to (6.0\\ifmmode±\\elsepm\\fi0.5)\\ifmmode×\\elsetimes\\fi105, with a shot-to-shot fluctuation of only 7% across all three shots at optimal ps-laser timing delay. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
       "id": "10-1038-s41598-026-79064-2-d60d6b",
       "date": "2026-11-15",
       "title": "Micron-precision depth control in automated volumetric laser ablation with ultrashort laser pulses",
@@ -1049,6 +1335,63 @@
       ],
       "glyph": "quantum",
       "summary": "Anderson localization of light is a fundamental emergent phenomenon in disordered systems. In arrays of coupled waveguides, it suppresses transport and causes photons to remain localized near the excitation site as coupling disorder increases. Here, we experimentally demonstrate Anderson localization using single photons emitted by a single-photon emitter in hexagonal boron nitride at room temperature. Despite the limited temporal coherence of the emitter, the photons undergo pronounced Anderson localization, evidenced by exponentially localized output intensity profiles in laser-written disordered waveguide lattices, for excitation both in the bulk of the array and at its boundary. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1088-1361-6463-aeb032-cccdd5",
+      "date": "2026-11-04",
+      "title": "Negative discharge characteristics in a long air gap triggered by femtosecond laser filaments",
+      "authors": "Zhehao Pei, Zeru Niu, Fan Xing, Zhenyu Liu, Shengxin Huang, Nianwen Xiang, Qiaogen Zhang, Weijiang Chen",
+      "institutions": [
+        "Hefei University of Technology",
+        "Xi'an Jiaotong University",
+        "State Grid Corporation of China (China)"
+      ],
+      "journal": "Journal of Physics D Applied Physics",
+      "doi": "10.1088/1361-6463/aeb032",
+      "url": "https://doi.org/10.1088/1361-6463/aeb032",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Processing"
+      ],
+      "glyph": "pulse",
+      "summary": "Femtosecond laser filamentation is a promising approach for active lightning protection, laser-triggered switches, and high-voltage gas discharges. For negative-polarity lightning, which dominates natural cloud-to-ground lightning, the strong stochasticity of negative-discharge inception and propagation remains a major obstacle to validating this approach. In this study, negative discharges in long air gaps were generated using a 4.8 MV impulse-voltage source, and the effects of gap geometry, laser peak power, and filament focal position were systematically investigated. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/journal-of-physics-d-applied-physics.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Journal of Physics D Applied Physics"
+      },
+      "source": "openalex"
+    },
+    {
+      "id": "10-1103-54wd-ptjm-0d2695",
+      "date": "2026-11-03",
+      "title": "Charge control in diamond photoemission via graphitic microchannels",
+      "authors": "R. Flammini, Matteo Mastellone, Eleonora Bolli, Giorgia Sementilli, Rahul Parmar, Matteo Amati, Luca Gregoratti, A. Bellucci, Daniele Maria Trucchi",
+      "institutions": [
+        "Institute of Structure of Matter",
+        "Elettra-Sincrotrone Trieste S.C.p.A."
+      ],
+      "journal": "Physical Review Applied",
+      "doi": "10.1103/54wd-ptjm",
+      "url": "https://doi.org/10.1103/54wd-ptjm",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Hard & Brittle Materials",
+        "Selective Etching & Microfluidics",
+        "Diamond"
+      ],
+      "glyph": "etch",
+      "summary": "Charge accumulation severely limits the reliability of photoemission measurements in diamond, particularly under high photon flux conditions where continuous electronic refilling is required. Here, we investigate the charging mechanisms in diamond structures embedding laser-written graphitic microchannels, combining spatially resolved synchrotron-based photoemission with controlled surface conditions. The presence of conductive graphitic channels does not ensure effective charge compensation, which instead critically depends on the formation of a conductive network involving surface adsorbates and/or electronically active overlayers. …",
       "why": "",
       "pick": false,
       "feature": false,
@@ -1306,6 +1649,30 @@
       "source": "crossref"
     },
     {
+      "id": "10-1016-j-electacta-2026-150485-8db8b3",
+      "date": "2026-11-01",
+      "title": "Flexible Micro-Supercapacitors Based on Laser-Induced Graphene Integrated with Electrochemically Activated CoNi Layered Double Hydroxides",
+      "authors": "Zhihao Wu, Min Li, Guoxi Luo, Guodong Zhang, Longcheng Tang, Sabine Szunerits, Rabah Boukherroub",
+      "institutions": [],
+      "journal": "Electrochimica Acta",
+      "doi": "10.1016/j.electacta.2026.150485",
+      "url": "https://doi.org/10.1016/j.electacta.2026.150485",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Laser-Induced Graphene & Carbon",
+        "Perovskites & 2D",
+        "Energy & Batteries"
+      ],
+      "glyph": "carbon",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-1039-d6nr01674j-95a5d5",
       "date": "2026-10-29",
       "title": "Laser-induced graphene-based moisture generators for scalable integration and self-powered respiration monitoring",
@@ -1485,8 +1852,40 @@
       "feature": false,
       "fig": null,
       "source": "crossref"
+    },
+    {
+      "id": "10-1186-s12886-026-05241-6-d43a3a",
+      "date": "2026-08-21",
+      "title": "Thirty-six-month outcomes of femtosecond laser-assisted DSEK and PKP for corneal endothelial decompensation",
+      "authors": "Xu S, Li Y, Wang M, Cao X, Wang L, Wang L, Liu Q",
+      "institutions": [
+        "the First Affiliated Hospital with Nanjing Medical University",
+        "Nanjing First Hospital",
+        "the Affiliated Xuzhou Municipal Hospital of Xuzhou Medical University"
+      ],
+      "journal": "BMC ophthalmology",
+      "doi": "10.1186/s12886-026-05241-6",
+      "url": "https://doi.org/10.1186/s12886-026-05241-6",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Biological Tissue",
+        "Ophthalmology & Dentistry"
+      ],
+      "glyph": "pulse",
+      "summary": "Purpose To describe and compare the 36-month outcomes associated with femtosecond laser-assisted Descemet stripping endothelial keratoplasty (FS-DSEK) and femtosecond laser-assisted penetrating keratoplasty (FS-PKP) for corneal endothelial decompensation under indication-based surgical selection. Methods This single-center, retrospective, nonrandomized cohort study included 130 consecutive eyes of 130 patients who underwent FS-DSEK or FS-PKP at Nanjing First Hospital, Nanjing Medical University, between July 2016 and June 2021. All included eyes had 36 months of follow-up, with data collection completed in June 2024. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "figs/10-1186-s12886-026-05241-6-d43a3a.jpg",
+        "kind": "figure",
+        "credit": "CC BY · via link.springer.com"
+      },
+      "source": "europepmc"
     }
   ],
   "removed": [],
-  "updated": "2026-11-20"
+  "updated": "2026-11-21"
 }

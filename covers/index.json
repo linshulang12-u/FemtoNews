@@ -123,5 +123,10 @@
     "src": "covers/journal-of-cataract-amp-refractive-surgery.jpg",
     "kind": "cover",
     "credit": "Journal cover · Journal of Cataract &amp; Refractive Surgery"
+  },
+  "ccf transactions on high performance computing": {
+    "src": "covers/ccf-transactions-on-high-performance-computing.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · CCF Transactions on High Performance Computing"
   }
 }
