@@ -4,7 +4,7 @@
   "date": "2026-11-16",
   "window": [
     "2026-11-16",
-    "2026-11-21"
+    "2026-11-22"
   ],
   "articles": [
     {
@@ -214,6 +214,30 @@
       "source": "crossref"
     },
     {
+      "id": "10-1016-j-jmapro-2026-11-037-2a05d1",
+      "date": "2026-12-01",
+      "title": "Modeling and mechanism investigation of femtosecond laser ablation of 4H-SiC via molecular dynamics coupled with two-temperature model and Drude model",
+      "authors": "Zixuan Qie, Yu Zhou, Xifang Zhang, Yuchen Lou, Zhenqiang Yao",
+      "institutions": [],
+      "journal": "Journal of Manufacturing Processes",
+      "doi": "10.1016/j.jmapro.2026.11.037",
+      "url": "https://doi.org/10.1016/j.jmapro.2026.11.037",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Hard & Brittle Materials",
+        "Modeling & Simulation",
+        "SiC & Wide-Bandgap"
+      ],
+      "glyph": "dicing",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-1021-acsami-6c18551-562928",
       "date": "2026-11-20",
       "title": "Laser Fabrication of Vibrating Microcavities on Silicon: Formation Dynamics and Frequency Tunability",
@@ -322,6 +346,57 @@
       "feature": false,
       "fig": null,
       "source": "crossref"
+    },
+    {
+      "id": "10-1364-oe-616837-0bff22",
+      "date": "2026-11-20",
+      "title": "Transient measurement recovery via spatiotemporal correlations for under-scanning non-line-of-sight imaging",
+      "authors": "Mengge Liu, 少辉 靳, Mingyang Chen, Sai Zhang, Zhihang Yan, Hao Liu, mingliang xu",
+      "institutions": [
+        "Zhengzhou University"
+      ],
+      "journal": "Optics Express",
+      "doi": "10.1364/oe.616837",
+      "url": "https://doi.org/10.1364/oe.616837",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Diagnostics & Pump-Probe"
+      ],
+      "glyph": "probe",
+      "summary": "Non-line-of-sight (NLOS) imaging leverages ultrafast lasers and time-resolved detectors to acquire multiple scattered photons from a relay wall, enabling the reconstruction of hidden scenes around the corner. However, the time-consuming dense scanning process hinders its practical application. Under-scanning improves acquisition efficiency but results in the loss of transient information. This weakens the measurement constraints available for inversion and degrades the quality of subsequent reconstructions. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1016-j-nxmate-2026-103942-3013fc",
+      "date": "2026-11-20",
+      "title": "Fabrication of carbon quantum dots/silver nanocomposite–coated FBG for Pb2 + detection",
+      "authors": "Zumrotul 'Aliyah, S.T. Ulfawanti Intan Subadra, Ahmad Taufiq, Nurul Hidayat, Muhammad Safwan Abd Aziz, Arif Hidayat",
+      "institutions": [
+        "State University of Malang",
+        "University of Technology Malaysia"
+      ],
+      "journal": "Next Materials",
+      "doi": "10.1016/j.nxmate.2026.103942",
+      "url": "https://doi.org/10.1016/j.nxmate.2026.103942",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Fiber Gratings & Devices",
+        "Nanoparticles & Ablation in Liquids",
+        "Sensing"
+      ],
+      "glyph": "fiber",
+      "summary": "In this study, a Fiber Bragg Grating (FBG) coated with Carbon Quantum Dots/Silver (CQDs/Ag) nanocomposite has been developed for Pb 2+ detection. CQDs were fabricated using the hydrothermal method, while Ag was synthesized using the Pulsed Laser Ablation in Liquid (PLAL) method, and the two solutions were combined into CQDs/Ag nanocomposite. The results of XRD analysis confirmed the successful formation of CQDs/Ag nanocomposite, with broad amorphous halo of CQDs at 2θ = 17°–35° and crystalline diffraction peak of AgNPs at 2θ = 38.18°. The formation of CQDs/Ag was also confirmed by the appearance of C and Ag peaks in the EDX spectrum. The bandgap of CQDs/Ag nanocomposite was 2.66 eV. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
     },
     {
       "id": "10-3390-photonics13111089-78b809",
@@ -487,6 +562,29 @@
       "feature": false,
       "fig": null,
       "source": "crossref"
+    },
+    {
+      "id": "10-48550-arxiv-2611-25545-e85043",
+      "date": "2026-11-19",
+      "title": "High-fidelity six-dimensional optical data storage",
+      "authors": "Jichao Gao, Tong Jin, Chenqi Yi, Yihui Fu, Zhi Yan, Xiya Xie, Rokas Drevinskas, 肖哲翔 Xiao Zhexiang, Lei Wang, Guangda Niu, Jingyu Zhang, Hong-Bo Sun",
+      "institutions": [],
+      "journal": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2611.25545",
+      "url": "https://doi.org/10.48550/arxiv.2611.25545",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Waveguides & Photonic Chips",
+        "Optical Data Storage"
+      ],
+      "glyph": "storage",
+      "summary": "Multi-dimensional optical data storage, wherein each voxel encodes multiple bits of information within a three-dimensional isotropic medium, presents a revolutionary approach to dense data storage. This approach exploits multiple degrees of freedom of light, such as intensity, polarization and wavelength, to selectively control distinct optical responses in the medium. However, increasing dimensionality exacerbates crosstalk between different encoding dimensions, thereby compromising recording fidelity. In this study, we introduce a novel six-dimensional (6D) multiplexing approach that exploits ultrafast interactions of polarized light with a three-dimensional medium. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
     },
     {
       "id": "10-1051-photon-202614044-388f1d",
@@ -1673,6 +1771,28 @@
       "source": "crossref"
     },
     {
+      "id": "10-1016-j-optcom-2026-134007-58062b",
+      "date": "2026-11-01",
+      "title": "Transient Gas-Dynamics Filamentation of High-Power Femtosecond Laser Pulse in Compressed Argon",
+      "authors": "Yu. É. Geints, P. V. Babushkin, A. M. Kabanov, V. K. Oshlakov, E. E. Khoroshaeva",
+      "institutions": [],
+      "journal": "Optics Communications",
+      "doi": "10.1016/j.optcom.2026.134007",
+      "url": "https://doi.org/10.1016/j.optcom.2026.134007",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Processing"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
       "id": "10-1039-d6nr01674j-95a5d5",
       "date": "2026-10-29",
       "title": "Laser-induced graphene-based moisture generators for scalable integration and self-powered respiration monitoring",
@@ -1887,5 +2007,5 @@
     }
   ],
   "removed": [],
-  "updated": "2026-11-21"
+  "updated": "2026-11-22"
 }
