@@ -1,0 +1,157 @@
+{
+  "id": "2026-11-23",
+  "number": 4,
+  "date": "2026-11-23",
+  "window": [
+    "2026-11-23",
+    "2026-11-23"
+  ],
+  "articles": [
+    {
+      "id": "10-1016-j-optlastec-2026-116983-9ef1d1",
+      "date": "2027-02-01",
+      "title": "Thermal-boundary regulation of femtosecond-laser-induced graphene by backside ethanol cooling",
+      "authors": "Auqi Wu, Mengyao Tian, Misheng Liang, Guojia Ma, Wengan Wang, Yongjian Liu, Rui You",
+      "institutions": [],
+      "journal": "Optics &amp; Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.116983",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.116983",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Laser-Induced Graphene & Carbon",
+        "Perovskites & 2D",
+        "Thermal Management"
+      ],
+      "glyph": "carbon",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-optlastec-2026-117113-2b618a",
+      "date": "2027-02-01",
+      "title": "Non-optical contact welding of soda-lime glass using picosecond laser bursts",
+      "authors": "Edgaras Markauskas, Neda Mažeikytė, Paulius Gečys",
+      "institutions": [],
+      "journal": "Optics &amp; Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.117113",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.117113",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Ultrafast Welding & Joining",
+        "Spatiotemporal & Burst Control",
+        "Glass & Silica"
+      ],
+      "glyph": "weld",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1038-s41598-026-78588-x-c54742",
+      "date": "2026-11-22",
+      "title": "Quantitative evaluation of single-grating phase-contrast imaging with a femtosecond laser–plasma Kα X-ray source",
+      "authors": "Georges Giakoumakis, Amelie Ferré, Daria Gudz, Mouad Saliji, Jérôme Primot, Olivier Utéza, Raphaël Clady, Adrien Stolidi",
+      "institutions": [],
+      "journal": "Scientific Reports",
+      "doi": "10.1038/s41598-026-78588-x",
+      "url": "https://doi.org/10.1038/s41598-026-78588-x",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Diagnostics & Pump-Probe"
+      ],
+      "glyph": "probe",
+      "summary": "We present the first implementation of an X-ray phase-contrast imaging approach using single 2D-grating phase retrieval and a quasi-monochromatic hard K α X-ray source generated via high-intensity femtosecond laser—plasma interaction. To highlight its pertinence, we demonstrate quantitative phase-contrast measurements of a known canonical physical object, retrieving phase distribution with high-fidelity, under varying experimental conditions. As a marker of such performance, a correlation score of up to 0.922 ± 0.008 is obtained between theoretical and experimental phase images. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-optlastec-2026-117095-a62121",
+      "date": "2026-11-21",
+      "title": "A novel optical scanning system for laser machining of vertical sidewall",
+      "authors": "Jaehee Kim, Dongsik Kim, Hyun Choi, Jeonghong Ha",
+      "institutions": [
+        "Pohang University of Science and Technology",
+        "Korea Institute of Industrial Technology",
+        "Gyeongsang National University"
+      ],
+      "journal": "Optics & Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.117095",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.117095",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Precision Micromachining & Trimming",
+        "Ultrafast Sources & Systems"
+      ],
+      "glyph": "drill",
+      "summary": "Despite its many advantages, laser micromachining has limitations, such as tapering due to plasma-induced distortion, gaussian beam profiles, and defocusing effects. Although process parameter optimization and adjusting the angle-of-incidence (AOI) have been investigated to reduce tape angle of the sidewall, existing approaches often require complex process optimization, workpiece tilting, or multi-axis scanning systems. In this study, we developed a novel optical scanning system consisting of three spherical lenses and a 2D galvanometer scanner to enable AOI variation using a simplified optical configuration. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1016-j-displa-2026-103764-9db7cb",
+      "date": "2026-11-01",
+      "title": "Recent advances in depth cue Processing and display quality for 3D Computer-Generated holographic displays",
+      "authors": "Yifan Wang, Lingbao Kong, Hongyue Gao",
+      "institutions": [],
+      "journal": "Displays",
+      "doi": "10.1016/j.displa.2026.103764",
+      "url": "https://doi.org/10.1016/j.displa.2026.103764",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Beam Shaping & SLM",
+        "Imaging & Displays",
+        "Reviews"
+      ],
+      "glyph": "beam",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-sysarc-2026-104084-f69545",
+      "date": "2026-11-01",
+      "title": "Ultra-fast hardware–algorithm co-design for burst-mode processing in wearable ECG monitoring systems",
+      "authors": "Thi Diem Tran, Nhat Tin Ngo",
+      "institutions": [],
+      "journal": "Journal of Systems Architecture",
+      "doi": "10.1016/j.sysarc.2026.104084",
+      "url": "https://doi.org/10.1016/j.sysarc.2026.104084",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Spatiotemporal & Burst Control"
+      ],
+      "glyph": "burst",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    }
+  ],
+  "removed": [],
+  "updated": "2026-11-23"
+}
