@@ -4,7 +4,7 @@
   "date": "2026-11-23",
   "window": [
     "2026-11-23",
-    "2026-11-23"
+    "2026-11-24"
   ],
   "articles": [
     {
@@ -48,6 +48,99 @@
         "Glass & Silica"
       ],
       "glyph": "weld",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-optlastec-2026-117105-d8d089",
+      "date": "2027-02-01",
+      "title": "Fabrication of high-aspect-ratio through glass vias (TGVs) in thick borosilicate glass using femtosecond laser-induced deep etching with bessel beams",
+      "authors": "Che-Li Chang, Chia-Hung Hung",
+      "institutions": [],
+      "journal": "Optics &amp; Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.117105",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.117105",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Hard & Brittle Materials",
+        "Beam Shaping & SLM",
+        "Glass & Silica",
+        "Semiconductor & Packaging"
+      ],
+      "glyph": "dicing",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-optlastec-2026-117067-9b0911",
+      "date": "2027-02-01",
+      "title": "Differentiable quality-diversity inverse design of ultra-broadband flexible laser-induced graphene terahertz metasurfaces via physics-informed state-space manifolds",
+      "authors": "Zhiyao Wang, Yandong Gong",
+      "institutions": [],
+      "journal": "Optics &amp; Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.117067",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.117067",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Micro-Optics & Metasurfaces",
+        "Laser-Induced Graphene & Carbon",
+        "Perovskites & 2D"
+      ],
+      "glyph": "microoptics",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-optlastec-2026-117024-307a1c",
+      "date": "2027-02-01",
+      "title": "Single-shot 3D spatiotemporal characterization of picosecond laser complex amplitudes combining compressive imaging and pulse-front tilting",
+      "authors": "Fan Xia, Hengyu Guo, Na Xie, Ting Men, Yi Guo, Kainan Zhou, Jingqin Su, Ping Li, Zhengyan Li",
+      "institutions": [],
+      "journal": "Optics &amp; Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.117024",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.117024",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Processing"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1103-9ttv-3nyx-566a64",
+      "date": "2026-11-23",
+      "title": "Two-body dissociation of doubly and triply ionized cis- and trans-1,2-dichloroethylene upon C=C bond rupture driven by femtosecond laser pulses",
+      "authors": "Ephraim Anto, Rituparna Das, Vinitha Nimma, P Madhusudhan, Pranav Bhardwaj, Pooja Chandravanshi, Rajesh Kumar Kushawaha, Koushik Saha",
+      "institutions": [],
+      "journal": "Physical Review A",
+      "doi": "10.1103/9ttv-3nyx",
+      "url": "https://doi.org/10.1103/9ttv-3nyx",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Processing"
+      ],
+      "glyph": "pulse",
       "summary": "",
       "why": "",
       "pick": false,
@@ -153,5 +246,5 @@
     }
   ],
   "removed": [],
-  "updated": "2026-11-23"
+  "updated": "2026-11-24"
 }

@@ -398,5 +398,25 @@
   "relevant": 283,
   "added": 6,
   "venue_rejected": 23
+ },
+ {
+  "date": "2026-11-24 07:16",
+  "issue": "2026-11-23",
+  "window": [
+   "2026-11-21",
+   "2026-11-24"
+  ],
+  "sources": {
+   "europepmc": 8,
+   "openalex": 1070,
+   "crossref": 2856,
+   "crossref_core_journals": 0,
+   "arxiv": 0
+  },
+  "raw": 3934,
+  "unique": 2932,
+  "relevant": 280,
+  "added": 4,
+  "venue_rejected": 28
  }
 ]
