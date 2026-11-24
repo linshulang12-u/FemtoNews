@@ -128,5 +128,10 @@
     "src": "covers/ccf-transactions-on-high-performance-computing.jpg",
     "kind": "cover",
     "credit": "Journal cover · CCF Transactions on High Performance Computing"
+  },
+  "nature nanotechnology": {
+    "src": "covers/nature-nanotechnology.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Nature nanotechnology"
   }
 }

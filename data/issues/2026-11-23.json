@@ -4,7 +4,7 @@
   "date": "2026-11-23",
   "window": [
     "2026-11-23",
-    "2026-11-24"
+    "2026-11-25"
   ],
   "articles": [
     {
@@ -127,6 +127,131 @@
       "source": "crossref"
     },
     {
+      "id": "10-1016-j-optlastec-2026-117109-fa872c",
+      "date": "2027-02-01",
+      "title": "Investigation of the ablation mechanism and processing of Al/Ti bilayer structures by femtosecond laser bursts",
+      "authors": "Haiping Li, Qiang Sun, Yu Zhang, Yuhao Feng, Zi Wang, Mingwei Wang",
+      "institutions": [],
+      "journal": "Optics &amp; Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.117109",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.117109",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Spatiotemporal & Burst Control"
+      ],
+      "glyph": "burst",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-optlastec-2026-117102-d47d4d",
+      "date": "2027-02-01",
+      "title": "Thermal accumulation-assisted surface reconstruction of LPPS NiCrAlY coatings by high-repetition-rate femtosecond laser remelting",
+      "authors": "Wei Qian, Longjiang Bai, Lei Zheng, Yong Feng, Hongyan Liu, Bin Gan, Gongning Li, Jie Cai",
+      "institutions": [],
+      "journal": "Optics &amp; Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.117102",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.117102",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Spatiotemporal & Burst Control",
+        "Ceramics & Coatings"
+      ],
+      "glyph": "burst",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3390-mi17121360-7c3032",
+      "date": "2026-11-24",
+      "title": "Femtosecond Laser Welding of N-BK7 Glass: From In-Volume Modification to Large-Scale, High-Strength Joining",
+      "authors": "Manon Lafargue, Théo Guilberteau, Michael Jarwitz, Bastien Gavory, John Lopez, Inka Manek-Hönninger",
+      "institutions": [
+        "University of Bordeaux—CNRS—CEA"
+      ],
+      "journal": "Micromachines",
+      "doi": "10.3390/mi17121360",
+      "url": "https://doi.org/10.3390/mi17121360",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Ultrafast Welding & Joining",
+        "Bulk Modification & Nanocrystals",
+        "Spatiotemporal & Burst Control",
+        "Glass & Silica"
+      ],
+      "glyph": "weld",
+      "summary": "Femtosecond laser welding enables the direct joining of transparent materials through localized energy deposition and melting at the interface. However, achieving high joint strength and welding over large areas remain challenging due to high thermal gradients generated during processing, which can lead to crack appearance. In this study, N-BK7 glass was irradiated using a femtosecond laser source emitting 500 fs pulses at 1030 nm to investigate the influence of energy deposition and temporal pulse distribution on laser-induced modifications. Repetitive single-pulse irradiation was compared to burst modes operating at 40 MHz and 1.28 GHz. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3390-app162311640-d92a13",
+      "date": "2026-11-24",
+      "title": "Parallel DNA AND Logic Processing with Threshold-Gated Whispering-Gallery-Mode Microcavity Laser Arrays",
+      "authors": "Chan Seok Jun, Wonsuk Lee",
+      "institutions": [
+        "Korea University",
+        "Nanophotonics Research Center"
+      ],
+      "journal": "Applied Sciences",
+      "doi": "10.3390/app162311640",
+      "url": "https://doi.org/10.3390/app162311640",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Selective Etching & Microfluidics",
+        "Ultrafast Sources & Systems",
+        "Polymers & Resins"
+      ],
+      "glyph": "etch",
+      "summary": "DNA strand-displacement logic circuits can recognize combinations of nucleic-acid inputs, whereas optical microcavity lasers provide a nonlinear threshold that converts molecular events into binary optical signals. Here, we demonstrate a parallel DNA logic-processing platform in which three independent two-input AND gates are coupled to spatially separated whispering-gallery-mode (WGM) microcavity laser readouts in a three-channel PDMS microfluidic device. Each channel implements a distinct pair of DNA inputs and generates an output strand only when both cognate targets are present; the output is expected to increase the amount of cavity-associated SYTO dye and thereby the optical gain. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3390-coatings16121391-11d0a0",
+      "date": "2026-11-24",
+      "title": "Synthesis of Fe2O3–Au Nanostructures by Pulsed Laser Ablation in Liquids: Systematic Study of the Effects of Liquid Medium and Ablation Parameters",
+      "authors": "Elder Alejandro Meza Ramírez, Armando Pérez Centeno, Enrique Campos-González, Enrique Camps, José Guadalupe Quiñones Galván",
+      "institutions": [
+        "SECIHTI–National Institute for Nuclear Research",
+        "National Institute for Nuclear Research"
+      ],
+      "journal": "Coatings",
+      "doi": "10.3390/coatings16121391",
+      "url": "https://doi.org/10.3390/coatings16121391",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Nanoparticles & Ablation in Liquids",
+        "Metals & Alloys"
+      ],
+      "glyph": "nano",
+      "summary": "Au-Fe2O3 heterostructure nanoparticles were synthesized via liquid-phase laser ablation to study how different routes affect their morphology and plasmonic response, specifically comparing two reversed target-colloid configurations, a parameter scarcely explored in these hybrid systems. Eight samples were prepared using two colloid/target configurations: ablation of a metallic gold target in Fe2O3 nanoparticle colloid or ablation of a Fe2O3 target in a preformed Au nanoparticles colloid. Water and acetone medium were used, with laser fluences of 0.23 and 0.39 J cm−2, and ablation times of 4 and 10 min under 532 nm irradiation. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-1103-9ttv-3nyx-566a64",
       "date": "2026-11-23",
       "title": "Two-body dissociation of doubly and triply ionized cis- and trans-1,2-dichloroethylene upon C=C bond rupture driven by femtosecond laser pulses",
@@ -147,6 +272,90 @@
       "feature": false,
       "fig": null,
       "source": "crossref"
+    },
+    {
+      "id": "10-1002-smtd-71228-422074",
+      "date": "2026-11-23",
+      "title": "Ultrafast Laser Synthesis of Titanium Silicalite-1 Zeolite: Titanium Substitution Behavior",
+      "authors": "Hagverdiyev M, Doğan MM, Miura A, Doi S, Kaya M, Galioglu S",
+      "institutions": [
+        "UNAM-National Nanotechnology Research Center",
+        "Hokkaido University",
+        "Atilim University"
+      ],
+      "journal": "Small methods",
+      "doi": "10.1002/smtd.71228",
+      "url": "https://doi.org/10.1002/smtd.71228",
+      "oa": true,
+      "license": "CC BY-NC 4.0",
+      "categories": [
+        "Metals & Alloys"
+      ],
+      "glyph": "pulse",
+      "summary": "Controlling heteroatom substitution while suppressing undesired secondary phases remains a fundamental challenge in zeolite synthesis. Here we show that ultrafast laser driven far-from-equilibrium microreactors provide a fundamentally different pathway for heteroatom substitution compared to conventional near equilibrium hydrothermal synthesis. Titanium Silicalite-1 (TS-1) zeolite is a model system to investigate volume upgrade potential of the ultrafast laser synthesis method because titanium substitution is highly sensitive to synthesis dynamics. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-1038-s41565-026-02335-6-877b0d",
+      "date": "2026-11-23",
+      "title": "Depth-robust super-resolution nanofabrication for 3D mesoscopic photonic structures",
+      "authors": "Li Z, Wang Y, Shao C, Xu J, Dong D, Zhou S, Huang X, Yang H, Sun Y, Shi K",
+      "institutions": [
+        "Peking University",
+        "State Key Laboratory of Molecular Oncology",
+        "Shanxi University"
+      ],
+      "journal": "Nature nanotechnology",
+      "doi": "10.1038/s41565-026-02335-6",
+      "url": "https://doi.org/10.1038/s41565-026-02335-6",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Quantum Photonics & Color Centers",
+        "Micro-Optics & Metasurfaces",
+        "Beam Shaping & SLM",
+        "Quantum Technologies"
+      ],
+      "glyph": "quantum",
+      "summary": "Mesoscopic optical systems underpin photonic interconnects, on-chip metrology, quantum computing and miniature microscopy, but monolithic integration of these components is currently limited by fabrication methodologies that only offer limited depth control. At depth, the super-resolution performance of stimulated-emission-depletion direct laser writing is hindered by absorption, scattering and aberrations arising from refractive index mismatch that distort the depletion focus. Here we show that maintaining axial alignment between the excitation and depletion fields overcomes this limitation. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/nature-nanotechnology.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Nature nanotechnology"
+      },
+      "source": "europepmc"
+    },
+    {
+      "id": "10-48550-arxiv-2611-30549-4b42c2",
+      "date": "2026-11-23",
+      "title": "Femtosecond laser-controlled production of functional titanium niobate layers from TiO2/Nb2O5 powders",
+      "authors": "Gonzalo Gomez-Munoz, Aarón Calvo-Villoslada, Inmaculada Álvarez-Serrano, María Luisa López, Paloma Fernández, Javier Solis, Belén Sotillo",
+      "institutions": [],
+      "journal": "arXiv (preprint)",
+      "doi": "10.48550/arxiv.2611.30549",
+      "url": "https://arxiv.org/abs/2611.30549",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Thin Films & 2D Materials",
+        "Metals & Alloys"
+      ],
+      "glyph": "film",
+      "summary": "Conventional synthesis methods of titanium niobates (TNO) require prolongated high-temperature treatments. To overcome this limitation, in this work, we have developed a confined powder-bed femtosecond (fs) laser-based technique to sinter TNO films starting from a mixture of TiO2 and Nb2O5 powders, avoiding furnace-based approaches. The influence of laser-processing conditions on film formation, phase composition, and microstructure is systematically investigated, demonstrating that different TNO phases and morphologies can be obtained by controlling the laser pulse energy. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "arxiv"
     },
     {
       "id": "10-1038-s41598-026-78588-x-c54742",
@@ -199,6 +408,28 @@
       "source": "openalex"
     },
     {
+      "id": "10-48550-arxiv-2611-26928-3ac4f3",
+      "date": "2026-11-20",
+      "title": "Galvanometer Mirror Based Femtosecond-Laser Volumetric Displays",
+      "authors": "Katsuhito Muroi, Ryosei Kojima, Tatsuki Fushimi, Yoichi Ochiai",
+      "institutions": [],
+      "journal": "arXiv",
+      "doi": "10.48550/arxiv.2611.26928",
+      "url": "https://doi.org/10.48550/arxiv.2611.26928",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Imaging & Displays"
+      ],
+      "glyph": "pulse",
+      "summary": "Femtosecond-laser-induced plasma enables self-emissive voxels to be generated directly in air for drawing three-dimensional images. Galvanometer-mirror-based beam scanning provides a method for rapidly moving plasma voxels using a relatively simple optical configuration. However, the generated plasma voxels are not ideal points but luminous regions with finite lengths and widths. Variations in voxel shape and orientation caused by focusing and scanning conditions may therefore affect the appearance of rendered points and lines. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
       "id": "10-1016-j-displa-2026-103764-9db7cb",
       "date": "2026-11-01",
       "title": "Recent advances in depth cue Processing and display quality for 3D Computer-Generated holographic displays",
@@ -243,8 +474,31 @@
       "feature": false,
       "fig": null,
       "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-surfin-2026-111383-c633b2",
+      "date": "2026-11-01",
+      "title": "Femtosecond Laser-Engineered MoSe₂ Nanoparticles for Broadband Tunable Nonlinear Absorption and Metal-Free SERS-based Sensing",
+      "authors": "Tuhina Parvin Sultana, Amrit Kumar, Venugopal Rao Soma",
+      "institutions": [],
+      "journal": "Surfaces and Interfaces",
+      "doi": "10.1016/j.surfin.2026.111383",
+      "url": "https://doi.org/10.1016/j.surfin.2026.111383",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Metals & Alloys",
+        "Sensing"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
     }
   ],
   "removed": [],
-  "updated": "2026-11-24"
+  "updated": "2026-11-25"
 }
