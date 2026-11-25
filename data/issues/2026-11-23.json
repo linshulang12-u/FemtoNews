@@ -4,7 +4,7 @@
   "date": "2026-11-23",
   "window": [
     "2026-11-23",
-    "2026-11-25"
+    "2026-11-26"
   ],
   "articles": [
     {
@@ -172,6 +172,127 @@
       "source": "crossref"
     },
     {
+      "id": "10-1016-j-optlastec-2026-117082-ae133a",
+      "date": "2027-02-01",
+      "title": "Femtosecond laser micro/nanofabrication for photonic sensing: mechanisms, strategies, and applications",
+      "authors": "Xiaohui Du, Sang-Shin Lee",
+      "institutions": [],
+      "journal": "Optics &amp; Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.117082",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.117082",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Sensing"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-optlastec-2026-117091-461c8c",
+      "date": "2027-02-01",
+      "title": "Precise control and prediction of topcoat removal depth in multilayer automotive coatings using a femtosecond laser",
+      "authors": "Zheng Ren, Hui-ping Wang, Joel Hooton, Guangze Li, Ying Lu, Haichao Cui, Fenggui Lu",
+      "institutions": [],
+      "journal": "Optics &amp; Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.117091",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.117091",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Ceramics & Coatings"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-optlastec-2026-117168-b467d1",
+      "date": "2027-02-01",
+      "title": "Laser-Engineered VO2 nanostructured surfaces via repetition rate control of LIPSS",
+      "authors": "Paulina Segovia-Olvera, Noel Ramos- Camacho, Gregory Wurtz, Santiago Camacho-Lopez",
+      "institutions": [],
+      "journal": "Optics &amp; Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.117168",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.117168",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Surface Structuring & LIPSS",
+        "Spatiotemporal & Burst Control"
+      ],
+      "glyph": "lipss",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1098-rsif-2026-0832-ff805a",
+      "date": "2026-11-25",
+      "title": "Polarization-dependent, non-thermal sub-ablative modification of collagen type I using ultrafast laser pulses",
+      "authors": "Jaskirat Singh, Joshua A. Carroll, Cameron P. Brown",
+      "institutions": [
+        "School of Mechanical",
+        "School of Chemistry and Physics",
+        "Centre for Materials Science"
+      ],
+      "journal": "Journal of the Royal Society Interface",
+      "doi": "10.1098/rsif.2026.0832",
+      "url": "https://doi.org/10.1098/rsif.2026.0832",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Biological Tissue",
+        "Biomedical & Life Science"
+      ],
+      "glyph": "pulse",
+      "summary": "Ultrafast lasers offer the potential to modify biological tissues with high spatial precision while minimizing collateral thermal damage. This study investigates the interaction of polarized femtosecond laser pulses with collagen below the visible ablation threshold. Through a comparison of sub-threshold pulses, ablative pulses and direct thermal damage using polarized Raman microspectroscopy, clear polarization-dependent effects in the sub-threshold regime were observed, consistent with molecular-level, predominantly non-thermal structural modification. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1021-acsabm-6c01984-aa8abc",
+      "date": "2026-11-25",
+      "title": "Adhesive-Free Paper-Derived Laser-Induced Graphene-Hydrogel Interfaces for Label-Free Bacterial Sensing",
+      "authors": "Fatemeh Hassanpour, Kimia Noroozi, Farshid Noormohammadi, Michael J. Forrester, Peter Meyer, Kaylee B. Herrig, Bryce Chun, Nicole N. Hashemi, Eric W. Cochran, Laura Jarboe, Patrick A. Johnson, Reza Montazami",
+      "institutions": [
+        "Iowa State University",
+        "University of Missouri"
+      ],
+      "journal": "ACS Applied Bio Materials",
+      "doi": "10.1021/acsabm.6c01984",
+      "url": "https://doi.org/10.1021/acsabm.6c01984",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Laser-Induced Graphene & Carbon",
+        "Polymers & Resins",
+        "Biomedical & Life Science"
+      ],
+      "glyph": "carbon",
+      "summary": "Wearable and disposable bioelectronic sensors require conductive materials that combine electrochemical performance with mechanical compliance, biocompatibility, and environmental sustainability. Yet, most bioelectronics, including those fabricated using laser-induced graphene (LIG) platforms, still rely almost exclusively on non-degradable polyimide substrates, or on transfer methods that require adhesives, solvents, or cryogenic processing. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-3390-mi17121360-7c3032",
       "date": "2026-11-24",
       "title": "Femtosecond Laser Welding of N-BK7 Glass: From In-Volume Modification to Large-Scale, High-Strength Joining",
@@ -250,6 +371,91 @@
       "feature": false,
       "fig": null,
       "source": "crossref"
+    },
+    {
+      "id": "10-1088-2058-9565-aec627-eb47fc",
+      "date": "2026-11-24",
+      "title": "Ion trap on borosilicate substrate with integrated femtosecond-laser-written waveguide",
+      "authors": "Jakob Wahl, Alexander Zesar, Philipp Hurdax, Marco Schmauser, Victoria Schwab, Michael Pasquini, Marco Valentini, Clemens Rössler, Thomas Monz, Bernhard Lamprecht, Klemens Schüppert, Philipp Schindler",
+      "institutions": [
+        "Universität Innsbruck",
+        "Infineon Technologies (Austria)",
+        "Joanneum Research"
+      ],
+      "journal": "Quantum Science and Technology",
+      "doi": "10.1088/2058-9565/aec627",
+      "url": "https://doi.org/10.1088/2058-9565/aec627",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Quantum Photonics & Color Centers",
+        "Waveguides & Photonic Chips",
+        "Glass & Silica",
+        "Quantum Technologies"
+      ],
+      "glyph": "quantum",
+      "summary": "We present an ion-trap platform on borosilicate glass with an integrated femtosecond-laser-written waveguide for on-chip light delivery. The optical layer is physically separated from the electrode substrate and bonded atop the trap, remaining compatible with silicon-based integration. We engineer single-mode low-loss guidance at 729 nm with tunable mode-field diameter and achieve low-loss curved waveguides down to a radius of curvature of 6 mm. We also extend single-mode operation to a wavelength of 405 nm. The fabrication process is compatible with the industrial fabrication of a single-metal-layer surface-electrode trap, including active fiber alignment and bonding. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1364-ol-610972-31aee7",
+      "date": "2026-11-24",
+      "title": "Post-fabrication tuning of silicon micro-ring resonators using a 2 µm femtosecond pulsed laser",
+      "authors": "J. Lefebvre, Xavier Ferland-Turbis, Philippe Gagnon, Erwan Weckenmann, Wei Shi, Sophie LaRochelle",
+      "institutions": [],
+      "journal": "Optics Letters",
+      "doi": "10.1364/ol.610972",
+      "url": "https://doi.org/10.1364/ol.610972",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Waveguides & Photonic Chips",
+        "Silicon & Semiconductors",
+        "Integrated Photonics & Telecom"
+      ],
+      "glyph": "waveguide",
+      "summary": "Solving geometrical variabilities in the fabrication of Si/SiO 2 photonic integrated circuits (PICs) is addressed using laser post-processing with 80 fs pulses at 2 µm to locally induce permanent phase changes along segments of the waveguide. In micro-ring resonators (MRRs), individual laser pulses redshift the spectrum in 0.1 nm increments and are cumulated to produce shifts larger than one half of the free spectral range. The process has been validated in both passive and active PICs and exhibits a predictable response, with induced losses increasing linearly by approximately 0.3 dB for every nanometer of spectral shift. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1088-1361-6463-aec60f-026a62",
+      "date": "2026-11-24",
+      "title": "MOPSO-enabled ultra-narrowband mechanically reconfigurable metasurface filter for terahertz applications",
+      "authors": "Jin-Yang Li, Yan-Qing Chen, Xuewei Ju, Yongzhen Liu, Hao-Bin Su, Bei-Yuan Liang, Han Ye, Jun-Long Liu, Shuo Liu, Xiangfeng Wang",
+      "institutions": [
+        "Fuzhou University"
+      ],
+      "journal": "Journal of Physics D Applied Physics",
+      "doi": "10.1088/1361-6463/aec60f",
+      "url": "https://doi.org/10.1088/1361-6463/aec60f",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Ultrafast Welding & Joining",
+        "Micro-Optics & Metasurfaces",
+        "Modeling & Simulation",
+        "Sensing"
+      ],
+      "glyph": "weld",
+      "summary": "Terahertz (THz) communication and sensing systems require high-performance narrowband filters. However, designing these filters often involves strict efficiency bottlenecks and parameter trade-offs. To address this challenge, we propose an inverse design framework based on multi-objective particle swarm op-timization and use it to develop a bilayer ultra-narrowband me-chanically reconfigurable metasurface filter. Numerical parame-ter scanning reveals the potential for spacing-controlled fre-quency tuning, while measurements at three representative in-terlayer spacings experimentally verify the mechanical recon-figuration of the spectral response. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/journal-of-physics-d-applied-physics.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Journal of Physics D Applied Physics"
+      },
+      "source": "openalex"
     },
     {
       "id": "10-1103-9ttv-3nyx-566a64",
@@ -408,6 +614,31 @@
       "source": "openalex"
     },
     {
+      "id": "10-48550-arxiv-2611-29010-02f46a",
+      "date": "2026-11-21",
+      "title": "Parallel Two-Photon Lithography: From Optical Nonlinearities to Energy Limits, Dose Control and Throughput Benchmarks",
+      "authors": "Michalis Stavrou, Panagiotis A. Loukakos, David Gray, Maria Farsari",
+      "institutions": [],
+      "journal": "arXiv",
+      "doi": "10.48550/arxiv.2611.29010",
+      "url": "https://doi.org/10.48550/arxiv.2611.29010",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Two-Photon Polymerization",
+        "Micro-Optics & Metasurfaces",
+        "Beam Shaping & SLM",
+        "Polymers & Resins"
+      ],
+      "glyph": "tpp",
+      "summary": "Two-photon lithography (TPL) prints three-dimensional polymer architectures with sub-diffraction features, but writing them voxel by voxel limits its throughput. This review examines how parallelization overcomes this limit with fixed multi-focus arrays, reconfigurable holography using spatial light modulators and digital micromirror devices, hybrid metalens arrays, shaped beams, temporally focused projection and two-step absorption. An energy-deposition framework built on measured nonlinear absorption coefficients shows how the absorption order and coefficients of a resist determine its voxel size, energy per voxel and attainable voxel rate. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
       "id": "10-48550-arxiv-2611-26928-3ac4f3",
       "date": "2026-11-20",
       "title": "Galvanometer Mirror Based Femtosecond-Laser Volumetric Displays",
@@ -423,6 +654,114 @@
       ],
       "glyph": "pulse",
       "summary": "Femtosecond-laser-induced plasma enables self-emissive voxels to be generated directly in air for drawing three-dimensional images. Galvanometer-mirror-based beam scanning provides a method for rapidly moving plasma voxels using a relatively simple optical configuration. However, the generated plasma voxels are not ideal points but luminous regions with finite lengths and widths. Variations in voxel shape and orientation caused by focusing and scanning conditions may therefore affect the appearance of rendered points and lines. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1002-chem-71926-530329",
+      "date": "2026-11-19",
+      "title": "Laser‐Triggered Covalent Patterning of Chirality‐Enriched (6,5)‐SWCNT Films With Chemically Distinct Radical Precursors",
+      "authors": "Johanna Krüger, Sebastian Lindenthal, Simon R. Wald, Jana Zaumseil, Andreas Hirsch, Frank Hauke",
+      "institutions": [
+        "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+        "Heidelberg University"
+      ],
+      "journal": "Chemistry - A European Journal",
+      "doi": "10.1002/chem.71926",
+      "url": "https://doi.org/10.1002/chem.71926",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Thin Films & 2D Materials"
+      ],
+      "glyph": "film",
+      "summary": "The light-driven, spatially controlled covalent functionalization of single-walled carbon nanotube films requires control over precursor reactivity and irradiation conditions. In this study, chirality-enriched (6,5)-SWCNT films were coated with dibenzoyl peroxide, a diazonium salt, or a diaryliodonium salt and locally irradiated with a focused laser. The post-functionalization Raman mapping revealed an increase in the I D / I G + ratio along the laser-written pathways, which is consistent with the spatially confined covalent attachment of precursor-derived functional groups. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1016-j-talanta-2026-130968-c39871",
+      "date": "2026-11-16",
+      "title": "Synergistic Bi-Ce coupling within ferrocene-MOF/LIG architecture for electrochemical quantification of toxic heavy metals in tea samples",
+      "authors": "Shangguan N, Zhang F, Rao N, Hu P, Zhang Y, Yan K, Yang N",
+      "institutions": [
+        "Wuhan Institute of Technology",
+        "Hubei University of Science and Technology",
+        "Huazhong University of Science and Technology"
+      ],
+      "journal": "Talanta",
+      "doi": "10.1016/j.talanta.2026.130968",
+      "url": "https://doi.org/10.1016/j.talanta.2026.130968",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Laser-Induced Graphene & Carbon",
+        "Metals & Alloys",
+        "Biomedical & Life Science"
+      ],
+      "glyph": "carbon",
+      "summary": "A novel electrochemical sensing platform was developed for the sensitive and simultaneous quantification of Cd2+ and Pb2+ by integrating a bimetallic conductive ferrocene(Fc)-based metal-organic framework (BiCeFc-MOF) with a laser-induced graphene (LIG) electrode. The bimetallic MOF was synthesized via a facile solvothermal route, in which Ce regulates the local chemical environment of the Bi sites in a monometallic BiFc-MOF, which further enhanced electrochemical accumulation of the target ions. The LIG substrate was directly patterned by laser direct writing technology, and subsequent deposition of BiCeFc-MOF yielded the BiCeFc-MOF/LIG hybrid sensor. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-1002-smll-76660-de63d5",
+      "date": "2026-11-09",
+      "title": "Pulse‐Width‐Dependent Laser‐Induced Nonequilibrium Microstructural Evolution of Pd Nanocubes for Ethanol Electrooxidation",
+      "authors": "Shengbo Wu, Liye Zhu, Lirong Zheng, Yubo Yang, Chenhe Tian, Mingwan Deng, Yinzhou Yan, Tianrui Zhai, Yan Zhao",
+      "institutions": [
+        "Beijing University of Technology",
+        "Fujian Science and Technology Innovation Laboratory for Optoelectronic Information of China",
+        "Chinese Academy of Sciences"
+      ],
+      "journal": "Small",
+      "doi": "10.1002/smll.76660",
+      "url": "https://doi.org/10.1002/smll.76660",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Modeling & Simulation",
+        "Thermal Management"
+      ],
+      "glyph": "model",
+      "summary": "Laser irradiation enables a noncontact pathway for the nonequilibrium structural modification of nanomaterials. Here, the laser irradiation-induced microstructural evolution of Pd nanocubes (Pd NCs) is investigated by combining theoretical simulations and experimental validation. Coupled finite element method-molecular dynamics (FEM-MD) simulations reveal the distinct nonequilibrium microstructural evolution pathways of Pd NCs under nanosecond (ns) and femtosecond (fs) laser irradiation. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1039-d6mh01317a-bf147c",
+      "date": "2026-11-02",
+      "title": "Laser-engineered electrocatalysts for CO 2 and CO reduction: from surface modification to non-equilibrium catalyst design",
+      "authors": "So Young Kim, Sooyeon Bae, Yunji Gwon, Lei Wang, Youngku Sohn",
+      "institutions": [
+        "Chungnam National University",
+        "National University of Singapore"
+      ],
+      "journal": "Materials Horizons",
+      "doi": "10.1039/d6mh01317a",
+      "url": "https://doi.org/10.1039/d6mh01317a",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Surface Structuring & LIPSS",
+        "Nanoparticles & Ablation in Liquids",
+        "Metals & Alloys",
+        "Reviews"
+      ],
+      "glyph": "nano",
+      "summary": "Laser processing has emerged as a versatile approach for engineering electrocatalyst surfaces and interfaces with exceptional spatial and temporal precision. Unlike conventional synthesis routes that largely access equilibrium structures, laser irradiation can generate non-equilibrium phases, defect-rich microstructures, and dynamically engineered interfaces through localized energy delivery and ultrafast quenching. These capabilities offer new opportunities for tailoring catalytic activity and selectivity in electrochemical CO2 and CO reduction. …",
       "why": "",
       "pick": false,
       "feature": false,
@@ -497,8 +836,58 @@
       "feature": false,
       "fig": null,
       "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-surfcoat-2026-134196-21dd15",
+      "date": "2026-11-01",
+      "title": "Local PEEK thickness governs femtosecond laser modification and electroless copper plating of plain-woven CF/PEEK composites",
+      "authors": "Mengya Cui, Jiashuo Wei, Qi Jiang, Rongshi Xiao, Ting Huang",
+      "institutions": [],
+      "journal": "Surface and Coatings Technology",
+      "doi": "10.1016/j.surfcoat.2026.134196",
+      "url": "https://doi.org/10.1016/j.surfcoat.2026.134196",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Metals & Alloys"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-ceramint-2026-10-409-44c893",
+      "date": "2026-10-28",
+      "title": "The mechanism of femtosecond laser processing of silicon carbide based on pump-probe technology",
+      "authors": "Junzhe Wang, Jiecai Feng, Hongfei Liu, Yanning Sun, Xiaohao Dong, Zengyan Zhang, Yilian Zhang, Yingzhong Tian",
+      "institutions": [
+        "Shanghai University",
+        "Hong Kong Polytechnic University",
+        "Chinese Academy of Sciences"
+      ],
+      "journal": "Ceramics International",
+      "doi": "10.1016/j.ceramint.2026.10.409",
+      "url": "https://doi.org/10.1016/j.ceramint.2026.10.409",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Hard & Brittle Materials",
+        "Diagnostics & Pump-Probe",
+        "SiC & Wide-Bandgap"
+      ],
+      "glyph": "dicing",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
     }
   ],
   "removed": [],
-  "updated": "2026-11-25"
+  "updated": "2026-11-26"
 }
