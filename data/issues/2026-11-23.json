@@ -4,7 +4,7 @@
   "date": "2026-11-23",
   "window": [
     "2026-11-23",
-    "2026-11-26"
+    "2026-11-27"
   ],
   "articles": [
     {
@@ -239,6 +239,165 @@
       "source": "crossref"
     },
     {
+      "id": "10-1016-j-jmapro-2026-11-081-fb0aa2",
+      "date": "2026-12-01",
+      "title": "Thermal-stress competition mechanism in the densification of tungsten during femtosecond laser sintering",
+      "authors": "Ruhai Yan, Lingfei Ji, Zhenyuan Lin, Yongxiang Wu, Wei Cheng, Xinyi Wu",
+      "institutions": [],
+      "journal": "Journal of Manufacturing Processes",
+      "doi": "10.1016/j.jmapro.2026.11.081",
+      "url": "https://doi.org/10.1016/j.jmapro.2026.11.081",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Metals & Alloys"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1007-s44251-026-00167-z-38390b",
+      "date": "2026-11-26",
+      "title": "Interfacial copper diffusion in glass by backside femtosecond laser direct writing",
+      "authors": "Zheng Zhou, Mengya Cui, Jiashuo Wei, Yuxin Huang, Rongshi Xiao, Ting Huang",
+      "institutions": [],
+      "journal": "Surface Science and Technology",
+      "doi": "10.1007/s44251-026-00167-z",
+      "url": "https://doi.org/10.1007/s44251-026-00167-z",
+      "oa": true,
+      "license": "CC BY-NC-ND 4.0",
+      "categories": [
+        "Glass & Silica"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "figs/10-1007-s44251-026-00167-z-38390b.jpg",
+        "kind": "figure",
+        "credit": "CC BY-NC-ND 4.0 · via link.springer.com"
+      },
+      "source": "crossref"
+    },
+    {
+      "id": "10-3390-mi17121376-4681f8",
+      "date": "2026-11-26",
+      "title": "Effects of Receiver Material and Ambient Pressure on Laser-Induced Dot Transfer of Gold Nanodot Arrays Using a Femtosecond-Laser Interference Pattern",
+      "authors": "Yoshiki Nakata, Eiki Hayashi, Noriaki Miyanaga, Aiko Narazaki, Tatsuya Shoji, Yasuyuki Tsuboi",
+      "institutions": [
+        "Institute of Laser Engineering",
+        "Altech Corporation",
+        "Institute for Laser Technology"
+      ],
+      "journal": "Micromachines",
+      "doi": "10.3390/mi17121376",
+      "url": "https://doi.org/10.3390/mi17121376",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Thin Films & 2D Materials",
+        "Glass & Silica"
+      ],
+      "glyph": "film",
+      "summary": "Single-shot laser-induced dot transfer (LIDT) with a femtosecond-laser interference pattern deposits periodic metal nanodot arrays from a donor film onto a receiver. We examined the effects of receiver material and ambient pressure. A 40 nm Au film on silica was irradiated by one shot of a four-beam interference pattern (785 nm, 240 fs, spacing of the intensity maxima 3.6 µm) at an estimated nominal average fluence of 77 mJ/cm2, and dots deposited on a 40 nm Au film, Si(100) and synthetic silica in vacuum ( Si (88) > silica (51); the dots on Si had the largest diameter (600 ± 37 nm, mean ± standard deviation), and those on silica formed a ring with an empty centre. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1021-acsomega-6c09276-0eac11",
+      "date": "2026-11-26",
+      "title": "Repeated Laser Exposure Enhances Electrochemical Response in Ag/Laser-Induced Graphene Electrodes with a Hierarchical Assessment of Fabrication Reproducibility",
+      "authors": "Rourke Sylvain, Hugh Hanlon, Matthew Barsch, Grace Dykstra, Asky Fungura, Smitha Rao, Yixin Liu",
+      "institutions": [
+        "Michigan Technological University"
+      ],
+      "journal": "ACS Omega",
+      "doi": "10.1021/acsomega.6c09276",
+      "url": "https://doi.org/10.1021/acsomega.6c09276",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Laser-Induced Graphene & Carbon",
+        "Precision Micromachining & Trimming",
+        "Perovskites & 2D"
+      ],
+      "glyph": "carbon",
+      "summary": "Laser-induced graphene (LIG) provides a scalable, maskless route to porous carbon electrodes, but variability among independently fabricated devices and batches limits reliable manufacturing. Here, a controlled Ag/LIG workflow was used to examine how a one- to three-pass laser sequence affects material structure, electrochemical response, and fabrication reproducibility. SEM indicated pass-dependent network restructuring within the sampled fields, Raman spectroscopy showed greater but spatially nonuniform graphitic ordering, and X-ray photoelectron spectroscopy indicated greater sp2 character and modest surface deoxygenation with repeated laser exposure. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3390-met16121302-8155a7",
+      "date": "2026-11-26",
+      "title": "Water-Backed Picosecond Laser Hole Drilling in Superalloy and Response Surface Optimization",
+      "authors": "Rong Guan, Rui Xia, Yuliang Liu, Liang Wang, Yilun Wang",
+      "institutions": [
+        "School of Art and Design",
+        "Huai’an University",
+        "School of Mechanical Engineering and Rail Transit"
+      ],
+      "journal": "Metals",
+      "doi": "10.3390/met16121302",
+      "url": "https://doi.org/10.3390/met16121302",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Thin Films & 2D Materials",
+        "Precision Micromachining & Trimming",
+        "Spatiotemporal & Burst Control",
+        "Metals & Alloys",
+        "Thermal Management"
+      ],
+      "glyph": "film",
+      "summary": "To address the machining challenges of nickel-based superalloy GH4169 and the high-precision requirements for film cooling holes, an experimental study on water-backed picosecond laser concentric circular trepan drilling was conducted. The machining quality under water-backed and dry conditions was comparatively analyzed, and the effects of power ratio, defocusing distance, number of scans, and scanning speed on micro-hole quality were investigated through single-factor experiments. The results indicate that water-backed assistance significantly reduces heat accumulation and minimizes hole-rim slag and spatter. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1007-s42114-026-02189-5-d66e29",
+      "date": "2026-11-26",
+      "title": "Pulsed-laser synthesis of carbon-encapsulated amorphous Ni nanocomposites with Ni/C interfacial electronic coupling for water splitting",
+      "authors": "Hao-Ran Cheng, Hong Seok Kim",
+      "institutions": [],
+      "journal": "Advanced Composites and Hybrid Materials",
+      "doi": "10.1007/s42114-026-02189-5",
+      "url": "https://doi.org/10.1007/s42114-026-02189-5",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Nanoparticles & Ablation in Liquids",
+        "Metals & Alloys",
+        "Energy & Batteries"
+      ],
+      "glyph": "nano",
+      "summary": "Developing efficient and durable electrocatalysts is crucial for advancing large-scale hydrogen production via water electrolysis. Herein, we present a green, one-step pulsed laser ablation in liquid (PLAL) strategy to synthesize carbon-encapsulated amorphous nickel nanoparticles (A-Ni@C). Owing to ultrafast quenching and in situ carbon encapsulation, the optimized PLAL-40 catalyst features a predominantly amorphous Ni core encapsulated by an ultrathin conductive carbon shell, a configuration that promotes Ni-C interfacial electronic modulation and enhances catalytic activity. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/advanced-composites-and-hybrid-materials.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Advanced Composites and Hybrid Materials"
+      },
+      "source": "crossref"
+    },
+    {
       "id": "10-1098-rsif-2026-0832-ff805a",
       "date": "2026-11-25",
       "title": "Polarization-dependent, non-thermal sub-ablative modification of collagen type I using ultrafast laser pulses",
@@ -291,6 +450,115 @@
       "feature": false,
       "fig": null,
       "source": "crossref"
+    },
+    {
+      "id": "10-1039-d6nr03470e-cb6ec6",
+      "date": "2026-11-25",
+      "title": "Orientation-controlled fs laser-induced periodic surface structures on CeO 2 : exposing high-index facets for enhanced ethanol sensing",
+      "authors": "Fan L, Xu X, Yang C, Zhang S, Wu L, Wang T, Zhao T, Wu H, Yao J",
+      "institutions": [
+        "College of Mechanical Engineering",
+        "Institute of Laser Advanced Manufacturing",
+        "Collaborative Innovation Center of High-end Laser Manufacturing Equipment"
+      ],
+      "journal": "Nanoscale",
+      "doi": "10.1039/d6nr03470e",
+      "url": "https://doi.org/10.1039/d6nr03470e",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Surface Structuring & LIPSS",
+        "Thin Films & 2D Materials",
+        "Sensing"
+      ],
+      "glyph": "lipss",
+      "summary": "Exposing high-index facets of functional oxides remains challenging due to the thermodynamic preference for low-energy surfaces in conventional thin-film growth. This work demonstrates a top-down femtosecond laser writing strategy to fabricate laser-induced periodic surface structures (LIPSSs) on epitaxial CeO2 thin films, enabling selective exposure of {100} and {110} high-energy facets by adjusting the angle between the laser polarization direction and the crystallographic orientation. Under optimized parameters, periodic nanostructures with a period of 228 ± 3 nm and a line width of 178 ± 10 nm were obtained without compromising epitaxial quality. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-1364-oe-615865-fe1995",
+      "date": "2026-11-25",
+      "title": "Continuous-wave and passively Q-switched Er:KGd(WO 4) 2 channel waveguide laser near 1.5 μm",
+      "authors": "Deok Woo Kim, Suk Jung Choi, Ji-Hoon Park, Seong-Eun Lim, Xavier Mateos, Carolina Romero, Javier Vazquez de Aldana, Fabıan Rotermund",
+      "institutions": [
+        "Universitat Rovira i Virgili",
+        "Universidad de Salamanca"
+      ],
+      "journal": "Optics Express",
+      "doi": "10.1364/oe.615865",
+      "url": "https://doi.org/10.1364/oe.615865",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Waveguides & Photonic Chips",
+        "Spatiotemporal & Burst Control",
+        "Ceramics & Coatings"
+      ],
+      "glyph": "waveguide",
+      "summary": "We demonstrate continuous-wave (CW) and passively Q-switched operation of femtosecond-laser-inscribed Er:KGd(WO 4) 2 (Er:KGdW) channel waveguide (WG) lasers operating near 1.5 μm. Depressed-cladding WGs with core diameters of 40 and 60 μm were fabricated in the same gain crystal and systematically characterized under CW operation using output couplers with transmissions ranging from 0.5% to 15%. The 60-μm WG exhibited the best performance, delivering a maximum output power of 39.8 mW at 1534.7 nm with a slope efficiency of 24.1%. Caird analysis indicated a low passive loss of only 0.11 dB/cm, confirming the high optical quality of the fabricated WG. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1364-oe-610097-0c7946",
+      "date": "2026-11-25",
+      "title": "Structuring-Plane-Alignment Correction and Evaluation (SPACE) for Two-Photon Polymerization",
+      "authors": "Franziska Chalupa‐Gantner, Stefan Binder, Oliver Kopinski-Grünwald, Felix Harfmann, Tommaso Zandrini, Aleksandr Ovsianikov",
+      "institutions": [],
+      "journal": "Optics Express",
+      "doi": "10.1364/oe.610097",
+      "url": "https://doi.org/10.1364/oe.610097",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Two-Photon Polymerization",
+        "Polymers & Resins"
+      ],
+      "glyph": "tpp",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1038-s41467-026-79044-0-268b77",
+      "date": "2026-11-25",
+      "title": "Scalable 3D hybrid integrated photonic computing chiplets",
+      "authors": "Hang Song, Chao-Qian Li, Yun-Long Nie, Yu-Xuan Fu, De-Hui Huang, Yi Xie, Yu-Lin Yu, Chao-Yang Zhang, Chun-Yan Jin, Yang Shu, Zhe-Han Li, Kuan Huang, Hao Long Tang, Xian‐Min Jin",
+      "institutions": [
+        "Shanghai Jiao Tong University"
+      ],
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-026-79044-0",
+      "url": "https://doi.org/10.1038/s41467-026-79044-0",
+      "oa": true,
+      "license": "CC BY-NC-ND",
+      "categories": [
+        "Quantum Photonics & Color Centers",
+        "Waveguides & Photonic Chips",
+        "AI & Process Optimization",
+        "Sapphire & Crystals",
+        "Quantum Technologies"
+      ],
+      "glyph": "quantum",
+      "summary": "The exponential surge in artificial intelligence computing power demand is driving a transition from electrons to photons across the infrastructure. Although integrated photonics has revolutionized communications and computing, its scaling for large-scale information processing is constrained by monolithic scalability, modulation efficiency, and multi-chip integration. Here, we present HyPec, a hybrid photonic extensible chiplet architecture that synergizes thin-film lithium niobate modulation chiplets with femtosecond laser-written three-dimensional functional chiplets. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
     },
     {
       "id": "10-3390-mi17121360-7c3032",
@@ -456,6 +724,32 @@
         "credit": "Journal cover · Journal of Physics D Applied Physics"
       },
       "source": "openalex"
+    },
+    {
+      "id": "10-1007-s11431-026-3485-x-bca37b",
+      "date": "2026-11-24",
+      "title": "Regulating current-carrying tribological performance of AgCuNi alloy via temporally shaped femtosecond laser shock peening",
+      "authors": "Xudong Zhao, Jianxun Zhao, Junrui Wu, Qi Zhao, Yunduo Wang, Aisheng Song, Shouyu Wu, Liang Zhao, Haijun Wu, Tianbao Ma, Xin Li",
+      "institutions": [],
+      "journal": "Science China Technological Sciences",
+      "doi": "10.1007/s11431-026-3485-x",
+      "url": "https://doi.org/10.1007/s11431-026-3485-x",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Metals & Alloys"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/science-china-technological-sciences.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Science China Technological Sciences"
+      },
+      "source": "crossref"
     },
     {
       "id": "10-1103-9ttv-3nyx-566a64",
@@ -860,6 +1154,138 @@
       "source": "crossref"
     },
     {
+      "id": "https-europepmc-org-article-pmc-pmc13807604-028a7d",
+      "date": "2026-11-01",
+      "title": "Two-Photon Polymerization of Pristine and Magnetic Nanoparticle-Loaded Low-Autofluorescence IP-Visio Photoresist: Comparative Study of the Fabrication and Properties of High-Aspect-Ratio Micropillars",
+      "authors": "Ghita R, Calin B, Moldovan A, Tanasa E, Popescu R, Paun I",
+      "institutions": [
+        "National Institute for Laser Plasma and Radiation Physics",
+        "Universitatea Națională de Știință și Tehnologie Politehnica București",
+        "Horia Hulubei National Institute for R and D in Physics and Nuclear Engineering"
+      ],
+      "journal": "Polymers",
+      "doi": null,
+      "url": "https://europepmc.org/article/PMC/PMC13807604",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Two-Photon Polymerization",
+        "Surface Structuring & LIPSS",
+        "Polymers & Resins",
+        "Biomedical & Life Science"
+      ],
+      "glyph": "tpp",
+      "summary": "Three-dimensional polymeric microstructures are widely used as controlled in vitro microenvironments for biomedical applications, but their fabrication fidelity and fluorescence background represent challenging issues. This study compares arrays of micropillars made of low autofluorescence polymer IP-Visio with IP-Visio incorporating 4 mg/mL PEG-coated iron oxide magnetic nanoparticles (MNPs). Micropillar arrays (designed to have 5 µm in width and heights between 5 and 55 µm) were fabricated at laser powers between 24 and 62.4 mW and examined by optical and fluorescence microscopy, scanning electron microscopy, energy-dispersive X-ray spectroscopy, and atomic force microscopy. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "https-europepmc-org-article-pmc-pmc13805237-1d3c21",
+      "date": "2026-11-01",
+      "title": "Groove Morphology and Debris Height in Femtosecond Laser Grooving of SiCOH Low-k Wafers Under Infrared and Ultraviolet Processing Conditions",
+      "authors": "",
+      "institutions": [
+        "Kangnam University"
+      ],
+      "journal": "Micromachines",
+      "doi": null,
+      "url": "https://europepmc.org/article/PMC/PMC13805237",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Hard & Brittle Materials",
+        "Thin Films & 2D Materials",
+        "Spatiotemporal & Burst Control",
+        "Silicon & Semiconductors",
+        "Semiconductor & Packaging"
+      ],
+      "glyph": "dicing",
+      "summary": "Femtosecond laser grooving is used as a pre-processing step ahead of the mechanical dicing of low-k dielectrics, which are brittle and prone to cracking and delamination under stress. To relate the groove geometry and the debris height to the processing parameters, SiCOH low-k wafers were grooved at a fixed pulse duration of 250 fs under an infrared condition at 1030 nm and an ultraviolet condition at 343 nm, with nominal spot diameters of 12 and 7 µm, respectively. Each groove was formed in eight passes. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "https-europepmc-org-article-pmc-pmc13805641-73cab2",
+      "date": "2026-11-01",
+      "title": "Resource-Efficient Inspection of Two-Photon Lithography via Cross-Modal Machine Learning from Electron to Optical Microscopy",
+      "authors": "Ghosh A, Kim H, Saha S",
+      "institutions": [
+        "Georgia Institute of Technology"
+      ],
+      "journal": "Micromachines",
+      "doi": null,
+      "url": "https://europepmc.org/article/PMC/PMC13805641",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Two-Photon Polymerization",
+        "AI & Process Optimization",
+        "Polymers & Resins"
+      ],
+      "glyph": "tpp",
+      "summary": "Iterative process optimization in two-photon lithography (TPL) is fundamentally constrained by a critical metrology bottleneck: the reliance on slow, resource-intensive, and destructive scanning electron microscopy (SEM) for structural verification. To overcome this bottleneck, we introduce a resource-efficient inspection framework that provides high-fidelity fabrication feedback using only rapid, in-situ optical imaging. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-1016-j-jre-2026-11-023-1dd927",
+      "date": "2026-11-01",
+      "title": "Pixelating europium-complex arrays via laser-induced crystallization for X-ray scintillation and imaging",
+      "authors": "Zhaoran Lin, Guansheng Xing, Wei Tang, Zhaoyan Yang, Feng Wang, Bing Chen",
+      "institutions": [],
+      "journal": "Journal of Rare Earths",
+      "doi": "10.1016/j.jre.2026.11.023",
+      "url": "https://doi.org/10.1016/j.jre.2026.11.023",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Bulk Modification & Nanocrystals"
+      ],
+      "glyph": "bulk",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "https-europepmc-org-article-pmc-pmc13805952-c55369",
+      "date": "2026-10-31",
+      "title": "Femtosecond Laser 3D Dynamic Focusing Technology–Mirror Sandblasting and Polishing Combined Process of Monocrystalline Silicon Microlens Array Research",
+      "authors": "Liu P, Yang J, Zhou T, Xing A, Yang W, Zhang Y",
+      "institutions": [
+        "Beijing Institute of Technology"
+      ],
+      "journal": "Micromachines",
+      "doi": null,
+      "url": "https://europepmc.org/article/PMC/PMC13805952",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Hard & Brittle Materials",
+        "Micro-Optics & Metasurfaces",
+        "Beam Shaping & SLM",
+        "Silicon & Semiconductors"
+      ],
+      "glyph": "microoptics",
+      "summary": "Monocrystalline silicon is an ideal material for infrared optics microlens arrays, achieving excellent performance, but the processing is extremely difficult and poses a challenge to traditional processing processes. In this paper, a new process flow for processing monocrystalline silicon microlens arrays is proposed, combining femtosecond laser three-dimensional dynamic focusing processing technology with sandblasting and polishing finishing technology. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
       "id": "10-1016-j-ceramint-2026-10-409-44c893",
       "date": "2026-10-28",
       "title": "The mechanism of femtosecond laser processing of silicon carbide based on pump-probe technology",
@@ -886,8 +1312,36 @@
       "feature": false,
       "fig": null,
       "source": "openalex"
+    },
+    {
+      "id": "10-1515-ot-2026-0028-5fee7a",
+      "date": "2026-10-12",
+      "title": "Transport phenomena in laser-assisted printing: laser-induced forward transfer (LIFT) process within the molecular scale framework",
+      "authors": "Abdol Hadi Mokarizadeh, Shuqi Zhou, Youwen Liang, Wan Shou, Ben Xu",
+      "institutions": [
+        "University of Houston",
+        "University of Arkansas"
+      ],
+      "journal": "Open Transport",
+      "doi": "10.1515/ot-2026-0028",
+      "url": "https://doi.org/10.1515/ot-2026-0028",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Modeling & Simulation",
+        "Metals & Alloys",
+        "Integrated Photonics & Telecom",
+        "Reviews"
+      ],
+      "glyph": "model",
+      "summary": "Laser-assisted printing (LAP) uses focused laser beams to precisely transform, release, or transfer materials in a controlled, non-contact, and nozzle-free manner. This versatile approach enables the printing of diverse materials, including functional inks, metals, polymers, hydrogels, and biological materials. Among LAP methods, laser-induced forward transfer (LIFT) is one promising approach for high-resolution fabrication of functional materials and devices. In LIFT, a laser pulse passes through a transparent carrier and reaches a donor layer, causing material to move across a gap toward a receiving substrate. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
     }
   ],
   "removed": [],
-  "updated": "2026-11-26"
+  "updated": "2026-11-27"
 }

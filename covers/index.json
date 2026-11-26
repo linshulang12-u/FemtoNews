@@ -133,5 +133,10 @@
     "src": "covers/nature-nanotechnology.jpg",
     "kind": "cover",
     "credit": "Journal cover · Nature nanotechnology"
+  },
+  "science china technological sciences": {
+    "src": "covers/science-china-technological-sciences.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Science China Technological Sciences"
   }
 }
