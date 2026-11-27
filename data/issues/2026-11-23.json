@@ -4,7 +4,7 @@
   "date": "2026-11-23",
   "window": [
     "2026-11-23",
-    "2026-11-27"
+    "2026-11-28"
   ],
   "articles": [
     {
@@ -239,6 +239,29 @@
       "source": "crossref"
     },
     {
+      "id": "10-1016-j-optlastec-2026-117018-8360e0",
+      "date": "2027-02-01",
+      "title": "Wettability simulation and hybrid femtosecond laser-template fabrication of biomimetic superhydrophobic surfaces",
+      "authors": "Yiping Tang, Ruihua Yang, Yukui Cai, Xing Li, Xiaoliang Liang, Yunqing Tang, Long Chen, Zhanqiang Liu",
+      "institutions": [],
+      "journal": "Optics &amp; Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.117018",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.117018",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Surface Structuring & LIPSS",
+        "Modeling & Simulation"
+      ],
+      "glyph": "lipss",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-1016-j-jmapro-2026-11-081-fb0aa2",
       "date": "2026-12-01",
       "title": "Thermal-stress competition mechanism in the densification of tungsten during femtosecond laser sintering",
@@ -255,6 +278,112 @@
       "glyph": "pulse",
       "summary": "",
       "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "https-europepmc-org-article-pmc-pmc13810973-d561e1",
+      "date": "2026-11-27",
+      "title": "Effects of Resistance Compensation on Laser-Induced Graphene Electrodes",
+      "authors": "",
+      "institutions": [
+        "Universidade de São Paulo"
+      ],
+      "journal": "ACS omega",
+      "doi": null,
+      "url": "https://europepmc.org/article/PMC/PMC13810973",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Laser-Induced Graphene & Carbon",
+        "Perovskites & 2D",
+        "Sensing"
+      ],
+      "glyph": "carbon",
+      "summary": "Laser-induced graphene (LIG) offers a promising approach for fabricating low-cost, flexible, and disposable electrochemical sensors. However, the electrical resistance associated with thin conductive tracks and their connections can introduce substantial ohmic potential losses, compromising potential control and distorting electrochemical measurements. Here, we report a paper-based LIG electrochemical platform incorporating a four-terminal configuration designed to minimize resistance-related distortions through separate current-carrying and potential-sensing pathways. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-1007-s00339-026-10515-3-4091f2",
+      "date": "2026-11-27",
+      "title": "Selective surface hardness modulation and microscale material removal of​ ​4​​​​H-SiC via two-step femtosecond laser processing",
+      "authors": "Hyunho Cho, Jihoon Jeong, Jin-Young Choi, Byung-Chul Cha, Ho-Jun Lee, Young-Kuk Kim",
+      "institutions": [],
+      "journal": "Applied Physics A",
+      "doi": "10.1007/s00339-026-10515-3",
+      "url": "https://doi.org/10.1007/s00339-026-10515-3",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Hard & Brittle Materials",
+        "SiC & Wide-Bandgap"
+      ],
+      "glyph": "dicing",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/applied-physics-a.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Applied Physics A"
+      },
+      "source": "crossref"
+    },
+    {
+      "id": "10-1007-s10792-026-04338-7-290468",
+      "date": "2026-11-27",
+      "title": "Femtosecond laser-assisted ultrathin/nanothin DSAEK using optical coherence tomography-guided pachymetric oversizing: a retrospective case series",
+      "authors": "Jose A. Gegundez-Fernandez, Barbara Burgos-Blasco, Mayte Ariño-Gutierrez, Belen Alfonso-Bartolozzi, Carlos Lisa-Fernandez, Luis Fernandez-Vega-Cueto, Rosalía Méndez-Fernández, David Diaz-Valle, Jose F. Alfonso-Sanchez",
+      "institutions": [],
+      "journal": "International Ophthalmology",
+      "doi": "10.1007/s10792-026-04338-7",
+      "url": "https://doi.org/10.1007/s10792-026-04338-7",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Processing"
+      ],
+      "glyph": "pulse",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/international-ophthalmology.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · International Ophthalmology"
+      },
+      "source": "crossref"
+    },
+    {
+      "id": "10-3390-photonics13121123-520c6f",
+      "date": "2026-11-27",
+      "title": "Erbium-Doped Fiber Laser Q-Switched and Mode-Locked by Red-Fluorescent Carbon-Quantum-Dot-Based Saturable Absorber",
+      "authors": "Tian-Run Liu, Xue-Peng Zhu, Jiong Liu, Zi-Qi Zhang, Wen-Fei Zhang, Wen-Jing Tang, Xiao-Juan Liu",
+      "institutions": [
+        "School of Physics and Optoelectronic Engineering",
+        "College of Physics and Optoelectronic Engineering",
+        "School of Physics and Technology"
+      ],
+      "journal": "Photonics",
+      "doi": "10.3390/photonics13121123",
+      "url": "https://doi.org/10.3390/photonics13121123",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Ultrafast Sources & Systems"
+      ],
+      "glyph": "source",
+      "summary": "A pulsed erbium-doped fiber laser (EDFL) incorporating a saturable absorber (SA) based on red-fluorescent carbon quantum dots (RCQDs) is experimentally demonstrated. First, an RCQD-based, fiber-compatible sandwich-structured SA is fabricated and the nonlinear saturable absorption property (NSAP) is characterized. When the as-prepared RCQDs-SA is integrated into the EDFL with a ring cavity construction, Q-switching and conventional-soliton (CS) mode-locking operations of the laser system are achieved. Stable Q-switching and mode-locking are achieved over pump power ranges of 310–520 mW and 450–590 mW, respectively. …",
+      "why": "",
+      "tier": "notable",
       "pick": false,
       "feature": false,
       "fig": null,
@@ -1259,6 +1388,76 @@
       "source": "crossref"
     },
     {
+      "id": "10-1016-j-desal-2026-121090-4e85d2",
+      "date": "2026-11-01",
+      "title": "Fabrication of bilayer solar evaporators via friction-transferred laser-induced graphene for high-performance desalination and wastewater purification",
+      "authors": "Wen Lei, Shuang Lin, Zhengtao Wang, Dun Wu, Dong Wang, Zheng Cao, Chunlin Liu, Junfeng Cheng",
+      "institutions": [],
+      "journal": "Desalination",
+      "doi": "10.1016/j.desal.2026.121090",
+      "url": "https://doi.org/10.1016/j.desal.2026.121090",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Laser-Induced Graphene & Carbon",
+        "Perovskites & 2D",
+        "Energy & Batteries"
+      ],
+      "glyph": "carbon",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1016-j-jmrt-2026-11-245-f6eff2",
+      "date": "2026-11-01",
+      "title": "Multi-scale insights into interfacial bonding mechanisms in femtosecond laser welding of glass-Cu",
+      "authors": "Shucong Xu, Yuanjie Peng, Hua Liu, Siyang Chen, Kai Chen, Mengjia Xu",
+      "institutions": [],
+      "journal": "Journal of Materials Research and Technology",
+      "doi": "10.1016/j.jmrt.2026.11.245",
+      "url": "https://doi.org/10.1016/j.jmrt.2026.11.245",
+      "oa": true,
+      "license": "CC BY-NC-ND 4.0",
+      "categories": [
+        "Ultrafast Welding & Joining",
+        "Glass & Silica"
+      ],
+      "glyph": "weld",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-greeac-2026-100403-29cae5",
+      "date": "2026-11-01",
+      "title": "Multi-metric greenness assessment of automated laser ablation in liquids synthesis of gold nanoparticles and characterization using GFAAS and UV/Vis",
+      "authors": "Dominik Blaimer, Lena Strobel, Friedrich Waag, Tobias Bessel, Leo Zanotti, Henning Bruhn-Fujimoto, Kerstin Leopold",
+      "institutions": [],
+      "journal": "Green Analytical Chemistry",
+      "doi": "10.1016/j.greeac.2026.100403",
+      "url": "https://doi.org/10.1016/j.greeac.2026.100403",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Nanoparticles & Ablation in Liquids",
+        "Metals & Alloys"
+      ],
+      "glyph": "nano",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "https-europepmc-org-article-pmc-pmc13805952-c55369",
       "date": "2026-10-31",
       "title": "Femtosecond Laser 3D Dynamic Focusing Technology–Mirror Sandblasting and Polishing Combined Process of Monocrystalline Silicon Microlens Array Research",
@@ -1343,5 +1542,5 @@
     }
   ],
   "removed": [],
-  "updated": "2026-11-27"
+  "updated": "2026-11-28"
 }

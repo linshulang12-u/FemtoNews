@@ -138,5 +138,10 @@
     "src": "covers/science-china-technological-sciences.jpg",
     "kind": "cover",
     "credit": "Journal cover · Science China Technological Sciences"
+  },
+  "international ophthalmology": {
+    "src": "covers/international-ophthalmology.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · International Ophthalmology"
   }
 }
